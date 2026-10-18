@@ -172,6 +172,7 @@ function screenToday() {
       el('div', { class: 'shift-ic' }, icon(s.icon)));
   })));
   out.push(el('div', { class: 'coach-say small-say' }, coachFace(shiftsToday() === 3 ? 'cheer' : 'proud', 64), el('div', { class: 'speech' }, shiftsToday() === 3 ? coachLine('dayDone') : shiftsToday() ? 'Хорошо идёшь! Сыграй ещё смену.' : coachLine('hello'))));
+  if (typeof comicsHint === 'function') { const h = comicsHint(); if (h) out.push(h); }
 
   const g = goalProgress();
   if (g) out.push(el('section', { class: 'card stack' }, el('div', { class: 'row between' }, el('b', null, '🎯 Цель недели'), el('span', { class: 'num' }, `${g.done} / ${g.target} смен`)), bar(g.pct, 'gold'), g.reward ? el('div', { class: 'small muted' }, 'Награда: ' + g.reward) : null));

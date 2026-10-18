@@ -298,3 +298,33 @@ details summary { cursor: pointer; list-style: none; } details summary::-webkit-
 @keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 62, 86, .5); } 50% { box-shadow: 0 0 0 6px rgba(255, 62, 86, 0); } }
 @keyframes drop { 0% { transform: translateY(-30px) scale(.95); opacity: 0; } 100% { transform: none; opacity: 1; } }
 .main > * { animation: rise .35s both; }
+
+/* ---------- comics reader ---------- */
+.cm-title { display: flex; flex-direction: column; gap: 2px; }
+.cm-en { font-family: 'Russo One', 'Rubik', system-ui, sans-serif; font-size: 22px; }
+.cm-panel { position: relative; container-type: inline-size; width: 100%; max-width: 100%; aspect-ratio: 1; border-radius: 14px; overflow: hidden; border: 3px solid #0B1222; background: #0B1222; box-shadow: 0 8px 24px rgba(0, 0, 0, .25); user-select: none; -webkit-user-select: none; }
+.cm-panel img { display: block; width: 100%; height: 100%; object-fit: cover; -webkit-touch-callout: none; }
+.bub { position: absolute; box-sizing: border-box; color: #10131A; font: 700 clamp(12px, 4.3cqw, 20px)/1.2 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Rubik', sans-serif; padding: .3em .55em .35em; cursor: pointer; transition: box-shadow .2s, transform .2s; }
+.bub.say { background: #fff; border: 2px solid #10131A; border-radius: 1.1em; box-shadow: 0 2px 0 rgba(0, 0, 0, .25); }
+.bub.say::after { content: ''; position: absolute; left: var(--tx, 50%); width: .7em; height: .7em; background: #fff; border: solid #10131A; border-width: 0 2px 2px 0; transform: translateX(-50%) rotate(45deg); }
+.bub.tail-down::after { bottom: calc(-.35em - 1px); }
+.bub.tail-up::after { top: calc(-.35em - 1px); transform: translateX(-50%) rotate(225deg); }
+.bub.cap { background: #FFE27A; border: 2px solid #10131A; border-radius: 4px; font-size: clamp(11px, 3.8cqw, 18px); }
+.bub.sfx { color: #FF3E56; font: 400 clamp(20px, 9cqw, 44px)/1 'Russo One', 'Rubik', sans-serif; transform: rotate(-8deg); text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 0 3px 0 #10131A; padding: 0; }
+.bub.now { box-shadow: 0 0 0 3px var(--gold), 0 2px 0 rgba(0, 0, 0, .25); transform: scale(1.03); }
+.bub .w { border-radius: .25em; padding: 0 .05em; }
+.bub .w.sel { background: #BFE3FF; box-shadow: 0 0 0 2px #BFE3FF; }
+.bub-who { color: #5B6475; font-size: .8em; }
+.cm-tools { display: flex; gap: 8px; align-items: center; }
+.cm-tools .btn { min-width: 44px; }
+.cm-tools .btn.on { background: var(--accent-soft); color: var(--accent); }
+.cm-word { animation: rise .25s both; }
+.cm-wen { font-size: 24px; font-weight: 700; }
+.cm-ph { gap: 10px; padding-top: 8px; border-top: 1px solid var(--line); }
+.cm-tr { display: flex; flex-direction: column; gap: 2px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.cm-tr:last-child { border-bottom: 0; padding-bottom: 0; }
+.cm-ep { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 8px; border-radius: 14px; background: var(--surface2); border: 0; color: inherit; font: inherit; cursor: pointer; }
+.cm-ep.locked { opacity: .6; }
+.cm-ep.locked .cm-thumb { filter: grayscale(1) blur(1px); }
+.cm-thumb { width: 56px; height: 56px; flex: none; border-radius: 10px; object-fit: cover; }
+.cm-new { width: 100%; text-align: left; gap: 12px; border: 2px solid var(--gold); cursor: pointer; font: inherit; color: inherit; }

@@ -1,0 +1,50 @@
+{
+  "id": "benny_02", "series": "benny", "n": 2,
+  "title_en": "Breakfast Disaster", "title_ru": "Завтрак-катастрофа",
+  "about_ru": "Бенни решает приготовить всем сюрприз-завтрак. Что может пойти не так?",
+  "grammar_ru": "can / can't · this / these · let's",
+  "topics": ["g01", "g05"],
+  "unlock": { "topics": 2, "after": "benny_01" },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "benny", "en": "Shh! Everyone is asleep. I can make breakfast!", "ru": "Тсс! Все спят. Я могу приготовить завтрак!", "x": 14, "y": 2, "w": 52, "mx": 40, "my": 36 },
+      { "who": "cap", "en": "Six o'clock in the morning.", "ru": "Шесть часов утра.", "x": 52, "y": 87, "w": 46 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "benny", "en": "Pancakes! Eggs, milk, flour... Easy!", "ru": "Блины! Яйца, молоко, мука… Легко!", "x": 56, "y": 2, "w": 42, "mx": 50, "my": 30 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "sfx", "en": "FLIP!", "ru": "Шлёп!", "x": 72, "y": 24, "w": 26 },
+      { "who": "benny", "en": "Oh no! Where is my pancake?", "ru": "О нет! Где мой блин?", "x": 2, "y": 2, "w": 46, "mx": 28, "my": 40 }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "benny", "en": "Oh no! I can't move!", "ru": "О нет! Я не могу пошевелиться!", "x": 55, "y": 17, "w": 43, "mx": 38, "my": 27 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "dad", "en": "Benny?! What is this?", "ru": "Бенни?! Что это такое?", "x": 38, "y": 2, "w": 34, "mx": 31, "my": 17 },
+      { "who": "benny", "en": "Er... good morning!", "ru": "Э-э… доброе утро!", "x": 56, "y": 30, "w": 40, "mx": 52, "my": 56 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "benny", "en": "I'm so sorry. It's a surprise!", "ru": "Мне так жаль. Это сюрприз!", "x": 2, "y": 2, "w": 38, "mx": 48, "my": 44 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "mia", "en": "Pancakes? Cool!", "ru": "Блины? Круто!", "x": 2, "y": 2, "w": 30, "mx": 17, "my": 30 },
+      { "who": "dad", "en": "It's OK, Benny! Let's cook together!", "ru": "Ничего страшного, Бенни! Давай готовить вместе!", "x": 60, "y": 16, "w": 38, "mx": 50, "my": 27 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "mum", "en": "These pancakes are delicious!", "ru": "Эти блины очень вкусные!", "x": 62, "y": 2, "w": 36, "mx": 86, "my": 34 },
+      { "who": "benny", "en": "Look! A pancake on the lamp!", "ru": "Смотрите! Блин на лампе!", "x": 28, "y": 82, "w": 46, "mx": 60, "my": 40 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c201", "t": "mc", "q": "Benny wants to make ___.", "o": ["breakfast", "a song", "a cake", "a comic"], "a": 0, "why": "Benny: «I can make breakfast!» — он хотел приготовить завтрак." },
+    { "id": "c202", "t": "mc", "q": "Everyone ___ asleep.", "o": ["is", "are"], "a": 0, "why": "Everyone (все) в английском — как одно лицо: everyone is." },
+    { "id": "c203", "t": "mc", "q": "Oh no! I ___ move!", "o": ["can't", "don't", "isn't"], "a": 0, "why": "Не могу = can't (cannot), после него глагол без to." },
+    { "id": "c204", "t": "gap", "q": "These pancakes ___ delicious. (is / are)", "a": ["are"], "why": "These pancakes — много, поэтому are." },
+    { "id": "c205", "t": "err", "s": "Where are my pancake?", "bad": 1, "fix": "is", "why": "Pancake — один блин, поэтому Where is my pancake?" },
+    { "id": "c206", "t": "build", "a": "Let's cook together!", "ru": "Давай готовить вместе!", "extra": ["we"], "why": "Let's + глагол: let's cook — давай готовить." },
+    { "id": "c207", "t": "mc", "q": "Who says «What is this?»", "o": ["Mr Parker", "Mia", "Mrs Parker", "Rex"], "a": 0, "why": "Это папа Мии, мистер Паркер, увидел кухню в муке и мёде." },
+    { "id": "c208", "t": "mc", "q": "___ pancakes are delicious!", "o": ["These", "This"], "a": 0, "why": "This — один предмет, these — много: these pancakes." },
+    { "id": "c209", "t": "ru2en", "ru": "Доброе утро!", "a": ["Good morning"], "why": "Good morning — доброе утро." }
+  ]
+}

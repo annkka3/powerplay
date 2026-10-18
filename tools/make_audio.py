@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Records every text from tools/audio_texts.json with the macOS voice Samantha into audio/<key>.m4a
+"""Records every text from tools/audio_texts.json with the macOS voice Samantha (comic lines: the voice of the character) into audio/<key>.m4a
 and writes js/audio-manifest.js. Needs macOS (`say`, `afconvert`). Existing files are kept.
 Run: node tools/audio_texts.js && python3 tools/make_audio.py"""
 import json, os, subprocess, tempfile, pathlib, sys
@@ -20,7 +20,7 @@ def make(it):
         try:  # `say` sometimes hangs when many run at once, so each call has a time limit and one retry
             for attempt in (1, 2):
                 try:
-                    r = subprocess.run(['say', '-v', VOICE, '-r', RATE, '-o', aiff, '--', it['text']], capture_output=True, timeout=40)
+                    r = subprocess.run(['say', '-v', it.get('voice') or VOICE, '-r', RATE, '-o', aiff, '--', it['text']], capture_output=True, timeout=40)
                     break
                 except subprocess.TimeoutExpired:
                     r = None

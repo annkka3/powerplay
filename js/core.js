@@ -48,7 +48,7 @@ function whenLabel(ds) {
 /* ---------- state ---------- */
 const LS_ANON = 'pp_state_v1', LS_UID = 'pp_last_uid', DEV_KEY = 'pp_dev_v1';
 const defCfg = () => ({ name: '', num: 19, ipa: true, newWords: 8, newVerbs: 5, school: '', pin: '', onboarded: false });
-const freshState = () => ({ v: 1, cfg: defCfg(), cfgT: 0, cards: {}, days: {}, gr: {}, sc: {}, ach: {}, goal: null, msgs: [], seen: {}, log: [], rst: 0 });
+const freshState = () => ({ v: 1, cfg: defCfg(), cfgT: 0, cards: {}, days: {}, gr: {}, sc: {}, ach: {}, goal: null, msgs: [], seen: {}, log: [], cm: {}, rst: 0 });
 function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } }
 function lsDel(k) { try { localStorage.removeItem(k); } catch (e) { /* storage unavailable */ } }
@@ -206,7 +206,7 @@ function adoptCard(id, d) {
 }
 function adoptMain(d) {
   if (!d) return false;
-  const before = JSON.stringify([S.cfg, S.days, S.ach, S.goal, S.msgs, S.seen, S.rst]);
+  const before = JSON.stringify([S.cfg, S.days, S.ach, S.goal, S.msgs, S.seen, S.cm, S.rst]);
   S.rst = Math.max(S.rst || 0, d.rst || 0);
   if ((d.cfgT || 0) > (S.cfgT || 0)) { S.cfg = Object.assign(defCfg(), d.cfg); S.cfgT = d.cfgT; }
   Object.keys(d.days || {}).forEach(k => {
@@ -216,12 +216,12 @@ function adoptMain(d) {
     ['a', 'k', 'sec', 'xp'].forEach(f => { x[f] = Math.max(x[f] || 0, y[f] || 0); });
     x.sh = Object.assign({}, y.sh || {}, x.sh || {}); x.t = Math.max(x.t || 0, y.t || 0);
   });
-  mergeMap(S.ach, d.ach); mergeMap(S.seen, d.seen);
+  mergeMap(S.ach, d.ach); mergeMap(S.seen, d.seen); mergeMap(S.cm, d.cm);
   if (d.goal && (!S.goal || (d.goal.t || 0) > (S.goal.t || 0))) S.goal = d.goal;
   const ids = new Set(S.msgs.map(m => m.id));
   (d.msgs || []).forEach(m => { const i = S.msgs.findIndex(x => x.id === m.id); if (i < 0) { if (!ids.has(m.id)) S.msgs.push(m); } else if ((m.t || 0) > (S.msgs[i].t || 0)) S.msgs[i] = m; });
   Object.keys(S.cards).forEach(id => { if ((S.cards[id].t || 0) < S.rst) delete S.cards[id]; });
-  return before !== JSON.stringify([S.cfg, S.days, S.ach, S.goal, S.msgs, S.seen, S.rst]);
+  return before !== JSON.stringify([S.cfg, S.days, S.ach, S.goal, S.msgs, S.seen, S.cm, S.rst]);
 }
 function adoptGr(d) {
   if (!d) return false;
@@ -233,7 +233,7 @@ function adoptGr(d) {
   return before !== JSON.stringify([S.gr, S.log.length]);
 }
 function adoptSc(d) { return d ? mergeMap(S.sc, d.ex) : false; }
-const mainPayload = () => JSON.parse(JSON.stringify({ v: 1, cfg: S.cfg, cfgT: S.cfgT, days: S.days, ach: S.ach, goal: S.goal, msgs: S.msgs, seen: S.seen, rst: S.rst }));
+const mainPayload = () => JSON.parse(JSON.stringify({ v: 1, cfg: S.cfg, cfgT: S.cfgT, days: S.days, ach: S.ach, goal: S.goal, msgs: S.msgs, seen: S.seen, cm: S.cm, rst: S.rst }));
 
 /* ---------- cloud sync (Firebase; same project as the family's other apps, own branch en_*) ---------- */
 const Cloud = {

@@ -27,6 +27,20 @@ JSON.parse(read('data/grammar.json')).forEach(t => {
     if (it.t === 'write') add(it.model);
   });
 });
-const out = [...texts.entries()].map(([key, text]) => ({ key, text })).sort((a, b) => a.text.localeCompare(b.text));
+// comics: every line in the voice of its character (key "@who text"), every word as written and its dictionary form
+const voiced = [];
+{
+  const cv = { console, Object, JSON }; vm.createContext(cv);
+  vm.runInContext(read('js/comics_data.js') + ';globalThis.__c = { COMICS, COMIC_CAST, COMIC_GLOSS, COMIC_WORDS };', cv);
+  const { COMICS, COMIC_CAST, COMIC_GLOSS, COMIC_WORDS } = cv.__c;
+  COMICS.forEach(ep => ep.panels.forEach(p => p.lines.forEach(l => {
+    if (l.who === 'sfx') return;
+    voiced.push({ key: clipKey('@' + l.who + ' ' + l.en), text: clipText(l.en), voice: COMIC_CAST[l.who].voice });
+    (l.en.match(/[A-Za-z][A-Za-z'’]*(?:-[A-Za-z]+)*/g) || []).forEach(add);
+  })));
+  Object.values(COMIC_GLOSS).forEach(g => { Object.values(g.words).forEach(w => w.l && add(w.l)); g.phrases.forEach(ph => add(ph.en)); });
+  COMIC_WORDS.forEach(w => { add(w.en); add(w.ex); });
+}
+const out = [...texts.entries()].map(([key, text]) => ({ key, text })).concat(voiced).sort((a, b) => a.text.localeCompare(b.text));
 fs.writeFileSync(path.join(__dirname, 'audio_texts.json'), JSON.stringify(out, null, 0));
 console.log('texts', out.length, 'chars', out.reduce((s, o) => s + o.text.length, 0), 'collisions', out.length - new Set(out.map(o => o.key)).size);

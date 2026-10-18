@@ -1,0 +1,10 @@
+{
+  "cap":   { "name": "", "voice": "Samantha" },
+  "sfx":   { "name": "", "voice": "" },
+  "benny": { "name": "Benny", "ru": "Бенни", "voice": "Eddy (Английский (США))", "face": "benny_wave" },
+  "rex":   { "name": "Rex", "ru": "Рекс", "voice": "Rocko (Английский (США))", "face": "rex_proud" },
+  "mia":   { "name": "Mia", "ru": "Мия", "voice": "Flo (Английский (США))", "face": "mia" },
+  "dad":   { "name": "Mr Parker", "ru": "мистер Паркер", "voice": "Reed (Английский (США))", "face": "dad" },
+  "mum":   { "name": "Mrs Parker", "ru": "миссис Паркер", "voice": "Shelley (Английский (США))", "face": "mum" },
+  "walt":  { "name": "Coach Walt", "ru": "тренер Уолт", "voice": "Grandpa (Английский (США))", "face": "" }
+}

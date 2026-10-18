@@ -1,6 +1,9 @@
 'use strict';
 /* Words and irregular verbs: spaced repetition (core.js), the warm-up shift and the Words tab.
    Word card ids: w05-01 (from js/vocab.js). Verb card ids: v:go. */
+// words from the comics join the dictionary as their own topic; they are learned only when he adds them
+if (typeof COMIC_WORDS !== 'undefined' && COMIC_WORDS.length) { TOPICS.push({ id: 'cm', ru: 'Из комиксов', e: '💬' }); COMIC_WORDS.forEach(w => WORDS.push(w)); }
+const CORE_WORDS = WORDS.filter(w => !w.cm);
 const WORD = Object.fromEntries(WORDS.map(w => [w.id, w]));
 const TOPIC = Object.fromEntries(TOPICS.map(t => [t.id, t]));
 const VERB = Object.fromEntries(IRREGULAR.map(v => [v.v, v]));
@@ -9,7 +12,7 @@ const GRP_RU = { AAA: 'все три одинаковые', ABB: '2-я и 3-я �
 const dueWordCount = () => WORDS.filter(w => isDue(S.cards[w.id])).length;
 const dueVerbCount = () => IRREGULAR.filter(v => isDue(S.cards['v:' + v.v])).length;
 const newWordsToday = () => WORDS.filter(w => S.cards[w.id] && S.cards[w.id].f === today()).length;
-function nextNewWords(n) { return WORDS.filter(w => !S.cards[w.id]).slice(0, n); }
+function nextNewWords(n) { return CORE_WORDS.filter(w => !S.cards[w.id]).slice(0, n); }
 // a new batch of verbs opens only when the previous ones are holding
 function nextNewVerbs() {
   const learning = IRREGULAR.filter(v => { const r = S.cards['v:' + v.v]; return r && r.b < 3; }).length;
@@ -112,8 +115,8 @@ function screenWords() {
   const out = [el('h1', { class: 'h1' }, 'Слова'), seg([['words', 'Слова'], ['verbs', 'Неправильные глаголы']], UI.wtab, v => { UI.wtab = v; render(); })];
   if (UI.wtab === 'verbs') return out.concat(verbsScreen());
   if (UI.wTopic) return out.concat(topicWordsScreen(UI.wTopic));
-  const learned = WORDS.filter(w => S.cards[w.id] && S.cards[w.id].b >= 2).length;
-  out.push(el('div', { class: 'card stack' }, el('div', { class: 'row between' }, el('b', null, `Выучено ${learned} из ${WORDS.length}`), el('span', { class: 'chip' }, dueWordCount() + ' к повторению')), bar(learned / WORDS.length, 'ice'),
+  const learned = CORE_WORDS.filter(w => S.cards[w.id] && S.cards[w.id].b >= 2).length;
+  out.push(el('div', { class: 'card stack' }, el('div', { class: 'row between' }, el('b', null, `Выучено ${learned} из ${CORE_WORDS.length}`), el('span', { class: 'chip' }, dueWordCount() + ' к повторению')), bar(learned / CORE_WORDS.length, 'ice'),
     btn('Тренировать слова', 'primary block', () => startWarmup({ only: 'w', shift: false }))));
   out.push(el('div', { class: 'searchbox' }, icon('search'), el('input', { class: 'field', type: 'search', placeholder: 'Найти слово (по-английски или по-русски)', value: UI.wq, oninput: e => { UI.wq = e.target.value; const box = $('#wres'); if (box) fillSearch(box); } })));
   const box = el('div', { id: 'wres', class: 'stack', style: { gap: 0 } }); fillSearch(box); out.push(box);

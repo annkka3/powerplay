@@ -3,13 +3,13 @@
    Libraries, icons, fonts: cache first. Firebase traffic is never touched. */
 // The cache name has its own prefix: both apps live on annkka3.github.io and share Cache Storage, so a generic
 // 'shell-' prefix would let one app's cleanup delete the other's cache.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const PREFIX = 'pp-shell-';
 const CACHE = PREFIX + VERSION;
 const CORE = [
   './', 'index.html', 'config.js', 'store.js', 'manifest.webmanifest', 'css/style.css',
   'js/vocab.js', 'js/verbs_data.js', 'js/art_files.js', 'js/audio-manifest.js', 'js/audio.js', 'js/core.js', 'js/game.js', 'js/ui.js',
-  'js/practice.js', 'js/grammar.js', 'js/words.js', 'js/school.js', 'js/parent.js', 'js/main.js',
+  'js/practice.js', 'js/grammar.js', 'js/words.js', 'js/school.js', 'js/parent.js', 'js/comics_data.js', 'js/comics.js', 'js/main.js',
   'data/grammar.json', 'data/school.enc.json',
   'vendor/firebase-app.js', 'vendor/firebase-auth.js', 'vendor/firebase-firestore.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',

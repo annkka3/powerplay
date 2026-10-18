@@ -1,0 +1,54 @@
+{
+  "id": "benny_01", "series": "benny", "n": 1,
+  "title_en": "A New Home", "title_ru": "Новый дом",
+  "about_ru": "Бенни прилетает в Канаду, знакомится с семьёй Паркер и впервые выходит на лёд.",
+  "grammar_ru": "to be: I'm, it's, is, are · my",
+  "topics": ["g01", "g03"],
+  "unlock": { "full_days": 1 },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "benny", "en": "Wow! It's so big! Where is my new family?", "ru": "Ух ты! Тут так огромно! Где моя новая семья?", "x": 30, "y": 3, "w": 62, "mx": 56, "my": 40 },
+      { "who": "cap", "en": "Benny arrives in Canada.", "ru": "Бенни прилетает в Канаду.", "x": 52, "y": 86, "w": 46 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "mia", "en": "Hi, Benny! I'm Mia!", "ru": "Привет, Бенни! Я Мия!", "x": 2, "y": 3, "w": 40, "mx": 38, "my": 36 },
+      { "who": "mum", "en": "Welcome to Canada!", "ru": "Добро пожаловать в Канаду!", "x": 56, "y": 84, "w": 42, "mx": 78, "my": 46 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "benny", "en": "Look! An ice rink!", "ru": "Смотрите! Каток!", "x": 3, "y": 3, "w": 46, "mx": 44, "my": 42 },
+      { "who": "mia", "en": "We can skate there tomorrow!", "ru": "Завтра мы можем там покататься!", "x": 52, "y": 12, "w": 46, "mx": 100, "my": 40, "off": true }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "benny", "en": "My new room! I love it!", "ru": "Моя новая комната! Обожаю её!", "x": 22, "y": 2, "w": 54, "mx": 58, "my": 36 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "cap", "en": "The next morning.", "ru": "На следующее утро.", "x": 2, "y": 88, "w": 40 },
+      { "who": "mia", "en": "Come on, Benny! It's easy!", "ru": "Давай, Бенни! Это легко!", "x": 2, "y": 2, "w": 44, "mx": 24, "my": 28 },
+      { "who": "benny", "en": "It isn't easy! Help!", "ru": "Это не легко! Помогите!", "x": 54, "y": 2, "w": 44, "mx": 68, "my": 44 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "benny", "en": "Look out!", "ru": "Берегись!", "x": 3, "y": 3, "w": 36, "mx": 40, "my": 40 },
+      { "who": "rex", "en": "Aaah!", "ru": "А-а-а!", "x": 52, "y": 1, "w": 24, "mx": 75, "my": 30 },
+      { "who": "sfx", "en": "CRASH!", "ru": "Бабах!", "x": 3, "y": 76, "w": 40 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "benny", "en": "Sorry! I'm Benny. I'm new here.", "ru": "Прости! Я Бенни. Я тут новенький.", "x": 2, "y": 2, "w": 44, "mx": 34, "my": 46 },
+      { "who": "rex", "en": "Ha-ha! I'm Rex, the goalie.", "ru": "Ха-ха! Я Рекс, вратарь.", "x": 52, "y": 2, "w": 46, "mx": 64, "my": 38 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "rex", "en": "My arms are short. Shake my tail!", "ru": "У меня короткие руки. Пожми мне хвост!", "x": 56, "y": 2, "w": 42, "mx": 66, "my": 36 },
+      { "who": "benny", "en": "Nice to meet you, Rex!", "ru": "Приятно познакомиться, Рекс!", "x": 3, "y": 83, "w": 48, "mx": 36, "my": 58 },
+      { "who": "mia", "en": "You're so funny!", "ru": "Вы такие смешные!", "x": 28, "y": 2, "w": 27, "mx": 22, "my": 22 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c101", "t": "mc", "q": "Rex is a ___.", "o": ["goalie", "singer", "teacher", "pilot"], "a": 0, "why": "Rex: «I'm Rex, the goalie» — он вратарь." },
+    { "id": "c102", "t": "mc", "q": "Benny ___ new here.", "o": ["is", "am", "are"], "a": 0, "why": "Benny — это he, а с he идёт is." },
+    { "id": "c103", "t": "mc", "q": "I ___ Mia.", "o": ["am", "is", "are"], "a": 0, "why": "С I всегда am: I am = I'm." },
+    { "id": "c104", "t": "gap", "q": "My arms ___ short. (am / is / are)", "a": ["are"], "why": "Arms — их много (they), поэтому are." },
+    { "id": "c105", "t": "err", "s": "It are so big!", "bad": 1, "fix": "is", "why": "It — один предмет, поэтому is: It is (It's) so big!" },
+    { "id": "c106", "t": "build", "a": "Where is my new family?", "ru": "Где моя новая семья?", "extra": ["are"], "why": "Вопрос с where: Where is … ? Family — одна, поэтому is." },
+    { "id": "c107", "t": "mc", "q": "Who says «Shake my tail!»?", "o": ["Rex", "Mia", "Benny", "Mrs Parker"], "a": 0, "why": "У Рекса короткие руки, поэтому он предлагает пожать хвост." },
+    { "id": "c108", "t": "ru2en", "ru": "Приятно познакомиться!", "a": ["Nice to meet you"], "why": "Nice to meet you — так говорят при знакомстве." }
+  ]
+}

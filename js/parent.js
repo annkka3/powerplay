@@ -60,7 +60,8 @@ function dashboard() {
   // words and verbs
   const hardW = WORDS.filter(w => S.cards[w.id] && (S.cards[w.id].h || S.cards[w.id].l >= 2)).slice(0, 20);
   const hardV = IRREGULAR.filter(v => { const r = S.cards['v:' + v.v]; return r && (r.h || r.l >= 2); });
-  out.push(el('section', { class: 'card stack' }, el('b', null, 'Слова и глаголы'), el('div', { class: 'small' }, `Слов выучено: ${st.words} из ${WORDS.length}. Глаголов: ${st.verbs} из ${IRREGULAR.length}.`),
+  out.push(el('section', { class: 'card stack' }, el('b', null, 'Слова и глаголы'), el('div', { class: 'small' }, `Слов выучено: ${st.words} из ${CORE_WORDS.length}. Глаголов: ${st.verbs} из ${IRREGULAR.length}.`),
+      typeof COMICS !== 'undefined' && COMICS.length ? el('div', { class: 'small' }, 'Комиксы: прочитано ' + COMICS.filter(e => cmRead(e.id)).length + ' из ' + COMICS.length + '. Слов добавлено из комиксов: ' + Object.keys(S.cards).filter(id => id.startsWith('cm-')).length + '.') : null,
     hardW.length ? el('div', { class: 'small' }, el('span', { class: 'muted' }, 'Трудные слова: '), hardW.map(w => w.en).join(', ')) : null,
     hardV.length ? el('div', { class: 'small' }, el('span', { class: 'muted' }, 'Трудные глаголы: '), hardV.map(v => v.v + ' – ' + v.p[0] + ' – ' + v.pp[0]).join('; ')) : null));
 
@@ -99,14 +100,3 @@ function mistakeText(l) {
   return l.i;
 }
 
-/* ---------- comics shelf (the reader opens when the pictures are in) ---------- */
-const COMIC_SERIES = [
-  { id: 'benny', title: 'Бенни и Рекс', sub: 'Медвежонок в новой стране и тираннозавр-вратарь', e: '🐻🦖' },
-  { id: 'ghost', title: 'Кентервильское привидение', sub: 'Оскар Уайльд, пересказ простым английским', e: '👻🏰' },
-];
-function comicsShelf() {
-  const have = typeof ART_FILES !== 'undefined' && ART_FILES.comics && Object.keys(ART_FILES.comics).length;
-  return el('div', { class: 'stack' }, COMIC_SERIES.map(s => el('div', { class: 'card row' }, el('span', { class: 'cr-e' }, s.e), el('div', { class: 'grow' }, el('b', null, s.title), el('div', { class: 'small muted' }, s.sub)),
-    el('span', { class: 'chip' }, have && typeof openComic === 'function' ? 'Читать' : 'Скоро'))),
-    el('p', { class: 'small muted' }, 'Серии открываются за прогресс: сданные темы и сыгранные смены.'));
-}
