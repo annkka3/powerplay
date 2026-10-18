@@ -1,0 +1,3486 @@
+[
+ {
+  "id": "g41",
+  "stage": "B1",
+  "title_ru": "Инфинитив или -ing",
+  "goal_ru": "Выбрать: decide to go или enjoy going.",
+  "prereq": [
+   "g18"
+  ],
+  "spotlight": [
+   "5c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Глаголы + to",
+    "body_ru": "После **decide, want, hope, plan, learn, need, promise, agree, forget** ставим **to + глагол**. Это про планы, желания и решения.",
+    "ex": [
+     [
+      "Rex decided to join the team.",
+      "Рекс решил вступить в команду."
+     ],
+     [
+      "I hope to see you soon.",
+      "Надеюсь скоро тебя увидеть."
+     ],
+     [
+      "Don't forget to call me!",
+      "Не забудь мне позвонить!"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Глаголы + -ing",
+    "body_ru": "После **enjoy, finish, mind, avoid, practice, keep** — только форма **-ing**. Как с like / love / hate, которые ты уже знаешь.",
+    "ex": [
+     [
+      "Mia enjoys drawing comics.",
+      "Мие нравится рисовать комиксы."
+     ],
+     [
+      "Do you mind waiting?",
+      "Ты не против подождать?"
+     ],
+     [
+      "Benny keeps dropping his stick.",
+      "Бенни всё время роняет клюшку."
+     ]
+    ]
+   },
+   {
+    "title_ru": "После предлога — всегда -ing",
+    "body_ru": "Если перед глаголом стоит предлог (**at, in, for, of, about, before, after, without, instead of**), глагол получает **-ing**.",
+    "ex": [
+     [
+      "I'm good at playing Brawl Stars.",
+      "Я хорошо играю в Brawl Stars."
+     ],
+     [
+      "Wash your hands before eating.",
+      "Мой руки перед едой."
+     ],
+     [
+      "Thanks for helping me!",
+      "Спасибо, что помог!"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Stop, remember, try: смысл меняется",
+    "body_ru": "**stop doing** — перестать делать; **stop to do** — остановиться, чтобы сделать.\n**remember to do** — не забыть сделать; **remember doing** — помнить, как делал.\n**try to do** — стараться; **try doing** — попробовать как способ.",
+    "ex": [
+     [
+      "Rex stopped eating.",
+      "Рекс перестал есть."
+     ],
+     [
+      "Rex stopped to eat.",
+      "Рекс остановился, чтобы поесть."
+     ],
+     [
+      "I remember meeting Benny.",
+      "Я помню, как познакомился с Бенни."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I enjoy to play hockey.",
+    "right": "I enjoy playing hockey.",
+    "why_ru": "После enjoy — только -ing."
+   },
+   {
+    "wrong": "Rex decided joining the team.",
+    "right": "Rex decided to join the team.",
+    "why_ru": "После decide — to + глагол."
+   },
+   {
+    "wrong": "I'm good at play Roblox.",
+    "right": "I'm good at playing Roblox.",
+    "why_ru": "После предлога at глагол с -ing."
+   },
+   {
+    "wrong": "Thanks for help me.",
+    "right": "Thanks for helping me.",
+    "why_ru": "После for — -ing: helping."
+   },
+   {
+    "wrong": "Remember closing the door!",
+    "right": "Remember to close the door!",
+    "why_ru": "«Не забудь сделать» — remember to."
+   }
+  ],
+  "tags": {
+   "to-verbs": {
+    "ru": "глагол + to",
+    "tip_ru": "После decide, want, hope, plan, learn, need, promise, agree ставь to + глагол: decided to go. Эти глаголы смотрят в будущее.",
+    "back": "g18"
+   },
+   "ing-verbs": {
+    "ru": "глагол + -ing",
+    "tip_ru": "После enjoy, finish, mind, avoid, practice, keep — только -ing: enjoy playing. Запомни их как группу.",
+    "back": "g18"
+   },
+   "prep-ing": {
+    "ru": "-ing после предлога",
+    "tip_ru": "Предлог (at, in, for, before, after, without) + глагол = всегда -ing: good at skating, thanks for coming."
+   },
+   "both": {
+    "ru": "stop / remember + to или -ing",
+    "tip_ru": "stop doing — перестать; stop to do — остановиться, чтобы. remember to do — не забыть; remember doing — помнить прошлое."
+   }
+  },
+  "items": [
+   {
+    "id": "g41-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "to-verbs",
+    "q": "Benny decided ___ a new hockey stick.",
+    "o": [
+     "to buy",
+     "buying"
+    ],
+    "a": 0,
+    "why": "После decide нужен to + глагол: to buy."
+   },
+   {
+    "id": "g41-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ing-verbs",
+    "q": "Mia enjoys ___ on the lake in winter.",
+    "o": [
+     "skating",
+     "to skate"
+    ],
+    "a": 0,
+    "why": "После enjoy — только -ing: skating."
+   },
+   {
+    "id": "g41-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "prep-ing",
+    "q": "Rex is good at ___ the puck.",
+    "o": [
+     "stopping",
+     "to stop"
+    ],
+    "a": 0,
+    "why": "После предлога at глагол с -ing: stopping."
+   },
+   {
+    "id": "g41-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "to-verbs",
+    "q": "I hope ___ to Canada one day.",
+    "o": [
+     "to move",
+     "moving"
+    ],
+    "a": 0,
+    "why": "После hope нужен to: to move."
+   },
+   {
+    "id": "g41-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ing-verbs",
+    "q": "Did you finish ___ your new track?",
+    "o": [
+     "making",
+     "to make"
+    ],
+    "a": 0,
+    "why": "После finish — -ing: making."
+   },
+   {
+    "id": "g41-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "prep-ing",
+    "q": "Thanks for ___ me with my homework!",
+    "o": [
+     "helping",
+     "to help"
+    ],
+    "a": 0,
+    "why": "После предлога for — -ing: helping."
+   },
+   {
+    "id": "g41-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "both",
+    "q": "Benny's legs hurt, so he stopped ___.",
+    "o": [
+     "running",
+     "to run"
+    ],
+    "a": 0,
+    "why": "Stop + -ing = перестать делать: он перестал бежать."
+   },
+   {
+    "id": "g41-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "to-verbs",
+    "q": "We plan ___ a new song this weekend.",
+    "o": [
+     "to record",
+     "recording",
+     "record",
+     "recorded"
+    ],
+    "a": 0,
+    "why": "После plan нужен to + глагол: to record."
+   },
+   {
+    "id": "g41-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "ing-verbs",
+    "say": "Mia keeps practicing her slap shot.",
+    "o": [
+     "Mia keeps practicing her slap shot.",
+     "Mia keeps to practice her slap shot."
+    ],
+    "a": 0,
+    "why": "После keep — -ing: keeps practicing."
+   },
+   {
+    "id": "g41-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "to-verbs",
+    "say": "We agreed to meet at the rink.",
+    "o": [
+     "We agreed to meet at the rink.",
+     "We agreed meeting at the rink."
+    ],
+    "a": 0,
+    "why": "После agree — to + глагол: agreed to meet."
+   },
+   {
+    "id": "g41-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "both",
+    "pairs": [
+     [
+      "stop eating",
+      "перестать есть"
+     ],
+     [
+      "stop to eat",
+      "остановиться, чтобы поесть"
+     ],
+     [
+      "remember to call",
+      "не забыть позвонить"
+     ],
+     [
+      "remember calling",
+      "помнить, как звонил"
+     ]
+    ],
+    "why": "С -ing — то, что уже делаешь или делал; с to — то, что только собираешься сделать."
+   },
+   {
+    "id": "g41-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "both",
+    "q": "Don't forget your skates! Remember ___ them tomorrow.",
+    "o": [
+     "to bring",
+     "bringing"
+    ],
+    "a": 0,
+    "why": "Remember to do = не забыть сделать в будущем: to bring."
+   },
+   {
+    "id": "g41-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "both",
+    "q": "I remember ___ my first goal. I was eight.",
+    "o": [
+     "scoring",
+     "to score"
+    ],
+    "a": 0,
+    "why": "Remember + -ing = помнить то, что уже было: гол забит давно."
+   },
+   {
+    "id": "g41-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "to-verbs",
+    "q": "Benny promised ___ (be) careful with the dishes.",
+    "a": [
+     "to be"
+    ],
+    "why": "После promise — to + глагол: to be."
+   },
+   {
+    "id": "g41-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "q": "Do you mind ___ (wait) for me after practice?",
+    "a": [
+     "waiting"
+    ],
+    "why": "После mind — -ing: waiting."
+   },
+   {
+    "id": "g41-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "prep-ing",
+    "q": "Mia is interested in ___ (learn) Spanish.",
+    "a": [
+     "learning"
+    ],
+    "why": "После предлога in — -ing: learning."
+   },
+   {
+    "id": "g41-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "q": "Rex avoids ___ (eat) pizza before a game.",
+    "a": [
+     "eating"
+    ],
+    "why": "После avoid — -ing: eating."
+   },
+   {
+    "id": "g41-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "to-verbs",
+    "q": "I need ___ (charge) my phone.",
+    "a": [
+     "to charge"
+    ],
+    "why": "После need — to + глагол: to charge."
+   },
+   {
+    "id": "g41-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "prep-ing",
+    "q": "Brush your teeth before ___ (go) to bed.",
+    "a": [
+     "going"
+    ],
+    "why": "Before здесь предлог, поэтому -ing: going."
+   },
+   {
+    "id": "g41-020",
+    "t": "gap",
+    "lv": 3,
+    "tag": "both",
+    "q": "On the way home, Benny stopped at the store ___ (buy) some honey.",
+    "a": [
+     "to buy"
+    ],
+    "why": "Stop to do = остановиться, чтобы что-то сделать: зашёл, чтобы купить мёд."
+   },
+   {
+    "id": "g41-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "s": "Mia enjoys play hockey with her dad.",
+    "bad": 2,
+    "fix": "playing",
+    "why": "После enjoy — -ing: enjoys playing."
+   },
+   {
+    "id": "g41-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "to-verbs",
+    "s": "Benny decided to making pancakes for everyone.",
+    "bad": 3,
+    "fix": "make",
+    "why": "После to — начальная форма глагола: to make."
+   },
+   {
+    "id": "g41-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "prep-ing",
+    "s": "I'm not good at sing in front of people.",
+    "bad": 4,
+    "fix": "singing",
+    "why": "После предлога at — -ing: good at singing."
+   },
+   {
+    "id": "g41-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "s": "We finished record the song at midnight.",
+    "bad": 2,
+    "fix": "recording",
+    "why": "После finish — -ing: finished recording."
+   },
+   {
+    "id": "g41-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "prep-ing",
+    "s": "Mia left the party without say goodbye to anyone.",
+    "bad": 5,
+    "fix": "saying",
+    "why": "После предлога without — -ing: without saying."
+   },
+   {
+    "id": "g41-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "to-verbs",
+    "a": "Rex decided to buy bigger gloves.",
+    "ru": "Рекс решил купить перчатки побольше.",
+    "extra": [
+     "buying"
+    ],
+    "why": "После decide — to + глагол: decided to buy."
+   },
+   {
+    "id": "g41-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "a": "Do you enjoy making music?",
+    "ru": "Тебе нравится делать музыку?",
+    "extra": [
+     "to"
+    ],
+    "why": "После enjoy — -ing: enjoy making."
+   },
+   {
+    "id": "g41-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "prep-ing",
+    "a": "Thanks for inviting me to the party.",
+    "ru": "Спасибо, что пригласил меня на вечеринку.",
+    "extra": [
+     "invite"
+    ],
+    "why": "После for — -ing: thanks for inviting."
+   },
+   {
+    "id": "g41-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "to-verbs",
+    "a": "I learned to play the guitar from YouTube videos.",
+    "ru": "Я научился играть на гитаре по видео на YouTube.",
+    "extra": [
+     "playing"
+    ],
+    "why": "После learn — to + глагол: learned to play."
+   },
+   {
+    "id": "g41-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "ing-verbs",
+    "src": "I play Brawl Stars every evening. I enjoy it.",
+    "task_ru": "Соедини в одно предложение с enjoy.",
+    "a": [
+     "I enjoy playing Brawl Stars every evening."
+    ],
+    "why": "После enjoy — -ing: enjoy playing."
+   },
+   {
+    "id": "g41-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "to-verbs",
+    "src": "Mia is going to join the chess club.",
+    "task_ru": "Перескажи, начав с Mia decided…",
+    "a": [
+     "Mia decided to join the chess club."
+    ],
+    "why": "После decide — to + глагол: decided to join."
+   },
+   {
+    "id": "g41-032",
+    "t": "tr",
+    "lv": 3,
+    "tag": "both",
+    "src": "Benny doesn't play loud music at night anymore.",
+    "task_ru": "Скажи то же самое с stopped.",
+    "a": [
+     "Benny stopped playing loud music at night."
+    ],
+    "why": "Stop + -ing = перестать делать: stopped playing."
+   },
+   {
+    "id": "g41-033",
+    "t": "text",
+    "lv": 3,
+    "tag": "to-verbs",
+    "title": "Benny's first practice",
+    "text": "Benny decided ___ (try) hockey. He was nervous, but he kept ___ (fall) and getting up. Mia is good at ___ (skate), so she helped him. After practice, Benny wanted ___ (eat) a whole pizza. He finished ___ (eat) it in five minutes!",
+    "a": [
+     [
+      "to try"
+     ],
+     [
+      "falling"
+     ],
+     [
+      "skating"
+     ],
+     [
+      "to eat"
+     ],
+     [
+      "eating"
+     ]
+    ],
+    "why": "decide и want — с to; keep и finish — с -ing; после предлога at — -ing."
+   },
+   {
+    "id": "g41-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "prep-ing",
+    "title": "Rex's music channel",
+    "text": "Rex is interested in ___ (make) videos. He plans ___ (start) a YouTube channel. He practices ___ (play) the drums every day, but it isn't easy with tiny arms. He hopes ___ (get) 1,000 subscribers. Instead of ___ (give) up, he keeps going!",
+    "a": [
+     [
+      "making"
+     ],
+     [
+      "to start"
+     ],
+     [
+      "playing"
+     ],
+     [
+      "to get"
+     ],
+     [
+      "giving"
+     ]
+    ],
+    "why": "После предлогов in и instead of — -ing; plan и hope — с to; practice — с -ing."
+   },
+   {
+    "id": "g41-035",
+    "t": "chat",
+    "lv": 3,
+    "tag": "to-verbs",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Do you want ___ (come) to the rink tonight?"
+     },
+     {
+      "who": "you",
+      "t": "Sure! I really enjoy ___ (skate)."
+     },
+     {
+      "who": "Mia",
+      "t": "Great. Don't forget ___ (bring) your gloves."
+     },
+     {
+      "who": "you",
+      "t": "OK. Thanks for ___ (ask) me!"
+     }
+    ],
+    "a": [
+     [
+      "to come"
+     ],
+     [
+      "skating"
+     ],
+     [
+      "to bring"
+     ],
+     [
+      "asking"
+     ]
+    ],
+    "why": "want и forget — с to; enjoy — с -ing; после предлога for — -ing."
+   },
+   {
+    "id": "g41-036",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "to-verbs",
+    "ru": "Я решил записать новую песню.",
+    "a": [
+     "I decided to record a new song.",
+     "I decided to make a new song."
+    ],
+    "why": "После decide — to + глагол: decided to record."
+   },
+   {
+    "id": "g41-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "ing-verbs",
+    "ru": "Мия закончила делать домашку.",
+    "a": [
+     "Mia finished doing her homework.",
+     "Mia finished doing homework."
+    ],
+    "why": "После finish — -ing: finished doing."
+   },
+   {
+    "id": "g41-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "prep-ing",
+    "ru": "Я хорошо рисую комиксы. (good at)",
+    "a": [
+     "I'm good at drawing comics."
+    ],
+    "why": "После good at — -ing: good at drawing."
+   },
+   {
+    "id": "g41-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "both",
+    "ru": "Не забудь позвонить бабушке!",
+    "a": [
+     "Remember to call your grandma!",
+     "Don't forget to call your grandma!",
+     "Remember to call your grandmother!",
+     "Don't forget to call your grandmother!"
+    ],
+    "why": "«Не забудь сделать» — remember to / don't forget to + глагол."
+   },
+   {
+    "id": "g41-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "ing-verbs",
+    "say": "I enjoy listening to phonk, and I want to make my own tracks.",
+    "ru": "Мне нравится слушать фонк, и я хочу делать свои треки.",
+    "why": "enjoy — с -ing (listening), want — с to (to make)."
+   },
+   {
+    "id": "g41-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "to-verbs",
+    "task_ru": "Напиши 3 предложения о своих планах и о том, что тебе нравится: используй enjoy, want или hope и good at.",
+    "check_ru": [
+     "После enjoy стоит -ing?",
+     "После want / hope / decide стоит to?",
+     "После good at / interested in глагол с -ing?"
+    ],
+    "model": "I enjoy making music. I hope to move to Canada one day. I'm good at playing Brawl Stars.",
+    "why": "enjoy + -ing, want / hope + to, после предлога — -ing."
+   }
+  ]
+ },
+ {
+  "id": "g42",
+  "stage": "B1",
+  "title_ru": "Условные предложения: if, when, unless",
+  "goal_ru": "Сказать: If we win, we will go to the final.",
+  "prereq": [
+   "g30",
+   "g11"
+  ],
+  "spotlight": [
+   "8c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Факты: if + present, present",
+    "body_ru": "Когда что-то происходит **всегда**, в обеих частях — настоящее время. Это как правило или закон природы.",
+    "ex": [
+     [
+      "If you mix blue and yellow, you get green.",
+      "Если смешать синий и жёлтый, получится зелёный."
+     ],
+     [
+      "If Rex runs, he falls over.",
+      "Если Рекс бежит, он падает."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Реальное будущее: if + present, will",
+    "body_ru": "Если что-то **может случиться** в будущем: в части с if — настоящее время, в другой части — **will + глагол**.",
+    "ex": [
+     [
+      "If we win, we will go to the final.",
+      "Если мы выиграем, мы поедем в финал."
+     ],
+     [
+      "If it snows, I'll go sledding.",
+      "Если пойдёт снег, я пойду кататься на санках."
+     ]
+    ]
+   },
+   {
+    "title_ru": "После if нет will",
+    "body_ru": "По-русски «если **пойдёт** дождь» — будущее, а по-английски после **if** и **when** — только настоящее: **If it rains**, а не If it will rain. Will ставим только в другую часть.",
+    "ex": [
+     [
+      "When I get home, I'll call you.",
+      "Когда я приду домой, я тебе позвоню."
+     ],
+     [
+      "If Mia scores, we'll win.",
+      "Если Мия забьёт, мы выиграем."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Unless и when",
+    "body_ru": "**unless** = if not, «если не». После unless не ставим ещё одно not.\n**when** — точно случится; **if** — может быть, случится, а может, нет.",
+    "ex": [
+     [
+      "Unless you hurry, you'll be late.",
+      "Если не поторопишься, опоздаешь."
+     ],
+     [
+      "When the game ends, we'll go home.",
+      "Когда игра закончится, мы пойдём домой."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "If it will rain, we will stay home.",
+    "right": "If it rains, we will stay home.",
+    "why_ru": "После if — настоящее время, без will."
+   },
+   {
+    "wrong": "When I will get home, I'll call you.",
+    "right": "When I get home, I'll call you.",
+    "why_ru": "После when — тоже без will."
+   },
+   {
+    "wrong": "Unless you don't hurry, you'll be late.",
+    "right": "Unless you hurry, you'll be late.",
+    "why_ru": "Unless уже значит «если не», второе not не нужно."
+   },
+   {
+    "wrong": "If Benny come, we'll start.",
+    "right": "If Benny comes, we'll start.",
+    "why_ru": "В части с if обычное Present Simple: после he — -s."
+   }
+  ],
+  "tags": {
+   "zero": {
+    "ru": "факты: if + present",
+    "tip_ru": "Если это правда всегда (лёд тает, Рекс падает), в обеих частях Present Simple: If you heat ice, it melts.",
+    "back": "g09"
+   },
+   "first": {
+    "ru": "if + present, will",
+    "tip_ru": "Реальное будущее: в части с if — настоящее, в другой — will + глагол: If we win, we will celebrate.",
+    "back": "g30"
+   },
+   "no-will": {
+    "ru": "после if нет will",
+    "tip_ru": "Даже если по-русски будущее («если пойдёт»), после if и when ставь Present Simple: if it rains, when I get home.",
+    "back": "g09"
+   },
+   "unless": {
+    "ru": "unless = if not",
+    "tip_ru": "Unless значит «если не». Не добавляй ещё одно not: Unless you hurry (= If you don't hurry)."
+   },
+   "if-when": {
+    "ru": "if или when",
+    "tip_ru": "When — точно случится (когда приду домой). If — может, случится, а может, нет (если пойдёт снег)."
+   }
+  },
+  "items": [
+   {
+    "id": "g42-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-will",
+    "q": "If it ___ tomorrow, we'll play inside.",
+    "o": [
+     "rains",
+     "will rain"
+    ],
+    "a": 0,
+    "why": "В части с if будущее выражаем настоящим временем: rains."
+   },
+   {
+    "id": "g42-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "If you heat ice, it ___.",
+    "o": [
+     "melts",
+     "melted"
+    ],
+    "a": 0,
+    "why": "Это факт, который верен всегда: if + present, present — melts."
+   },
+   {
+    "id": "g42-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "unless",
+    "q": "___ you don't hurry, you'll miss the bus.",
+    "o": [
+     "If",
+     "Unless"
+    ],
+    "a": 0,
+    "why": "Здесь уже есть don't, поэтому нужен if: unless + don't дало бы двойное «не»."
+   },
+   {
+    "id": "g42-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "if-when",
+    "q": "___ I get home, I'll text you. (ты точно придёшь домой)",
+    "o": [
+     "When",
+     "If"
+    ],
+    "a": 0,
+    "why": "Ты точно придёшь домой, поэтому when — «когда»."
+   },
+   {
+    "id": "g42-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "first",
+    "q": "If we win this game, we ___ to the final.",
+    "o": [
+     "will go",
+     "went"
+    ],
+    "a": 0,
+    "why": "Это реальное будущее: if + present, will + глагол — will go."
+   },
+   {
+    "id": "g42-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "unless",
+    "q": "You can't play Roblox ___ you finish your homework.",
+    "o": [
+     "unless",
+     "if"
+    ],
+    "a": 0,
+    "why": "Unless = «если не»: не сможешь играть, если не сделаешь домашку."
+   },
+   {
+    "id": "g42-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-will",
+    "q": "If Benny ___ the dishes, he'll break them.",
+    "o": [
+     "washes",
+     "will wash"
+    ],
+    "a": 0,
+    "why": "После if — настоящее время: washes, а не will wash."
+   },
+   {
+    "id": "g42-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "If Rex eats too much pizza, he ___ sleepy. (с ним так всегда)",
+    "o": [
+     "gets",
+     "get",
+     "got",
+     "getting"
+    ],
+    "a": 0,
+    "why": "Это факт про Рекса: if + present, present, а после he — gets."
+   },
+   {
+    "id": "g42-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "no-will",
+    "say": "If it snows, we'll build a snowman.",
+    "o": [
+     "If it snows, we'll build a snowman.",
+     "If it will snow, we'll build a snowman."
+    ],
+    "a": 0,
+    "why": "В части с if — настоящее время: if it snows, без will."
+   },
+   {
+    "id": "g42-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "unless",
+    "say": "Unless you hurry, you'll be late.",
+    "o": [
+     "Unless you hurry, you'll be late.",
+     "If you hurry, you'll be late."
+    ],
+    "a": 0,
+    "why": "Unless = «если не»: если не поторопишься, опоздаешь."
+   },
+   {
+    "id": "g42-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "zero",
+    "pairs": [
+     [
+      "If you drop an egg,",
+      "it breaks."
+     ],
+     [
+      "If Rex runs too fast,",
+      "he falls over."
+     ],
+     [
+      "If you don't sleep,",
+      "you feel tired."
+     ],
+     [
+      "If you mix red and white,",
+      "you get pink."
+     ]
+    ],
+    "why": "Это факты, которые верны всегда: в обеих частях Present Simple."
+   },
+   {
+    "id": "g42-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "if-when",
+    "q": "___ the game ends, we'll go for pizza. (игра точно закончится)",
+    "o": [
+     "When",
+     "If",
+     "Unless"
+    ],
+    "a": 0,
+    "why": "Игра точно закончится, поэтому when — «когда»."
+   },
+   {
+    "id": "g42-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "zero",
+    "q": "If you ___ this button, the music stops.",
+    "o": [
+     "press",
+     "will press",
+     "pressed",
+     "pressing"
+    ],
+    "a": 0,
+    "why": "Так работает всегда: if + present, present — press."
+   },
+   {
+    "id": "g42-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "no-will",
+    "q": "If Mia ___ (score), we'll win.",
+    "a": [
+     "scores"
+    ],
+    "why": "После if — настоящее время, а после Mia (she) — -s: scores."
+   },
+   {
+    "id": "g42-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "first",
+    "q": "If you're tired, I ___ (help) you with your bag.",
+    "a": [
+     "will help"
+    ],
+    "why": "Реальное будущее: во второй части will + глагол — will help."
+   },
+   {
+    "id": "g42-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "unless",
+    "q": "We won't go skating ___ the ice is thick. (unless / if)",
+    "a": [
+     "unless"
+    ],
+    "why": "Unless = «если не»: не пойдём, если лёд не толстый."
+   },
+   {
+    "id": "g42-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "no-will",
+    "q": "If you ___ (not / practice), you won't get better.",
+    "a": [
+     "don't practice"
+    ],
+    "why": "В части с if — настоящее время: don't practice, а не won't practice."
+   },
+   {
+    "id": "g42-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "zero",
+    "q": "Plants die if they ___ (not / get) water.",
+    "a": [
+     "don't get"
+    ],
+    "why": "Это факт: if + present — don't get."
+   },
+   {
+    "id": "g42-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "if-when",
+    "q": "I'll call you ___ I land in Toronto. (if / when)",
+    "a": [
+     "when"
+    ],
+    "why": "Самолёт точно приземлится, поэтому when."
+   },
+   {
+    "id": "g42-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "zero",
+    "q": "Coach Walt gets angry if we ___ (be) late.",
+    "a": [
+     "are"
+    ],
+    "why": "Так бывает всегда: if + present — are."
+   },
+   {
+    "id": "g42-021",
+    "t": "gap",
+    "lv": 3,
+    "tag": "unless",
+    "q": "___ (if / unless) Rex gets longer arms, he won't catch that puck.",
+    "a": [
+     "Unless"
+    ],
+    "why": "Unless = «если не»: если у Рекса не вырастут руки длиннее, он её не поймает."
+   },
+   {
+    "id": "g42-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "no-will",
+    "s": "If Rex catch the puck, we'll win!",
+    "bad": 2,
+    "fix": "catches",
+    "why": "После if — Present Simple, а после Rex (he) — -s: catches."
+   },
+   {
+    "id": "g42-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "zero",
+    "s": "If you clap twice, the light turn on.",
+    "bad": 6,
+    "fix": "turns",
+    "why": "Факт: Present Simple, а после the light (it) — turns."
+   },
+   {
+    "id": "g42-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "if-when",
+    "s": "If I grow up, I'll be a hockey player.",
+    "bad": 0,
+    "fix": "When",
+    "why": "Ты точно вырастешь, поэтому when, а не if."
+   },
+   {
+    "id": "g42-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "first",
+    "s": "If it rains, we will stays home.",
+    "bad": 5,
+    "fix": "stay",
+    "why": "После will — глагол без -s: will stay."
+   },
+   {
+    "id": "g42-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "unless",
+    "s": "We'll miss the bus unless we leaves now.",
+    "bad": 6,
+    "fix": "leave",
+    "why": "После unless — Present Simple, а с we глагол без -s: leave."
+   },
+   {
+    "id": "g42-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "first",
+    "a": "If we win tonight, we will get pizza.",
+    "ru": "Если мы сегодня выиграем, мы купим пиццу.",
+    "extra": [
+     "won"
+    ],
+    "why": "Реальное будущее: if + present (win), will + глагол (will get)."
+   },
+   {
+    "id": "g42-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "if-when",
+    "a": "I'll text you when I get home.",
+    "ru": "Я напишу тебе, когда приду домой.",
+    "extra": [
+     "will"
+    ],
+    "why": "После when — настоящее время: when I get, без will."
+   },
+   {
+    "id": "g42-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "unless",
+    "a": "Unless you hurry, we will miss the start.",
+    "ru": "Если ты не поторопишься, мы пропустим начало.",
+    "extra": [
+     "don't"
+    ],
+    "why": "Unless уже значит «если не», поэтому без don't."
+   },
+   {
+    "id": "g42-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "zero",
+    "a": "If water gets very cold, it turns into ice.",
+    "ru": "Если вода становится очень холодной, она превращается в лёд.",
+    "extra": [
+     "will"
+    ],
+    "why": "Это факт: в обеих частях Present Simple."
+   },
+   {
+    "id": "g42-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "no-will",
+    "src": "Maybe it will rain. Then we will play inside.",
+    "task_ru": "Соедини в одно предложение с if.",
+    "a": [
+     "If it rains, we will play inside.",
+     "We will play inside if it rains."
+    ],
+    "why": "После if — настоящее время: if it rains, а will — только во второй части."
+   },
+   {
+    "id": "g42-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "unless",
+    "src": "If you don't hurry, you'll be late for practice.",
+    "task_ru": "Перепиши с unless.",
+    "a": [
+     "Unless you hurry, you'll be late for practice.",
+     "You'll be late for practice unless you hurry."
+    ],
+    "why": "Unless = if not, поэтому don't убираем."
+   },
+   {
+    "id": "g42-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "if-when",
+    "src": "I'm going to finish this track. Then I'll post it on YouTube.",
+    "task_ru": "Соедини в одно предложение с when.",
+    "a": [
+     "When I finish this track, I'll post it on YouTube.",
+     "I'll post it on YouTube when I finish this track."
+    ],
+    "why": "После when — настоящее время: when I finish, без will."
+   },
+   {
+    "id": "g42-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "first",
+    "title": "Coach Walt's rules",
+    "text": "Listen, team! If you ___ (be) late, you run five laps. If you forget your helmet, you ___ (not / play). That's the rule! And tomorrow? If we ___ (win), I ___ (buy) fish for everyone. But we won't win unless you ___ (listen) to me!",
+    "a": [
+     [
+      "are"
+     ],
+     [
+      "don't play",
+      "won't play"
+     ],
+     [
+      "win"
+     ],
+     [
+      "will buy"
+     ],
+     [
+      "listen"
+     ]
+    ],
+    "why": "Правила — в Present Simple; про завтра — if + present, will + глагол; после unless — настоящее время."
+   },
+   {
+    "id": "g42-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "no-will",
+    "title": "Benny's snow day",
+    "text": "When Benny ___ (wake) up tomorrow, he will look out the window. If it ___ (snow), he will build a snow dinosaur with Rex. If Mrs. Parker ___ (let) him, he will stay outside all day. But unless he ___ (wear) a hat, he ___ (get) cold.",
+    "a": [
+     [
+      "wakes"
+     ],
+     [
+      "snows"
+     ],
+     [
+      "lets"
+     ],
+     [
+      "wears"
+     ],
+     [
+      "will get"
+     ]
+    ],
+    "why": "После when, if и unless — Present Simple с -s для he/it; в другой части — will + глагол."
+   },
+   {
+    "id": "g42-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "first",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Are you coming to the game on Saturday?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, if I ___ (finish) my homework."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! If you come, I ___ (save) you a seat."
+     },
+     {
+      "who": "you",
+      "t": "Thanks! I'll text you when I ___ (leave) home."
+     }
+    ],
+    "a": [
+     [
+      "finish"
+     ],
+     [
+      "will save"
+     ],
+     [
+      "leave"
+     ]
+    ],
+    "why": "После if и when — настоящее время, а в другой части — will + глагол."
+   },
+   {
+    "id": "g42-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "no-will",
+    "ru": "Если завтра пойдёт снег, мы пойдём кататься на коньках.",
+    "a": [
+     "If it snows tomorrow, we will go skating.",
+     "We will go skating if it snows tomorrow."
+    ],
+    "why": "После if — настоящее время (snows), во второй части — will."
+   },
+   {
+    "id": "g42-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "zero",
+    "ru": "Если нагреть шоколад, он плавится.",
+    "a": [
+     "If you heat chocolate, it melts.",
+     "Chocolate melts if you heat it."
+    ],
+    "why": "Это факт: в обеих частях Present Simple."
+   },
+   {
+    "id": "g42-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "unless",
+    "ru": "Мы не победим, если не будем тренироваться. (unless)",
+    "a": [
+     "We won't win unless we practice.",
+     "We won't win unless we train.",
+     "Unless we practice, we won't win.",
+     "Unless we train, we won't win."
+    ],
+    "why": "Unless = «если не», после него настоящее время и без don't."
+   },
+   {
+    "id": "g42-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "if-when",
+    "ru": "Когда я вырасту, я буду жить в Канаде.",
+    "a": [
+     "When I grow up, I will live in Canada.",
+     "I will live in Canada when I grow up."
+    ],
+    "why": "Вырастешь точно — значит when, и после when без will."
+   },
+   {
+    "id": "g42-041",
+    "t": "speak",
+    "lv": 3,
+    "tag": "first",
+    "say": "If Rex stops the puck, we will win the cup!",
+    "ru": "Если Рекс остановит шайбу, мы выиграем кубок!",
+    "why": "If + present (stops), will + глагол (will win)."
+   },
+   {
+    "id": "g42-042",
+    "t": "write",
+    "lv": 3,
+    "tag": "first",
+    "task_ru": "Напиши 3 предложения: что ты сделаешь, если…; что ты сделаешь, когда…; и одно с unless.",
+    "check_ru": [
+     "В части с if / when / unless нет will?",
+     "Во второй части есть will + глагол?",
+     "После unless нет don't?"
+    ],
+    "model": "If it snows on Saturday, I will go skating. When I get home, I will make a new beat. I won't play Roblox unless I finish my homework.",
+    "why": "if / when / unless + present, во второй части will + глагол."
+   }
+  ]
+ },
+ {
+  "id": "g43",
+  "stage": "B1",
+  "title_ru": "Если бы: If I had…, I would…",
+  "goal_ru": "Помечтать: If I had a million, I would…",
+  "prereq": [
+   "g42"
+  ],
+  "spotlight": [
+   "8c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Мечты: if + past, would",
+    "body_ru": "Когда мечтаешь или фантазируешь о том, чего **нет сейчас**: **if + прошедшая форма**, а в другой части — **would + глагол**. По-русски это «если бы… , то бы…».",
+    "ex": [
+     [
+      "If I had wings, I would fly to the game.",
+      "Если бы у меня были крылья, я бы прилетел на игру."
+     ],
+     [
+      "If Rex had long arms, he would catch every puck.",
+      "Если бы у Рекса были длинные руки, он бы ловил каждую шайбу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Форма прошлая, а смысл — сейчас",
+    "body_ru": "**had, lived, knew** здесь не про прошлое. Они показывают: это нереально **сейчас**. После would — начальная форма: would go, would buy. Сокращение: **I'd** = I would.",
+    "ex": [
+     [
+      "If I knew the answer, I would tell you.",
+      "Если бы я знал ответ, я бы тебе сказал."
+     ],
+     [
+      "If we lived by the sea, we'd swim every day.",
+      "Если бы мы жили у моря, мы бы купались каждый день."
+     ]
+    ]
+   },
+   {
+    "title_ru": "If I were…",
+    "body_ru": "С **if** глагол be превращается в **were** — даже с I и he. Фраза **If I were you** = «на твоём месте» — так дают совет. (В разговоре с he/she можно услышать и was.)",
+    "ex": [
+     [
+      "If I were you, I would ask Coach Walt.",
+      "На твоём месте я бы спросил тренера Уолта."
+     ],
+     [
+      "If Benny were taller, he would reach the honey.",
+      "Если бы Бенни был выше, он бы достал мёд."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Реально или нереально?",
+    "body_ru": "**If I have time, I will…** — вполне может случиться.\n**If I had time, I would…** — сейчас это мечта или вряд ли случится.\nВопрос: **What would you do if…?**",
+    "ex": [
+     [
+      "If it snows tomorrow, we will go sledding.",
+      "Если завтра пойдёт снег, мы пойдём кататься на санках."
+     ],
+     [
+      "What would you do if you were a dinosaur?",
+      "Что бы ты делал, если бы был динозавром?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "If I would have a million, I would buy a car.",
+    "right": "If I had a million, I would buy a car.",
+    "why_ru": "В части с if — не would, а прошедшая форма: had."
+   },
+   {
+    "wrong": "If I had a dog, I will walk it every day.",
+    "right": "If I had a dog, I would walk it every day.",
+    "why_ru": "Это мечта, поэтому would, а не will."
+   },
+   {
+    "wrong": "If I am you, I would say sorry.",
+    "right": "If I were you, I would say sorry.",
+    "why_ru": "«На твоём месте» — всегда If I were you."
+   },
+   {
+    "wrong": "If I had a jetpack, I would flew to Toronto.",
+    "right": "If I had a jetpack, I would fly to Toronto.",
+    "why_ru": "После would — начальная форма: would fly."
+   }
+  ],
+  "tags": {
+   "if-past": {
+    "ru": "if + прошедшая форма",
+    "tip_ru": "В части с if для мечты ставь прошедшую форму: if I had, if we lived, if she knew. Это значит «если бы» сейчас, а не в прошлом.",
+    "back": "g26"
+   },
+   "would": {
+    "ru": "would + глагол",
+    "tip_ru": "Во второй части мечты — would + начальная форма: I would buy, he would fly. Не will и не would + -ed.",
+    "back": "g30"
+   },
+   "were": {
+    "ru": "If I were",
+    "tip_ru": "С if вместо was обычно говорят were: If I were you, If Rex were taller."
+   },
+   "real-unreal": {
+    "ru": "реально или мечта",
+    "tip_ru": "Может случиться — if + present, will. Мечта или вряд ли — if + past, would. Смотри на вторую часть: will или would.",
+    "back": "g42"
+   }
+  },
+  "items": [
+   {
+    "id": "g43-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "if-past",
+    "q": "If I ___ a million dollars, I would buy a hockey arena.",
+    "o": [
+     "had",
+     "have"
+    ],
+    "a": 0,
+    "why": "Это мечта, поэтому после if — прошедшая форма: had."
+   },
+   {
+    "id": "g43-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "would",
+    "q": "If Rex had longer arms, he ___ every puck.",
+    "o": [
+     "would catch",
+     "will catch"
+    ],
+    "a": 0,
+    "why": "Ситуация нереальная, поэтому во второй части would + глагол."
+   },
+   {
+    "id": "g43-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "were",
+    "q": "If I ___ you, I would say sorry to Mia.",
+    "o": [
+     "were",
+     "am"
+    ],
+    "a": 0,
+    "why": "«На твоём месте» — If I were you."
+   },
+   {
+    "id": "g43-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "real-unreal",
+    "q": "If I ___ time tomorrow, I'll help you. (время может быть)",
+    "o": [
+     "have",
+     "had"
+    ],
+    "a": 0,
+    "why": "Во второй части will — это реальное будущее, поэтому if + present: have."
+   },
+   {
+    "id": "g43-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "were",
+    "q": "If my cat ___ a lion, it would scare everyone.",
+    "o": [
+     "were",
+     "is"
+    ],
+    "a": 0,
+    "why": "Кошка не лев — это фантазия, поэтому were."
+   },
+   {
+    "id": "g43-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "would",
+    "q": "If we lived in Canada, we ___ skate every day.",
+    "o": [
+     "would",
+     "will"
+    ],
+    "a": 0,
+    "why": "Мы не живём в Канаде — это мечта, поэтому would."
+   },
+   {
+    "id": "g43-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "would",
+    "q": "What ___ you do if you saw a real dinosaur?",
+    "o": [
+     "would",
+     "will"
+    ],
+    "a": 0,
+    "why": "Фантазия с if + past (saw), поэтому вопрос с would."
+   },
+   {
+    "id": "g43-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "if-past",
+    "q": "If I ___ how to fly, I would visit you every day.",
+    "o": [
+     "knew",
+     "know",
+     "known",
+     "would know"
+    ],
+    "a": 0,
+    "why": "Мечта: после if — прошедшая форма knew, а не would."
+   },
+   {
+    "id": "g43-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "would",
+    "say": "If I had a dog, I would call it Rex.",
+    "o": [
+     "If I had a dog, I would call it Rex.",
+     "If I have a dog, I will call it Rex."
+    ],
+    "a": 0,
+    "why": "Прозвучало had и would — это мечта: собаки пока нет."
+   },
+   {
+    "id": "g43-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "were",
+    "say": "If I were a dinosaur, I wouldn't go to school.",
+    "o": [
+     "If I were a dinosaur, I wouldn't go to school.",
+     "If I were a dinosaur, I would go to school."
+    ],
+    "a": 0,
+    "why": "Прозвучало wouldn't — «я бы не ходил в школу»."
+   },
+   {
+    "id": "g43-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "if-past",
+    "pairs": [
+     [
+      "If I had wings,",
+      "I would fly to Canada."
+     ],
+     [
+      "If Rex were taller,",
+      "he would play basketball."
+     ],
+     [
+      "If I knew Spanish,",
+      "I would talk to Mia's cousin."
+     ],
+     [
+      "If we had a pool,",
+      "we would swim every day."
+     ]
+    ],
+    "why": "В части с if — прошедшая форма, во второй — would + глагол, и смысл должен подходить."
+   },
+   {
+    "id": "g43-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "if-past",
+    "q": "I don't have a phone. If I ___ a phone, I'd text you.",
+    "o": [
+     "had",
+     "have",
+     "would have"
+    ],
+    "a": 0,
+    "why": "Телефона нет — это мечта, после if — had."
+   },
+   {
+    "id": "g43-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "real-unreal",
+    "q": "Mia has a game tomorrow. If she ___, she will be very happy.",
+    "o": [
+     "wins",
+     "won",
+     "would win"
+    ],
+    "a": 0,
+    "why": "Во второй части will — это реальное будущее, поэтому if + present: wins."
+   },
+   {
+    "id": "g43-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "if-past",
+    "q": "If I ___ (live) near the rink, I would skate every morning.",
+    "a": [
+     "lived"
+    ],
+    "why": "Мечта: после if — прошедшая форма lived."
+   },
+   {
+    "id": "g43-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "would",
+    "q": "If Mia had a dog, she ___ (walk) it every day.",
+    "a": [
+     "would walk"
+    ],
+    "why": "Во второй части мечты — would + глагол: would walk."
+   },
+   {
+    "id": "g43-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "were",
+    "q": "If I ___ (be) you, I'd take a break.",
+    "a": [
+     "were"
+    ],
+    "why": "«На твоём месте» — If I were you."
+   },
+   {
+    "id": "g43-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "if-past",
+    "q": "I would make more music if I ___ (have) a better laptop.",
+    "a": [
+     "had"
+    ],
+    "why": "Часть с if может стоять и второй — всё равно прошедшая форма: had."
+   },
+   {
+    "id": "g43-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "were",
+    "q": "If Coach Walt ___ (be) a dolphin, he would swim faster.",
+    "a": [
+     "were",
+     "was"
+    ],
+    "why": "Фантазия с be: лучше were (в разговоре можно was)."
+   },
+   {
+    "id": "g43-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "real-unreal",
+    "q": "If it ___ (snow) tomorrow, we will build a fort.",
+    "a": [
+     "snows"
+    ],
+    "why": "Во второй части will — реальное будущее, поэтому if + present: snows."
+   },
+   {
+    "id": "g43-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "would",
+    "q": "If you could have any superpower, what ___ (you / choose)?",
+    "a": [
+     "would you choose"
+    ],
+    "why": "Вопрос-фантазия: would + you + глагол."
+   },
+   {
+    "id": "g43-021",
+    "t": "gap",
+    "lv": 3,
+    "tag": "if-past",
+    "q": "If Rex ___ (not / have) tiny arms, he would tie his own skates.",
+    "a": [
+     "didn't have"
+    ],
+    "why": "Мечта: после if — прошедшая форма, отрицание — didn't have."
+   },
+   {
+    "id": "g43-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "would",
+    "s": "If Benny had a car, he would drove it into a lake.",
+    "bad": 7,
+    "fix": "drive",
+    "why": "После would — начальная форма: would drive."
+   },
+   {
+    "id": "g43-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "if-past",
+    "s": "If I have more time, I would learn the guitar.",
+    "bad": 2,
+    "fix": "had",
+    "why": "Во второй части would — значит мечта, после if нужна прошедшая форма: had."
+   },
+   {
+    "id": "g43-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "were",
+    "s": "If I am you, I would call him.",
+    "bad": 2,
+    "fix": "were",
+    "why": "«На твоём месте» — If I were you."
+   },
+   {
+    "id": "g43-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "real-unreal",
+    "s": "If we had snow, we will build a snowman.",
+    "bad": 5,
+    "fix": "would",
+    "why": "После if + past (had) во второй части — would, а не will."
+   },
+   {
+    "id": "g43-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "would",
+    "s": "If dinosaurs lived today, people would keeps them as pets.",
+    "bad": 6,
+    "fix": "keep",
+    "why": "После would — начальная форма без -s: would keep."
+   },
+   {
+    "id": "g43-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "if-past",
+    "a": "If I had a dragon, I would fly to school.",
+    "ru": "Если бы у меня был дракон, я бы летал в школу.",
+    "extra": [
+     "will"
+    ],
+    "why": "Мечта: if + had, would + fly."
+   },
+   {
+    "id": "g43-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "would",
+    "a": "Where would you live if you could choose?",
+    "ru": "Где бы ты жил, если бы мог выбирать?",
+    "extra": [
+     "will"
+    ],
+    "why": "Вопрос-фантазия: where + would + you + глагол."
+   },
+   {
+    "id": "g43-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "were",
+    "a": "If I were you, I would call Mia.",
+    "ru": "На твоём месте я бы позвонил Мие.",
+    "extra": [
+     "am"
+    ],
+    "why": "«На твоём месте» — If I were you, потом would + глагол."
+   },
+   {
+    "id": "g43-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "if-past",
+    "a": "If Benny had a map, he wouldn't get lost.",
+    "ru": "Если бы у Бенни была карта, он бы не терялся.",
+    "extra": [
+     "has"
+    ],
+    "why": "Карты нет — мечта: if + had, wouldn't + глагол."
+   },
+   {
+    "id": "g43-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "if-past",
+    "src": "I don't have a bike, so I don't ride to school.",
+    "task_ru": "Помечтай: начни с If I…",
+    "a": [
+     "If I had a bike, I would ride to school.",
+     "I would ride to school if I had a bike."
+    ],
+    "why": "Мечта о том, чего нет: if + had, would + ride."
+   },
+   {
+    "id": "g43-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "real-unreal",
+    "src": "If I find your headphones, I will give them back.",
+    "task_ru": "Сделай это маловероятным (вряд ли найду): If I found…",
+    "a": [
+     "If I found your headphones, I would give them back."
+    ],
+    "why": "Вряд ли случится — if + past (found), would + глагол."
+   },
+   {
+    "id": "g43-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "were",
+    "src": "Benny isn't careful, so he breaks things.",
+    "task_ru": "Скажи с If Benny were…",
+    "a": [
+     "If Benny were careful, he wouldn't break things.",
+     "If Benny were more careful, he wouldn't break things."
+    ],
+    "why": "Бенни неосторожный — это нереально сейчас: If Benny were…, he wouldn't…"
+   },
+   {
+    "id": "g43-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "would",
+    "title": "If I had a million",
+    "text": "If I ___ (have) a million dollars, I would buy a house in Canada. I ___ (build) a hockey rink in the yard. If Rex ___ (be) my goalie, nobody would score! I ___ (not / go) to school… just kidding, I ___ (go)!",
+    "a": [
+     [
+      "had"
+     ],
+     [
+      "would build"
+     ],
+     [
+      "were",
+      "was"
+     ],
+     [
+      "wouldn't go"
+     ],
+     [
+      "would go"
+     ]
+    ],
+    "why": "В части с if — прошедшая форма (had, were), в остальных — would + глагол."
+   },
+   {
+    "id": "g43-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "real-unreal",
+    "title": "Benny's dream",
+    "text": "Benny often dreams. If he ___ (be) a superhero, he would save the city. If he ___ (can) fly, he would never be late. But he is just a bear cub. And tomorrow is real: if he ___ (get) up early, he ___ (catch) the bus.",
+    "a": [
+     [
+      "were",
+      "was"
+     ],
+     [
+      "could"
+     ],
+     [
+      "gets"
+     ],
+     [
+      "will catch"
+     ]
+    ],
+    "why": "Мечты — if + past (were, could), would; реальное завтра — if + present (gets), will."
+   },
+   {
+    "id": "g43-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "would",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "What would you do if you were invisible for a day?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ (sneak) into an NHL locker room!"
+     },
+     {
+      "who": "Mia",
+      "t": "Ha! If I ___ (be) invisible, I'd eat all the cake at the bakery."
+     },
+     {
+      "who": "you",
+      "t": "If you ___ (do) that, you'd get sick!"
+     }
+    ],
+    "a": [
+     [
+      "would sneak"
+     ],
+     [
+      "were",
+      "was"
+     ],
+     [
+      "did"
+     ]
+    ],
+    "why": "Фантазия: would + глагол, а в части с if — прошедшая форма (were, did)."
+   },
+   {
+    "id": "g43-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "if-past",
+    "ru": "Если бы я жил в Канаде, я бы играл в хоккей каждый день.",
+    "a": [
+     "If I lived in Canada, I would play hockey every day.",
+     "I would play hockey every day if I lived in Canada."
+    ],
+    "why": "«Если бы» сейчас: if + lived, would + play."
+   },
+   {
+    "id": "g43-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "were",
+    "ru": "На твоём месте я бы не ел это.",
+    "a": [
+     "If I were you, I wouldn't eat this.",
+     "If I were you, I wouldn't eat that.",
+     "I wouldn't eat this if I were you.",
+     "I wouldn't eat that if I were you."
+    ],
+    "why": "Совет «на твоём месте» — If I were you, I wouldn't…"
+   },
+   {
+    "id": "g43-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "would",
+    "ru": "Если бы у меня был брат, мы бы играли в Brawl Stars вместе.",
+    "a": [
+     "If I had a brother, we would play Brawl Stars together.",
+     "We would play Brawl Stars together if I had a brother.",
+     "If I had a brother, we would play Brawl Stars."
+    ],
+    "why": "Брата нет — мечта: if + had, would + play."
+   },
+   {
+    "id": "g43-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "real-unreal",
+    "ru": "Если я завтра выиграю, я тебе позвоню. (это вполне реально)",
+    "a": [
+     "If I win tomorrow, I will call you.",
+     "I will call you if I win tomorrow."
+    ],
+    "why": "Это реально, поэтому if + present (win), will + глагол."
+   },
+   {
+    "id": "g43-041",
+    "t": "speak",
+    "lv": 3,
+    "tag": "were",
+    "say": "If I were famous, I would make music videos with my friends.",
+    "ru": "Если бы я был знаменитым, я бы снимал клипы с друзьями.",
+    "why": "Мечта: If I were…, I would + глагол."
+   },
+   {
+    "id": "g43-042",
+    "t": "write",
+    "lv": 3,
+    "tag": "would",
+    "task_ru": "Напиши 3 предложения-мечты: что бы ты сделал, если бы…",
+    "check_ru": [
+     "В части с if — прошедшая форма (had, lived, were)?",
+     "Во второй части would + начальная форма?",
+     "Нигде нет will?"
+    ],
+    "model": "If I had a million dollars, I would build a music studio. If I were older, I would drive to the rink. If I lived in Toronto, I would go to NHL games.",
+    "why": "Мечта: if + past, would + глагол."
+   }
+  ]
+ },
+ {
+  "id": "g44",
+  "stage": "B1",
+  "title_ru": "Косвенная речь",
+  "goal_ru": "Пересказать, что сказал тренер.",
+  "prereq": [
+   "g35",
+   "g30"
+  ],
+  "spotlight": [
+   "6c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Say или tell",
+    "body_ru": "**say** — просто «сказать»: Mia said (that)…\n**tell** — сказать **кому-то**, и «кому» стоит сразу после глагола: Mia told **me** (that)…\nНельзя: said me.",
+    "ex": [
+     [
+      "Mia said she was sick.",
+      "Мия сказала, что заболела."
+     ],
+     [
+      "Mia told Coach Walt she was sick.",
+      "Мия сказала тренеру Уолту, что заболела."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Шаг назад во времени",
+    "body_ru": "Когда пересказываешь позже, время делает шаг назад: **am / is → was, are → were, will → would, can → could**, play → played.",
+    "ex": [
+     [
+      "\"I am hungry,\" said Rex. → Rex said he was hungry.",
+      "«Я голоден», — сказал Рекс. → Рекс сказал, что голоден."
+     ],
+     [
+      "\"I will help,\" said Benny. → Benny said he would help.",
+      "«Я помогу», — сказал Бенни. → Бенни сказал, что поможет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Меняем местоимения и слова времени",
+    "body_ru": "Говорим уже не от лица того, кто сказал: **I → he / she, my → his / her, we → they**. Если пересказываешь через несколько дней: **today → that day, tomorrow → the next day, here → there**.",
+    "ex": [
+     [
+      "\"My skates are new,\" said Mia. → Mia said her skates were new.",
+      "«Мои коньки новые», — сказала Мия. → Мия сказала, что её коньки новые."
+     ],
+     [
+      "\"I'll come tomorrow.\" → He said he would come the next day.",
+      "«Я приду завтра». → Он сказал, что придёт на следующий день."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопросы и просьбы",
+    "body_ru": "Вопрос да / нет → **asked if**. Вопрос со словом where / what → **asked where…**, и порядок слов как в обычном предложении (без do и без перестановки).\nКоманда → **told me to + глагол**, запрет → **told me not to + глагол**.",
+    "ex": [
+     [
+      "\"Where do you live?\" → She asked where I lived.",
+      "«Где ты живёшь?» → Она спросила, где я живу."
+     ],
+     [
+      "\"Don't be late!\" → Coach told us not to be late.",
+      "«Не опаздывайте!» → Тренер велел нам не опаздывать."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Mia said me she was tired.",
+    "right": "Mia told me she was tired.",
+    "why_ru": "С «кому» нужен told: told me."
+   },
+   {
+    "wrong": "He asked where did I live.",
+    "right": "He asked where I lived.",
+    "why_ru": "В пересказанном вопросе нет did и прямой порядок слов."
+   },
+   {
+    "wrong": "Coach told us don't be late.",
+    "right": "Coach told us not to be late.",
+    "why_ru": "Запрет в пересказе — not to + глагол."
+   },
+   {
+    "wrong": "Rex said he will come.",
+    "right": "Rex said he would come.",
+    "why_ru": "В пересказе will превращается в would."
+   },
+   {
+    "wrong": "She told that she liked phonk.",
+    "right": "She said that she liked phonk.",
+    "why_ru": "Без «кому» — said, а не told."
+   }
+  ],
+  "tags": {
+   "say-tell": {
+    "ru": "say или tell",
+    "tip_ru": "say — без «кому» (He said that…), tell — всегда с «кому» (He told me that…). Said me не бывает."
+   },
+   "backshift": {
+    "ru": "сдвиг времени",
+    "tip_ru": "В пересказе время делает шаг назад: is → was, are → were, will → would, can → could, like → liked.",
+    "back": "g30"
+   },
+   "pronouns": {
+    "ru": "местоимения и время",
+    "tip_ru": "Меняй слова под нового рассказчика: I → he / she, my → his / her; позже — tomorrow → the next day.",
+    "back": "g03"
+   },
+   "questions": {
+    "ru": "asked if / where",
+    "tip_ru": "Вопрос да / нет → asked if…; вопрос с where / what → asked where + подлежащее + глагол, без do / did.",
+    "back": "g13"
+   },
+   "commands": {
+    "ru": "told me to",
+    "tip_ru": "Просьбу или команду пересказывай так: told me to + глагол; запрет — told me not to + глагол."
+   }
+  },
+  "items": [
+   {
+    "id": "g44-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "say-tell",
+    "q": "Mia ___ me she was late.",
+    "o": [
+     "told",
+     "said"
+    ],
+    "a": 0,
+    "why": "Есть «кому» (me) — значит told."
+   },
+   {
+    "id": "g44-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "say-tell",
+    "q": "Benny ___ that he was sorry.",
+    "o": [
+     "said",
+     "told"
+    ],
+    "a": 0,
+    "why": "Нет «кому» — значит said."
+   },
+   {
+    "id": "g44-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "backshift",
+    "q": "\"I'm cold,\" said Rex. → Rex said he ___ cold.",
+    "o": [
+     "was",
+     "am"
+    ],
+    "a": 0,
+    "why": "В пересказе am делает шаг назад: was."
+   },
+   {
+    "id": "g44-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "backshift",
+    "q": "\"I will help you,\" said Mia. → Mia said she ___ help me.",
+    "o": [
+     "would",
+     "will"
+    ],
+    "a": 0,
+    "why": "В пересказе will превращается в would."
+   },
+   {
+    "id": "g44-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "backshift",
+    "q": "\"I can skate,\" said Benny. → Benny said he ___ skate.",
+    "o": [
+     "could",
+     "can"
+    ],
+    "a": 0,
+    "why": "В пересказе can превращается в could."
+   },
+   {
+    "id": "g44-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "commands",
+    "q": "Coach Walt told us ___ late.",
+    "o": [
+     "not to be",
+     "don't be"
+    ],
+    "a": 0,
+    "why": "Запрет в пересказе — told us not to + глагол."
+   },
+   {
+    "id": "g44-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "questions",
+    "q": "\"Are you OK?\" → Mia asked ___ I was OK.",
+    "o": [
+     "if",
+     "that"
+    ],
+    "a": 0,
+    "why": "Вопрос да / нет пересказываем через asked if."
+   },
+   {
+    "id": "g44-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "pronouns",
+    "q": "\"My phone is broken,\" said Benny. → Benny said ___ phone was broken.",
+    "o": [
+     "his",
+     "my",
+     "your",
+     "her"
+    ],
+    "a": 0,
+    "why": "Бенни говорил о своём телефоне: my → his."
+   },
+   {
+    "id": "g44-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "commands",
+    "say": "He told me to wait.",
+    "o": [
+     "He told me to wait.",
+     "He told me not to wait."
+    ],
+    "a": 0,
+    "why": "Прозвучало без not — «он сказал мне подождать»."
+   },
+   {
+    "id": "g44-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "backshift",
+    "say": "She said she wasn't busy.",
+    "o": [
+     "She said she wasn't busy.",
+     "She said she was busy."
+    ],
+    "a": 0,
+    "why": "Прозвучало wasn't: «она сказала, что не занята» — is not сдвинулось в wasn't."
+   },
+   {
+    "id": "g44-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "backshift",
+    "pairs": [
+     [
+      "am",
+      "was"
+     ],
+     [
+      "are",
+      "were"
+     ],
+     [
+      "will",
+      "would"
+     ],
+     [
+      "can",
+      "could"
+     ]
+    ],
+    "why": "В пересказе каждое слово делает шаг назад во времени."
+   },
+   {
+    "id": "g44-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "questions",
+    "q": "Mia asked me what time ___.",
+    "o": [
+     "it was",
+     "was it",
+     "is it"
+    ],
+    "a": 0,
+    "why": "В пересказанном вопросе прямой порядок: what time it was."
+   },
+   {
+    "id": "g44-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "pronouns",
+    "q": "\"I'll call you tomorrow,\" said Mia. (Ты рассказываешь об этом через неделю.) → Mia said she would call me ___.",
+    "o": [
+     "the next day",
+     "tomorrow"
+    ],
+    "a": 0,
+    "why": "Прошла неделя, поэтому tomorrow → the next day."
+   },
+   {
+    "id": "g44-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "backshift",
+    "q": "\"I feel sick,\" said Benny. → Benny said he ___ sick.",
+    "a": [
+     "felt"
+    ],
+    "why": "В пересказе feel делает шаг назад: felt."
+   },
+   {
+    "id": "g44-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "commands",
+    "q": "\"Turn off the music!\" → Mom told me ___ (turn) off the music.",
+    "a": [
+     "to turn"
+    ],
+    "why": "Команда в пересказе — told me to + глагол."
+   },
+   {
+    "id": "g44-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "say-tell",
+    "q": "Coach Walt ___ (say / tell) us to run five laps.",
+    "a": [
+     "told"
+    ],
+    "why": "Есть «кому» (us) — значит told."
+   },
+   {
+    "id": "g44-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "questions",
+    "q": "\"Do you play hockey?\" → Mia asked me ___ I played hockey.",
+    "a": [
+     "if",
+     "whether"
+    ],
+    "why": "Вопрос да / нет пересказываем через if."
+   },
+   {
+    "id": "g44-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "pronouns",
+    "q": "\"I'm going to the rink,\" said Rex. → Rex said ___ was going to the rink.",
+    "a": [
+     "he"
+    ],
+    "why": "Рекс говорил о себе: I → he."
+   },
+   {
+    "id": "g44-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "backshift",
+    "q": "\"We can't come,\" said the twins. → The twins said they ___ come.",
+    "a": [
+     "couldn't"
+    ],
+    "why": "В пересказе can't превращается в couldn't."
+   },
+   {
+    "id": "g44-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "questions",
+    "q": "\"Where is the puck?\" → Benny asked where the puck ___.",
+    "a": [
+     "was"
+    ],
+    "why": "Прямой порядок (the puck was) и шаг назад: is → was."
+   },
+   {
+    "id": "g44-021",
+    "t": "gap",
+    "lv": 3,
+    "tag": "commands",
+    "q": "\"Don't touch my drums!\" said Rex. → Rex told Benny ___ touch his drums.",
+    "a": [
+     "not to"
+    ],
+    "why": "Запрет в пересказе — told + кому + not to + глагол."
+   },
+   {
+    "id": "g44-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "say-tell",
+    "s": "Mia said me that the game was over.",
+    "bad": 1,
+    "fix": "told",
+    "why": "С «кому» (me) нужен told."
+   },
+   {
+    "id": "g44-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "backshift",
+    "s": "Rex said he will come to the party, but he forgot.",
+    "bad": 3,
+    "fix": "would",
+    "why": "В пересказе will превращается в would."
+   },
+   {
+    "id": "g44-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "questions",
+    "s": "Benny asked that I was OK.",
+    "bad": 2,
+    "fix": "if",
+    "why": "Пересказанный вопрос да / нет — с if, а не that."
+   },
+   {
+    "id": "g44-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "commands",
+    "s": "Coach told us to running faster.",
+    "bad": 4,
+    "fix": "run",
+    "why": "После to — начальная форма: to run."
+   },
+   {
+    "id": "g44-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "backshift",
+    "s": "Yesterday Benny told me he is too tired to play.",
+    "bad": 5,
+    "fix": "was",
+    "why": "Пересказываем вчерашние слова — is сдвигается в was."
+   },
+   {
+    "id": "g44-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "commands",
+    "a": "Coach Walt told us to drink more water.",
+    "ru": "Тренер Уолт велел нам пить больше воды.",
+    "extra": [
+     "said"
+    ],
+    "why": "Команда в пересказе — told us to + глагол."
+   },
+   {
+    "id": "g44-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "questions",
+    "a": "Mia asked me if I wanted pizza.",
+    "ru": "Мия спросила, хочу ли я пиццу.",
+    "extra": [
+     "do"
+    ],
+    "why": "Вопрос да / нет — asked if, без do."
+   },
+   {
+    "id": "g44-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "say-tell",
+    "a": "Benny said that he was very sorry.",
+    "ru": "Бенни сказал, что ему очень жаль.",
+    "extra": [
+     "told"
+    ],
+    "why": "Нет «кому» — значит said."
+   },
+   {
+    "id": "g44-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "backshift",
+    "a": "Rex told me he couldn't find his stick.",
+    "ru": "Рекс сказал мне, что не может найти свою клюшку.",
+    "extra": [
+     "can't"
+    ],
+    "why": "В пересказе can't → couldn't."
+   },
+   {
+    "id": "g44-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "backshift",
+    "src": "\"I am tired,\" said Mia.",
+    "task_ru": "Перескажи, начав с Mia said…",
+    "a": [
+     "Mia said she was tired.",
+     "Mia said that she was tired."
+    ],
+    "why": "I → she, am → was."
+   },
+   {
+    "id": "g44-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "commands",
+    "src": "\"Close the door, Benny!\" said Mrs. Parker.",
+    "task_ru": "Перескажи, начав с Mrs. Parker told Benny…",
+    "a": [
+     "Mrs. Parker told Benny to close the door.",
+     "Mrs Parker told Benny to close the door."
+    ],
+    "why": "Команда в пересказе — told Benny to + глагол."
+   },
+   {
+    "id": "g44-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "pronouns",
+    "src": "\"I'm at my grandma's house,\" said Benny.",
+    "task_ru": "Перескажи, начав с Benny said…",
+    "a": [
+     "Benny said he was at his grandma's house.",
+     "Benny said that he was at his grandma's house."
+    ],
+    "why": "I → he, my → his, am → was."
+   },
+   {
+    "id": "g44-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "questions",
+    "src": "\"Where do you live?\" Rex asked me.",
+    "task_ru": "Перескажи, начав с Rex asked me…",
+    "a": [
+     "Rex asked me where I lived."
+    ],
+    "why": "Без do, прямой порядок и шаг назад: where I lived."
+   },
+   {
+    "id": "g44-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "backshift",
+    "title": "What Coach Walt said",
+    "text": "After practice, Coach Walt ___ (say / tell) us that we ___ (be) the best team in town. He said he ___ (be) proud of us. Then he told us ___ (eat) well and sleep a lot. He also told Rex not ___ (eat) ten pancakes before the game!",
+    "a": [
+     [
+      "told"
+     ],
+     [
+      "were"
+     ],
+     [
+      "was"
+     ],
+     [
+      "to eat"
+     ],
+     [
+      "to eat"
+     ]
+    ],
+    "why": "told + кому; в пересказе are → were, is → was; команды — told us to / not to + глагол."
+   },
+   {
+    "id": "g44-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "pronouns",
+    "title": "Mia's message",
+    "text": "Yesterday Mia texted me: \"I can't come today. My knee hurts.\" Later I told Coach Walt about it. I said Mia ___ (can / not) come. I said ___ knee hurt. Coach asked ___ she was OK. I told him she ___ (be) fine, just a little sad.",
+    "a": [
+     [
+      "couldn't"
+     ],
+     [
+      "her"
+     ],
+     [
+      "if",
+      "whether"
+     ],
+     [
+      "was"
+     ]
+    ],
+    "why": "can't → couldn't, my → her, вопрос да / нет — if, is → was."
+   },
+   {
+    "id": "g44-037",
+    "t": "chat",
+    "lv": 3,
+    "tag": "say-tell",
+    "lines": [
+     {
+      "who": "Benny",
+      "t": "I missed practice. What did Coach Walt say?"
+     },
+     {
+      "who": "you",
+      "t": "He ___ us to come early tomorrow."
+     },
+     {
+      "who": "Benny",
+      "t": "Did he ask about me?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, he asked ___ you were sick."
+     },
+     {
+      "who": "Benny",
+      "t": "What did you tell him?"
+     },
+     {
+      "who": "you",
+      "t": "I told him you ___ (be) at the dentist."
+     }
+    ],
+    "a": [
+     [
+      "told"
+     ],
+     [
+      "if",
+      "whether"
+     ],
+     [
+      "were"
+     ]
+    ],
+    "why": "told + кому + to; вопрос да / нет — if; в пересказе are → were."
+   },
+   {
+    "id": "g44-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "backshift",
+    "ru": "Рекс сказал, что он голоден.",
+    "a": [
+     "Rex said he was hungry.",
+     "Rex said that he was hungry."
+    ],
+    "why": "В пересказе is → was: he was hungry."
+   },
+   {
+    "id": "g44-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "commands",
+    "ru": "Тренер сказал нам не опаздывать.",
+    "a": [
+     "The coach told us not to be late.",
+     "Coach told us not to be late.",
+     "Our coach told us not to be late."
+    ],
+    "why": "Запрет в пересказе — told us not to + глагол."
+   },
+   {
+    "id": "g44-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "questions",
+    "ru": "Бенни спросил меня, где мой телефон.",
+    "a": [
+     "Benny asked me where my phone was.",
+     "Benny asked where my phone was."
+    ],
+    "why": "Прямой порядок и шаг назад: where my phone was."
+   },
+   {
+    "id": "g44-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "backshift",
+    "ru": "Мия сказала мне, что она придёт.",
+    "a": [
+     "Mia told me she would come.",
+     "Mia told me that she would come."
+    ],
+    "why": "told me — потому что «мне»; will → would."
+   },
+   {
+    "id": "g44-042",
+    "t": "speak",
+    "lv": 3,
+    "tag": "commands",
+    "say": "Coach Walt told us to keep our sticks on the ice.",
+    "ru": "Тренер Уолт велел нам держать клюшки на льду.",
+    "why": "Команда в пересказе — told us to + глагол."
+   },
+   {
+    "id": "g44-043",
+    "t": "write",
+    "lv": 3,
+    "tag": "say-tell",
+    "task_ru": "Перескажи 3 фразы, которые тебе сегодня сказали (мама, друг, учитель): используй said, told me и asked.",
+    "check_ru": [
+     "После said нет me, а после told есть «кому»?",
+     "Время сделало шаг назад (is → was, will → would, can → could)?",
+     "Местоимения поменялись (I → he / she, my → his / her)?"
+    ],
+    "model": "My mom told me to clean my room. My friend said he couldn't play Roblox tonight. My teacher asked if I had my homework.",
+    "why": "said / told + кому, шаг назад во времени, asked if / where."
+   }
+  ]
+ },
+ {
+  "id": "g45",
+  "stage": "B1",
+  "title_ru": "Догадки: must, might, can't",
+  "goal_ru": "Сказать «он, должно быть, устал» и «не может быть».",
+  "prereq": [
+   "g32"
+  ],
+  "spotlight": [
+   "7a"
+  ],
+  "cards": [
+   {
+    "title_ru": "Уверен, что да: must",
+    "body_ru": "Когда видишь явные признаки и почти уверен: **must + глагол**. По-русски «должно быть», «наверняка».",
+    "ex": [
+     [
+      "Benny is yawning. He must be sleepy.",
+      "Бенни зевает. Он, должно быть, хочет спать."
+     ],
+     [
+      "Mia has a new stick. She must be happy.",
+      "У Мии новая клюшка. Она, наверное, счастлива."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Может быть: might, may, could",
+    "body_ru": "Когда не уверен: **might / may / could + глагол** — «может быть», «возможно». Все три здесь значат почти одно и то же.",
+    "ex": [
+     [
+      "Where's Rex? He might be at the rink.",
+      "Где Рекс? Может быть, на катке."
+     ],
+     [
+      "It could be Mia at the door.",
+      "Может, это Мия за дверью."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Уверен, что нет: can't",
+    "body_ru": "Когда уверен, что это **не так**: **can't + глагол** — «не может быть». Не путай с **mustn't** — это «нельзя», запрет, а не догадка.",
+    "ex": [
+     [
+      "That can't be Benny's phone. His phone is red.",
+      "Это не может быть телефон Бенни. У него красный."
+     ],
+     [
+      "Rex can't be cold. He's wearing three sweaters.",
+      "Рексу не может быть холодно. На нём три свитера."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Форма: без to и без -s",
+    "body_ru": "После must, might, can't — глагол в начальной форме: **must know**, **might be**. Никаких **to** и **-s**: he might (не mights).\nПро то, что происходит прямо сейчас: **must be + -ing** — They must be sleeping.",
+    "ex": [
+     [
+      "Coach Walt must know the answer.",
+      "Тренер Уолт наверняка знает ответ."
+     ],
+     [
+      "The lights are off. They might be sleeping.",
+      "Свет выключен. Может, они спят."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He must to be tired.",
+    "right": "He must be tired.",
+    "why_ru": "После must — без to."
+   },
+   {
+    "wrong": "That mustn't be Rex. He's at home.",
+    "right": "That can't be Rex. He's at home.",
+    "why_ru": "«Не может быть» — can't; mustn't значит «нельзя»."
+   },
+   {
+    "wrong": "She mights be at home.",
+    "right": "She might be at home.",
+    "why_ru": "У might нет -s, даже с she."
+   },
+   {
+    "wrong": "Mia isn't here. She can be at the rink.",
+    "right": "Mia isn't here. She might be at the rink.",
+    "why_ru": "Догадка «может быть» о сейчас — might или could, а не can."
+   }
+  ],
+  "tags": {
+   "must-be": {
+    "ru": "must — уверен, что да",
+    "tip_ru": "Видишь явные признаки и почти уверен — must + глагол: He's yawning. He must be tired."
+   },
+   "might-be": {
+    "ru": "might — может быть",
+    "tip_ru": "Не уверен — might, may или could + глагол: She might be at home. Не используй тут can."
+   },
+   "cant-be": {
+    "ru": "can't — уверен, что нет",
+    "tip_ru": "Уверен, что это неправда, — can't + глагол: That can't be Rex. Mustn't — это запрет, для догадок не подходит.",
+    "back": "g32"
+   },
+   "form": {
+    "ru": "форма: must / might + глагол",
+    "tip_ru": "После must, might, can't — начальная форма без to и -s: must know, might be. Про «прямо сейчас» — must be + -ing.",
+    "back": "g32"
+   }
+  },
+  "items": [
+   {
+    "id": "g45-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "must-be",
+    "q": "Benny is yawning all the time. He ___ be tired.",
+    "o": [
+     "must",
+     "can't"
+    ],
+    "a": 0,
+    "why": "Признаки явные — уверены, что да: must be."
+   },
+   {
+    "id": "g45-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "cant-be",
+    "q": "That ___ be Rex. He's on vacation in Mexico.",
+    "o": [
+     "can't",
+     "must"
+    ],
+    "a": 0,
+    "why": "Рекс в Мексике — уверены, что это не он: can't be."
+   },
+   {
+    "id": "g45-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "might-be",
+    "q": "I'm not sure where Mia is. She ___ be at the rink.",
+    "o": [
+     "might",
+     "must"
+    ],
+    "a": 0,
+    "why": "Ты не уверен — значит «может быть»: might."
+   },
+   {
+    "id": "g45-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "cant-be",
+    "q": "Rex ___ be hungry. He ate ten pancakes ten minutes ago.",
+    "o": [
+     "can't",
+     "must"
+    ],
+    "a": 0,
+    "why": "Он только что съел десять блинов — точно не голоден: can't."
+   },
+   {
+    "id": "g45-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "must-be",
+    "q": "Mia's team won the cup! She ___ be so happy.",
+    "o": [
+     "must",
+     "can't"
+    ],
+    "a": 0,
+    "why": "Команда выиграла кубок — наверняка счастлива: must."
+   },
+   {
+    "id": "g45-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "might-be",
+    "q": "Someone is at the door. It ___ be the pizza guy, or it could be Grandma.",
+    "o": [
+     "might",
+     "can't"
+    ],
+    "a": 0,
+    "why": "Есть два варианта, ты не уверен — might."
+   },
+   {
+    "id": "g45-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Mr. Parker must ___ the answer. He knows everything about dinosaurs.",
+    "o": [
+     "know",
+     "to know"
+    ],
+    "a": 0,
+    "why": "После must — глагол без to: must know."
+   },
+   {
+    "id": "g45-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "must-be",
+    "q": "Listen! Someone is playing the drums upstairs. It ___ be Rex — he's the only one with drums.",
+    "o": [
+     "must",
+     "can't",
+     "might not",
+     "mustn't"
+    ],
+    "a": 0,
+    "why": "Барабаны есть только у Рекса — уверены, что это он: must."
+   },
+   {
+    "id": "g45-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "must-be",
+    "say": "She must be at home.",
+    "o": [
+     "She must be at home.",
+     "She can't be at home."
+    ],
+    "a": 0,
+    "why": "Прозвучало must — уверены, что она дома."
+   },
+   {
+    "id": "g45-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "might-be",
+    "say": "It might be a dinosaur bone.",
+    "o": [
+     "It might be a dinosaur bone.",
+     "It can't be a dinosaur bone."
+    ],
+    "a": 0,
+    "why": "Прозвучало might — «может быть, это кость динозавра»."
+   },
+   {
+    "id": "g45-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "cant-be",
+    "pairs": [
+     [
+      "He must be tired.",
+      "Он, должно быть, устал."
+     ],
+     [
+      "He might be tired.",
+      "Может быть, он устал."
+     ],
+     [
+      "He can't be tired.",
+      "Не может быть, что он устал."
+     ],
+     [
+      "He mustn't be late.",
+      "Ему нельзя опаздывать."
+     ]
+    ],
+    "why": "must — уверен, что да; might — может быть; can't — уверен, что нет; mustn't — запрет."
+   },
+   {
+    "id": "g45-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "cant-be",
+    "q": "That ___ be Benny's backpack. His backpack is red, and this one is blue.",
+    "o": [
+     "can't",
+     "mustn't",
+     "must"
+    ],
+    "a": 0,
+    "why": "Уверен, что нет, — can't; mustn't значит «нельзя»."
+   },
+   {
+    "id": "g45-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "form",
+    "q": "Where's Dad? He ___ in the garage. I'm not sure.",
+    "o": [
+     "might be",
+     "might is",
+     "mights be"
+    ],
+    "a": 0,
+    "why": "После might — начальная форма без -s: might be."
+   },
+   {
+    "id": "g45-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "must-be",
+    "q": "Mia has a cast on her arm. She ___ have a broken arm. (must / can't)",
+    "a": [
+     "must"
+    ],
+    "why": "Гипс — явный признак, уверены, что да: must."
+   },
+   {
+    "id": "g45-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "cant-be",
+    "q": "Benny ate the whole cake in one minute? That ___ be true! (must / can't)",
+    "a": [
+     "can't"
+    ],
+    "why": "Это невероятно — уверены, что нет: can't."
+   },
+   {
+    "id": "g45-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "might-be",
+    "q": "Don't call Mia now. She ___ be asleep, but I'm not sure. (might / must)",
+    "a": [
+     "might",
+     "may",
+     "could"
+    ],
+    "why": "Ты не уверен — значит might."
+   },
+   {
+    "id": "g45-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Rex's lights are off. He ___ (must / be / sleep).",
+    "a": [
+     "must be sleeping"
+    ],
+    "why": "Про то, что происходит сейчас: must be + -ing."
+   },
+   {
+    "id": "g45-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "must-be",
+    "q": "This bag is so heavy! There ___ be rocks in it. (must / can't)",
+    "a": [
+     "must"
+    ],
+    "why": "Сумка очень тяжёлая — уверены, что там камни: must."
+   },
+   {
+    "id": "g45-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "cant-be",
+    "q": "Mr. Parker ___ be at work. His car is in the driveway. (can't / must)",
+    "a": [
+     "can't"
+    ],
+    "why": "Машина дома — уверены, что он не на работе: can't."
+   },
+   {
+    "id": "g45-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "might-be",
+    "q": "I don't know who drew this comic. It ___ be Mia — she draws well. (might / can't)",
+    "a": [
+     "might",
+     "could",
+     "may"
+    ],
+    "why": "Ты не знаешь точно — значит might."
+   },
+   {
+    "id": "g45-021",
+    "t": "gap",
+    "lv": 3,
+    "tag": "must-be",
+    "q": "You've been skating for three hours? You ___ (be, ты уверен) exhausted!",
+    "a": [
+     "must be"
+    ],
+    "why": "Три часа на льду — наверняка устал: must be."
+   },
+   {
+    "id": "g45-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "She mights be in the kitchen.",
+    "bad": 1,
+    "fix": "might",
+    "why": "У might нет -s: she might."
+   },
+   {
+    "id": "g45-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "cant-be",
+    "s": "That mustn't be Benny because he's at school.",
+    "bad": 1,
+    "fix": "can't",
+    "why": "«Не может быть» — can't; mustn't значит «нельзя»."
+   },
+   {
+    "id": "g45-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Rex must is very strong.",
+    "bad": 2,
+    "fix": "be",
+    "why": "После must — начальная форма: must be."
+   },
+   {
+    "id": "g45-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "might-be",
+    "s": "Mia isn't answering. She can be in the shower.",
+    "bad": 4,
+    "fix": "might",
+    "why": "Догадка «может быть» — might (или could), а не can."
+   },
+   {
+    "id": "g45-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "form",
+    "s": "Listen to that noise! The neighbors must are having a party.",
+    "bad": 7,
+    "fix": "be",
+    "why": "После must — be + -ing: must be having."
+   },
+   {
+    "id": "g45-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "must-be",
+    "a": "You must be Mia's brother.",
+    "ru": "Ты, должно быть, брат Мии.",
+    "extra": [
+     "to"
+    ],
+    "why": "Уверен, что да: must + be, без to."
+   },
+   {
+    "id": "g45-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "might-be",
+    "a": "He might be in the locker room.",
+    "ru": "Может быть, он в раздевалке.",
+    "extra": [
+     "is"
+    ],
+    "why": "Не уверен: might + be, а не is."
+   },
+   {
+    "id": "g45-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "cant-be",
+    "a": "That can't be our bus.",
+    "ru": "Это не может быть наш автобус.",
+    "extra": [
+     "mustn't"
+    ],
+    "why": "Уверен, что нет: can't, а не mustn't."
+   },
+   {
+    "id": "g45-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "They must be watching YouTube.",
+    "ru": "Они, должно быть, смотрят YouTube.",
+    "extra": [
+     "are"
+    ],
+    "why": "Про «прямо сейчас»: must be + -ing."
+   },
+   {
+    "id": "g45-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "must-be",
+    "src": "I'm sure Benny is hungry.",
+    "task_ru": "Скажи то же самое с must.",
+    "a": [
+     "Benny must be hungry."
+    ],
+    "why": "Уверен, что да: must be."
+   },
+   {
+    "id": "g45-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "might-be",
+    "src": "Maybe Coach Walt is in his office.",
+    "task_ru": "Скажи то же самое с might.",
+    "a": [
+     "Coach Walt might be in his office."
+    ],
+    "why": "«Может быть» — might be."
+   },
+   {
+    "id": "g45-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "cant-be",
+    "src": "I'm sure that isn't Mia's dog. Her dog is white.",
+    "task_ru": "Перепиши первое предложение с can't.",
+    "a": [
+     "That can't be Mia's dog."
+    ],
+    "why": "Уверен, что нет: can't be."
+   },
+   {
+    "id": "g45-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "must-be",
+    "title": "Who ate the cookies?",
+    "text": "The cookie jar is empty! Who ate the cookies? It ___ (уверен, что нет) be Rex — his arms are too short to open the jar. It ___ (может быть) be Mia — she loves cookies, but I'm not sure. There's honey everywhere. It ___ (уверен, что да) be Benny! And look — he's hiding under the table. He ___ (уверен, что да) feel very guilty.",
+    "a": [
+     [
+      "can't"
+     ],
+     [
+      "might",
+      "could",
+      "may"
+     ],
+     [
+      "must"
+     ],
+     [
+      "must"
+     ]
+    ],
+    "why": "Уверен, что нет, — can't; не уверен — might; уверен, что да, — must."
+   },
+   {
+    "id": "g45-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "might-be",
+    "title": "A strange sound",
+    "text": "It's midnight, and Benny hears a noise in the kitchen. \"It ___ (может быть) be a thief!\" he thinks. \"No, it ___ (уверен, что нет) be a thief — the door is locked.\" Then he hears music. \"It ___ (уверен, что да) be Mia. She ___ (уверен, что да: be + make) a new phonk track!\"",
+    "a": [
+     [
+      "might",
+      "could",
+      "may"
+     ],
+     [
+      "can't"
+     ],
+     [
+      "must"
+     ],
+     [
+      "must be making"
+     ]
+    ],
+    "why": "might — может быть, can't — точно нет, must — точно да; про «сейчас» — must be + -ing."
+   },
+   {
+    "id": "g45-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "might-be",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Rex isn't answering his phone."
+     },
+     {
+      "who": "you",
+      "t": "He ___ be at practice, but I'm not sure."
+     },
+     {
+      "who": "Mia",
+      "t": "No, practice was canceled today."
+     },
+     {
+      "who": "you",
+      "t": "Then he ___ be asleep. He always naps after lunch."
+     },
+     {
+      "who": "Mia",
+      "t": "But his mom says he isn't at home."
+     },
+     {
+      "who": "you",
+      "t": "Then he ___ be asleep at home. Strange!"
+     }
+    ],
+    "a": [
+     [
+      "might",
+      "could",
+      "may"
+     ],
+     [
+      "must"
+     ],
+     [
+      "can't"
+     ]
+    ],
+    "why": "Не уверен — might; почти уверен — must; уверен, что нет, — can't."
+   },
+   {
+    "id": "g45-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "must-be",
+    "ru": "Он, должно быть, дома.",
+    "a": [
+     "He must be at home.",
+     "He must be home."
+    ],
+    "why": "«Должно быть» — must be."
+   },
+   {
+    "id": "g45-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "cant-be",
+    "ru": "Это не может быть его клюшка.",
+    "a": [
+     "That can't be his stick.",
+     "It can't be his stick.",
+     "This can't be his stick."
+    ],
+    "why": "«Не может быть» — can't be."
+   },
+   {
+    "id": "g45-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "might-be",
+    "ru": "Может быть, она спит.",
+    "a": [
+     "She might be sleeping.",
+     "She might be asleep.",
+     "She may be sleeping.",
+     "She may be asleep.",
+     "She could be sleeping.",
+     "She could be asleep."
+    ],
+    "why": "«Может быть» — might / may / could, а про «сейчас» — be sleeping."
+   },
+   {
+    "id": "g45-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "form",
+    "ru": "Ты, наверное, шутишь!",
+    "a": [
+     "You must be joking!",
+     "You must be kidding!"
+    ],
+    "why": "Про то, что происходит сейчас: must be + -ing."
+   },
+   {
+    "id": "g45-041",
+    "t": "speak",
+    "lv": 3,
+    "tag": "must-be",
+    "say": "Mia must be at the rink — her skates are gone.",
+    "ru": "Мия, должно быть, на катке — её коньков нет.",
+    "why": "Явный признак — must be."
+   },
+   {
+    "id": "g45-042",
+    "t": "write",
+    "lv": 3,
+    "tag": "form",
+    "task_ru": "Вспомни друзей или семью. Напиши 3 догадки о том, что они делают сейчас: с must, might и can't.",
+    "check_ru": [
+     "must — когда уверен, что да?",
+     "might — когда не уверен?",
+     "can't — когда уверен, что нет (не mustn't)?",
+     "После модального глагола нет to и -s?"
+    ],
+    "model": "My brother must be at school now. My friend might be playing Brawl Stars. It can't be very cold outside — people are wearing T-shirts.",
+    "why": "must, might, can't + глагол без to и -s."
+   }
+  ]
+ }
+]

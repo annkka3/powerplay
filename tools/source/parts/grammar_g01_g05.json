@@ -1,0 +1,4150 @@
+[
+ {
+  "id": "g01",
+  "stage": "A1",
+  "title_ru": "To be: am, is, are",
+  "goal_ru": "Сказать, кто ты и какой ты: I am, he is, they are.",
+  "prereq": [],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "Глагол **be** меняется: **I am**, **he / she / it is**, **you / we / they are**. Одно имя или предмет — как he/she/it, двое и больше — как they.",
+    "ex": [
+     [
+      "I am fourteen.",
+      "Мне четырнадцать."
+     ],
+     [
+      "Rex is a goalie.",
+      "Рекс — вратарь."
+     ],
+     [
+      "Mia and Benny are friends.",
+      "Мия и Бенни — друзья."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Без be нельзя",
+    "body_ru": "По-русски говорим «Я голоден», «Папа на работе» — без глагола. В английском **am / is / are** нужен всегда. Но если в предложении уже есть другой глагол (play, like), **be не добавляем**.",
+    "ex": [
+     [
+      "I am hungry.",
+      "Я голоден."
+     ],
+     [
+      "My dad is at work.",
+      "Папа на работе."
+     ],
+     [
+      "I play hockey.",
+      "Я играю в хоккей."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Коротко",
+    "body_ru": "В разговоре сокращаем: **I'm, you're, he's, she's, it's, we're, they're**. Значение то же самое.",
+    "ex": [
+     [
+      "I'm ready!",
+      "Я готов!"
+     ],
+     [
+      "She's my friend.",
+      "Она моя подруга."
+     ],
+     [
+      "They're on the ice.",
+      "Они на льду."
+     ]
+    ]
+   },
+   {
+    "title_ru": "It или he / she",
+    "body_ru": "**it** — про вещь или животное без имени. **he / she** — про людей и про героев с именем, даже если это бобр или динозавр.",
+    "ex": [
+     [
+      "The puck is black. It is small.",
+      "Шайба чёрная. Она маленькая."
+     ],
+     [
+      "Rex is a T-rex. He is very kind.",
+      "Рекс — тираннозавр. Он очень добрый."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I is fourteen.",
+    "right": "I am fourteen.",
+    "why_ru": "С I всегда am."
+   },
+   {
+    "wrong": "He tall.",
+    "right": "He is tall.",
+    "why_ru": "Нельзя пропускать is: «он высокий» = he is tall."
+   },
+   {
+    "wrong": "They is my friends.",
+    "right": "They are my friends.",
+    "why_ru": "С they всегда are."
+   },
+   {
+    "wrong": "I am play hockey.",
+    "right": "I play hockey.",
+    "why_ru": "Если есть глагол play, am не нужен."
+   },
+   {
+    "wrong": "My skates is new.",
+    "right": "My skates are new.",
+    "why_ru": "Skates — много предметов → are."
+   }
+  ],
+  "tags": {
+   "am": {
+    "ru": "I am",
+    "tip_ru": "С I всегда am, никогда is или are: I am, I'm."
+   },
+   "is": {
+    "ru": "he / she / it is",
+    "tip_ru": "Один человек, животное или предмет (Rex, my phone) → is."
+   },
+   "are": {
+    "ru": "you / we / they are",
+    "tip_ru": "You, we, they и двое или больше (Mia and Benny, my skates) → are."
+   },
+   "it-he-she": {
+    "ru": "it или he / she",
+    "tip_ru": "it — вещь или животное без имени. he/she — человек или герой с именем."
+   },
+   "be-place": {
+    "ru": "когда нужен be",
+    "tip_ru": "Там, где по-русски нет глагола («я голоден», «он дома»), ставь am/is/are. Если уже есть другой глагол, be не нужен."
+   },
+   "short": {
+    "ru": "сокращения I'm, he's",
+    "tip_ru": "I'm = I am, he's = he is, they're = they are. Не путай he's с his и they're с there."
+   }
+  },
+  "items": [
+   {
+    "id": "g01-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "am",
+    "q": "I ___ fourteen.",
+    "o": [
+     "am",
+     "is"
+    ],
+    "a": 0,
+    "why": "С I всегда am: I am fourteen."
+   },
+   {
+    "id": "g01-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "is",
+    "q": "Rex ___ a goalie.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Rex — он один, как he → is."
+   },
+   {
+    "id": "g01-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "are",
+    "q": "We ___ in Canada.",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "С we всегда are."
+   },
+   {
+    "id": "g01-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "are",
+    "q": "Mia and Benny ___ friends.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 1,
+    "why": "Mia and Benny — их двое, как they → are."
+   },
+   {
+    "id": "g01-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "it-he-she",
+    "q": "The puck is black. ___ is small.",
+    "o": [
+     "It",
+     "He"
+    ],
+    "a": 0,
+    "why": "Шайба — это вещь, поэтому it."
+   },
+   {
+    "id": "g01-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "it-he-she",
+    "q": "Coach Walt is a beaver. ___ is very big.",
+    "o": [
+     "It",
+     "He"
+    ],
+    "a": 1,
+    "why": "Coach Walt — герой с именем, мужчина, поэтому he."
+   },
+   {
+    "id": "g01-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "are",
+    "q": "My new skates ___ red.",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "Skates — коньков много → are."
+   },
+   {
+    "id": "g01-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-place",
+    "q": "I ___ hockey.",
+    "o": [
+     "play",
+     "am play"
+    ],
+    "a": 0,
+    "why": "Здесь уже есть глагол play, am не нужен: I play hockey."
+   },
+   {
+    "id": "g01-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-place",
+    "q": "Как сказать «Я голоден»?",
+    "o": [
+     "I am hungry.",
+     "I hungry."
+    ],
+    "a": 0,
+    "why": "В английском без am нельзя: I am hungry."
+   },
+   {
+    "id": "g01-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Как коротко сказать «they are»?",
+    "o": [
+     "they're",
+     "there"
+    ],
+    "a": 0,
+    "why": "they are = they're; there — это «там»."
+   },
+   {
+    "id": "g01-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Как коротко сказать «he is»?",
+    "o": [
+     "he's",
+     "his"
+    ],
+    "a": 0,
+    "why": "he is = he's; his — это «его», другое слово."
+   },
+   {
+    "id": "g01-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "is",
+    "q": "Benny ___ hungry again.",
+    "o": [
+     "am",
+     "is",
+     "are"
+    ],
+    "a": 1,
+    "why": "Benny — он один → is."
+   },
+   {
+    "id": "g01-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "are",
+    "q": "You ___ my best friend.",
+    "o": [
+     "is",
+     "am",
+     "are"
+    ],
+    "a": 2,
+    "why": "С you всегда are, даже если «ты» один."
+   },
+   {
+    "id": "g01-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "it-he-she",
+    "q": "Mia is fourteen. ___ is a hockey player.",
+    "o": [
+     "She",
+     "He",
+     "It"
+    ],
+    "a": 0,
+    "why": "Mia — девочка, поэтому she."
+   },
+   {
+    "id": "g01-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "be-place",
+    "q": "Как сказать «Он высокий»?",
+    "o": [
+     "He tall.",
+     "He is tall.",
+     "He are tall."
+    ],
+    "a": 1,
+    "why": "Нужен глагол is, и с he — именно is."
+   },
+   {
+    "id": "g01-016",
+    "t": "listen",
+    "lv": 1,
+    "tag": "are",
+    "say": "The boys are here.",
+    "o": [
+     "The boys are here.",
+     "The boy is here."
+    ],
+    "a": 0,
+    "why": "Слышно boys и are — мальчиков много."
+   },
+   {
+    "id": "g01-017",
+    "t": "listen",
+    "lv": 1,
+    "tag": "is",
+    "say": "She is cold.",
+    "o": [
+     "She is cold.",
+     "We are cold."
+    ],
+    "a": 0,
+    "why": "Звучит she is — «ей холодно»."
+   },
+   {
+    "id": "g01-018",
+    "t": "match",
+    "lv": 1,
+    "tag": "short",
+    "pairs": [
+     [
+      "I am",
+      "I'm"
+     ],
+     [
+      "he is",
+      "he's"
+     ],
+     [
+      "we are",
+      "we're"
+     ],
+     [
+      "they are",
+      "they're"
+     ]
+    ],
+    "why": "Сокращаем: am → 'm, is → 's, are → 're."
+   },
+   {
+    "id": "g01-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "is",
+    "q": "My sister ___ ten. (am / is / are)",
+    "a": [
+     "is"
+    ],
+    "why": "My sister — она одна, как she → is."
+   },
+   {
+    "id": "g01-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "am",
+    "q": "I ___ ready for the game. (am / is / are)",
+    "a": [
+     "am"
+    ],
+    "why": "С I всегда am."
+   },
+   {
+    "id": "g01-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "are",
+    "q": "Benny and Rex ___ on the ice. (am / is / are)",
+    "a": [
+     "are"
+    ],
+    "why": "Benny and Rex — двое → are."
+   },
+   {
+    "id": "g01-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "it-he-she",
+    "q": "The ball is on the roof. ___ is wet. (It / He / She)",
+    "a": [
+     "It"
+    ],
+    "why": "Мяч — вещь, поэтому it."
+   },
+   {
+    "id": "g01-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "it-he-she",
+    "q": "Mr Parker is at work. ___ is tired. (He / She / It)",
+    "a": [
+     "He"
+    ],
+    "why": "Mr Parker — мужчина, поэтому he."
+   },
+   {
+    "id": "g01-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "is",
+    "q": "My phone ___ old. (am / is / are)",
+    "a": [
+     "is"
+    ],
+    "why": "Телефон один, как it → is."
+   },
+   {
+    "id": "g01-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "are",
+    "q": "You ___ a good goalie, Rex! (am / is / are)",
+    "a": [
+     "are"
+    ],
+    "why": "С you всегда are."
+   },
+   {
+    "id": "g01-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "am",
+    "q": "I ___ in the car with Mia. (am / is / are)",
+    "a": [
+     "am"
+    ],
+    "why": "С I всегда am."
+   },
+   {
+    "id": "g01-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "is",
+    "s": "Rex are a great goalie.",
+    "bad": 1,
+    "fix": "is",
+    "why": "Rex — он один → is, а не are."
+   },
+   {
+    "id": "g01-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "am",
+    "s": "I is very tired today.",
+    "bad": 1,
+    "fix": "am",
+    "why": "С I ставим только am."
+   },
+   {
+    "id": "g01-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "are",
+    "s": "My friends is at the rink.",
+    "bad": 2,
+    "fix": "are",
+    "why": "Friends — друзей много → are."
+   },
+   {
+    "id": "g01-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "are",
+    "s": "We is at home now.",
+    "bad": 1,
+    "fix": "are",
+    "why": "С we всегда are."
+   },
+   {
+    "id": "g01-031",
+    "t": "err",
+    "lv": 3,
+    "tag": "it-he-she",
+    "s": "Mia is fourteen. He is my friend.",
+    "bad": 3,
+    "fix": "She",
+    "why": "Mia — девочка, значит she, а не he."
+   },
+   {
+    "id": "g01-032",
+    "t": "err",
+    "lv": 2,
+    "tag": "is",
+    "s": "The rink are cold in the morning.",
+    "bad": 2,
+    "fix": "is",
+    "why": "Каток один → is."
+   },
+   {
+    "id": "g01-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "is",
+    "a": "Benny is a funny bear.",
+    "ru": "Бенни — смешной медвежонок.",
+    "extra": [
+     "are"
+    ],
+    "why": "Benny — он один → is."
+   },
+   {
+    "id": "g01-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "are",
+    "a": "We are on the same team.",
+    "ru": "Мы в одной команде.",
+    "extra": [
+     "is"
+    ],
+    "why": "С we → are."
+   },
+   {
+    "id": "g01-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "am",
+    "a": "I am happy today.",
+    "ru": "Я сегодня счастлив.",
+    "extra": [
+     "is"
+    ],
+    "why": "С I → am."
+   },
+   {
+    "id": "g01-036",
+    "t": "build",
+    "lv": 2,
+    "tag": "short",
+    "a": "We're ready for the game.",
+    "ru": "Мы готовы к игре.",
+    "extra": [
+     "is"
+    ],
+    "why": "We're = we are, с we → are."
+   },
+   {
+    "id": "g01-037",
+    "t": "build",
+    "lv": 2,
+    "tag": "be-place",
+    "a": "My dad is at work.",
+    "ru": "Мой папа на работе.",
+    "extra": [
+     "am"
+    ],
+    "why": "В русском глагола нет, а в английском нужен is."
+   },
+   {
+    "id": "g01-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "are",
+    "src": "He is happy.",
+    "task_ru": "Замени he на they.",
+    "a": [
+     "They are happy.",
+     "They're happy."
+    ],
+    "why": "С they → are."
+   },
+   {
+    "id": "g01-039",
+    "t": "tr",
+    "lv": 2,
+    "tag": "am",
+    "src": "We are hungry.",
+    "task_ru": "Замени we на I.",
+    "a": [
+     "I am hungry."
+    ],
+    "why": "С I → am."
+   },
+   {
+    "id": "g01-040",
+    "t": "tr",
+    "lv": 2,
+    "tag": "is",
+    "src": "Mia and Benny are at the rink.",
+    "task_ru": "Замени «Mia and Benny» на «Mia».",
+    "a": [
+     "Mia is at the rink."
+    ],
+    "why": "Mia — одна → is."
+   },
+   {
+    "id": "g01-041",
+    "t": "speak",
+    "lv": 2,
+    "tag": "short",
+    "say": "I'm fourteen and I'm a hockey player.",
+    "ru": "Мне четырнадцать, и я хоккеист.",
+    "why": "«Мне 14» по-английски — I'm fourteen, то есть I am."
+   },
+   {
+    "id": "g01-042",
+    "t": "speak",
+    "lv": 3,
+    "tag": "it-he-she",
+    "say": "Rex is a big dinosaur, but he is very kind.",
+    "ru": "Рекс — большой динозавр, но он очень добрый.",
+    "why": "Rex — герой с именем, поэтому he, а не it."
+   },
+   {
+    "id": "g01-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-place",
+    "ru": "Я дома.",
+    "a": [
+     "I am at home."
+    ],
+    "why": "«Я дома» = «я есть дома»: I am at home."
+   },
+   {
+    "id": "g01-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-place",
+    "ru": "Мой брат — хоккеист.",
+    "a": [
+     "My brother is a hockey player."
+    ],
+    "why": "Вместо тире в английском нужен is."
+   },
+   {
+    "id": "g01-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "are",
+    "ru": "Они в Канаде.",
+    "a": [
+     "They are in Canada.",
+     "They're in Canada."
+    ],
+    "why": "С they → are."
+   },
+   {
+    "id": "g01-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-place",
+    "ru": "Бенни голодный.",
+    "a": [
+     "Benny is hungry."
+    ],
+    "why": "«Голодный» без глагола нельзя: Benny is hungry."
+   },
+   {
+    "id": "g01-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "are",
+    "ru": "Мы друзья.",
+    "a": [
+     "We are friends.",
+     "We're friends."
+    ],
+    "why": "С we → are."
+   },
+   {
+    "id": "g01-048",
+    "t": "text",
+    "lv": 3,
+    "tag": "be-place",
+    "title": "Meet the team",
+    "text": "Hi! I ___ (be) Mia. I ___ (be) fourteen. Benny ___ (be) my friend. He ___ (be) a bear cub from the forest. Benny and Rex ___ (be) on my team.",
+    "a": [
+     [
+      "am"
+     ],
+     [
+      "am"
+     ],
+     [
+      "is"
+     ],
+     [
+      "is"
+     ],
+     [
+      "are"
+     ]
+    ],
+    "why": "С I ставим am, с Benny и he — is, а с «Benny and Rex» — are."
+   },
+   {
+    "id": "g01-049",
+    "t": "text",
+    "lv": 3,
+    "tag": "is",
+    "title": "A cold morning",
+    "text": "It ___ (be) seven o'clock. The rink ___ (be) cold. Coach Walt ___ (be) on the ice. \"You ___ (be) late, Benny!\" Benny ___ (be) sad, but Mia and Rex ___ (be) happy.",
+    "a": [
+     [
+      "is"
+     ],
+     [
+      "is"
+     ],
+     [
+      "is"
+     ],
+     [
+      "are"
+     ],
+     [
+      "is"
+     ],
+     [
+      "are"
+     ]
+    ],
+    "why": "Один предмет или человек → is, you и двое → are."
+   },
+   {
+    "id": "g01-050",
+    "t": "chat",
+    "lv": 3,
+    "tag": "am",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! I'm at the rink with Rex."
+     },
+     {
+      "who": "you",
+      "t": "Hi, Mia! I ___ at home."
+     },
+     {
+      "who": "Mia",
+      "t": "Rex is hungry, as usual!"
+     },
+     {
+      "who": "you",
+      "t": "Ha-ha! Rex ___ a big dinosaur with a big stomach!"
+     },
+     {
+      "who": "Mia",
+      "t": "Benny and Coach Walt are here too."
+     },
+     {
+      "who": "you",
+      "t": "Cool! They ___ so funny."
+     }
+    ],
+    "a": [
+     [
+      "am"
+     ],
+     [
+      "is"
+     ],
+     [
+      "are"
+     ]
+    ],
+    "why": "С I — am, с Rex — is, с they — are."
+   },
+   {
+    "id": "g01-051",
+    "t": "write",
+    "lv": 3,
+    "tag": "be-place",
+    "task_ru": "Напиши 3 предложения о себе и друге: сколько вам лет и какие вы.",
+    "check_ru": [
+     "После I стоит am?",
+     "После he/she или имени стоит is?",
+     "После we/they стоит are?",
+     "Нет ли лишнего глагола после am/is/are?"
+    ],
+    "model": "I am fourteen. My friend Max is fifteen. We are hockey players.",
+    "why": "Проверь, что после каждого подлежащего есть am, is или are."
+   }
+  ]
+ },
+ {
+  "id": "g02",
+  "stage": "A1",
+  "title_ru": "To be: отрицание и вопросы",
+  "goal_ru": "Спросить «Ты готов?» и ответить коротко: Yes, I am.",
+  "prereq": [
+   "g01"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "«Не» = not",
+    "body_ru": "Ставим **not** после am/is/are: **I'm not**, **he isn't**, **they aren't**. Формы «amn't» нет.",
+    "ex": [
+     [
+      "I'm not tired.",
+      "Я не устал."
+     ],
+     [
+      "Rex isn't small.",
+      "Рекс не маленький."
+     ],
+     [
+      "We aren't late.",
+      "Мы не опаздываем."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопрос: be вперёд",
+    "body_ru": "Чтобы спросить, ставим **am / is / are перед подлежащим**. Одной интонации мало.",
+    "ex": [
+     [
+      "You are ready. → Are you ready?",
+      "Ты готов?"
+     ],
+     [
+      "Is Benny at home?",
+      "Бенни дома?"
+     ],
+     [
+      "Are they on the team?",
+      "Они в команде?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Короткий ответ",
+    "body_ru": "Отвечаем **Yes, I am. / No, I'm not.**, **Yes, he is. / No, he isn't.** В ответе «да» в конце **не сокращаем**: Yes, I am, а не Yes, I'm.",
+    "ex": [
+     [
+      "Are you cold? — Yes, I am.",
+      "Тебе холодно? — Да."
+     ],
+     [
+      "Is Mia here? — No, she isn't.",
+      "Мия здесь? — Нет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Где?",
+    "body_ru": "**Where is** + один предмет, **Where are** + много. Коротко: **Where's**.",
+    "ex": [
+     [
+      "Where is my stick?",
+      "Где моя клюшка?"
+     ],
+     [
+      "Where are my skates?",
+      "Где мои коньки?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I amn't ready.",
+    "right": "I'm not ready.",
+    "why_ru": "Формы amn't нет, говорим I'm not."
+   },
+   {
+    "wrong": "You are ready?",
+    "right": "Are you ready?",
+    "why_ru": "В вопросе are встаёт перед you."
+   },
+   {
+    "wrong": "Yes, I'm.",
+    "right": "Yes, I am.",
+    "why_ru": "В конце короткого ответа не сокращаем."
+   },
+   {
+    "wrong": "Where my skates are?",
+    "right": "Where are my skates?",
+    "why_ru": "После where сразу идёт is/are."
+   },
+   {
+    "wrong": "He not is at home.",
+    "right": "He isn't at home.",
+    "why_ru": "not ставим после is: is not = isn't."
+   }
+  ],
+  "tags": {
+   "neg": {
+    "ru": "isn't / aren't / I'm not",
+    "tip_ru": "not идёт после am/is/are: I'm not, he isn't, they aren't. amn't не бывает.",
+    "back": "g01"
+   },
+   "question": {
+    "ru": "вопрос: Are you…?",
+    "tip_ru": "Переставь am/is/are на первое место: You are → Are you…?",
+    "back": "g01"
+   },
+   "short-ans": {
+    "ru": "короткий ответ",
+    "tip_ru": "Yes/No + подлежащее + am/is/are из вопроса. «Да» не сокращаем: Yes, he is."
+   },
+   "where": {
+    "ru": "Where is / Where are",
+    "tip_ru": "Один предмет → Where is…?, много → Where are…?",
+    "back": "g01"
+   }
+  },
+  "items": [
+   {
+    "id": "g02-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "Rex ___ small. He is huge!",
+    "o": [
+     "isn't",
+     "aren't"
+    ],
+    "a": 0,
+    "why": "Rex — он один → isn't."
+   },
+   {
+    "id": "g02-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "___ you ready for practice?",
+    "o": [
+     "Are",
+     "Is"
+    ],
+    "a": 0,
+    "why": "С you → are, и в вопросе are идёт первым."
+   },
+   {
+    "id": "g02-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short-ans",
+    "q": "Is Benny at home? — Yes, he ___.",
+    "o": [
+     "is",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "«Да» → Yes, he is."
+   },
+   {
+    "id": "g02-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short-ans",
+    "q": "Are you tired? — No, ___.",
+    "o": [
+     "I'm not",
+     "I amn't"
+    ],
+    "a": 0,
+    "why": "Формы amn't нет, говорим I'm not."
+   },
+   {
+    "id": "g02-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "where",
+    "q": "Where ___ my skates?",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "Skates — их много → Where are."
+   },
+   {
+    "id": "g02-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "We ___ late. We are on time!",
+    "o": [
+     "aren't",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "С we → aren't."
+   },
+   {
+    "id": "g02-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "Как спросить «Мия дома?»",
+    "o": [
+     "Is Mia at home?",
+     "Mia is at home?"
+    ],
+    "a": 0,
+    "why": "В вопросе is встаёт перед Mia."
+   },
+   {
+    "id": "g02-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "where",
+    "q": "Where ___ Coach Walt?",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Coach Walt — он один → Where is."
+   },
+   {
+    "id": "g02-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "neg",
+    "q": "I ___ tired. I'm ready to play!",
+    "o": [
+     "am not",
+     "isn't",
+     "aren't"
+    ],
+    "a": 0,
+    "why": "С I только am not."
+   },
+   {
+    "id": "g02-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "short-ans",
+    "q": "Are Mia and Benny at the rink? — Yes, ___.",
+    "o": [
+     "they are",
+     "they're",
+     "we are"
+    ],
+    "a": 0,
+    "why": "В конце короткого ответа «да» не сокращаем: they are."
+   },
+   {
+    "id": "g02-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ your dad a coach?",
+    "o": [
+     "Is",
+     "Are",
+     "Am"
+    ],
+    "a": 0,
+    "why": "Your dad — он один → Is."
+   },
+   {
+    "id": "g02-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "where",
+    "q": "Where ___ you, Benny? We are late!",
+    "o": [
+     "are",
+     "is",
+     "am"
+    ],
+    "a": 0,
+    "why": "С you → are: Where are you?"
+   },
+   {
+    "id": "g02-013",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg",
+    "say": "He isn't ready.",
+    "o": [
+     "He isn't ready.",
+     "He is ready."
+    ],
+    "a": 0,
+    "why": "Слышно isn't — «он не готов»."
+   },
+   {
+    "id": "g02-014",
+    "t": "listen",
+    "lv": 1,
+    "tag": "question",
+    "say": "Are they at home?",
+    "o": [
+     "Are they at home?",
+     "They are at home."
+    ],
+    "a": 0,
+    "why": "Are стоит первым — это вопрос."
+   },
+   {
+    "id": "g02-015",
+    "t": "match",
+    "lv": 1,
+    "tag": "short-ans",
+    "pairs": [
+     [
+      "Are you cold?",
+      "Yes, I am."
+     ],
+     [
+      "Is Rex hungry?",
+      "Yes, he is."
+     ],
+     [
+      "Is the rink open?",
+      "No, it isn't."
+     ],
+     [
+      "Are they ready?",
+      "No, they aren't."
+     ]
+    ],
+    "why": "В коротком ответе повторяем подлежащее и am/is/are из вопроса."
+   },
+   {
+    "id": "g02-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "Benny ___ at school today. He is sick. (isn't / aren't)",
+    "a": [
+     "isn't"
+    ],
+    "why": "Benny — он один → isn't."
+   },
+   {
+    "id": "g02-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "My skates ___ new. They are old. (isn't / aren't)",
+    "a": [
+     "aren't"
+    ],
+    "why": "Skates — их много → aren't."
+   },
+   {
+    "id": "g02-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "I ___ a goalie. I'm a forward. (am not / isn't)",
+    "a": [
+     "am not"
+    ],
+    "why": "С I только am not, isn't нельзя."
+   },
+   {
+    "id": "g02-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ Rex on the team? (Is / Are)",
+    "a": [
+     "Is"
+    ],
+    "why": "Rex — он один → Is."
+   },
+   {
+    "id": "g02-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ you and Mia friends? (Is / Are)",
+    "a": [
+     "Are"
+    ],
+    "why": "You and Mia — двое → Are."
+   },
+   {
+    "id": "g02-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short-ans",
+    "q": "Is the ice cold? — Yes, it ___.",
+    "a": [
+     "is"
+    ],
+    "why": "Вопрос с is → ответ Yes, it is."
+   },
+   {
+    "id": "g02-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short-ans",
+    "q": "Are you a Brawl Stars fan? — No, ___.",
+    "a": [
+     "I'm not"
+    ],
+    "why": "Про себя: No, I'm not."
+   },
+   {
+    "id": "g02-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "where",
+    "q": "___ is Benny? He isn't here. (Where / Who)",
+    "a": [
+     "Where"
+    ],
+    "why": "Спрашиваем о месте → Where."
+   },
+   {
+    "id": "g02-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "where",
+    "q": "Where ___ my gloves? (is / are)",
+    "a": [
+     "are"
+    ],
+    "why": "Gloves — их много → are."
+   },
+   {
+    "id": "g02-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg",
+    "s": "Rex aren't hungry today.",
+    "bad": 1,
+    "fix": "isn't",
+    "why": "Rex — он один → isn't."
+   },
+   {
+    "id": "g02-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "question",
+    "s": "Is they at the rink?",
+    "bad": 0,
+    "fix": "Are",
+    "why": "С they → Are."
+   },
+   {
+    "id": "g02-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "where",
+    "s": "Where is my headphones?",
+    "bad": 1,
+    "fix": "are",
+    "why": "Headphones — множественное число → Where are."
+   },
+   {
+    "id": "g02-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg",
+    "s": "Mia and Benny isn't at school.",
+    "bad": 3,
+    "fix": "aren't",
+    "why": "Mia and Benny — двое → aren't."
+   },
+   {
+    "id": "g02-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "where",
+    "s": "Where are Coach Walt?",
+    "bad": 1,
+    "fix": "is",
+    "why": "Coach Walt — один → Where is."
+   },
+   {
+    "id": "g02-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "question",
+    "a": "Are you ready for the game?",
+    "ru": "Ты готов к игре?",
+    "extra": [
+     "Is"
+    ],
+    "why": "Are идёт перед you."
+   },
+   {
+    "id": "g02-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "question",
+    "a": "Is Benny in the kitchen?",
+    "ru": "Бенни на кухне?",
+    "extra": [
+     "Are"
+    ],
+    "why": "Is идёт перед Benny."
+   },
+   {
+    "id": "g02-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "where",
+    "a": "Where are my new skates?",
+    "ru": "Где мои новые коньки?",
+    "extra": [
+     "is"
+    ],
+    "why": "Коньков много, поэтому Where are."
+   },
+   {
+    "id": "g02-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "Rex isn't scared of the puck.",
+    "ru": "Рекс не боится шайбы.",
+    "extra": [
+     "aren't"
+    ],
+    "why": "Rex — он один → isn't."
+   },
+   {
+    "id": "g02-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "We aren't late for school.",
+    "ru": "Мы не опаздываем в школу.",
+    "extra": [
+     "isn't"
+    ],
+    "why": "С we → aren't."
+   },
+   {
+    "id": "g02-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "question",
+    "src": "Benny is at home.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Is Benny at home?"
+    ],
+    "why": "Is ставим перед Benny."
+   },
+   {
+    "id": "g02-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "They are on the team.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "They aren't on the team.",
+     "They're not on the team.",
+     "They aren't in the team.",
+     "They're not in the team."
+    ],
+    "why": "После are добавляем not: aren't."
+   },
+   {
+    "id": "g02-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "question",
+    "src": "You are tired.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Are you tired?"
+    ],
+    "why": "Are ставим перед you."
+   },
+   {
+    "id": "g02-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "I am a goalie.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "I'm not a goalie."
+    ],
+    "why": "С I → I'm not."
+   },
+   {
+    "id": "g02-039",
+    "t": "tr",
+    "lv": 2,
+    "tag": "short-ans",
+    "src": "Is Mia at the rink?",
+    "task_ru": "Ответь коротко «да».",
+    "a": [
+     "Yes, she is."
+    ],
+    "why": "Mia → she, и is без сокращения."
+   },
+   {
+    "id": "g02-040",
+    "t": "tr",
+    "lv": 3,
+    "tag": "short-ans",
+    "src": "Are your friends here?",
+    "task_ru": "Ответь коротко «нет».",
+    "a": [
+     "No, they aren't.",
+     "No, they're not."
+    ],
+    "why": "Friends → they, нет → aren't."
+   },
+   {
+    "id": "g02-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "question",
+    "ru": "Ты голоден?",
+    "a": [
+     "Are you hungry?"
+    ],
+    "why": "Вопрос: Are + you."
+   },
+   {
+    "id": "g02-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "where",
+    "ru": "Где мой телефон?",
+    "a": [
+     "Where is my phone?",
+     "Where's my phone?"
+    ],
+    "why": "Телефон один → Where is."
+   },
+   {
+    "id": "g02-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "Рекс не маленький.",
+    "a": [
+     "Rex isn't small."
+    ],
+    "why": "Rex — он один → isn't."
+   },
+   {
+    "id": "g02-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "Мы не в Канаде.",
+    "a": [
+     "We aren't in Canada.",
+     "We're not in Canada."
+    ],
+    "why": "С we → aren't."
+   },
+   {
+    "id": "g02-045",
+    "t": "text",
+    "lv": 3,
+    "tag": "where",
+    "title": "Before the game",
+    "text": "Coach Walt: Where ___ (is / are) Rex? Mia: He ___ (is / isn't) here, Coach. He ___ (is / are) in the kitchen! Coach Walt: ___ (Is / Are) he hungry again? Mia: Yes, he ___ (is / isn't)!",
+    "a": [
+     [
+      "is"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "is"
+     ],
+     [
+      "Is"
+     ],
+     [
+      "is"
+     ]
+    ],
+    "why": "Rex/he — он один → is; «нет здесь» → isn't."
+   },
+   {
+    "id": "g02-046",
+    "t": "text",
+    "lv": 3,
+    "tag": "neg",
+    "title": "New in Canada",
+    "text": "Benny: Hi! I ___ (am / is) Benny. I ___ (am not / isn't) from Canada. I am from the forest. Mia: ___ (Is / Are) you happy here? Benny: Yes, I ___ (am / am not)! But the winter ___ (isn't / aren't) warm!",
+    "a": [
+     [
+      "am"
+     ],
+     [
+      "am not"
+     ],
+     [
+      "Are"
+     ],
+     [
+      "am"
+     ],
+     [
+      "isn't"
+     ]
+    ],
+    "why": "I → am / am not, you → Are, winter — одна → isn't."
+   },
+   {
+    "id": "g02-047",
+    "t": "chat",
+    "lv": 3,
+    "tag": "short-ans",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hey! Are you at home?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___."
+     },
+     {
+      "who": "Mia",
+      "t": "Is your brother at home too?"
+     },
+     {
+      "who": "you",
+      "t": "No, he ___. He is at the rink."
+     },
+     {
+      "who": "Mia",
+      "t": "Are you ready for the game tomorrow?"
+     },
+     {
+      "who": "you",
+      "t": "No, ___ ready. I'm so tired!"
+     }
+    ],
+    "a": [
+     [
+      "am"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "I'm not"
+     ]
+    ],
+    "why": "Да → Yes, I am; нет → he isn't / I'm not."
+   },
+   {
+    "id": "g02-048",
+    "t": "speak",
+    "lv": 2,
+    "tag": "short-ans",
+    "say": "Are you ready? Yes, I am!",
+    "ru": "Ты готов? Да!",
+    "why": "Короткий ответ «да» без сокращения: Yes, I am."
+   },
+   {
+    "id": "g02-049",
+    "t": "speak",
+    "lv": 3,
+    "tag": "where",
+    "say": "Where are my skates? They aren't in my bag.",
+    "ru": "Где мои коньки? Их нет в сумке.",
+    "why": "Skates — много → Where are и aren't."
+   },
+   {
+    "id": "g02-050",
+    "t": "write",
+    "lv": 3,
+    "tag": "question",
+    "task_ru": "Напиши 3 вопроса другу про хоккей или игры (Are you…? / Is…?) и коротко ответь на один.",
+    "check_ru": [
+     "Is/Are стоит перед подлежащим?",
+     "В конце вопроса есть «?»",
+     "Ответ «да» без сокращения (Yes, they are)?"
+    ],
+    "model": "Are you a goalie? Is your coach strict? Are your skates new? Yes, they are.",
+    "why": "В вопросе am/is/are идёт первым, ответ — Yes, I am / No, I'm not."
+   }
+  ]
+ },
+ {
+  "id": "g03",
+  "stage": "A1",
+  "title_ru": "Местоимения: I – me – my",
+  "goal_ru": "Не путать I/me/my, he/him/his, they/them/their.",
+  "prereq": [
+   "g01"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Кто? — I, he, she",
+    "body_ru": "Перед глаголом ставим **I, you, he, she, it, we, they**. Это тот, кто действует.",
+    "ex": [
+     [
+      "She is my friend.",
+      "Она моя подруга."
+     ],
+     [
+      "We are on the same team.",
+      "Мы в одной команде."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Кого? — me, him, her",
+    "body_ru": "После глагола или предлога (for, with, of): **me, you, him, her, it, us, them**.",
+    "ex": [
+     [
+      "I like him.",
+      "Он мне нравится."
+     ],
+     [
+      "The gift is for her.",
+      "Подарок для неё."
+     ],
+     [
+      "Benny is with us.",
+      "Бенни с нами."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Чей? — my, his, her",
+    "body_ru": "Перед существительным: **my, your, his, her, its, our, their**. По-русски «свой» тоже переводим так: his, her, their.",
+    "ex": [
+     [
+      "His stick is new.",
+      "Его клюшка новая."
+     ],
+     [
+      "Their dog is funny.",
+      "Их собака смешная."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Mine и its",
+    "body_ru": "Без существительного после: **mine, yours, his, hers, ours, theirs**. **its** — «его / её» у вещи или животного, без апострофа. **it's** = it is.",
+    "ex": [
+     [
+      "The stick is mine.",
+      "Клюшка моя."
+     ],
+     [
+      "The dog is happy. Its tail is long.",
+      "Собака рада. У неё длинный хвост."
+     ],
+     [
+      "It's my phone.",
+      "Это мой телефон."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Him is my friend.",
+    "right": "He is my friend.",
+    "why_ru": "Перед глаголом — he, а не him."
+   },
+   {
+    "wrong": "I like she.",
+    "right": "I like her.",
+    "why_ru": "После глагола — her."
+   },
+   {
+    "wrong": "He name is Max.",
+    "right": "His name is Max.",
+    "why_ru": "Перед существительным — his (его)."
+   },
+   {
+    "wrong": "They skates are new.",
+    "right": "Their skates are new.",
+    "why_ru": "«Их коньки» → their."
+   },
+   {
+    "wrong": "The bird is in it's nest.",
+    "right": "The bird is in its nest.",
+    "why_ru": "its — «его/её», без апострофа; it's = it is."
+   }
+  ],
+  "tags": {
+   "subject": {
+    "ru": "I, he, she перед глаголом",
+    "tip_ru": "Кто действует? Перед am/is/are и другим глаголом — I, he, she, we, they.",
+    "back": "g01"
+   },
+   "object": {
+    "ru": "me, him, her, them",
+    "tip_ru": "После глагола (like, miss) и предлога (for, with, of) — me, him, her, us, them."
+   },
+   "possessive": {
+    "ru": "my, his, her, their",
+    "tip_ru": "Чей? Перед существительным — my, your, his, her, its, our, their."
+   },
+   "mine": {
+    "ru": "mine, yours, hers",
+    "tip_ru": "Если существительного после нет, бери mine, yours, his, hers, ours, theirs: It's mine."
+   },
+   "its": {
+    "ru": "its или it's",
+    "tip_ru": "its = «его/её» (у вещи или животного). it's = it is. Проверь: можно сказать it is? Тогда it's."
+   }
+  },
+  "items": [
+   {
+    "id": "g03-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "subject",
+    "q": "___ is my best friend.",
+    "o": [
+     "He",
+     "Him"
+    ],
+    "a": 0,
+    "why": "Перед глаголом is — he, а не him."
+   },
+   {
+    "id": "g03-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "object",
+    "q": "Mia is cool. I like ___.",
+    "o": [
+     "her",
+     "she"
+    ],
+    "a": 0,
+    "why": "После глагола like — her."
+   },
+   {
+    "id": "g03-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "possessive",
+    "q": "Mr Parker is cool. ___ car is red.",
+    "o": [
+     "His",
+     "He"
+    ],
+    "a": 0,
+    "why": "Машина его, поэтому his."
+   },
+   {
+    "id": "g03-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "possessive",
+    "q": "Mia and Benny are here. ___ bags are on the bench.",
+    "o": [
+     "Their",
+     "They"
+    ],
+    "a": 0,
+    "why": "Сумки их, поэтому their."
+   },
+   {
+    "id": "g03-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "object",
+    "q": "The gift is for ___.",
+    "o": [
+     "me",
+     "I"
+    ],
+    "a": 0,
+    "why": "После for — me."
+   },
+   {
+    "id": "g03-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "its",
+    "q": "The cat is on the sofa. ___ eyes are green.",
+    "o": [
+     "Its",
+     "It's"
+    ],
+    "a": 0,
+    "why": "Глаза у кошки — its, без апострофа."
+   },
+   {
+    "id": "g03-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "its",
+    "q": "___ cold today!",
+    "o": [
+     "It's",
+     "Its"
+    ],
+    "a": 0,
+    "why": "Здесь нужно it is → it's."
+   },
+   {
+    "id": "g03-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "mine",
+    "q": "The red stick isn't yours. It's ___.",
+    "o": [
+     "mine",
+     "my"
+    ],
+    "a": 0,
+    "why": "После is без существительного — mine."
+   },
+   {
+    "id": "g03-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "object",
+    "q": "Rex is a goalie. Benny is with ___ on the ice.",
+    "o": [
+     "him",
+     "he",
+     "his"
+    ],
+    "a": 0,
+    "why": "После with — him."
+   },
+   {
+    "id": "g03-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "object",
+    "q": "Coach Walt is proud of ___.",
+    "o": [
+     "us",
+     "we",
+     "our"
+    ],
+    "a": 0,
+    "why": "После of — us."
+   },
+   {
+    "id": "g03-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "possessive",
+    "q": "Mia is fourteen. ___ brother is ten.",
+    "o": [
+     "Her",
+     "She",
+     "Hers"
+    ],
+    "a": 0,
+    "why": "Брат её, поэтому her перед brother."
+   },
+   {
+    "id": "g03-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "mine",
+    "q": "Mia is here! The blue headphones are ___.",
+    "o": [
+     "hers",
+     "her",
+     "she"
+    ],
+    "a": 0,
+    "why": "Наушники Мии, а без существительного после — hers."
+   },
+   {
+    "id": "g03-013",
+    "t": "listen",
+    "lv": 1,
+    "tag": "possessive",
+    "say": "His skates are new.",
+    "o": [
+     "His skates are new.",
+     "Her skates are new."
+    ],
+    "a": 0,
+    "why": "Слышно his — «его коньки»."
+   },
+   {
+    "id": "g03-014",
+    "t": "listen",
+    "lv": 1,
+    "tag": "object",
+    "say": "I like them.",
+    "o": [
+     "I like them.",
+     "I like him."
+    ],
+    "a": 0,
+    "why": "Слышно them — «они мне нравятся»."
+   },
+   {
+    "id": "g03-015",
+    "t": "match",
+    "lv": 1,
+    "tag": "object",
+    "pairs": [
+     [
+      "I",
+      "me"
+     ],
+     [
+      "he",
+      "him"
+     ],
+     [
+      "she",
+      "her"
+     ],
+     [
+      "they",
+      "them"
+     ]
+    ],
+    "why": "Форма «кого»: I → me, he → him, she → her, they → them."
+   },
+   {
+    "id": "g03-016",
+    "t": "match",
+    "lv": 2,
+    "tag": "possessive",
+    "pairs": [
+     [
+      "I",
+      "my"
+     ],
+     [
+      "he",
+      "his"
+     ],
+     [
+      "we",
+      "our"
+     ],
+     [
+      "they",
+      "their"
+     ]
+    ],
+    "why": "Форма «чей»: I → my, he → his, we → our, they → their."
+   },
+   {
+    "id": "g03-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "object",
+    "q": "Benny is sad. The cake is for ___. (he / him)",
+    "a": [
+     "him"
+    ],
+    "why": "После for — him."
+   },
+   {
+    "id": "g03-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "possessive",
+    "q": "Rex is a T-rex. ___ arms are tiny. (He / His)",
+    "a": [
+     "His"
+    ],
+    "why": "Руки его, поэтому his."
+   },
+   {
+    "id": "g03-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "subject",
+    "q": "Mia and I are friends. ___ are on the same team. (We / Us / Our)",
+    "a": [
+     "We"
+    ],
+    "why": "Перед are нужно «кто» — we."
+   },
+   {
+    "id": "g03-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "object",
+    "q": "My parents are at work. I miss ___. (they / them)",
+    "a": [
+     "them"
+    ],
+    "why": "После miss — them."
+   },
+   {
+    "id": "g03-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "its",
+    "q": "The bird is small. ___ wings are blue. (Its / It's)",
+    "a": [
+     "Its"
+    ],
+    "why": "Крылья у птицы — its, без апострофа."
+   },
+   {
+    "id": "g03-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "its",
+    "q": "___ my birthday today! (Its / It's)",
+    "a": [
+     "It's",
+     "It is"
+    ],
+    "why": "Здесь it is → it's."
+   },
+   {
+    "id": "g03-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "mine",
+    "q": "The green bag is ___. It's my bag. (mine / my)",
+    "a": [
+     "mine"
+    ],
+    "why": "В конце без существительного — mine."
+   },
+   {
+    "id": "g03-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "object",
+    "q": "Mrs Parker is nice. I like ___. (she / her)",
+    "a": [
+     "her"
+    ],
+    "why": "После like — her."
+   },
+   {
+    "id": "g03-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "subject",
+    "q": "___ is my sister. Her name is Anna. (She / Her)",
+    "a": [
+     "She"
+    ],
+    "why": "Перед is нужно «кто» — she."
+   },
+   {
+    "id": "g03-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "subject",
+    "s": "Him is my best friend.",
+    "bad": 0,
+    "fix": "He",
+    "why": "Перед is — he, а не him."
+   },
+   {
+    "id": "g03-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "object",
+    "s": "Mia is with they at the rink.",
+    "bad": 3,
+    "fix": "them",
+    "why": "После with — them."
+   },
+   {
+    "id": "g03-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "possessive",
+    "s": "The Parkers are nice. They house is big.",
+    "bad": 4,
+    "fix": "Their",
+    "why": "Дом их, поэтому their."
+   },
+   {
+    "id": "g03-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "its",
+    "s": "The dog is happy. It's tail is long.",
+    "bad": 4,
+    "fix": "Its",
+    "why": "Хвост собаки — its; it's = it is."
+   },
+   {
+    "id": "g03-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "subject",
+    "s": "Me am fourteen.",
+    "bad": 0,
+    "fix": "I",
+    "why": "Перед am — только I."
+   },
+   {
+    "id": "g03-031",
+    "t": "err",
+    "lv": 2,
+    "tag": "mine",
+    "s": "Mine bag is red.",
+    "bad": 0,
+    "fix": "My",
+    "why": "Перед существительным — my; mine — без существительного."
+   },
+   {
+    "id": "g03-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "possessive",
+    "a": "Her brother is a goalie.",
+    "ru": "Её брат — вратарь.",
+    "extra": [
+     "She"
+    ],
+    "why": "«Её брат» — her brother."
+   },
+   {
+    "id": "g03-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "object",
+    "a": "The pizza is for us.",
+    "ru": "Пицца для нас.",
+    "extra": [
+     "we"
+    ],
+    "why": "После for — us."
+   },
+   {
+    "id": "g03-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "object",
+    "a": "They are with me.",
+    "ru": "Они со мной.",
+    "extra": [
+     "I"
+    ],
+    "why": "После with — me."
+   },
+   {
+    "id": "g03-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "possessive",
+    "a": "Our coach is a beaver.",
+    "ru": "Наш тренер — бобр.",
+    "extra": [
+     "We"
+    ],
+    "why": "«Наш тренер» — our coach."
+   },
+   {
+    "id": "g03-036",
+    "t": "build",
+    "lv": 2,
+    "tag": "its",
+    "a": "It's my new stick.",
+    "ru": "Это моя новая клюшка.",
+    "extra": [
+     "Its"
+    ],
+    "why": "It's = it is, «это»."
+   },
+   {
+    "id": "g03-037",
+    "t": "build",
+    "lv": 2,
+    "tag": "mine",
+    "a": "The blue phone is mine.",
+    "ru": "Синий телефон — мой.",
+    "extra": [
+     "my"
+    ],
+    "why": "В конце без существительного — mine."
+   },
+   {
+    "id": "g03-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "object",
+    "src": "I like Mia.",
+    "task_ru": "Замени Mia на местоимение.",
+    "a": [
+     "I like her."
+    ],
+    "why": "После like — her."
+   },
+   {
+    "id": "g03-039",
+    "t": "tr",
+    "lv": 2,
+    "tag": "object",
+    "src": "Benny is with Rex and Mia.",
+    "task_ru": "Замени «Rex and Mia» на местоимение.",
+    "a": [
+     "Benny is with them."
+    ],
+    "why": "После with — them."
+   },
+   {
+    "id": "g03-040",
+    "t": "tr",
+    "lv": 2,
+    "tag": "subject",
+    "src": "Mia is my friend.",
+    "task_ru": "Замени Mia на местоимение.",
+    "a": [
+     "She is my friend.",
+     "She's my friend."
+    ],
+    "why": "Перед is — she."
+   },
+   {
+    "id": "g03-041",
+    "t": "tr",
+    "lv": 3,
+    "tag": "mine",
+    "src": "It is my bag.",
+    "task_ru": "Перепиши со словом mine. Начни с «The bag is…».",
+    "a": [
+     "The bag is mine."
+    ],
+    "why": "Без существительного после — mine."
+   },
+   {
+    "id": "g03-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "possessive",
+    "ru": "Его клюшка новая.",
+    "a": [
+     "His stick is new."
+    ],
+    "why": "«Его» перед существительным → his."
+   },
+   {
+    "id": "g03-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "object",
+    "ru": "Подарок для неё.",
+    "a": [
+     "The gift is for her.",
+     "The present is for her."
+    ],
+    "why": "После for — her."
+   },
+   {
+    "id": "g03-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "possessive",
+    "ru": "Наши коньки в машине.",
+    "a": [
+     "Our skates are in the car."
+    ],
+    "why": "«Наши» → our."
+   },
+   {
+    "id": "g03-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "mine",
+    "ru": "Это мой рюкзак, а не твой.",
+    "a": [
+     "It is my backpack, not yours.",
+     "It's my backpack, not yours.",
+     "It is my bag, not yours.",
+     "It's my bag, not yours.",
+     "This is my backpack, not yours.",
+     "This is my bag, not yours."
+    ],
+    "why": "Перед существительным — my, без него — yours."
+   },
+   {
+    "id": "g03-046",
+    "t": "text",
+    "lv": 3,
+    "tag": "possessive",
+    "title": "Benny and his new family",
+    "text": "Benny is a bear cub. ___ (He / His) new home is in Canada. Mr and Mrs Parker are kind to ___ (he / him). Mia is ___ (they / their) daughter. ___ (She / Her) is fourteen. Benny is at the rink with ___ (she / her) every day.",
+    "a": [
+     [
+      "His"
+     ],
+     [
+      "him"
+     ],
+     [
+      "their"
+     ],
+     [
+      "She"
+     ],
+     [
+      "her"
+     ]
+    ],
+    "why": "Перед существительным — his/their, после to/with — him/her, перед is — she."
+   },
+   {
+    "id": "g03-047",
+    "t": "text",
+    "lv": 3,
+    "tag": "object",
+    "title": "Rex and his tiny arms",
+    "text": "Rex is our goalie. ___ (He / His) arms are tiny, but ___ (he / his) legs are strong. The net is behind ___ (he / him). ___ (Our / Us) team is proud of ___ (he / him)!",
+    "a": [
+     [
+      "His"
+     ],
+     [
+      "his"
+     ],
+     [
+      "him"
+     ],
+     [
+      "Our"
+     ],
+     [
+      "him"
+     ]
+    ],
+    "why": "Перед существительным — his/our, после behind/of — him."
+   },
+   {
+    "id": "g03-048",
+    "t": "chat",
+    "lv": 3,
+    "tag": "mine",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Is the black stick yours?"
+     },
+     {
+      "who": "you",
+      "t": "No, it isn't ___. My stick is red."
+     },
+     {
+      "who": "Mia",
+      "t": "Is Benny with you?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, he is here with ___."
+     },
+     {
+      "who": "Mia",
+      "t": "Great! The black stick is for ___!"
+     }
+    ],
+    "a": [
+     [
+      "mine"
+     ],
+     [
+      "me"
+     ],
+     [
+      "him"
+     ]
+    ],
+    "why": "Без существительного — mine; после with/for — me, him."
+   },
+   {
+    "id": "g03-049",
+    "t": "speak",
+    "lv": 2,
+    "tag": "object",
+    "say": "Benny is my friend. I like him a lot.",
+    "ru": "Бенни — мой друг. Он мне очень нравится.",
+    "why": "После like — him."
+   },
+   {
+    "id": "g03-050",
+    "t": "speak",
+    "lv": 3,
+    "tag": "possessive",
+    "say": "Our coach is a beaver, and his name is Walt.",
+    "ru": "Наш тренер — бобр, и его зовут Уолт.",
+    "why": "«Наш» → our, «его» → his."
+   },
+   {
+    "id": "g03-051",
+    "t": "write",
+    "lv": 3,
+    "tag": "possessive",
+    "task_ru": "Напиши 3 предложения о друге или подруге: как зовут, какие у него вещи и как ты к нему относишься.",
+    "check_ru": [
+     "Перед глаголом — he/she?",
+     "После глагола и предлога — him/her?",
+     "Перед существительным — his/her?",
+     "Не перепутал his и her?"
+    ],
+    "model": "My friend is Max. His skates are black. I like him a lot.",
+    "why": "Кто — he, кого — him, чей — his."
+   }
+  ]
+ },
+ {
+  "id": "g04",
+  "stage": "A1",
+  "title_ru": "Множественное число",
+  "goal_ru": "Сказать «два мяча», «три коробки», «пять детей».",
+  "prereq": [],
+  "spotlight": [
+   "2d"
+  ],
+  "cards": [
+   {
+    "title_ru": "Обычно +s",
+    "body_ru": "Чтобы стало много, добавляем **-s**: a stick → sticks, a game → games, a friend → friends.",
+    "ex": [
+     [
+      "My skates are new.",
+      "Мои коньки новые."
+     ],
+     [
+      "I like dinosaurs.",
+      "Я люблю динозавров."
+     ]
+    ]
+   },
+   {
+    "title_ru": "-es и -ies",
+    "body_ru": "После **s, x, ch, sh** → **-es**: buses, boxes, matches, dishes. Согласная + **y** → **-ies**: city → cities. Но гласная + y → просто **-s**: boy → boys, day → days.",
+    "ex": [
+     [
+      "The boxes are heavy.",
+      "Коробки тяжёлые."
+     ],
+     [
+      "The cities are big.",
+      "Города большие."
+     ],
+     [
+      "The boys are here.",
+      "Мальчики здесь."
+     ]
+    ]
+   },
+   {
+    "title_ru": "-ves и особые слова",
+    "body_ru": "knife → **knives**, wolf → **wolves**, leaf → **leaves**. Особые: man → **men**, woman → **women**, child → **children**, foot → **feet**, tooth → **teeth**, mouse → **mice**, person → **people**.",
+    "ex": [
+     [
+      "The children are on the ice.",
+      "Дети на льду."
+     ],
+     [
+      "My teeth are white.",
+      "У меня белые зубы."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Без множественного",
+    "body_ru": "Некоторые слова не бывают во множественном: **information, advice, homework, music**. Без -s и с **is**.",
+    "ex": [
+     [
+      "The music is loud.",
+      "Музыка громкая."
+     ],
+     [
+      "Your advice is good.",
+      "Твой совет хороший."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "two childs",
+    "right": "two children",
+    "why_ru": "child → children, особое слово."
+   },
+   {
+    "wrong": "three boxs",
+    "right": "three boxes",
+    "why_ru": "После x добавляем -es."
+   },
+   {
+    "wrong": "two citys",
+    "right": "two cities",
+    "why_ru": "Согласная + y → -ies."
+   },
+   {
+    "wrong": "five foots",
+    "right": "five feet",
+    "why_ru": "foot → feet, особое слово."
+   },
+   {
+    "wrong": "The informations are useful.",
+    "right": "The information is useful.",
+    "why_ru": "information не бывает во множественном → is."
+   }
+  ],
+  "tags": {
+   "s": {
+    "ru": "обычное -s",
+    "tip_ru": "Большинство слов: просто +s. Когда говорим «вообще» (I like dinosaurs), тоже множественное."
+   },
+   "es": {
+    "ru": "-es после s, x, ch, sh",
+    "tip_ru": "Если слово кончается на s, x, ch, sh, добавь -es: bus → buses, box → boxes."
+   },
+   "ies": {
+    "ru": "-ies или -ys",
+    "tip_ru": "Перед y согласная → -ies (city → cities). Перед y гласная → просто -s (boy → boys)."
+   },
+   "ves": {
+    "ru": "f → -ves",
+    "tip_ru": "knife, wolf, leaf, shelf: f меняем на v и добавляем -es: knives, wolves."
+   },
+   "irregular": {
+    "ru": "children, feet, mice",
+    "tip_ru": "Эти слова надо запомнить: men, women, children, feet, teeth, mice, people."
+   },
+   "uncount": {
+    "ru": "information, advice",
+    "tip_ru": "information, advice, homework, music без -s и с is."
+   }
+  },
+  "items": [
+   {
+    "id": "g04-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "es",
+    "q": "one box — two ___",
+    "o": [
+     "boxes",
+     "boxs"
+    ],
+    "a": 0,
+    "why": "После x добавляем -es: boxes."
+   },
+   {
+    "id": "g04-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ies",
+    "q": "one city — two ___",
+    "o": [
+     "cities",
+     "citys"
+    ],
+    "a": 0,
+    "why": "Перед y согласная t → y меняем на -ies."
+   },
+   {
+    "id": "g04-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "one child — three ___",
+    "o": [
+     "children",
+     "childs"
+    ],
+    "a": 0,
+    "why": "Особое слово: child → children."
+   },
+   {
+    "id": "g04-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ves",
+    "q": "one knife — two ___",
+    "o": [
+     "knives",
+     "knifes"
+    ],
+    "a": 0,
+    "why": "knife: f меняем на v + -es → knives."
+   },
+   {
+    "id": "g04-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ies",
+    "q": "one boy — two ___",
+    "o": [
+     "boys",
+     "boies"
+    ],
+    "a": 0,
+    "why": "Перед y гласная o → просто +s: boys."
+   },
+   {
+    "id": "g04-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "My ___ are cold after the game.",
+    "o": [
+     "feet",
+     "foots"
+    ],
+    "a": 0,
+    "why": "Особое слово: foot → feet."
+   },
+   {
+    "id": "g04-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "Benny is scared of ___!",
+    "o": [
+     "mice",
+     "mouses"
+    ],
+    "a": 0,
+    "why": "Особое слово: mouse → mice."
+   },
+   {
+    "id": "g04-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "uncount",
+    "q": "The information ___ on the website.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "information — неисчисляемое, без -s и всегда с is."
+   },
+   {
+    "id": "g04-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s",
+    "q": "___ are so cool!",
+    "o": [
+     "Dinosaurs",
+     "Dinosaur"
+    ],
+    "a": 0,
+    "why": "Говорим о динозаврах вообще, и дальше are — значит dinosaurs."
+   },
+   {
+    "id": "g04-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "es",
+    "q": "one bus — two ___",
+    "o": [
+     "buses",
+     "bus",
+     "buss"
+    ],
+    "a": 0,
+    "why": "После s добавляем -es: buses."
+   },
+   {
+    "id": "g04-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Two ___ are at the door.",
+    "o": [
+     "women",
+     "womans",
+     "woman"
+    ],
+    "a": 0,
+    "why": "Особое слово: woman → women."
+   },
+   {
+    "id": "g04-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "ves",
+    "q": "one wolf — three ___",
+    "o": [
+     "wolves",
+     "wolfs",
+     "wolfes"
+    ],
+    "a": 0,
+    "why": "wolf: f меняем на v + -es → wolves."
+   },
+   {
+    "id": "g04-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "ies",
+    "q": "one party — two ___",
+    "o": [
+     "parties",
+     "partys",
+     "partyes"
+    ],
+    "a": 0,
+    "why": "Перед y согласная t → -ies: parties."
+   },
+   {
+    "id": "g04-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "uncount",
+    "q": "Your ___ is very good, Coach!",
+    "o": [
+     "advice",
+     "advices"
+    ],
+    "a": 0,
+    "why": "advice — неисчисляемое, -s не бывает."
+   },
+   {
+    "id": "g04-015",
+    "t": "listen",
+    "lv": 1,
+    "tag": "s",
+    "say": "The boys are on the ice.",
+    "o": [
+     "The boys are on the ice.",
+     "The boy is on the ice."
+    ],
+    "a": 0,
+    "why": "Слышно boys и are — мальчиков много."
+   },
+   {
+    "id": "g04-016",
+    "t": "listen",
+    "lv": 1,
+    "tag": "es",
+    "say": "The buses are full.",
+    "o": [
+     "The buses are full.",
+     "The bus is full."
+    ],
+    "a": 0,
+    "why": "Слышно buses с лишним слогом -es."
+   },
+   {
+    "id": "g04-017",
+    "t": "match",
+    "lv": 1,
+    "tag": "irregular",
+    "pairs": [
+     [
+      "man",
+      "men"
+     ],
+     [
+      "foot",
+      "feet"
+     ],
+     [
+      "mouse",
+      "mice"
+     ],
+     [
+      "person",
+      "people"
+     ]
+    ],
+    "why": "Эти слова меняются целиком, -s не добавляем."
+   },
+   {
+    "id": "g04-018",
+    "t": "match",
+    "lv": 2,
+    "tag": "ves",
+    "pairs": [
+     [
+      "box",
+      "boxes"
+     ],
+     [
+      "city",
+      "cities"
+     ],
+     [
+      "knife",
+      "knives"
+     ],
+     [
+      "day",
+      "days"
+     ]
+    ],
+    "why": "box получает -es, city → cities, knife → knives, а day — просто -s."
+   },
+   {
+    "id": "g04-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "es",
+    "q": "one match — two ___ (match)",
+    "a": [
+     "matches"
+    ],
+    "why": "После ch добавляем -es: matches."
+   },
+   {
+    "id": "g04-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Three ___ (child) are on the ice.",
+    "a": [
+     "children"
+    ],
+    "why": "child → children, без -s."
+   },
+   {
+    "id": "g04-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ies",
+    "q": "The ___ (story) in the comic are funny.",
+    "a": [
+     "stories"
+    ],
+    "why": "Перед y согласная r → -ies: stories."
+   },
+   {
+    "id": "g04-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ves",
+    "q": "The ___ (leaf) are red and yellow.",
+    "a": [
+     "leaves"
+    ],
+    "why": "В leaf f меняется на v и добавляется -es: leaves."
+   },
+   {
+    "id": "g04-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s",
+    "q": "Mia and Benny are my ___ (friend).",
+    "a": [
+     "friends"
+    ],
+    "why": "Обычное слово: friend + s."
+   },
+   {
+    "id": "g04-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Rex is a dinosaur with big ___ (tooth).",
+    "a": [
+     "teeth"
+    ],
+    "why": "Особое слово: tooth → teeth."
+   },
+   {
+    "id": "g04-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ies",
+    "q": "The ___ (toy) are in the box.",
+    "a": [
+     "toys"
+    ],
+    "why": "Перед y гласная o → просто +s: toys."
+   },
+   {
+    "id": "g04-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Five ___ (person) are at the door.",
+    "a": [
+     "people"
+    ],
+    "why": "person во множественном — people."
+   },
+   {
+    "id": "g04-027",
+    "t": "gap",
+    "lv": 2,
+    "tag": "es",
+    "q": "The ___ (dish) are in the kitchen.",
+    "a": [
+     "dishes"
+    ],
+    "why": "После sh добавляем -es: dishes."
+   },
+   {
+    "id": "g04-028",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ves",
+    "q": "The ___ (shelf) in my room are full of comics.",
+    "a": [
+     "shelves"
+    ],
+    "why": "В shelf f меняется на v и добавляется -es: shelves."
+   },
+   {
+    "id": "g04-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "The childs are at school.",
+    "bad": 1,
+    "fix": "children",
+    "why": "child → children, childs не бывает."
+   },
+   {
+    "id": "g04-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "es",
+    "s": "Two bus are near the rink.",
+    "bad": 1,
+    "fix": "buses",
+    "why": "Автобусов два → buses, после s — -es."
+   },
+   {
+    "id": "g04-031",
+    "t": "err",
+    "lv": 2,
+    "tag": "ies",
+    "s": "The citys in Canada are big.",
+    "bad": 1,
+    "fix": "cities",
+    "why": "Перед y согласная t → cities."
+   },
+   {
+    "id": "g04-032",
+    "t": "err",
+    "lv": 2,
+    "tag": "ves",
+    "s": "The knifes are in the kitchen.",
+    "bad": 1,
+    "fix": "knives",
+    "why": "Правильно knives: f меняется на v."
+   },
+   {
+    "id": "g04-033",
+    "t": "err",
+    "lv": 2,
+    "tag": "uncount",
+    "s": "The music are very loud.",
+    "bad": 2,
+    "fix": "is",
+    "why": "music — неисчисляемое → is."
+   },
+   {
+    "id": "g04-034",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "My foots are cold.",
+    "bad": 1,
+    "fix": "feet",
+    "why": "Особое слово: foot → feet."
+   },
+   {
+    "id": "g04-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "es",
+    "a": "The boxes are in the car.",
+    "ru": "Коробки в машине.",
+    "extra": [
+     "boxs"
+    ],
+    "why": "После x добавляем -es: boxes."
+   },
+   {
+    "id": "g04-036",
+    "t": "build",
+    "lv": 2,
+    "tag": "ves",
+    "a": "The wolves are in the forest.",
+    "ru": "Волки в лесу.",
+    "extra": [
+     "wolfs"
+    ],
+    "why": "Правильно wolves: f меняется на v."
+   },
+   {
+    "id": "g04-037",
+    "t": "build",
+    "lv": 2,
+    "tag": "s",
+    "a": "My new skates are black.",
+    "ru": "Мои новые коньки чёрные.",
+    "extra": [
+     "skate"
+    ],
+    "why": "Коньков два → skates."
+   },
+   {
+    "id": "g04-038",
+    "t": "build",
+    "lv": 2,
+    "tag": "irregular",
+    "a": "The children are in the park.",
+    "ru": "Дети в парке.",
+    "extra": [
+     "childs"
+    ],
+    "why": "Особое слово: child → children."
+   },
+   {
+    "id": "g04-039",
+    "t": "build",
+    "lv": 2,
+    "tag": "uncount",
+    "a": "The homework is easy today.",
+    "ru": "Домашка сегодня лёгкая.",
+    "extra": [
+     "are"
+    ],
+    "why": "homework — неисчисляемое → is."
+   },
+   {
+    "id": "g04-040",
+    "t": "tr",
+    "lv": 2,
+    "tag": "es",
+    "src": "The box is heavy.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "The boxes are heavy."
+    ],
+    "why": "box → boxes, и is → are."
+   },
+   {
+    "id": "g04-041",
+    "t": "tr",
+    "lv": 2,
+    "tag": "irregular",
+    "src": "The mouse is small.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "The mice are small."
+    ],
+    "why": "mouse → mice, и is → are."
+   },
+   {
+    "id": "g04-042",
+    "t": "tr",
+    "lv": 2,
+    "tag": "ies",
+    "src": "The city is beautiful.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "The cities are beautiful."
+    ],
+    "why": "city → cities, и is → are."
+   },
+   {
+    "id": "g04-043",
+    "t": "tr",
+    "lv": 3,
+    "tag": "ves",
+    "src": "The knife is sharp.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "The knives are sharp."
+    ],
+    "why": "knife → knives, и is → are."
+   },
+   {
+    "id": "g04-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "irregular",
+    "ru": "Пять детей на льду.",
+    "a": [
+     "Five children are on the ice.",
+     "There are five children on the ice."
+    ],
+    "why": "Особое слово: child → children."
+   },
+   {
+    "id": "g04-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "es",
+    "ru": "Автобусы жёлтые.",
+    "a": [
+     "The buses are yellow.",
+     "Buses are yellow."
+    ],
+    "why": "После s добавляем -es: buses."
+   },
+   {
+    "id": "g04-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "uncount",
+    "ru": "Музыка громкая.",
+    "a": [
+     "The music is loud."
+    ],
+    "why": "music — неисчисляемое → is."
+   },
+   {
+    "id": "g04-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "s",
+    "ru": "Мне нравятся динозавры.",
+    "a": [
+     "I like dinosaurs.",
+     "I love dinosaurs."
+    ],
+    "why": "О динозаврах вообще — dinosaurs, во множественном."
+   },
+   {
+    "id": "g04-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "irregular",
+    "ru": "Мыши на кухне!",
+    "a": [
+     "The mice are in the kitchen!",
+     "There are mice in the kitchen!"
+    ],
+    "why": "Особое слово: mouse → mice."
+   },
+   {
+    "id": "g04-049",
+    "t": "text",
+    "lv": 3,
+    "tag": "ves",
+    "title": "Benny at the store",
+    "text": "Benny is at the store with Mrs Parker. The ___ (shelf) are full of ___ (toy). The ___ (box) are big. Two ___ (child) are near the comics. Benny is happy, but his ___ (foot) are tired.",
+    "a": [
+     [
+      "shelves"
+     ],
+     [
+      "toys"
+     ],
+     [
+      "boxes"
+     ],
+     [
+      "children"
+     ],
+     [
+      "feet"
+     ]
+    ],
+    "why": "Особые формы: shelves, children, feet; toys — просто -s, boxes — с -es."
+   },
+   {
+    "id": "g04-050",
+    "t": "text",
+    "lv": 3,
+    "tag": "ies",
+    "title": "Hockey camp",
+    "text": "The camp is in the forest. The ___ (day) are long, and the ___ (night) are cold. Ten ___ (boy) and six ___ (girl) are in our group. The ___ (wolf) in the forest are loud!",
+    "a": [
+     [
+      "days"
+     ],
+     [
+      "nights"
+     ],
+     [
+      "boys"
+     ],
+     [
+      "girls"
+     ],
+     [
+      "wolves"
+     ]
+    ],
+    "why": "day/boy: гласная + y → просто -s; wolf → wolves."
+   },
+   {
+    "id": "g04-051",
+    "t": "chat",
+    "lv": 3,
+    "tag": "s",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Where are you?"
+     },
+     {
+      "who": "you",
+      "t": "At the store. The toy ___ (dinosaur) here are so cool!"
+     },
+     {
+      "who": "Mia",
+      "t": "Ha! Are the comics there too?"
+     },
+     {
+      "who": "you",
+      "t": "Yes! Two ___ (shelf) of comics!"
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! I'm hungry."
+     },
+     {
+      "who": "you",
+      "t": "The ___ (sandwich) here are good!"
+     }
+    ],
+    "a": [
+     [
+      "dinosaurs"
+     ],
+     [
+      "shelves"
+     ],
+     [
+      "sandwiches"
+     ]
+    ],
+    "why": "dinosaurs — просто -s, shelves — f на v, sandwiches — -es после ch."
+   },
+   {
+    "id": "g04-052",
+    "t": "speak",
+    "lv": 2,
+    "tag": "irregular",
+    "say": "Two men and three children are at the rink.",
+    "ru": "Двое мужчин и трое детей на катке.",
+    "why": "Особые слова: men и children."
+   },
+   {
+    "id": "g04-053",
+    "t": "speak",
+    "lv": 3,
+    "tag": "ves",
+    "say": "Wolves, foxes and mice are in the forest.",
+    "ru": "Волки, лисы и мыши — в лесу.",
+    "why": "Волки — wolves, лисы — foxes, мыши — mice."
+   },
+   {
+    "id": "g04-054",
+    "t": "write",
+    "lv": 3,
+    "tag": "s",
+    "task_ru": "Напиши 3 предложения про свои вещи во множественном числе: какие они.",
+    "check_ru": [
+     "Есть -s или -es на конце?",
+     "Особые слова: children, feet, teeth, people?",
+     "После множественного числа — are?"
+    ],
+    "model": "My skates are black. My gloves are old. The boxes in my room are full of comics.",
+    "why": "Много предметов → -s/-es и are."
+   }
+  ]
+ },
+ {
+  "id": "g05",
+  "stage": "A1",
+  "title_ru": "Артикли a / an / the и this, that, these, those",
+  "goal_ru": "Поставить a, an или the и показать «этот / тот».",
+  "prereq": [
+   "g04"
+  ],
+  "spotlight": [
+   "2b"
+  ],
+  "cards": [
+   {
+    "title_ru": "a или an — по звуку",
+    "body_ru": "**a** — перед согласным звуком: a puck, a goalie, **a uniform** («ю»). **an** — перед гласным звуком: an egg, an old game, **an hour** (h не читается). a/an — только с одним предметом.",
+    "ex": [
+     [
+      "Benny is a bear cub.",
+      "Бенни — медвежонок."
+     ],
+     [
+      "It's an egg.",
+      "Это яйцо."
+     ],
+     [
+      "The game is an hour long.",
+      "Игра длится час."
+     ]
+    ]
+   },
+   {
+    "title_ru": "the — тот самый",
+    "body_ru": "**the** — когда понятно, о каком предмете речь: о нём уже сказали или он один такой (the sun, the moon).",
+    "ex": [
+     [
+      "It's a new game. The game is cool!",
+      "Это новая игра. Игра классная!"
+     ],
+     [
+      "The moon is big tonight.",
+      "Луна сегодня большая."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Без артикля",
+    "body_ru": "Артикль **не нужен** перед именами (Mia, Canada), видами спорта (**play hockey**) и множественным числом «вообще» (I like dinosaurs).",
+    "ex": [
+     [
+      "Mia is from Canada.",
+      "Мия из Канады."
+     ],
+     [
+      "I play hockey.",
+      "Я играю в хоккей."
+     ],
+     [
+      "I like dinosaurs.",
+      "Я люблю динозавров."
+     ]
+    ]
+   },
+   {
+    "title_ru": "this, that, these, those",
+    "body_ru": "Рядом: **this** (один), **these** (много). Далеко: **that** (один), **those** (много).",
+    "ex": [
+     [
+      "This stick is mine.",
+      "Эта клюшка моя."
+     ],
+     [
+      "These skates are new.",
+      "Эти коньки новые."
+     ],
+     [
+      "Those boys are on my team.",
+      "Те мальчики из моей команды."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "It's a apple.",
+    "right": "It's an apple.",
+    "why_ru": "apple начинается с гласного звука → an."
+   },
+   {
+    "wrong": "It's an uniform.",
+    "right": "It's a uniform.",
+    "why_ru": "uniform начинается со звука «ю» → a."
+   },
+   {
+    "wrong": "I play the hockey.",
+    "right": "I play hockey.",
+    "why_ru": "Со спортом артикль не ставим."
+   },
+   {
+    "wrong": "This skates are new.",
+    "right": "These skates are new.",
+    "why_ru": "Предметов много → these."
+   },
+   {
+    "wrong": "The Mia is my friend.",
+    "right": "Mia is my friend.",
+    "why_ru": "Перед именем артикль не нужен."
+   }
+  ],
+  "tags": {
+   "a-an": {
+    "ru": "a или an",
+    "tip_ru": "Смотри на первый звук, а не на букву: a uniform, an hour. Гласный звук → an, согласный → a."
+   },
+   "the": {
+    "ru": "the",
+    "tip_ru": "the — когда ясно, о чём речь: уже говорили или он один такой (the sun, the moon)."
+   },
+   "zero": {
+    "ru": "без артикля",
+    "tip_ru": "Без артикля: имена, страны, спорт (play hockey), множественное «вообще» (I like dinosaurs)."
+   },
+   "this-that": {
+    "ru": "this / that",
+    "tip_ru": "Один предмет: рядом — this, далеко — that."
+   },
+   "these-those": {
+    "ru": "these / those",
+    "tip_ru": "Много предметов: рядом — these, далеко — those. После них — are и -s.",
+    "back": "g04"
+   }
+  },
+  "items": [
+   {
+    "id": "g05-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "a-an",
+    "q": "Benny is ___ bear cub.",
+    "o": [
+     "a",
+     "an"
+    ],
+    "a": 0,
+    "why": "bear начинается с согласного звука → a."
+   },
+   {
+    "id": "g05-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "a-an",
+    "q": "It's ___ egg.",
+    "o": [
+     "an",
+     "a"
+    ],
+    "a": 0,
+    "why": "egg начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "a-an",
+    "q": "The game is ___ hour long.",
+    "o": [
+     "an",
+     "a"
+    ],
+    "a": 0,
+    "why": "В hour h не читается, первый звук гласный → an."
+   },
+   {
+    "id": "g05-004",
+    "t": "mc",
+    "lv": 2,
+    "tag": "a-an",
+    "q": "It's ___ uniform for Rex.",
+    "o": [
+     "a",
+     "an"
+    ],
+    "a": 0,
+    "why": "uniform звучит как «юниформ» — первый звук согласный → a."
+   },
+   {
+    "id": "g05-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "the",
+    "q": "___ sun is hot today.",
+    "o": [
+     "The",
+     "A"
+    ],
+    "a": 0,
+    "why": "Солнце одно на всех → the."
+   },
+   {
+    "id": "g05-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "I play ___ every day.",
+    "o": [
+     "hockey",
+     "the hockey"
+    ],
+    "a": 0,
+    "why": "С видами спорта артикль не нужен: play hockey."
+   },
+   {
+    "id": "g05-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "these-those",
+    "q": "___ skates are mine.",
+    "o": [
+     "These",
+     "This"
+    ],
+    "a": 0,
+    "why": "Skates — много → these."
+   },
+   {
+    "id": "g05-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "this-that",
+    "q": "___ puck is black.",
+    "o": [
+     "This",
+     "These"
+    ],
+    "a": 0,
+    "why": "Шайба одна → this."
+   },
+   {
+    "id": "g05-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "these-those",
+    "q": "Look at ___ birds in the sky!",
+    "o": [
+     "those",
+     "that"
+    ],
+    "a": 0,
+    "why": "Птиц много и они далеко → those."
+   },
+   {
+    "id": "g05-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "this-that",
+    "q": "___ is my friend Mia.",
+    "o": [
+     "This",
+     "These"
+    ],
+    "a": 0,
+    "why": "Знакомим с одним человеком → This is…"
+   },
+   {
+    "id": "g05-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "a-an",
+    "q": "Rex is ___ T-rex with tiny arms.",
+    "o": [
+     "a",
+     "an",
+     "the"
+    ],
+    "a": 0,
+    "why": "T читается «ти» — согласный звук → a."
+   },
+   {
+    "id": "g05-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "the",
+    "q": "It's a new game. ___ game is so cool!",
+    "o": [
+     "The",
+     "A",
+     "—"
+    ],
+    "a": 0,
+    "why": "Об этой игре уже сказали → the."
+   },
+   {
+    "id": "g05-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "zero",
+    "q": "___ Mia is my friend.",
+    "o": [
+     "—",
+     "The",
+     "A"
+    ],
+    "a": 0,
+    "why": "Перед именем артикль не ставим."
+   },
+   {
+    "id": "g05-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "these-those",
+    "q": "Look at ___ cars over there!",
+    "o": [
+     "those",
+     "these",
+     "that"
+    ],
+    "a": 0,
+    "why": "Машин много, они там, далеко → those."
+   },
+   {
+    "id": "g05-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "the",
+    "q": "___ moon is big tonight.",
+    "o": [
+     "The",
+     "A",
+     "—"
+    ],
+    "a": 0,
+    "why": "Луна одна → the."
+   },
+   {
+    "id": "g05-016",
+    "t": "mc",
+    "lv": 2,
+    "tag": "zero",
+    "q": "Mia and Benny play ___ on Saturdays.",
+    "o": [
+     "hockey",
+     "the hockey",
+     "a hockey"
+    ],
+    "a": 0,
+    "why": "Спорт без артикля: play hockey."
+   },
+   {
+    "id": "g05-017",
+    "t": "listen",
+    "lv": 1,
+    "tag": "these-those",
+    "say": "These boxes are heavy.",
+    "o": [
+     "These boxes are heavy.",
+     "This box is heavy."
+    ],
+    "a": 0,
+    "why": "Слышно these и boxes — коробок много."
+   },
+   {
+    "id": "g05-018",
+    "t": "listen",
+    "lv": 1,
+    "tag": "a-an",
+    "say": "It's an egg.",
+    "o": [
+     "It's an egg.",
+     "It's a egg."
+    ],
+    "a": 0,
+    "why": "Перед egg звучит an."
+   },
+   {
+    "id": "g05-019",
+    "t": "match",
+    "lv": 1,
+    "tag": "this-that",
+    "pairs": [
+     [
+      "эта клюшка",
+      "this stick"
+     ],
+     [
+      "те коньки",
+      "those skates"
+     ],
+     [
+      "эти шайбы",
+      "these pucks"
+     ],
+     [
+      "та машина",
+      "that car"
+     ]
+    ],
+    "why": "Близко: this/these, далеко: that/those; один — this/that, много — these/those."
+   },
+   {
+    "id": "g05-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "a-an",
+    "q": "Benny is ___ clumsy bear. (a / an)",
+    "a": [
+     "a"
+    ],
+    "why": "clumsy начинается с согласного звука → a."
+   },
+   {
+    "id": "g05-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "a-an",
+    "q": "It's ___ old game, but it's fun. (a / an)",
+    "a": [
+     "an"
+    ],
+    "why": "old начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "the",
+    "q": "Look at ___ moon! (a / the)",
+    "a": [
+     "the"
+    ],
+    "why": "Луна одна → the."
+   },
+   {
+    "id": "g05-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "these-those",
+    "q": "___ (This / These) gloves are new.",
+    "a": [
+     "These"
+    ],
+    "why": "Gloves — много → these."
+   },
+   {
+    "id": "g05-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "this-that",
+    "q": "___ (That / Those) girl over there is Mia.",
+    "a": [
+     "That"
+    ],
+    "why": "Девочка одна и далеко → that."
+   },
+   {
+    "id": "g05-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "a-an",
+    "q": "Rex is ___ (a / an) amazing goalie.",
+    "a": [
+     "an"
+    ],
+    "why": "amazing начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "the",
+    "q": "Benny is in ___ (a / the) kitchen with Mrs Parker.",
+    "a": [
+     "the"
+    ],
+    "why": "Понятно, какая кухня — их, дома → the."
+   },
+   {
+    "id": "g05-027",
+    "t": "gap",
+    "lv": 2,
+    "tag": "this-that",
+    "q": "___ (This / These) is my new phone.",
+    "a": [
+     "This"
+    ],
+    "why": "Телефон один → this."
+   },
+   {
+    "id": "g05-028",
+    "t": "gap",
+    "lv": 2,
+    "tag": "these-those",
+    "q": "___ (That / Those) dinosaurs in the museum are huge!",
+    "a": [
+     "Those"
+    ],
+    "why": "Динозавров много, они там → those."
+   },
+   {
+    "id": "g05-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "a-an",
+    "s": "It's a egg for Rex.",
+    "bad": 1,
+    "fix": "an",
+    "why": "egg начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "these-those",
+    "s": "This skates are new.",
+    "bad": 0,
+    "fix": "These",
+    "why": "Skates — много → these."
+   },
+   {
+    "id": "g05-031",
+    "t": "err",
+    "lv": 2,
+    "tag": "a-an",
+    "s": "Coach Walt is an beaver.",
+    "bad": 3,
+    "fix": "a",
+    "why": "beaver начинается с согласного звука → a."
+   },
+   {
+    "id": "g05-032",
+    "t": "err",
+    "lv": 2,
+    "tag": "this-that",
+    "s": "Those car is very fast.",
+    "bad": 0,
+    "fix": "That",
+    "why": "Машина одна → that."
+   },
+   {
+    "id": "g05-033",
+    "t": "err",
+    "lv": 2,
+    "tag": "the",
+    "s": "A sun is very hot today.",
+    "bad": 0,
+    "fix": "The",
+    "why": "Солнце одно → the."
+   },
+   {
+    "id": "g05-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "a-an",
+    "a": "This is an old comic.",
+    "ru": "Это старый комикс.",
+    "extra": [
+     "a"
+    ],
+    "why": "old начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "these-those",
+    "a": "These pucks are for the game.",
+    "ru": "Эти шайбы для игры.",
+    "extra": [
+     "This"
+    ],
+    "why": "Pucks — много → these."
+   },
+   {
+    "id": "g05-036",
+    "t": "build",
+    "lv": 2,
+    "tag": "this-that",
+    "a": "That bear is Benny.",
+    "ru": "Тот медведь — Бенни.",
+    "extra": [
+     "Those"
+    ],
+    "why": "Медведь один и далеко → that."
+   },
+   {
+    "id": "g05-037",
+    "t": "build",
+    "lv": 2,
+    "tag": "zero",
+    "a": "I like hockey and music.",
+    "ru": "Я люблю хоккей и музыку.",
+    "extra": [
+     "the"
+    ],
+    "why": "Хоккей и музыка вообще — без артикля."
+   },
+   {
+    "id": "g05-038",
+    "t": "build",
+    "lv": 2,
+    "tag": "zero",
+    "a": "Mia is from Canada.",
+    "ru": "Мия из Канады.",
+    "extra": [
+     "the"
+    ],
+    "why": "С именами и странами артикль не нужен."
+   },
+   {
+    "id": "g05-039",
+    "t": "build",
+    "lv": 2,
+    "tag": "the",
+    "a": "The moon is very bright tonight.",
+    "ru": "Луна сегодня очень яркая.",
+    "extra": [
+     "A"
+    ],
+    "why": "Луна одна → the."
+   },
+   {
+    "id": "g05-040",
+    "t": "tr",
+    "lv": 2,
+    "tag": "these-those",
+    "src": "This stick is new.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "These sticks are new."
+    ],
+    "why": "Во множественном: these, sticks и are."
+   },
+   {
+    "id": "g05-041",
+    "t": "tr",
+    "lv": 2,
+    "tag": "these-those",
+    "src": "That boy is on my team.",
+    "task_ru": "Сделай множественное число.",
+    "a": [
+     "Those boys are on my team.",
+     "Those boys are in my team."
+    ],
+    "why": "Во множественном: those, boys и are."
+   },
+   {
+    "id": "g05-042",
+    "t": "tr",
+    "lv": 2,
+    "tag": "a-an",
+    "src": "It's a banana.",
+    "task_ru": "Замени banana на apple.",
+    "a": [
+     "It's an apple.",
+     "It is an apple."
+    ],
+    "why": "apple начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-043",
+    "t": "tr",
+    "lv": 3,
+    "tag": "this-that",
+    "src": "These cars are cool.",
+    "task_ru": "Сделай единственное число.",
+    "a": [
+     "This car is cool."
+    ],
+    "why": "В единственном: this, car и is."
+   },
+   {
+    "id": "g05-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "a-an",
+    "ru": "Это старый автобус.",
+    "a": [
+     "It's an old bus.",
+     "It is an old bus.",
+     "This is an old bus.",
+     "That is an old bus.",
+     "That's an old bus."
+    ],
+    "why": "old начинается с гласного звука → an."
+   },
+   {
+    "id": "g05-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "zero",
+    "ru": "Я люблю хоккей.",
+    "a": [
+     "I love hockey.",
+     "I like hockey."
+    ],
+    "why": "Спорт без артикля."
+   },
+   {
+    "id": "g05-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "these-those",
+    "ru": "Эти перчатки мои.",
+    "a": [
+     "These gloves are mine."
+    ],
+    "why": "Перчаток много и они рядом → these."
+   },
+   {
+    "id": "g05-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "this-that",
+    "ru": "Тот мальчик — мой брат.",
+    "a": [
+     "That boy is my brother."
+    ],
+    "why": "Мальчик один и далеко → that."
+   },
+   {
+    "id": "g05-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "a-an",
+    "ru": "Мия — хоккеистка.",
+    "a": [
+     "Mia is a hockey player."
+    ],
+    "why": "Перед именем артикля нет, перед профессией — a."
+   },
+   {
+    "id": "g05-049",
+    "t": "text",
+    "lv": 3,
+    "tag": "this-that",
+    "title": "At the museum",
+    "text": "Benny and Mia are at the museum today. ___ (This / These) dinosaurs are huge! ___ (That / Those) one is ___ (a / an) T-rex. Its arms are tiny. It is ___ (a / an) old skeleton. ___ (A / The) museum is very cool!",
+    "a": [
+     [
+      "These"
+     ],
+     [
+      "That"
+     ],
+     [
+      "a"
+     ],
+     [
+      "an"
+     ],
+     [
+      "The"
+     ]
+    ],
+    "why": "Много → these, один далеко → that; a/an по звуку; музей уже знаем → the."
+   },
+   {
+    "id": "g05-050",
+    "t": "text",
+    "lv": 3,
+    "tag": "a-an",
+    "title": "Hockey practice",
+    "text": "Mia is at the rink with Benny. Benny is ___ (a / an) new player on the team. Coach Walt is ___ (a / an) beaver with ___ (a / an) huge tail. Today is ___ (a / an) important day. It's ___ (a / the) first game of the season!",
+    "a": [
+     [
+      "a"
+     ],
+     [
+      "a"
+     ],
+     [
+      "a"
+     ],
+     [
+      "an"
+     ],
+     [
+      "the"
+     ]
+    ],
+    "why": "a перед согласным звуком, an перед гласным; «первая игра» → the."
+   },
+   {
+    "id": "g05-051",
+    "t": "chat",
+    "lv": 3,
+    "tag": "these-those",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Where are you?"
+     },
+     {
+      "who": "you",
+      "t": "At the store. I'm in front of ___ (a / an) huge shelf of comics!"
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! Are they new?"
+     },
+     {
+      "who": "you",
+      "t": "Yes! ___ (This / These) comics are new, and ___ (that / those) one is about dinosaurs."
+     },
+     {
+      "who": "Mia",
+      "t": "Ha! Is it ___ (a / an) gift for Rex?"
+     }
+    ],
+    "a": [
+     [
+      "a"
+     ],
+     [
+      "These"
+     ],
+     [
+      "that"
+     ],
+     [
+      "a"
+     ]
+    ],
+    "why": "huge и gift — согласный звук → a; комиксов много → these; один → that."
+   },
+   {
+    "id": "g05-052",
+    "t": "speak",
+    "lv": 2,
+    "tag": "this-that",
+    "say": "This is an old puck, and that is a new one.",
+    "ru": "Это старая шайба, а то — новая.",
+    "why": "Рядом — this, далеко — that; an old, a new."
+   },
+   {
+    "id": "g05-053",
+    "t": "speak",
+    "lv": 3,
+    "tag": "a-an",
+    "say": "We play hockey for an hour every day.",
+    "ru": "Мы играем в хоккей час каждый день.",
+    "why": "Спорт без артикля, а перед hour — an."
+   },
+   {
+    "id": "g05-054",
+    "t": "write",
+    "lv": 3,
+    "tag": "this-that",
+    "task_ru": "Напиши 3 предложения про вещи вокруг тебя: что рядом (this/these) и что далеко (that/those).",
+    "check_ru": [
+     "this/that — с одним предметом, these/those — с несколькими?",
+     "a перед согласным звуком, an перед гласным?",
+     "Нет артикля перед именами и спортом?"
+    ],
+    "model": "This is my new phone. These headphones are black. That poster is an old one.",
+    "why": "Один — this/that, много — these/those; a/an по звуку."
+   }
+  ]
+ }
+]

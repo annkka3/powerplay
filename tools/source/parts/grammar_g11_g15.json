@@ -1,0 +1,3980 @@
+[
+ {
+  "id": "g11",
+  "stage": "A1",
+  "title_ru": "Present Simple: вопросы с do / does",
+  "goal_ru": "Спросить: Does he play Brawl Stars? — Yes, he does.",
+  "prereq": [
+   "g10"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Вопрос начинается с Do / Does",
+    "body_ru": "В русском вопрос — это просто интонация. В английском нужен помощник впереди: **Do** для I, you, we, they; **Does** для he, she, it.",
+    "ex": [
+     [
+      "Do you play Roblox?",
+      "Ты играешь в Roblox?"
+     ],
+     [
+      "Does Mia play hockey?",
+      "Мия играет в хоккей?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "После does глагол без -s",
+    "body_ru": "**Does** уже показывает he/she/it, поэтому глагол остаётся в начальной форме: Does he **play**? — не plays.",
+    "ex": [
+     [
+      "Does Rex eat pancakes?",
+      "Рекс ест блины?"
+     ],
+     [
+      "Does your dad watch YouTube?",
+      "Твой папа смотрит YouTube?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Короткие ответы",
+    "body_ru": "Отвечаем тем же помощником, глагол не повторяем: **Yes, I do. / No, I don't. Yes, she does. / No, she doesn't.**",
+    "ex": [
+     [
+      "Do you like phonk? — Yes, I do.",
+      "Тебе нравится фонк? — Да."
+     ],
+     [
+      "Does Benny like math? — No, he doesn't.",
+      "Бенни любит математику? — Нет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Where, what, when + do / does",
+    "body_ru": "Вопросительное слово ставим в начало, дальше обычный вопрос: **Where do** you live? **What does** he like?",
+    "ex": [
+     [
+      "Where do you live?",
+      "Где ты живёшь?"
+     ],
+     [
+      "What does Rex want?",
+      "Чего хочет Рекс?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Does he plays Brawl Stars?",
+    "right": "Does he play Brawl Stars?",
+    "why_ru": "После does глагол без -s."
+   },
+   {
+    "wrong": "You like hockey?",
+    "right": "Do you like hockey?",
+    "why_ru": "Одной интонации мало: в вопросе нужен do впереди."
+   },
+   {
+    "wrong": "Do she like phonk?",
+    "right": "Does she like phonk?",
+    "why_ru": "С she, he, it — does."
+   },
+   {
+    "wrong": "Are you like comics?",
+    "right": "Do you like comics?",
+    "why_ru": "Like — обычный глагол, поэтому do, а не are."
+   },
+   {
+    "wrong": "Where you live?",
+    "right": "Where do you live?",
+    "why_ru": "После where тоже нужен do."
+   }
+  ],
+  "tags": {
+   "do-does": {
+    "ru": "Do или Does",
+    "tip_ru": "Does — для he, she, it и одного человека (Mia, my dad). Do — для I, you, we, they и нескольких (my friends).",
+    "back": "g10"
+   },
+   "base-verb": {
+    "ru": "после does — глагол без -s",
+    "tip_ru": "Окончание -s уже «съел» does: Does he play? Глагол остаётся в начальной форме.",
+    "back": "g10"
+   },
+   "word-order": {
+    "ru": "порядок слов в вопросе",
+    "tip_ru": "Схема: Do/Does + кто + глагол + остальное. Если глагол — действие (like, play), вопрос с do, а не с is/are.",
+    "back": "g02"
+   },
+   "short-answer": {
+    "ru": "короткие ответы",
+    "tip_ru": "Отвечаем тем же помощником: Yes, I do. / No, she doesn't. Глагол в коротком ответе не повторяем."
+   },
+   "wh-do": {
+    "ru": "вопросы с what, where, when",
+    "tip_ru": "Вопросительное слово — в самое начало, дальше обычный вопрос: Where do you live? What does he like?"
+   }
+  },
+  "items": [
+   {
+    "id": "g11-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "do-does",
+    "q": "___ you play Roblox?",
+    "o": [
+     "Do",
+     "Does"
+    ],
+    "a": 0,
+    "why": "С you — Do: Do you play…?"
+   },
+   {
+    "id": "g11-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "do-does",
+    "q": "___ Mia have a new stick?",
+    "o": [
+     "Does",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Mia — это she, поэтому Does."
+   },
+   {
+    "id": "g11-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "Does Rex ___ pancakes?",
+    "o": [
+     "like",
+     "likes"
+    ],
+    "a": 0,
+    "why": "После does глагол без -s: like."
+   },
+   {
+    "id": "g11-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "Does Coach Walt ___ fish for lunch?",
+    "o": [
+     "eat",
+     "eats"
+    ],
+    "a": 0,
+    "why": "Does уже взял -s на себя, поэтому eat."
+   },
+   {
+    "id": "g11-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short-answer",
+    "q": "Do you like comics? — Yes, I ___.",
+    "o": [
+     "do",
+     "like"
+    ],
+    "a": 0,
+    "why": "В коротком ответе повторяем do, а не глагол."
+   },
+   {
+    "id": "g11-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short-answer",
+    "q": "Does Benny live in Canada? — Yes, he ___.",
+    "o": [
+     "does",
+     "do"
+    ],
+    "a": 0,
+    "why": "Вопрос с does — и ответ Yes, he does."
+   },
+   {
+    "id": "g11-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "word-order",
+    "q": "Выбери правильный вопрос.",
+    "o": [
+     "Do you speak English?",
+     "You speak English?"
+    ],
+    "a": 0,
+    "why": "Английский вопрос начинается с помощника Do."
+   },
+   {
+    "id": "g11-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "word-order",
+    "q": "___ Rex a goalie?",
+    "o": [
+     "Is",
+     "Does"
+    ],
+    "a": 0,
+    "why": "Здесь нет действия, Рекс «является» вратарём, поэтому Is."
+   },
+   {
+    "id": "g11-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "wh-do",
+    "q": "Where ___ you live?",
+    "o": [
+     "do",
+     "does"
+    ],
+    "a": 0,
+    "why": "С you — do: Where do you live?"
+   },
+   {
+    "id": "g11-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "base-verb",
+    "say": "Does he play hockey?",
+    "o": [
+     "Does he play hockey?",
+     "Does he plays hockey?"
+    ],
+    "a": 0,
+    "why": "После does — play без -s."
+   },
+   {
+    "id": "g11-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "do-does",
+    "say": "Do they live in Canada?",
+    "o": [
+     "Do they live in Canada?",
+     "Does they live in Canada?"
+    ],
+    "a": 0,
+    "why": "They — значит Do."
+   },
+   {
+    "id": "g11-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "short-answer",
+    "say": "No, she doesn't.",
+    "o": [
+     "No, she doesn't.",
+     "No, she don't."
+    ],
+    "a": 0,
+    "why": "С she в ответе doesn't."
+   },
+   {
+    "id": "g11-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "short-answer",
+    "pairs": [
+     [
+      "Do you like hockey?",
+      "Yes, I do."
+     ],
+     [
+      "Does Mia play hockey?",
+      "Yes, she does."
+     ],
+     [
+      "Do Rex and Benny skate?",
+      "Yes, they do."
+     ],
+     [
+      "Does Coach Walt like fish?",
+      "Yes, he does."
+     ]
+    ],
+    "why": "Ответ повторяет помощник из вопроса: do или does."
+   },
+   {
+    "id": "g11-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "wh-do",
+    "q": "What ___ Mia watch on YouTube?",
+    "o": [
+     "does",
+     "do",
+     "is"
+    ],
+    "a": 0,
+    "why": "Mia — это she, и watch — действие, поэтому does."
+   },
+   {
+    "id": "g11-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "do-does",
+    "q": "___ your parents like phonk?",
+    "o": [
+     "Do",
+     "Does",
+     "Are"
+    ],
+    "a": 0,
+    "why": "Parents — это they, а like — действие, поэтому Do."
+   },
+   {
+    "id": "g11-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "do-does",
+    "q": "___ (do / does) Rex play goalie?",
+    "a": [
+     "Does"
+    ],
+    "why": "Rex — это he, поэтому Does."
+   },
+   {
+    "id": "g11-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "do-does",
+    "q": "___ (do / does) you and Benny like dinosaurs?",
+    "a": [
+     "Do"
+    ],
+    "why": "You and Benny — это вы, поэтому Do."
+   },
+   {
+    "id": "g11-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Does Mia ___ (watch) hockey on YouTube?",
+    "a": [
+     "watch"
+    ],
+    "why": "После does — watch без -es."
+   },
+   {
+    "id": "g11-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Does your sister ___ (study) English?",
+    "a": [
+     "study"
+    ],
+    "why": "После does — study, а не studies."
+   },
+   {
+    "id": "g11-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short-answer",
+    "q": "Do you play Brawl Stars? — No, I ___.",
+    "a": [
+     "don't"
+    ],
+    "why": "Отрицательный короткий ответ с I: No, I don't."
+   },
+   {
+    "id": "g11-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short-answer",
+    "q": "Does Rex have long arms? — No, he ___.",
+    "a": [
+     "doesn't"
+    ],
+    "why": "С he — doesn't, ведь лапки у Рекса крошечные!"
+   },
+   {
+    "id": "g11-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh-do",
+    "q": "Where ___ (do / does) Benny live?",
+    "a": [
+     "does"
+    ],
+    "why": "Benny — это he, поэтому Where does…?"
+   },
+   {
+    "id": "g11-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh-do",
+    "q": "What time ___ (do / does) the game start?",
+    "a": [
+     "does"
+    ],
+    "why": "The game — это it, поэтому does."
+   },
+   {
+    "id": "g11-024",
+    "t": "build",
+    "lv": 2,
+    "tag": "base-verb",
+    "a": "Does your brother play Roblox?",
+    "ru": "Твой брат играет в Roblox?",
+    "extra": [
+     "plays"
+    ],
+    "why": "После does — play без -s."
+   },
+   {
+    "id": "g11-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "do-does",
+    "a": "Do you make music?",
+    "ru": "Ты делаешь музыку?",
+    "extra": [
+     "does"
+    ],
+    "why": "С you — Do."
+   },
+   {
+    "id": "g11-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh-do",
+    "a": "Where does Coach Walt live?",
+    "ru": "Где живёт тренер Уолт?",
+    "extra": [
+     "do"
+    ],
+    "why": "Coach Walt — это he, поэтому Where does…, а live без -s."
+   },
+   {
+    "id": "g11-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "word-order",
+    "a": "Does Rex like comics?",
+    "ru": "Рекс любит комиксы?",
+    "extra": [
+     "is"
+    ],
+    "why": "Like — действие, вопрос строим с Does, а не с is."
+   },
+   {
+    "id": "g11-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh-do",
+    "a": "What music do you like?",
+    "ru": "Какую музыку ты любишь?",
+    "extra": [
+     "does"
+    ],
+    "why": "С you — do: What music do you like?"
+   },
+   {
+    "id": "g11-029",
+    "t": "tr",
+    "lv": 2,
+    "tag": "base-verb",
+    "src": "Mia plays hockey.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does Mia play hockey?"
+    ],
+    "why": "Does впереди, а plays теряет -s: play."
+   },
+   {
+    "id": "g11-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "word-order",
+    "src": "They live in Toronto.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Do they live in Toronto?"
+    ],
+    "why": "Do ставим перед they, остальное не меняется."
+   },
+   {
+    "id": "g11-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "do-does",
+    "src": "Benny likes honey.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does Benny like honey?"
+    ],
+    "why": "Benny — это he: Does Benny like…?"
+   },
+   {
+    "id": "g11-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "base-verb",
+    "src": "He watches YouTube every day.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does he watch YouTube every day?"
+    ],
+    "why": "Does забирает -es: watches → watch."
+   },
+   {
+    "id": "g11-033",
+    "t": "err",
+    "lv": 2,
+    "tag": "base-verb",
+    "s": "Does Benny likes hockey?",
+    "bad": 2,
+    "fix": "like",
+    "why": "После does глагол без -s: like."
+   },
+   {
+    "id": "g11-034",
+    "t": "err",
+    "lv": 2,
+    "tag": "do-does",
+    "s": "Do your dad make pancakes?",
+    "bad": 0,
+    "fix": "Does",
+    "why": "Your dad — это he, поэтому Does."
+   },
+   {
+    "id": "g11-035",
+    "t": "err",
+    "lv": 2,
+    "tag": "wh-do",
+    "s": "Where does you live?",
+    "bad": 1,
+    "fix": "do",
+    "why": "С you — do: Where do you live?"
+   },
+   {
+    "id": "g11-036",
+    "t": "err",
+    "lv": 3,
+    "tag": "word-order",
+    "s": "Are you like electronic folk?",
+    "bad": 0,
+    "fix": "Do",
+    "why": "Like — обычный глагол, вопрос с Do, а не с Are."
+   },
+   {
+    "id": "g11-037",
+    "t": "err",
+    "lv": 3,
+    "tag": "base-verb",
+    "s": "What does Rex wants for his birthday?",
+    "bad": 3,
+    "fix": "want",
+    "why": "После does — want без -s."
+   },
+   {
+    "id": "g11-038",
+    "t": "err",
+    "lv": 3,
+    "tag": "wh-do",
+    "s": "What do Mia like on YouTube?",
+    "bad": 1,
+    "fix": "does",
+    "why": "Mia — это she, поэтому What does…?"
+   },
+   {
+    "id": "g11-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "do-does",
+    "title": "Questions for Benny",
+    "text": "Benny has new friends in Canada. They ask him questions. ___ (do / does) you like Canada? ___ (do / does) your family have a dog? What ___ (do / does) you eat for breakfast? Where ___ (do / does) Mia live? ___ (do / does) Rex play goalie? Benny answers: Yes. No. Honey. Next door. Yes, he ___!",
+    "a": [
+     [
+      "Do"
+     ],
+     [
+      "Does"
+     ],
+     [
+      "do"
+     ],
+     [
+      "does"
+     ],
+     [
+      "Does"
+     ],
+     [
+      "does"
+     ]
+    ],
+    "why": "You — do; your family, Mia, Rex — это he/she/it, поэтому does."
+   },
+   {
+    "id": "g11-040",
+    "t": "text",
+    "lv": 3,
+    "tag": "base-verb",
+    "title": "Rex quiz",
+    "text": "Does Rex ___ (have) tiny arms? Yes, he does. Does he ___ (catch) the puck with his tail? Yes, he does! Does he ___ (eat) ten pancakes for breakfast? Yes, he does. Does he ___ (wash) the dishes? No, he ___. His arms are tiny!",
+    "a": [
+     [
+      "have"
+     ],
+     [
+      "catch"
+     ],
+     [
+      "eat"
+     ],
+     [
+      "wash"
+     ],
+     [
+      "doesn't"
+     ]
+    ],
+    "why": "После does глагол всегда в начальной форме, а ответ «нет» — No, he doesn't."
+   },
+   {
+    "id": "g11-041",
+    "t": "chat",
+    "lv": 3,
+    "tag": "short-answer",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hey! Do you play Brawl Stars?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___. It's my favorite game."
+     },
+     {
+      "who": "Mia",
+      "t": "Does your brother play too?"
+     },
+     {
+      "who": "you",
+      "t": "No, he ___. He plays Roblox."
+     },
+     {
+      "who": "you",
+      "t": "___ you play Roblox, Mia?"
+     },
+     {
+      "who": "Mia",
+      "t": "No, I don't. I play hockey!"
+     }
+    ],
+    "a": [
+     [
+      "do"
+     ],
+     [
+      "doesn't"
+     ],
+     [
+      "Do"
+     ]
+    ],
+    "why": "Коротко отвечаем через do/doesn't, а вопрос к Мие (you) начинаем с Do."
+   },
+   {
+    "id": "g11-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "word-order",
+    "ru": "Ты любишь динозавров?",
+    "a": [
+     "Do you like dinosaurs?",
+     "Do you love dinosaurs?"
+    ],
+    "why": "Вопрос начинаем с Do: Do you like…?"
+   },
+   {
+    "id": "g11-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "do-does",
+    "ru": "Мия играет в Brawl Stars?",
+    "a": [
+     "Does Mia play Brawl Stars?"
+    ],
+    "why": "Mia — это she: Does Mia play…?"
+   },
+   {
+    "id": "g11-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "wh-do",
+    "ru": "Где живёт Бенни?",
+    "a": [
+     "Where does Benny live?"
+    ],
+    "why": "Бенни — это he: Where does Benny live?"
+   },
+   {
+    "id": "g11-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "wh-do",
+    "ru": "Что Рекс ест на завтрак?",
+    "a": [
+     "What does Rex eat for breakfast?",
+     "What does Rex have for breakfast?"
+    ],
+    "why": "После does глагол без -s: What does Rex eat?"
+   },
+   {
+    "id": "g11-046",
+    "t": "speak",
+    "lv": 3,
+    "tag": "base-verb",
+    "say": "Does your best friend play hockey?",
+    "ru": "Твой лучший друг играет в хоккей?",
+    "why": "Друг — это he, поэтому Does, а play без -s."
+   },
+   {
+    "id": "g11-047",
+    "t": "write",
+    "lv": 3,
+    "tag": "word-order",
+    "task_ru": "Напиши 3 вопроса новому другу из Канады: где он живёт, во что играет, какую музыку любит.",
+    "check_ru": [
+     "Вопрос начинается с Do/Does или со слова where/what?",
+     "После does глагол без -s?",
+     "В конце стоит знак вопроса?"
+    ],
+    "model": "Where do you live? Do you play hockey? What music do you like?",
+    "why": "Схема вопроса: (where/what) + do/does + кто + глагол."
+   }
+  ]
+ },
+ {
+  "id": "g12",
+  "stage": "A1",
+  "title_ru": "Как часто: always, usually, never",
+  "goal_ru": "Сказать, как часто: I usually train after school.",
+  "prereq": [
+   "g09",
+   "g02"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Шкала частоты",
+    "body_ru": "**always** — всегда (100%), **usually** — обычно, **often** — часто, **sometimes** — иногда, **never** — никогда (0%).",
+    "ex": [
+     [
+      "I always do my homework.",
+      "Я всегда делаю домашку."
+     ],
+     [
+      "Benny often falls on the ice.",
+      "Бенни часто падает на льду."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Место — перед глаголом",
+    "body_ru": "Наречие частоты ставим **перед основным глаголом**: I **usually train**. С he/she -s у глагола остаётся: She **often plays**.",
+    "ex": [
+     [
+      "I usually train after school.",
+      "Я обычно тренируюсь после школы."
+     ],
+     [
+      "Mia often watches hockey videos.",
+      "Мия часто смотрит хоккейные видео."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Но после am / is / are",
+    "body_ru": "Если глагол — **am, is, are**, наречие идёт **после** него: He **is always** hungry. А **never** уже значит «никогда не» — второе not не нужно.",
+    "ex": [
+     [
+      "Rex is always hungry.",
+      "Рекс всегда голодный."
+     ],
+     [
+      "I'm never late for practice.",
+      "Я никогда не опаздываю на тренировку."
+     ]
+    ]
+   },
+   {
+    "title_ru": "How often? — Как часто?",
+    "body_ru": "**How often** do you…? Ответ: every day, **once** a week (раз в неделю), **twice** a week (два раза), three times a week. Эти слова ставим в конец.",
+    "ex": [
+     [
+      "How often do you play Roblox? — Twice a week.",
+      "Как часто ты играешь в Roblox? — Два раза в неделю."
+     ],
+     [
+      "We train four times a week.",
+      "Мы тренируемся четыре раза в неделю."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I train usually after school.",
+    "right": "I usually train after school.",
+    "why_ru": "Наречие частоты — перед глаголом."
+   },
+   {
+    "wrong": "He always is hungry.",
+    "right": "He is always hungry.",
+    "why_ru": "С is наречие идёт после него."
+   },
+   {
+    "wrong": "I don't never eat fish.",
+    "right": "I never eat fish.",
+    "why_ru": "Never уже отрицание, not не нужен."
+   },
+   {
+    "wrong": "She sometimes play Roblox.",
+    "right": "She sometimes plays Roblox.",
+    "why_ru": "Наречие не отменяет -s у глагола."
+   },
+   {
+    "wrong": "How often you train?",
+    "right": "How often do you train?",
+    "why_ru": "После how often нужен do."
+   }
+  ],
+  "tags": {
+   "meaning": {
+    "ru": "always / usually / often / sometimes / never",
+    "tip_ru": "always — 100%, usually — почти всегда, often — часто, sometimes — иногда, never — 0%. Подумай, сколько раз это бывает."
+   },
+   "before-verb": {
+    "ru": "место: перед глаголом",
+    "tip_ru": "Наречие частоты стоит перед основным глаголом: I usually train, she often plays. Не в конце, как бывает в русском.",
+    "back": "g09"
+   },
+   "after-be": {
+    "ru": "место: после am / is / are",
+    "tip_ru": "С am, is, are наоборот — после: He is always hungry. I'm never late.",
+    "back": "g01"
+   },
+   "never": {
+    "ru": "never без not",
+    "tip_ru": "Never уже значит «никогда не». Второе not не нужно: I never eat fish. С he/she глагол всё равно с -s.",
+    "back": "g10"
+   },
+   "how-often": {
+    "ru": "How often? once / twice a week",
+    "tip_ru": "How often do you…? — Как часто? Ответ: every day, once a week (раз), twice a week (два раза), three times a week."
+   }
+  },
+  "items": [
+   {
+    "id": "g12-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "meaning",
+    "q": "Rex is ___ hungry. He eats all day!",
+    "o": [
+     "always",
+     "never"
+    ],
+    "a": 0,
+    "why": "Ест весь день — значит голодный всегда: always."
+   },
+   {
+    "id": "g12-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "meaning",
+    "q": "Benny is a new skater. He ___ falls on the ice.",
+    "o": [
+     "often",
+     "never"
+    ],
+    "a": 0,
+    "why": "Новичок падает часто: often."
+   },
+   {
+    "id": "g12-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "before-verb",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "I usually train after school.",
+     "I train usually after school."
+    ],
+    "a": 0,
+    "why": "Usually ставим перед глаголом train."
+   },
+   {
+    "id": "g12-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "after-be",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "Mia is always happy on the ice.",
+     "Mia always is happy on the ice."
+    ],
+    "a": 0,
+    "why": "С is наречие идёт после: is always."
+   },
+   {
+    "id": "g12-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "meaning",
+    "q": "Coach Walt ___ eats pizza. He only eats fish!",
+    "o": [
+     "never",
+     "always"
+    ],
+    "a": 0,
+    "why": "Он ест только рыбу — значит пиццу никогда: never."
+   },
+   {
+    "id": "g12-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "never",
+    "q": "I ___ eat broccoli. I hate it!",
+    "o": [
+     "never",
+     "don't never"
+    ],
+    "a": 0,
+    "why": "Never уже значит «никогда не», второе not не нужно."
+   },
+   {
+    "id": "g12-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "how-often",
+    "q": "How ___ do you go to the rink?",
+    "o": [
+     "often",
+     "many"
+    ],
+    "a": 0,
+    "why": "«Как часто» — How often."
+   },
+   {
+    "id": "g12-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "how-often",
+    "q": "We have practice on Monday and Thursday. We train ___ a week.",
+    "o": [
+     "twice",
+     "once"
+    ],
+    "a": 0,
+    "why": "Два дня в неделю — twice a week."
+   },
+   {
+    "id": "g12-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "meaning",
+    "say": "He is never late.",
+    "o": [
+     "He is never late.",
+     "He is always late."
+    ],
+    "a": 0,
+    "why": "Never — никогда: он никогда не опаздывает."
+   },
+   {
+    "id": "g12-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "before-verb",
+    "say": "She sometimes plays the drums.",
+    "o": [
+     "She sometimes plays the drums.",
+     "She sometimes play the drums."
+    ],
+    "a": 0,
+    "why": "Наречие не отменяет -s: she sometimes plays."
+   },
+   {
+    "id": "g12-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "how-often",
+    "say": "We train three times a week.",
+    "o": [
+     "We train three times a week.",
+     "We train twice a week."
+    ],
+    "a": 0,
+    "why": "Three times a week — три раза в неделю."
+   },
+   {
+    "id": "g12-012",
+    "t": "match",
+    "lv": 1,
+    "tag": "meaning",
+    "pairs": [
+     [
+      "always",
+      "всегда"
+     ],
+     [
+      "usually",
+      "обычно"
+     ],
+     [
+      "sometimes",
+      "иногда"
+     ],
+     [
+      "never",
+      "никогда"
+     ]
+    ],
+    "why": "От 100% к 0%: always, usually, sometimes, never."
+   },
+   {
+    "id": "g12-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "how-often",
+    "pairs": [
+     [
+      "once a week",
+      "раз в неделю"
+     ],
+     [
+      "twice a week",
+      "два раза в неделю"
+     ],
+     [
+      "every day",
+      "каждый день"
+     ],
+     [
+      "How often?",
+      "Как часто?"
+     ]
+    ],
+    "why": "Once — один раз, twice — два раза."
+   },
+   {
+    "id": "g12-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "after-be",
+    "q": "My dad ___ late for work.",
+    "o": [
+     "is never",
+     "never is",
+     "never"
+    ],
+    "a": 0,
+    "why": "С is наречие после него: is never."
+   },
+   {
+    "id": "g12-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "before-verb",
+    "q": "She ___ YouTube in the evening.",
+    "o": [
+     "often watches",
+     "often watch",
+     "watches often"
+    ],
+    "a": 0,
+    "why": "Often перед глаголом, а с she у глагола остаётся -es."
+   },
+   {
+    "id": "g12-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "meaning",
+    "q": "School is from Monday to Friday. I ___ (always / never) go to school on Saturday.",
+    "a": [
+     "never"
+    ],
+    "why": "В субботу школы нет — never."
+   },
+   {
+    "id": "g12-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "meaning",
+    "q": "Mia trains every day. She ___ (always / never) misses practice.",
+    "a": [
+     "never"
+    ],
+    "why": "Тренируется каждый день — значит никогда не пропускает: never."
+   },
+   {
+    "id": "g12-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "after-be",
+    "q": "Our goalie ___ (be, always) ready.",
+    "a": [
+     "is always"
+    ],
+    "why": "С is наречие после: is always."
+   },
+   {
+    "id": "g12-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "before-verb",
+    "q": "Benny ___ (usually, eat) honey for breakfast.",
+    "a": [
+     "usually eats"
+    ],
+    "why": "Usually перед глаголом, а с he — eats."
+   },
+   {
+    "id": "g12-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "before-verb",
+    "q": "I ___ (often, listen) to phonk.",
+    "a": [
+     "often listen"
+    ],
+    "why": "Often перед глаголом: often listen."
+   },
+   {
+    "id": "g12-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "after-be",
+    "q": "My friends ___ (be, never) bored on Roblox.",
+    "a": [
+     "are never"
+    ],
+    "why": "С are наречие после: are never."
+   },
+   {
+    "id": "g12-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "how-often",
+    "q": "___ (как часто) do you play Roblox? — Every day.",
+    "a": [
+     "How often"
+    ],
+    "why": "Вопрос «как часто» — How often."
+   },
+   {
+    "id": "g12-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "never",
+    "q": "My cat ___ (never, sleep) on my bed.",
+    "a": [
+     "never sleeps"
+    ],
+    "why": "Never перед глаголом, и с it глагол с -s: sleeps."
+   },
+   {
+    "id": "g12-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "how-often",
+    "q": "We play hockey only on Monday. We play ___ a week.",
+    "a": [
+     "once"
+    ],
+    "why": "Один раз в неделю — once a week."
+   },
+   {
+    "id": "g12-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "before-verb",
+    "a": "We usually train before school.",
+    "ru": "Мы обычно тренируемся до школы.",
+    "why": "Usually стоит перед глаголом train."
+   },
+   {
+    "id": "g12-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "after-be",
+    "a": "Our coach is always calm.",
+    "ru": "Наш тренер всегда спокойный.",
+    "why": "С is наречие после: is always."
+   },
+   {
+    "id": "g12-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "before-verb",
+    "a": "Benny often watches dinosaur videos.",
+    "ru": "Бенни часто смотрит видео про динозавров.",
+    "why": "Often перед глаголом watches."
+   },
+   {
+    "id": "g12-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "how-often",
+    "a": "How often do you play Brawl Stars?",
+    "ru": "Как часто ты играешь в Brawl Stars?",
+    "extra": [
+     "does"
+    ],
+    "why": "Как часто — How often, дальше do you play."
+   },
+   {
+    "id": "g12-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "never",
+    "a": "My dad never plays video games.",
+    "ru": "Мой папа никогда не играет в видеоигры.",
+    "extra": [
+     "doesn't"
+    ],
+    "why": "Never уже отрицание, doesn't не нужен."
+   },
+   {
+    "id": "g12-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "before-verb",
+    "src": "Benny drinks milk. (always)",
+    "task_ru": "Поставь always на правильное место.",
+    "a": [
+     "Benny always drinks milk."
+    ],
+    "why": "Always перед глаголом drinks."
+   },
+   {
+    "id": "g12-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "after-be",
+    "src": "Coach Walt is angry. (never)",
+    "task_ru": "Поставь never на правильное место.",
+    "a": [
+     "Coach Walt is never angry."
+    ],
+    "why": "С is наречие после: is never."
+   },
+   {
+    "id": "g12-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "before-verb",
+    "src": "My friends play soccer on Sundays. (usually)",
+    "task_ru": "Поставь usually на правильное место.",
+    "a": [
+     "My friends usually play soccer on Sundays.",
+     "Usually my friends play soccer on Sundays.",
+     "On Sundays my friends usually play soccer."
+    ],
+    "why": "Usually перед глаголом play."
+   },
+   {
+    "id": "g12-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "never",
+    "src": "I don't eat fish.",
+    "task_ru": "Скажи то же самое с never.",
+    "a": [
+     "I never eat fish."
+    ],
+    "why": "Never заменяет don't: I never eat."
+   },
+   {
+    "id": "g12-034",
+    "t": "err",
+    "lv": 2,
+    "tag": "before-verb",
+    "s": "She sometimes play the guitar at night.",
+    "bad": 2,
+    "fix": "plays",
+    "why": "Sometimes не отменяет -s: she plays."
+   },
+   {
+    "id": "g12-035",
+    "t": "err",
+    "lv": 2,
+    "tag": "never",
+    "s": "Benny never eat fish.",
+    "bad": 2,
+    "fix": "eats",
+    "why": "С never глагол после he всё равно с -s: eats."
+   },
+   {
+    "id": "g12-036",
+    "t": "err",
+    "lv": 2,
+    "tag": "how-often",
+    "s": "How much do you go to the rink?",
+    "bad": 1,
+    "fix": "often",
+    "why": "«Как часто» — How often."
+   },
+   {
+    "id": "g12-037",
+    "t": "err",
+    "lv": 3,
+    "tag": "how-often",
+    "s": "We train two a week.",
+    "bad": 2,
+    "fix": "twice",
+    "why": "Два раза в неделю — twice a week."
+   },
+   {
+    "id": "g12-038",
+    "t": "err",
+    "lv": 3,
+    "tag": "meaning",
+    "s": "I hate fish, so I always eat it.",
+    "bad": 5,
+    "fix": "never",
+    "why": "Ненавидишь рыбу — значит никогда её не ешь: never."
+   },
+   {
+    "id": "g12-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "before-verb",
+    "title": "A week with Rex",
+    "text": "Rex ___ (be, always) hungry in the morning. He ___ (usually, eat) ten pancakes. He trains ___ (2 раза) a week. He ___ (be, never) late for practice. But he ___ (sometimes, drop) his stick. His arms are tiny!",
+    "a": [
+     [
+      "is always"
+     ],
+     [
+      "usually eats"
+     ],
+     [
+      "twice"
+     ],
+     [
+      "is never"
+     ],
+     [
+      "sometimes drops"
+     ]
+    ],
+    "why": "С is наречие после, с другими глаголами — перед ними, и -s у глагола остаётся."
+   },
+   {
+    "id": "g12-040",
+    "t": "text",
+    "lv": 3,
+    "tag": "after-be",
+    "title": "Diary: Mia",
+    "text": "I ___ (usually, get) up early. I ___ (always, have) breakfast with my dad. I train after school ___ (3 раза) a week. My little brother ___ (be, often) noisy in the evening. I ___ (never, go) to bed late.",
+    "a": [
+     [
+      "usually get"
+     ],
+     [
+      "always have"
+     ],
+     [
+      "three times"
+     ],
+     [
+      "is often"
+     ],
+     [
+      "never go"
+     ]
+    ],
+    "why": "Наречие перед глаголом, но после is: is often."
+   },
+   {
+    "id": "g12-041",
+    "t": "chat",
+    "lv": 3,
+    "tag": "meaning",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "How often do you go to the rink?"
+     },
+     {
+      "who": "you",
+      "t": "Three ___ a week."
+     },
+     {
+      "who": "Mia",
+      "t": "Is Benny on your team?"
+     },
+     {
+      "who": "you",
+      "t": "Yes! He is ___ (всегда) happy, but he ___ (часто) falls."
+     },
+     {
+      "who": "Mia",
+      "t": "Ha-ha! Does he wear a helmet?"
+     },
+     {
+      "who": "you",
+      "t": "Yes. He ___ (никогда) skates without it."
+     }
+    ],
+    "a": [
+     [
+      "times"
+     ],
+     [
+      "always"
+     ],
+     [
+      "often"
+     ],
+     [
+      "never"
+     ]
+    ],
+    "why": "Three times — три раза; always — всегда, often — часто, never — никогда."
+   },
+   {
+    "id": "g12-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "before-verb",
+    "ru": "Я обычно слушаю музыку после школы.",
+    "a": [
+     "I usually listen to music after school.",
+     "Usually I listen to music after school."
+    ],
+    "why": "Usually перед глаголом listen."
+   },
+   {
+    "id": "g12-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "after-be",
+    "ru": "Рекс никогда не опаздывает.",
+    "a": [
+     "Rex is never late."
+    ],
+    "why": "«Опаздывать» — be late, и never идёт после is."
+   },
+   {
+    "id": "g12-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "how-often",
+    "ru": "Как часто ты смотришь YouTube?",
+    "a": [
+     "How often do you watch YouTube?"
+    ],
+    "why": "Как часто — How often, дальше обычный вопрос do you watch."
+   },
+   {
+    "id": "g12-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "never",
+    "ru": "Мия никогда не ест фастфуд.",
+    "a": [
+     "Mia never eats fast food.",
+     "Mia never eats junk food."
+    ],
+    "why": "Never без not, а глагол с -s: eats."
+   },
+   {
+    "id": "g12-046",
+    "t": "speak",
+    "lv": 3,
+    "tag": "before-verb",
+    "say": "My friends and I often play Roblox together.",
+    "ru": "Мы с друзьями часто играем в Roblox вместе.",
+    "why": "Often стоит перед глаголом play."
+   },
+   {
+    "id": "g12-047",
+    "t": "write",
+    "lv": 3,
+    "tag": "meaning",
+    "task_ru": "Напиши 3 предложения о своей неделе: что ты делаешь always, что usually и чего never.",
+    "check_ru": [
+     "Наречие стоит перед глаголом?",
+     "С am/is/are наречие после них?",
+     "С never нет второго not?",
+     "После he/she у глагола есть -s?"
+    ],
+    "model": "I always listen to music on the bus. I usually train after school. I never eat fish.",
+    "why": "Always, usually, never — перед глаголом, но после am/is/are."
+   }
+  ]
+ },
+ {
+  "id": "g13",
+  "stage": "A1",
+  "title_ru": "Вопросительные слова",
+  "goal_ru": "Задать вопрос со словами what, where, who, why, how.",
+  "prereq": [
+   "g11",
+   "g02"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Главные слова-вопросы",
+    "body_ru": "**what** — что, **where** — где / куда, **when** — когда, **who** — кто, **why** — почему (отвечаем **because**…), **how** — как.",
+    "ex": [
+     [
+      "Where is my helmet?",
+      "Где мой шлем?"
+     ],
+     [
+      "Why is Benny sad? — Because he can't find his skates.",
+      "Почему Бенни грустный? — Потому что не может найти коньки."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Порядок слов",
+    "body_ru": "Слово-вопрос всегда первое, потом **is / are** или **do / does**, потом кто: **When does** the game start? **Where are** my skates?",
+    "ex": [
+     [
+      "When does the game start?",
+      "Когда начинается игра?"
+     ],
+     [
+      "What do you want for your birthday?",
+      "Что ты хочешь на день рождения?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "How old, how many и другие",
+    "body_ru": "**how old** — сколько лет, **how many** — сколько штук, **how much** — сколько стоит, **how often** — как часто, **which** — какой из, **whose** — чей.",
+    "ex": [
+     [
+      "How old is your dog?",
+      "Сколько лет твоей собаке?"
+     ],
+     [
+      "Whose stick is this?",
+      "Чья это клюшка?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Who играет? — без do",
+    "body_ru": "Если **who** — это тот, кто делает действие, do не нужен, а глагол с -s: **Who plays** the drums? Но «кого / с кем» — с do: **Who does** Mia call?",
+    "ex": [
+     [
+      "Who makes pancakes on Sunday? — Mrs. Parker.",
+      "Кто печёт блины в воскресенье? — Миссис Паркер."
+     ],
+     [
+      "Who does Mia call after the game? — Her dad.",
+      "Кому Мия звонит после игры? — Папе."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Where you live?",
+    "right": "Where do you live?",
+    "why_ru": "После where нужен do."
+   },
+   {
+    "wrong": "Who does play the drums?",
+    "right": "Who plays the drums?",
+    "why_ru": "Who — сам игрок, поэтому без does."
+   },
+   {
+    "wrong": "How many costs this stick?",
+    "right": "How much is this stick?",
+    "why_ru": "Цену спрашиваем how much."
+   },
+   {
+    "wrong": "What is your years?",
+    "right": "How old are you?",
+    "why_ru": "Возраст — how old + be."
+   },
+   {
+    "wrong": "Why you are sad?",
+    "right": "Why are you sad?",
+    "why_ru": "После why сначала are, потом you."
+   }
+  ],
+  "tags": {
+   "qword": {
+    "ru": "what / where / when / who / why",
+    "tip_ru": "Посмотри на ответ: вещь — what, место — where, время — when, человек — who, причина (because) — why."
+   },
+   "how-words": {
+    "ru": "how old, how many, how much",
+    "tip_ru": "how old — сколько лет; how many — сколько штук (pucks, games); how much — сколько стоит; how often — как часто.",
+    "back": "g12"
+   },
+   "which-whose": {
+    "ru": "which и whose",
+    "tip_ru": "which — какой из (выбираем из нескольких): Which team…? whose — чей: Whose stick is this?"
+   },
+   "who-subject": {
+    "ru": "Who plays? — без do",
+    "tip_ru": "Если who — тот, кто делает действие, do не нужен, а глагол как с he: Who plays? Сравни: Who does Mia call? — тут Мия звонит, нужен does.",
+    "back": "g09"
+   },
+   "q-order": {
+    "ru": "порядок слов в вопросе",
+    "tip_ru": "Слово-вопрос + do/does или am/is/are + подлежащее + глагол: Where does Mia live? Why are you sad?",
+    "back": "g11"
+   }
+  },
+  "items": [
+   {
+    "id": "g13-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "qword",
+    "q": "___ is my helmet? — In my bag.",
+    "o": [
+     "Where",
+     "When"
+    ],
+    "a": 0,
+    "why": "Ответ про место — значит Where."
+   },
+   {
+    "id": "g13-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "qword",
+    "q": "___ does the game start? — Tonight.",
+    "o": [
+     "When",
+     "Where"
+    ],
+    "a": 0,
+    "why": "Ответ про время — значит When."
+   },
+   {
+    "id": "g13-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "qword",
+    "q": "___ is Benny sad? — Because Rex eats his honey!",
+    "o": [
+     "Why",
+     "Who"
+    ],
+    "a": 0,
+    "why": "Ответ с because — вопрос Why."
+   },
+   {
+    "id": "g13-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "how-words",
+    "q": "___ is Rex? — He is ten.",
+    "o": [
+     "How old",
+     "How many"
+    ],
+    "a": 0,
+    "why": "Возраст спрашиваем How old."
+   },
+   {
+    "id": "g13-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "how-words",
+    "q": "___ is this stick? — It's 40 dollars.",
+    "o": [
+     "How much",
+     "How many"
+    ],
+    "a": 0,
+    "why": "Цену спрашиваем How much."
+   },
+   {
+    "id": "g13-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "which-whose",
+    "q": "___ stick is this? — It's mine.",
+    "o": [
+     "Whose",
+     "Who"
+    ],
+    "a": 0,
+    "why": "«Чья?» — Whose."
+   },
+   {
+    "id": "g13-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "who-subject",
+    "q": "___ sings in your band?",
+    "o": [
+     "Who",
+     "Who does"
+    ],
+    "a": 0,
+    "why": "Who — тот, кто поёт, поэтому do не нужен."
+   },
+   {
+    "id": "g13-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "q-order",
+    "q": "Выбери правильный вопрос.",
+    "o": [
+     "What does Rex want?",
+     "What Rex wants?"
+    ],
+    "a": 0,
+    "why": "После what нужен does, потом Rex и want без -s."
+   },
+   {
+    "id": "g13-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "which-whose",
+    "q": "___ team do you like, the Hawks or the Bears?",
+    "o": [
+     "Which",
+     "Who"
+    ],
+    "a": 0,
+    "why": "Выбор из двух команд — Which."
+   },
+   {
+    "id": "g13-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "qword",
+    "say": "Where do you train?",
+    "o": [
+     "Where do you train?",
+     "When do you train?"
+    ],
+    "a": 0,
+    "why": "Where — где: спрашивают про место."
+   },
+   {
+    "id": "g13-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "who-subject",
+    "say": "Who plays the guitar?",
+    "o": [
+     "Who plays the guitar?",
+     "Who play the guitar?"
+    ],
+    "a": 0,
+    "why": "Who как подлежащее — глагол с -s: plays."
+   },
+   {
+    "id": "g13-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "how-words",
+    "say": "How many brothers do you have?",
+    "o": [
+     "How many brothers do you have?",
+     "How much brothers do you have?"
+    ],
+    "a": 0,
+    "why": "Братьев можно посчитать — How many."
+   },
+   {
+    "id": "g13-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "qword",
+    "pairs": [
+     [
+      "Where?",
+      "In Canada."
+     ],
+     [
+      "When?",
+      "Tomorrow."
+     ],
+     [
+      "Who?",
+      "Coach Walt."
+     ],
+     [
+      "Why?",
+      "Because I'm tired."
+     ]
+    ],
+    "why": "Where — место, when — время, who — человек, why — причина."
+   },
+   {
+    "id": "g13-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "how-words",
+    "pairs": [
+     [
+      "How old?",
+      "Fourteen."
+     ],
+     [
+      "How many?",
+      "Five pucks."
+     ],
+     [
+      "How much?",
+      "Ten dollars."
+     ],
+     [
+      "How often?",
+      "Twice a week."
+     ]
+    ],
+    "why": "How old — возраст, how many — штуки, how much — цена, how often — частота."
+   },
+   {
+    "id": "g13-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "how-words",
+    "q": "___ pucks do you have in your bag?",
+    "o": [
+     "How many",
+     "How much",
+     "How old"
+    ],
+    "a": 0,
+    "why": "Шайбы можно посчитать — How many."
+   },
+   {
+    "id": "g13-016",
+    "t": "mc",
+    "lv": 2,
+    "tag": "who-subject",
+    "q": "Who ___ the best pancakes in the family?",
+    "o": [
+     "makes",
+     "does make",
+     "make"
+    ],
+    "a": 0,
+    "why": "Who — тот, кто печёт, поэтому без do и с -s: makes."
+   },
+   {
+    "id": "g13-017",
+    "t": "mc",
+    "lv": 2,
+    "tag": "who-subject",
+    "q": "Who ___ Benny live with? — The Parkers.",
+    "o": [
+     "does",
+     "do",
+     "is"
+    ],
+    "a": 0,
+    "why": "Подлежащее тут Benny, а who — «с кем», поэтому нужен does."
+   },
+   {
+    "id": "g13-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "qword",
+    "q": "___ do you go after school? — To the rink.",
+    "a": [
+     "Where"
+    ],
+    "why": "Ответ «на каток» — это место: Where."
+   },
+   {
+    "id": "g13-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "qword",
+    "q": "___ does Benny want for his birthday? — A new helmet.",
+    "a": [
+     "What"
+    ],
+    "why": "Ответ — вещь, поэтому What."
+   },
+   {
+    "id": "g13-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "qword",
+    "q": "___ is your favorite hockey player? — Mia!",
+    "a": [
+     "Who"
+    ],
+    "why": "Ответ — человек, поэтому Who."
+   },
+   {
+    "id": "g13-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "how-words",
+    "q": "How ___ are you? — I'm fourteen.",
+    "a": [
+     "old"
+    ],
+    "why": "Возраст — How old."
+   },
+   {
+    "id": "g13-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "how-words",
+    "q": "How ___ games does your team play a month? — About eight.",
+    "a": [
+     "many"
+    ],
+    "why": "Игры можно посчитать — How many."
+   },
+   {
+    "id": "g13-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "which-whose",
+    "q": "___ backpack is this? — It's his.",
+    "a": [
+     "Whose"
+    ],
+    "why": "«Чей рюкзак?» — Whose."
+   },
+   {
+    "id": "g13-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "which-whose",
+    "q": "___ song do you like, this one or that one?",
+    "a": [
+     "Which"
+    ],
+    "why": "Выбор из двух песен — Which."
+   },
+   {
+    "id": "g13-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "who-subject",
+    "q": "Who ___ (live) next door to the Parkers?",
+    "a": [
+     "lives"
+    ],
+    "why": "Who — подлежащее, глагол как с he: lives."
+   },
+   {
+    "id": "g13-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "q-order",
+    "q": "Why ___ (is / does) Rex sad?",
+    "a": [
+     "is"
+    ],
+    "why": "Sad — не действие, а состояние: Why is Rex sad?"
+   },
+   {
+    "id": "g13-027",
+    "t": "gap",
+    "lv": 2,
+    "tag": "q-order",
+    "q": "What time ___ (do / does) the movie start?",
+    "a": [
+     "does"
+    ],
+    "why": "The movie — это it, поэтому does."
+   },
+   {
+    "id": "g13-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "q-order",
+    "a": "Where does Rex keep his stick?",
+    "ru": "Где Рекс держит свою клюшку?",
+    "extra": [
+     "do"
+    ],
+    "why": "Сначала Where, потом does, Rex и keep без -s."
+   },
+   {
+    "id": "g13-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "q-order",
+    "a": "Why are you happy today?",
+    "ru": "Почему ты сегодня такой довольный?",
+    "extra": [
+     "do"
+    ],
+    "why": "Why + are + you: с прилагательным нужен be, а не do."
+   },
+   {
+    "id": "g13-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "how-words",
+    "a": "How many dinosaur comics do you have?",
+    "ru": "Сколько у тебя комиксов про динозавров?",
+    "extra": [
+     "much"
+    ],
+    "why": "Комиксы можно посчитать — How many."
+   },
+   {
+    "id": "g13-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "who-subject",
+    "a": "Who wants pizza?",
+    "ru": "Кто хочет пиццу?",
+    "extra": [
+     "does"
+    ],
+    "why": "Who — тот, кто хочет, поэтому без does: Who wants."
+   },
+   {
+    "id": "g13-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "which-whose",
+    "a": "Which game does Mia like?",
+    "ru": "Какая из игр нравится Мие?",
+    "extra": [
+     "Whose"
+    ],
+    "why": "Which game — какая из игр."
+   },
+   {
+    "id": "g13-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "q-order",
+    "src": "Mia lives in Toronto.",
+    "task_ru": "Спроси, где живёт Мия (Where…?).",
+    "a": [
+     "Where does Mia live?"
+    ],
+    "why": "Mia — это she, поэтому Where does Mia live, и live без -s."
+   },
+   {
+    "id": "g13-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "how-words",
+    "src": "Rex eats ten pancakes for breakfast.",
+    "task_ru": "Спроси, сколько блинов (How many…?).",
+    "a": [
+     "How many pancakes does Rex eat for breakfast?",
+     "How many pancakes does Rex eat?"
+    ],
+    "why": "Блины можно посчитать — How many pancakes, потом does Rex eat."
+   },
+   {
+    "id": "g13-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "who-subject",
+    "src": "Benny plays the drums.",
+    "task_ru": "Спроси, кто играет на барабанах (Who…?).",
+    "a": [
+     "Who plays the drums?"
+    ],
+    "why": "Who вместо Benny, глагол остаётся plays, do не нужен."
+   },
+   {
+    "id": "g13-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "q-order",
+    "src": "Coach Walt likes fish.",
+    "task_ru": "Спроси, что любит тренер Уолт (What…?).",
+    "a": [
+     "What does Coach Walt like?"
+    ],
+    "why": "Сначала What, потом does, Coach Walt и like без -s."
+   },
+   {
+    "id": "g13-037",
+    "t": "err",
+    "lv": 2,
+    "tag": "who-subject",
+    "s": "Who have a new phone?",
+    "bad": 1,
+    "fix": "has",
+    "why": "Who как подлежащее — глагол как с he: has."
+   },
+   {
+    "id": "g13-038",
+    "t": "err",
+    "lv": 2,
+    "tag": "q-order",
+    "s": "Where are you live?",
+    "bad": 1,
+    "fix": "do",
+    "why": "Live — действие, поэтому Where do you live?"
+   },
+   {
+    "id": "g13-039",
+    "t": "err",
+    "lv": 2,
+    "tag": "how-words",
+    "s": "How much players are on the ice?",
+    "bad": 1,
+    "fix": "many",
+    "why": "Игроков можно посчитать — How many."
+   },
+   {
+    "id": "g13-040",
+    "t": "err",
+    "lv": 3,
+    "tag": "which-whose",
+    "s": "Who helmet is this? It's mine.",
+    "bad": 0,
+    "fix": "Whose",
+    "why": "«Чей шлем?» — Whose."
+   },
+   {
+    "id": "g13-041",
+    "t": "err",
+    "lv": 3,
+    "tag": "how-words",
+    "s": "What old is your sister?",
+    "bad": 0,
+    "fix": "How",
+    "why": "Возраст — How old."
+   },
+   {
+    "id": "g13-042",
+    "t": "err",
+    "lv": 3,
+    "tag": "q-order",
+    "s": "Why does Benny sad today?",
+    "bad": 1,
+    "fix": "is",
+    "why": "Sad — состояние, с ним нужен is."
+   },
+   {
+    "id": "g13-043",
+    "t": "text",
+    "lv": 3,
+    "tag": "qword",
+    "title": "Interview with Coach Walt",
+    "text": "___ is your name? — Walt. ___ old are you? — I'm forty. ___ do you live? — In a big pool near the rink. ___ do you like hockey? — Because it's on ice! ___ is your favorite player? — Rex, of course!",
+    "a": [
+     [
+      "What"
+     ],
+     [
+      "How"
+     ],
+     [
+      "Where"
+     ],
+     [
+      "Why"
+     ],
+     [
+      "Who"
+     ]
+    ],
+    "why": "Имя — what, возраст — how old, место — where, причина — why, человек — who."
+   },
+   {
+    "id": "g13-044",
+    "t": "text",
+    "lv": 3,
+    "tag": "which-whose",
+    "title": "New at school",
+    "text": "Benny is new at school. He asks his friends: ___ (кто) teaches math? ___ (какой из) bus goes to the rink, 5 or 7? ___ (чей) backpack is on my chair? ___ (сколько) students are in my class? ___ (во сколько) does lunch start?",
+    "a": [
+     [
+      "Who"
+     ],
+     [
+      "Which"
+     ],
+     [
+      "Whose"
+     ],
+     [
+      "How many"
+     ],
+     [
+      "What time"
+     ]
+    ],
+    "why": "Кто — who, какой из — which, чей — whose, сколько штук — how many, во сколько — what time."
+   },
+   {
+    "id": "g13-045",
+    "t": "chat",
+    "lv": 3,
+    "tag": "qword",
+    "lines": [
+     {
+      "who": "you",
+      "t": "Hi! ___ is your name?"
+     },
+     {
+      "who": "Mia",
+      "t": "I'm Mia. I play hockey."
+     },
+     {
+      "who": "you",
+      "t": "Cool! ___ team do you play for?"
+     },
+     {
+      "who": "Mia",
+      "t": "The Maple Hawks."
+     },
+     {
+      "who": "you",
+      "t": "___ do you train?"
+     },
+     {
+      "who": "Mia",
+      "t": "Three times a week."
+     },
+     {
+      "who": "you",
+      "t": "___ is your coach?"
+     },
+     {
+      "who": "Mia",
+      "t": "Coach Walt. He's a beaver!"
+     }
+    ],
+    "a": [
+     [
+      "What"
+     ],
+     [
+      "Which",
+      "What"
+     ],
+     [
+      "How often"
+     ],
+     [
+      "Who"
+     ]
+    ],
+    "why": "Имя — what, команда — which, «три раза в неделю» — how often, человек — who."
+   },
+   {
+    "id": "g13-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "how-words",
+    "ru": "Сколько тебе лет?",
+    "a": [
+     "How old are you?"
+    ],
+    "why": "Возраст — How old + are you."
+   },
+   {
+    "id": "g13-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "who-subject",
+    "ru": "Кто живёт в этом доме?",
+    "a": [
+     "Who lives in this house?"
+    ],
+    "why": "Who как подлежащее: без do, глагол с -s."
+   },
+   {
+    "id": "g13-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "which-whose",
+    "ru": "Чья это шайба?",
+    "a": [
+     "Whose puck is this?",
+     "Whose puck is that?"
+    ],
+    "why": "«Чья шайба?» — Whose puck, потом is this."
+   },
+   {
+    "id": "g13-049",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "q-order",
+    "ru": "Почему Рекс любит хоккей?",
+    "a": [
+     "Why does Rex like hockey?",
+     "Why does Rex love hockey?"
+    ],
+    "why": "Rex — это he, поэтому Why does Rex like…, и like без -s."
+   },
+   {
+    "id": "g13-050",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "q-order",
+    "ru": "Когда начинается тренировка?",
+    "a": [
+     "When does practice start?",
+     "When does the practice start?",
+     "When does training start?"
+    ],
+    "why": "Тренировка — это it, поэтому When does practice start?"
+   },
+   {
+    "id": "g13-051",
+    "t": "speak",
+    "lv": 3,
+    "tag": "who-subject",
+    "say": "Who makes the music for your videos?",
+    "ru": "Кто делает музыку для твоих видео?",
+    "why": "Who как подлежащее — makes без do."
+   },
+   {
+    "id": "g13-052",
+    "t": "write",
+    "lv": 3,
+    "tag": "q-order",
+    "task_ru": "Напиши 3 вопроса Рексу: сколько ему лет, где он живёт и почему он любит хоккей.",
+    "check_ru": [
+     "Вопросительное слово стоит первым?",
+     "После него есть is/are или do/does?",
+     "После does глагол без -s?"
+    ],
+    "model": "How old are you, Rex? Where do you live? Why do you like hockey?",
+    "why": "Схема: слово-вопрос + is/are или do/does + кто + глагол."
+   }
+  ]
+ },
+ {
+  "id": "g14",
+  "stage": "A1",
+  "title_ru": "Притяжательный падеж: Tom's, the players'",
+  "goal_ru": "Сказать «клюшка Тома», «раздевалка игроков».",
+  "prereq": [
+   "g03"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Чей? — 's",
+    "body_ru": "Владелец + **'s** + вещь: **Mia's** stick (клюшка Мии), **Rex's** helmet. Сначала кто, потом что. Не говорим the stick of Mia.",
+    "ex": [
+     [
+      "This is Mia's stick.",
+      "Это клюшка Мии."
+     ],
+     [
+      "Rex's arms are tiny.",
+      "У Рекса крошечные лапки."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Владельцев много",
+    "body_ru": "Если слово во множественном уже на **-s**, ставим только апостроф: **the players'** room. Особые слова без -s — с **'s**: **children's, men's, women's, people's**.",
+    "ex": [
+     [
+      "The players' bags are heavy.",
+      "Сумки игроков тяжёлые."
+     ],
+     [
+      "The children's rink is small.",
+      "Детский каток маленький."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Для вещей — of",
+    "body_ru": "Для предметов и событий обычно **of**: **the end of the game**, the name of the song, the color of the jersey.",
+    "ex": [
+     [
+      "I love the end of the game.",
+      "Я обожаю конец игры."
+     ],
+     [
+      "What is the name of the song?",
+      "Как называется песня?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "its или it's",
+    "body_ru": "**its** — его / её у предмета или животного, **без апострофа**. **it's** = it is.",
+    "ex": [
+     [
+      "The dog wants its ball.",
+      "Собака хочет свой мяч."
+     ],
+     [
+      "It's my favorite game.",
+      "Это моя любимая игра."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "the stick of Mia",
+    "right": "Mia's stick",
+    "why_ru": "Для людей — 's, и владелец впереди."
+   },
+   {
+    "wrong": "the players's room",
+    "right": "the players' room",
+    "why_ru": "После -s множественного — только апостроф."
+   },
+   {
+    "wrong": "the childrens' toys",
+    "right": "the children's toys",
+    "why_ru": "Children без -s, поэтому 's."
+   },
+   {
+    "wrong": "The team has it's own song.",
+    "right": "The team has its own song.",
+    "why_ru": "«Свой» — its без апострофа; it's = it is."
+   },
+   {
+    "wrong": "This is Mia stick.",
+    "right": "This is Mia's stick.",
+    "why_ru": "Без 's непонятно, что клюшка — Мии."
+   }
+  ],
+  "tags": {
+   "s-one": {
+    "ru": "'s у одного: Mia's stick",
+    "tip_ru": "Чей? — ставим 's после имени или слова: Mia's stick, my dad's car. Сначала владелец, потом вещь."
+   },
+   "s-plural": {
+    "ru": "s' у множественного: the players'",
+    "tip_ru": "Если слово уже во множественном на -s (players, girls, parents), добавляем только апостроф: the players' room.",
+    "back": "g04"
+   },
+   "irregular": {
+    "ru": "children's, men's, women's",
+    "tip_ru": "Особые множественные без -s (children, men, women, people) получают обычный 's: children's toys.",
+    "back": "g04"
+   },
+   "of-things": {
+    "ru": "of для вещей: the end of the game",
+    "tip_ru": "Для предметов и событий — of: the end of the game, the name of the song. 's — в основном для людей и животных."
+   },
+   "its": {
+    "ru": "its или it's",
+    "tip_ru": "its — его / её у предмета или животного: The dog wants its ball. it's = it is: It's cold.",
+    "back": "g03"
+   }
+  },
+  "items": [
+   {
+    "id": "g14-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-one",
+    "q": "This is ___ helmet.",
+    "o": [
+     "Benny's",
+     "Bennys"
+    ],
+    "a": 0,
+    "why": "Шлем Бенни — Benny's, с апострофом и s."
+   },
+   {
+    "id": "g14-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-plural",
+    "q": "The ___ locker room is noisy.",
+    "o": [
+     "players'",
+     "players's"
+    ],
+    "a": 0,
+    "why": "Players уже на -s, поэтому только апостроф: players'."
+   },
+   {
+    "id": "g14-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "Where are the ___ coats?",
+    "o": [
+     "children's",
+     "childrens'"
+    ],
+    "a": 0,
+    "why": "Children без -s на конце, поэтому 's: children's."
+   },
+   {
+    "id": "g14-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "of-things",
+    "q": "At the end ___ the movie, Benny always cries.",
+    "o": [
+     "of",
+     "from"
+    ],
+    "a": 0,
+    "why": "Конец чего-то — the end of."
+   },
+   {
+    "id": "g14-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "its",
+    "q": "The dog wants ___ ball.",
+    "o": [
+     "its",
+     "it's"
+    ],
+    "a": 0,
+    "why": "«Свой мяч» у собаки — its без апострофа."
+   },
+   {
+    "id": "g14-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "its",
+    "q": "___ cold on the ice.",
+    "o": [
+     "It's",
+     "Its"
+    ],
+    "a": 0,
+    "why": "Здесь значит it is, поэтому It's."
+   },
+   {
+    "id": "g14-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-one",
+    "q": "Выбери правильный вариант.",
+    "o": [
+     "Tom's stick",
+     "the stick of Tom"
+    ],
+    "a": 0,
+    "why": "Для людей — 's: Tom's stick."
+   },
+   {
+    "id": "g14-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-plural",
+    "q": "My ___ names are Max and Leo.",
+    "o": [
+     "cousins'",
+     "cousin's"
+    ],
+    "a": 0,
+    "why": "Двоюродных братьев двое (cousins), поэтому апостроф после s: cousins'."
+   },
+   {
+    "id": "g14-009",
+    "t": "listen",
+    "lv": 1,
+    "tag": "s-one",
+    "say": "Is this Rex's helmet?",
+    "o": [
+     "Is this Rex's helmet?",
+     "Is this Rex helmet?"
+    ],
+    "a": 0,
+    "why": "Шлем Рекса — Rex's, слышно «рексиз»."
+   },
+   {
+    "id": "g14-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "irregular",
+    "say": "The children's rink is open.",
+    "o": [
+     "The children's rink is open.",
+     "The children rink is open."
+    ],
+    "a": 0,
+    "why": "Каток для детей — children's."
+   },
+   {
+    "id": "g14-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "s-plural",
+    "pairs": [
+     [
+      "клюшка Мии",
+      "Mia's stick"
+     ],
+     [
+      "раздевалка игроков",
+      "the players' locker room"
+     ],
+     [
+      "детская команда",
+      "the children's team"
+     ],
+     [
+      "конец игры",
+      "the end of the game"
+     ]
+    ],
+    "why": "Один владелец — 's, много на -s — s', children — 's, для вещей — of."
+   },
+   {
+    "id": "g14-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "The ___ team plays on Saturday.",
+    "o": [
+     "women's",
+     "womens'",
+     "woman's"
+    ],
+    "a": 0,
+    "why": "Women — особое множественное без -s, поэтому women's."
+   },
+   {
+    "id": "g14-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "its",
+    "q": "The app is cool, but ___ logo is ugly.",
+    "o": [
+     "its",
+     "it's",
+     "it"
+    ],
+    "a": 0,
+    "why": "Логотип приложения — its, без апострофа."
+   },
+   {
+    "id": "g14-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "s-plural",
+    "q": "Mia's mom and dad sleep here. It's her ___ room.",
+    "o": [
+     "parents'",
+     "parent's",
+     "parents"
+    ],
+    "a": 0,
+    "why": "Родителей двое — parents', апостроф после s."
+   },
+   {
+    "id": "g14-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-one",
+    "q": "This is ___ (Benny) jersey.",
+    "a": [
+     "Benny's"
+    ],
+    "why": "Форма Бенни — Benny's, с апострофом и s."
+   },
+   {
+    "id": "g14-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-one",
+    "q": "___ (Coach Walt) whistle is loud.",
+    "a": [
+     "Coach Walt's"
+    ],
+    "why": "Свисток тренера Уолта — Coach Walt's."
+   },
+   {
+    "id": "g14-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-plural",
+    "q": "The ___ (girls) team trains on Friday.",
+    "a": [
+     "girls'"
+    ],
+    "why": "Girls уже на -s, добавляем только апостроф."
+   },
+   {
+    "id": "g14-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-plural",
+    "q": "Where is the ___ (boys) locker room?",
+    "a": [
+     "boys'"
+    ],
+    "why": "Раздевалка мальчиков — boys', апостроф после s."
+   },
+   {
+    "id": "g14-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "The ___ (men) team is from Toronto.",
+    "a": [
+     "men's"
+    ],
+    "why": "Men без -s, поэтому men's."
+   },
+   {
+    "id": "g14-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "The ___ (children) comics are on the shelf.",
+    "a": [
+     "children's"
+    ],
+    "why": "Children без -s, поэтому children's."
+   },
+   {
+    "id": "g14-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "of-things",
+    "q": "I don't like the end ___ this movie.",
+    "a": [
+     "of"
+    ],
+    "why": "Конец фильма — the end of this movie."
+   },
+   {
+    "id": "g14-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "of-things",
+    "q": "What is the name ___ your band?",
+    "a": [
+     "of"
+    ],
+    "why": "Название группы — the name of your band."
+   },
+   {
+    "id": "g14-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "its",
+    "q": "The cat is in ___ (its / it's) box.",
+    "a": [
+     "its"
+    ],
+    "why": "Коробка кошки — its, без апострофа."
+   },
+   {
+    "id": "g14-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "its",
+    "q": "___ (its / it's) my favorite song!",
+    "a": [
+     "It's"
+    ],
+    "why": "Здесь It is: It's my favorite song."
+   },
+   {
+    "id": "g14-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "s-one",
+    "a": "Rex's mom makes great pancakes.",
+    "ru": "Мама Рекса печёт отличные блины.",
+    "extra": [
+     "Rex"
+    ],
+    "why": "Мама Рекса — Rex's mom, владелец впереди."
+   },
+   {
+    "id": "g14-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "s-plural",
+    "a": "The players' bus is red.",
+    "ru": "Автобус игроков красный.",
+    "extra": [
+     "players's"
+    ],
+    "why": "Players на -s, поэтому players'."
+   },
+   {
+    "id": "g14-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "irregular",
+    "a": "Benny reads children's books.",
+    "ru": "Бенни читает детские книжки.",
+    "extra": [
+     "childrens"
+    ],
+    "why": "Children без -s — children's."
+   },
+   {
+    "id": "g14-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "of-things",
+    "a": "I like the color of your jersey.",
+    "ru": "Мне нравится цвет твоей формы.",
+    "extra": [
+     "from"
+    ],
+    "why": "Для вещей — of: the color of your jersey."
+   },
+   {
+    "id": "g14-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "its",
+    "a": "The dog likes its new bed.",
+    "ru": "Собаке нравится её новая лежанка.",
+    "extra": [
+     "it's"
+    ],
+    "why": "Лежанка собаки — its, без апострофа."
+   },
+   {
+    "id": "g14-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "s-one",
+    "src": "the stick of Mia",
+    "task_ru": "Скажи короче, с 's.",
+    "a": [
+     "Mia's stick"
+    ],
+    "why": "Для людей — 's и владелец впереди: Mia's stick."
+   },
+   {
+    "id": "g14-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "s-plural",
+    "src": "the bags of the players",
+    "task_ru": "Скажи короче, с апострофом.",
+    "a": [
+     "the players' bags"
+    ],
+    "why": "Players на -s — только апостроф: the players' bags."
+   },
+   {
+    "id": "g14-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "irregular",
+    "src": "the toys of the children",
+    "task_ru": "Скажи короче, с 's.",
+    "a": [
+     "the children's toys"
+    ],
+    "why": "Children без -s — the children's toys."
+   },
+   {
+    "id": "g14-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "s-one",
+    "src": "the helmet of my brother",
+    "task_ru": "Скажи короче, с 's.",
+    "a": [
+     "my brother's helmet"
+    ],
+    "why": "Брат один — my brother's helmet."
+   },
+   {
+    "id": "g14-034",
+    "t": "err",
+    "lv": 2,
+    "tag": "s-one",
+    "s": "This is Mias bag.",
+    "bad": 2,
+    "fix": "Mia's",
+    "why": "Сумка Мии — Mia's с апострофом."
+   },
+   {
+    "id": "g14-035",
+    "t": "err",
+    "lv": 2,
+    "tag": "s-plural",
+    "s": "Where are the players's sticks?",
+    "bad": 3,
+    "fix": "players'",
+    "why": "После -s множественного — только апостроф: players'."
+   },
+   {
+    "id": "g14-036",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "The childrens room is upstairs.",
+    "bad": 1,
+    "fix": "children's",
+    "why": "Children без -s, поэтому children's."
+   },
+   {
+    "id": "g14-037",
+    "t": "gap",
+    "lv": 3,
+    "tag": "s-one",
+    "q": "This is ___ (James) phone.",
+    "a": [
+     "James's",
+     "James'"
+    ],
+    "why": "Имя на -s: можно James's и James'."
+   },
+   {
+    "id": "g14-038",
+    "t": "err",
+    "lv": 3,
+    "tag": "its",
+    "s": "My phone is old and it's screen is broken.",
+    "bad": 5,
+    "fix": "its",
+    "why": "Экран телефона — its; it's = it is."
+   },
+   {
+    "id": "g14-039",
+    "t": "err",
+    "lv": 3,
+    "tag": "of-things",
+    "s": "Rex always sleeps at the end from the movie.",
+    "bad": 6,
+    "fix": "of",
+    "why": "Конец фильма — the end of the movie."
+   },
+   {
+    "id": "g14-040",
+    "t": "err",
+    "lv": 3,
+    "tag": "s-plural",
+    "s": "My parent's names are Tom and Kate.",
+    "bad": 1,
+    "fix": "parents'",
+    "why": "Родителей двое — parents', апостроф после s."
+   },
+   {
+    "id": "g14-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "s-plural",
+    "title": "At the Parkers' house",
+    "text": "Benny lives in the ___ (Parkers) house. ___ (Mia) room is next to his room. ___ (Mr. Parker) car is red. The ___ (children) bikes are in the garage. The family dog loves ___ (its / it's) bed by the door.",
+    "a": [
+     [
+      "Parkers'"
+     ],
+     [
+      "Mia's"
+     ],
+     [
+      "Mr. Parker's",
+      "Mr Parker's"
+     ],
+     [
+      "children's"
+     ],
+     [
+      "its"
+     ]
+    ],
+    "why": "Семья Паркеров — Parkers', один человек — 's, children — 's, у собаки — its."
+   },
+   {
+    "id": "g14-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "of-things",
+    "title": "Game night",
+    "text": "The ___ (fans) songs are loud. Rex is the ___ (team) goalie. At the end ___ the game, ___ (Rex) mom hugs him. The ___ (men) team plays next.",
+    "a": [
+     [
+      "fans'"
+     ],
+     [
+      "team's"
+     ],
+     [
+      "of"
+     ],
+     [
+      "Rex's"
+     ],
+     [
+      "men's"
+     ]
+    ],
+    "why": "Fans — fans', команда и Рекс — 's, конец игры — of, men — men's."
+   },
+   {
+    "id": "g14-043",
+    "t": "chat",
+    "lv": 3,
+    "tag": "s-one",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Is this your stick?"
+     },
+     {
+      "who": "you",
+      "t": "No, it's ___ (Benny). Mine is black."
+     },
+     {
+      "who": "Mia",
+      "t": "And this helmet?"
+     },
+     {
+      "who": "you",
+      "t": "That's ___ (Rex). It has dinosaur stickers."
+     },
+     {
+      "who": "Mia",
+      "t": "Where are the jerseys?"
+     },
+     {
+      "who": "you",
+      "t": "They're in the ___ (players) locker room."
+     }
+    ],
+    "a": [
+     [
+      "Benny's"
+     ],
+     [
+      "Rex's"
+     ],
+     [
+      "players'"
+     ]
+    ],
+    "why": "Один владелец — 's, игроки (players) — только апостроф."
+   },
+   {
+    "id": "g14-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "s-one",
+    "ru": "Это клюшка моего брата.",
+    "a": [
+     "This is my brother's stick.",
+     "That is my brother's stick.",
+     "That's my brother's stick.",
+     "It is my brother's stick.",
+     "It's my brother's stick."
+    ],
+    "why": "Владелец впереди с 's: my brother's stick."
+   },
+   {
+    "id": "g14-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "s-plural",
+    "ru": "Кепки девочек синие.",
+    "a": [
+     "The girls' caps are blue."
+    ],
+    "why": "Девочек много — girls', апостроф после s."
+   },
+   {
+    "id": "g14-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "irregular",
+    "ru": "Это детские комиксы.",
+    "a": [
+     "These are children's comics.",
+     "They are children's comics.",
+     "They're children's comics."
+    ],
+    "why": "Children без -s — children's."
+   },
+   {
+    "id": "g14-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "of-things",
+    "ru": "Как называется эта песня?",
+    "a": [
+     "What is the name of this song?",
+     "What's the name of this song?",
+     "What is this song called?",
+     "What's this song called?"
+    ],
+    "why": "Для вещей — of: the name of this song."
+   },
+   {
+    "id": "g14-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "its",
+    "ru": "Кот любит свою миску.",
+    "a": [
+     "The cat loves its bowl.",
+     "The cat likes its bowl."
+    ],
+    "why": "Миска кота — its, без апострофа."
+   },
+   {
+    "id": "g14-049",
+    "t": "speak",
+    "lv": 3,
+    "tag": "s-one",
+    "say": "My friend's dad makes phonk beats.",
+    "ru": "Папа моего друга делает фонк-биты.",
+    "why": "Друг один — my friend's dad."
+   },
+   {
+    "id": "g14-050",
+    "t": "write",
+    "lv": 3,
+    "tag": "s-one",
+    "task_ru": "Напиши 3 предложения о вещах твоих друзей и семьи: чья это вещь и какая она.",
+    "check_ru": [
+     "После имени или слова стоит 's?",
+     "Если владельцев много (players, parents) — апостроф после s?",
+     "Сначала владелец, потом вещь?"
+    ],
+    "model": "My dad's car is black. My sister's room is pink. My parents' house is big.",
+    "why": "Владелец + 's + вещь; если владельцы на -s — только апостроф."
+   }
+  ]
+ },
+ {
+  "id": "g15",
+  "stage": "A1",
+  "title_ru": "Предлоги времени: in, on, at",
+  "goal_ru": "Сказать, когда: at 7 o'clock, on Monday, in May.",
+  "prereq": [],
+  "spotlight": [
+   "1f",
+   "2e"
+  ],
+  "cards": [
+   {
+    "title_ru": "AT — точное время",
+    "body_ru": "**at** 7 o'clock, **at** 6:30, **at** noon (в полдень), **at** midnight (в полночь) и **at** night (ночью).",
+    "ex": [
+     [
+      "Practice starts at 7 o'clock.",
+      "Тренировка начинается в 7 часов."
+     ],
+     [
+      "Rex sleeps at night.",
+      "Рекс спит ночью."
+     ]
+    ]
+   },
+   {
+    "title_ru": "ON — дни и даты",
+    "body_ru": "**on** Monday, **on** May 5, **on** my birthday, **on** Friday night. В Америке говорят **on the weekend** (в британском at the weekend).",
+    "ex": [
+     [
+      "We have a game on Saturday.",
+      "У нас игра в субботу."
+     ],
+     [
+      "My birthday is on June 12.",
+      "Мой день рождения 12 июня."
+     ]
+    ]
+   },
+   {
+    "title_ru": "IN — месяцы, годы, сезоны, части дня",
+    "body_ru": "**in** May, **in** 2027, **in** winter, **in** the morning, **in** the afternoon, **in** the evening. Но если назван день — **on** Monday morning.",
+    "ex": [
+     [
+      "The season starts in October.",
+      "Сезон начинается в октябре."
+     ],
+     [
+      "I make music in the evening.",
+      "Я делаю музыку вечером."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Без предлога",
+    "body_ru": "Перед **next, last, every, this** и со словами **today, tomorrow** предлог не ставим: every day, next week, this Friday, tomorrow.",
+    "ex": [
+     [
+      "We train every Tuesday.",
+      "Мы тренируемся каждый вторник."
+     ],
+     [
+      "The tournament is next week.",
+      "Турнир на следующей неделе."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "in Monday",
+    "right": "on Monday",
+    "why_ru": "Дни недели — on."
+   },
+   {
+    "wrong": "at the morning",
+    "right": "in the morning",
+    "why_ru": "Части дня — in the morning."
+   },
+   {
+    "wrong": "on next week",
+    "right": "next week",
+    "why_ru": "Перед next предлог не нужен."
+   },
+   {
+    "wrong": "in 7 o'clock",
+    "right": "at 7 o'clock",
+    "why_ru": "Точное время — at."
+   },
+   {
+    "wrong": "in Friday evening",
+    "right": "on Friday evening",
+    "why_ru": "Назван день — значит on."
+   }
+  ],
+  "tags": {
+   "at": {
+    "ru": "at + время",
+    "tip_ru": "at — для точного времени: at 7 o'clock, at 6:30, at noon, at midnight. И запомни: at night."
+   },
+   "on": {
+    "ru": "on + дни и даты",
+    "tip_ru": "on — для дней: on Monday, on May 5, on my birthday, on Christmas Day. В Америке и on the weekend."
+   },
+   "in": {
+    "ru": "in + месяцы, годы, сезоны",
+    "tip_ru": "in — для больших отрезков: in May, in 2027, in winter, in summer."
+   },
+   "day-part": {
+    "ru": "in the morning, но on Monday morning",
+    "tip_ru": "Часть дня — in the morning / in the evening. Если назван день — on: on Friday evening. Исключение: at night."
+   },
+   "no-prep": {
+    "ru": "без предлога: next, every, tomorrow",
+    "tip_ru": "Перед next, last, every, this и со словами today, tomorrow предлог не нужен: every Monday, next week."
+   }
+  },
+  "items": [
+   {
+    "id": "g15-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "at",
+    "q": "The game starts ___ 6 o'clock.",
+    "o": [
+     "at",
+     "in"
+    ],
+    "a": 0,
+    "why": "Точное время — at: at 6 o'clock."
+   },
+   {
+    "id": "g15-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "on",
+    "q": "We have practice ___ Tuesday.",
+    "o": [
+     "on",
+     "in"
+    ],
+    "a": 0,
+    "why": "Дни недели — on: on Tuesday."
+   },
+   {
+    "id": "g15-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "in",
+    "q": "My birthday is ___ March.",
+    "o": [
+     "in",
+     "on"
+    ],
+    "a": 0,
+    "why": "Месяц — in: in March."
+   },
+   {
+    "id": "g15-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "in",
+    "q": "It's cold here ___ winter.",
+    "o": [
+     "in",
+     "at"
+    ],
+    "a": 0,
+    "why": "Время года — in: in winter."
+   },
+   {
+    "id": "g15-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "at",
+    "q": "Benny watches dinosaur videos ___ night.",
+    "o": [
+     "at",
+     "in"
+    ],
+    "a": 0,
+    "why": "Ночью — at night, это исключение."
+   },
+   {
+    "id": "g15-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-prep",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "We train every Monday.",
+     "We train on every Monday."
+    ],
+    "a": 0,
+    "why": "Перед every предлог не нужен."
+   },
+   {
+    "id": "g15-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "day-part",
+    "q": "I do my homework ___ the afternoon.",
+    "o": [
+     "in",
+     "on"
+    ],
+    "a": 0,
+    "why": "Часть дня — in the afternoon."
+   },
+   {
+    "id": "g15-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "day-part",
+    "q": "The party is ___ Friday night.",
+    "o": [
+     "on",
+     "in"
+    ],
+    "a": 0,
+    "why": "Назван день (Friday) — значит on."
+   },
+   {
+    "id": "g15-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-prep",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "See you next week!",
+     "See you on next week!"
+    ],
+    "a": 0,
+    "why": "Перед next предлог не нужен."
+   },
+   {
+    "id": "g15-010",
+    "t": "listen",
+    "lv": 1,
+    "tag": "on",
+    "say": "The game is on Sunday.",
+    "o": [
+     "The game is on Sunday.",
+     "The game is in Sunday."
+    ],
+    "a": 0,
+    "why": "Дни недели — on: on Sunday."
+   },
+   {
+    "id": "g15-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "at",
+    "say": "I get up at seven.",
+    "o": [
+     "I get up at seven.",
+     "I get up in seven."
+    ],
+    "a": 0,
+    "why": "Время по часам — at seven."
+   },
+   {
+    "id": "g15-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "day-part",
+    "say": "We go skating in the evening.",
+    "o": [
+     "We go skating in the evening.",
+     "We go skating at the evening."
+    ],
+    "a": 0,
+    "why": "Вечером — in the evening."
+   },
+   {
+    "id": "g15-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "no-prep",
+    "pairs": [
+     [
+      "7 o'clock",
+      "at"
+     ],
+     [
+      "Friday",
+      "on"
+     ],
+     [
+      "July",
+      "in"
+     ],
+     [
+      "next week",
+      "без предлога"
+     ]
+    ],
+    "why": "Время — at, день — on, месяц — in, а перед next предлога нет."
+   },
+   {
+    "id": "g15-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "day-part",
+    "pairs": [
+     [
+      "в понедельник утром",
+      "on Monday morning"
+     ],
+     [
+      "утром",
+      "in the morning"
+     ],
+     [
+      "ночью",
+      "at night"
+     ],
+     [
+      "каждый вечер",
+      "every evening"
+     ]
+    ],
+    "why": "Просто утро — in, утро конкретного дня — on, ночь — at, с every — без предлога."
+   },
+   {
+    "id": "g15-015",
+    "t": "mc",
+    "lv": 2,
+    "tag": "on",
+    "q": "The school year starts ___ September 3.",
+    "o": [
+     "on",
+     "in",
+     "at"
+    ],
+    "a": 0,
+    "why": "Конкретная дата — on."
+   },
+   {
+    "id": "g15-016",
+    "t": "mc",
+    "lv": 2,
+    "tag": "at",
+    "q": "Coach Walt eats lunch ___ noon.",
+    "o": [
+     "at",
+     "in",
+     "on"
+    ],
+    "a": 0,
+    "why": "Полдень — at noon."
+   },
+   {
+    "id": "g15-017",
+    "t": "mc",
+    "lv": 2,
+    "tag": "on",
+    "q": "We usually go to the lake ___ the weekend.",
+    "o": [
+     "on",
+     "in"
+    ],
+    "a": 0,
+    "why": "В американском английском — on the weekend (британцы говорят at the weekend)."
+   },
+   {
+    "id": "g15-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "at",
+    "q": "Benny gets up ___ 6:30.",
+    "a": [
+     "at"
+    ],
+    "why": "Точное время — at 6:30."
+   },
+   {
+    "id": "g15-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "on",
+    "q": "The tournament is ___ May 20.",
+    "a": [
+     "on"
+    ],
+    "why": "Дата — on May 20."
+   },
+   {
+    "id": "g15-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "in",
+    "q": "Mia's family goes to the mountains ___ summer.",
+    "a": [
+     "in",
+     "in the"
+    ],
+    "why": "Время года — in summer."
+   },
+   {
+    "id": "g15-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "day-part",
+    "q": "Rex has a dentist appointment ___ Thursday morning.",
+    "a": [
+     "on"
+    ],
+    "why": "Утро конкретного дня — on Thursday morning."
+   },
+   {
+    "id": "g15-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "day-part",
+    "q": "I listen to phonk ___ the evening.",
+    "a": [
+     "in"
+    ],
+    "why": "Вечером — in the evening."
+   },
+   {
+    "id": "g15-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "in",
+    "q": "The new season starts ___ 2027.",
+    "a": [
+     "in"
+    ],
+    "why": "Год — in 2027."
+   },
+   {
+    "id": "g15-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "at",
+    "q": "My dad comes home ___ midnight on Fridays.",
+    "a": [
+     "at"
+    ],
+    "why": "Полночь — at midnight."
+   },
+   {
+    "id": "g15-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "on",
+    "q": "The rink is closed ___ Christmas Day.",
+    "a": [
+     "on"
+    ],
+    "why": "Конкретный праздничный день — on Christmas Day."
+   },
+   {
+    "id": "g15-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "in",
+    "q": "Spring break is ___ March.",
+    "a": [
+     "in"
+    ],
+    "why": "Месяц — in March."
+   },
+   {
+    "id": "g15-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "on",
+    "a": "Mia has practice on Wednesday.",
+    "ru": "У Мии тренировка в среду.",
+    "extra": [
+     "in"
+    ],
+    "why": "День недели — on Wednesday."
+   },
+   {
+    "id": "g15-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "day-part",
+    "a": "Rex eats pancakes in the morning.",
+    "ru": "Рекс ест блины утром.",
+    "extra": [
+     "at"
+    ],
+    "why": "Утром — in the morning."
+   },
+   {
+    "id": "g15-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "at",
+    "a": "The concert starts at eight o'clock.",
+    "ru": "Концерт начинается в восемь часов.",
+    "extra": [
+     "in"
+    ],
+    "why": "Время по часам — at eight o'clock."
+   },
+   {
+    "id": "g15-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "no-prep",
+    "a": "Benny plays the drums every evening.",
+    "ru": "Бенни играет на барабанах каждый вечер.",
+    "extra": [
+     "in"
+    ],
+    "why": "С every предлог не нужен."
+   },
+   {
+    "id": "g15-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "in",
+    "a": "It often snows in January.",
+    "ru": "В январе часто идёт снег.",
+    "extra": [
+     "on"
+    ],
+    "why": "Месяц — in January."
+   },
+   {
+    "id": "g15-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "no-prep",
+    "src": "We train on every Friday.",
+    "task_ru": "Исправь ошибку.",
+    "a": [
+     "We train every Friday."
+    ],
+    "why": "Перед every предлог on не нужен."
+   },
+   {
+    "id": "g15-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "no-prep",
+    "src": "The game is on Saturday. (next)",
+    "task_ru": "Добавь слово next.",
+    "a": [
+     "The game is next Saturday."
+    ],
+    "why": "С next предлог on уходит."
+   },
+   {
+    "id": "g15-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "day-part",
+    "src": "I play hockey in the morning. (Sunday)",
+    "task_ru": "Скажи, что это в воскресенье утром.",
+    "a": [
+     "I play hockey on Sunday morning.",
+     "I play hockey on Sunday mornings."
+    ],
+    "why": "Есть день — значит on: on Sunday morning."
+   },
+   {
+    "id": "g15-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "on",
+    "src": "My birthday is in May. (May 14)",
+    "task_ru": "Назови точную дату.",
+    "a": [
+     "My birthday is on May 14.",
+     "My birthday is on May 14th.",
+     "My birthday is on the 14th of May."
+    ],
+    "why": "Дата — on: on May 14."
+   },
+   {
+    "id": "g15-036",
+    "t": "err",
+    "lv": 2,
+    "tag": "at",
+    "s": "Practice starts in 5 o'clock.",
+    "bad": 2,
+    "fix": "at",
+    "why": "Точное время — at 5 o'clock."
+   },
+   {
+    "id": "g15-037",
+    "t": "err",
+    "lv": 2,
+    "tag": "on",
+    "s": "We go to the movies in Sunday.",
+    "bad": 5,
+    "fix": "on",
+    "why": "Дни недели — on Sunday."
+   },
+   {
+    "id": "g15-038",
+    "t": "err",
+    "lv": 2,
+    "tag": "in",
+    "s": "Bears sleep a lot on winter.",
+    "bad": 4,
+    "fix": "in",
+    "why": "Время года — in winter."
+   },
+   {
+    "id": "g15-039",
+    "t": "err",
+    "lv": 3,
+    "tag": "day-part",
+    "s": "I do my homework at the evening.",
+    "bad": 4,
+    "fix": "in",
+    "why": "Вечером — in the evening."
+   },
+   {
+    "id": "g15-040",
+    "t": "err",
+    "lv": 3,
+    "tag": "day-part",
+    "s": "Rex has a game in Friday evening.",
+    "bad": 4,
+    "fix": "on",
+    "why": "Вечер конкретного дня — on Friday evening."
+   },
+   {
+    "id": "g15-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "on",
+    "title": "Mia's week",
+    "text": "Mia gets up ___ 6:30 every day. She has hockey practice ___ Monday and Wednesday. ___ the afternoon she does her homework. ___ Friday night she plays Roblox with Benny. Her big game is ___ March 15.",
+    "a": [
+     [
+      "at"
+     ],
+     [
+      "on"
+     ],
+     [
+      "In"
+     ],
+     [
+      "On"
+     ],
+     [
+      "on"
+     ]
+    ],
+    "why": "Время — at, дни и даты — on, часть дня — in, а Friday night — on."
+   },
+   {
+    "id": "g15-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "in",
+    "title": "Rex's year",
+    "text": "Rex's birthday is ___ June. ___ summer he swims in the lake. The hockey season starts ___ October. ___ New Year's Eve he stays up late. ___ midnight he eats a big cake!",
+    "a": [
+     [
+      "in"
+     ],
+     [
+      "In",
+      "In the"
+     ],
+     [
+      "in"
+     ],
+     [
+      "On"
+     ],
+     [
+      "At"
+     ]
+    ],
+    "why": "Месяцы и сезоны — in, конкретный день — on, полночь — at."
+   },
+   {
+    "id": "g15-043",
+    "t": "chat",
+    "lv": 3,
+    "tag": "at",
+    "lines": [
+     {
+      "who": "Benny",
+      "t": "When is the next game?"
+     },
+     {
+      "who": "you",
+      "t": "It's ___ Saturday."
+     },
+     {
+      "who": "Benny",
+      "t": "What time?"
+     },
+     {
+      "who": "you",
+      "t": "___ 10 ___ the morning."
+     },
+     {
+      "who": "Benny",
+      "t": "Oh no! I'm always sleepy in the morning."
+     },
+     {
+      "who": "you",
+      "t": "You can go to bed early ___ Friday night!"
+     }
+    ],
+    "a": [
+     [
+      "on"
+     ],
+     [
+      "At"
+     ],
+     [
+      "in"
+     ],
+     [
+      "on"
+     ]
+    ],
+    "why": "День — on, время — at, утро — in the morning, Friday night — on."
+   },
+   {
+    "id": "g15-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "at",
+    "ru": "Игра в 7 часов.",
+    "a": [
+     "The game is at 7 o'clock.",
+     "The game is at seven o'clock.",
+     "The game is at 7.",
+     "The game is at seven.",
+     "The game starts at 7 o'clock.",
+     "The game starts at seven o'clock.",
+     "The game starts at 7.",
+     "The game starts at seven."
+    ],
+    "why": "Время по часам — at."
+   },
+   {
+    "id": "g15-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "on",
+    "ru": "Я делаю музыку по субботам.",
+    "a": [
+     "I make music on Saturdays.",
+     "On Saturdays I make music."
+    ],
+    "why": "Дни недели — on Saturdays."
+   },
+   {
+    "id": "g15-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "no-prep",
+    "ru": "Мы тренируемся каждый день.",
+    "a": [
+     "We train every day.",
+     "We practice every day."
+    ],
+    "why": "Перед every предлог не нужен."
+   },
+   {
+    "id": "g15-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "in",
+    "ru": "Летом я играю в футбол.",
+    "a": [
+     "I play soccer in summer.",
+     "I play soccer in the summer.",
+     "In summer I play soccer.",
+     "In the summer I play soccer."
+    ],
+    "why": "Время года — in summer, а футбол в Америке — soccer."
+   },
+   {
+    "id": "g15-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "day-part",
+    "ru": "В пятницу вечером у нас вечеринка.",
+    "a": [
+     "We have a party on Friday evening.",
+     "We have a party on Friday night.",
+     "On Friday evening we have a party.",
+     "On Friday night we have a party."
+    ],
+    "why": "Вечер конкретного дня — on Friday evening."
+   },
+   {
+    "id": "g15-049",
+    "t": "speak",
+    "lv": 3,
+    "tag": "at",
+    "say": "My hockey practice is on Tuesday at five o'clock.",
+    "ru": "Моя тренировка по хоккею во вторник в пять часов.",
+    "why": "День — on Tuesday, время — at five o'clock."
+   },
+   {
+    "id": "g15-050",
+    "t": "write",
+    "lv": 3,
+    "tag": "in",
+    "task_ru": "Напиши 3 предложения о своём расписании: что ты делаешь в какой день, во сколько и в какое время года.",
+    "check_ru": [
+     "Время по часам — at?",
+     "Дни и даты — on?",
+     "Месяцы, годы, сезоны и части дня — in?",
+     "Перед every и next нет предлога?"
+    ],
+    "model": "I go to school at 8 o'clock. I have hockey practice on Tuesday and Thursday. In summer I swim in the lake.",
+    "why": "at — время, on — дни, in — месяцы, сезоны и части дня."
+   }
+  ]
+ }
+]

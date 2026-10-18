@@ -1,0 +1,4043 @@
+[
+ {
+  "id": "g26",
+  "stage": "A2",
+  "title_ru": "Past Simple: неправильные глаголы",
+  "goal_ru": "Использовать went, saw, got, took в рассказе.",
+  "prereq": [
+   "g25"
+  ],
+  "spotlight": [
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Без -ed",
+    "body_ru": "Некоторые частые глаголы в прошедшем времени **не получают -ed**, а меняются целиком: **go → went**, **see → saw**. Их просто запоминаем парами.",
+    "ex": [
+     [
+      "We went to the rink yesterday.",
+      "Вчера мы ходили на каток."
+     ],
+     [
+      "I saw a T-rex skeleton at the museum.",
+      "Я видел скелет тираннозавра в музее."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Топ-12 на каждый день",
+    "body_ru": "**go – went, see – saw, get – got, take – took, have – had, make – made, come – came, do – did, buy – bought, win – won, lose – lost, eat – ate.** Остальные ищи в блоке «Неправильные глаголы».",
+    "ex": [
+     [
+      "Mia got a new stick.",
+      "Мия получила новую клюшку."
+     ],
+     [
+      "Rex ate ten pancakes.",
+      "Рекс съел десять блинов."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Одна форма для всех",
+    "body_ru": "Форма прошедшего **одна для всех**: I went, he went, they went. Никакого **-s** после he/she/it.",
+    "ex": [
+     [
+      "She made a beat last night.",
+      "Вчера вечером она сделала бит."
+     ],
+     [
+      "They lost the game.",
+      "Они проиграли матч."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Правильный или нет?",
+    "body_ru": "Если глагола нет в списке неправильных, добавляй **-ed**: play → played, score → scored. Не путай: **won**, но **scored**.",
+    "ex": [
+     [
+      "We scored three goals and won!",
+      "Мы забили три гола и выиграли!"
+     ],
+     [
+      "Benny watched a video and laughed.",
+      "Бенни посмотрел видео и засмеялся."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "We goed to the park.",
+    "right": "We went to the park.",
+    "why_ru": "go — неправильный глагол: went, а не goed."
+   },
+   {
+    "wrong": "He wented home.",
+    "right": "He went home.",
+    "why_ru": "К went ничего не добавляем: ни -ed, ни -s."
+   },
+   {
+    "wrong": "Yesterday I buy a new game.",
+    "right": "Yesterday I bought a new game.",
+    "why_ru": "Yesterday — это прошлое, нужна форма bought."
+   },
+   {
+    "wrong": "We winned the game.",
+    "right": "We won the game.",
+    "why_ru": "win — неправильный: won."
+   },
+   {
+    "wrong": "She taked a photo.",
+    "right": "She took a photo.",
+    "why_ru": "take — неправильный: took."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "Форма неправильного глагола",
+    "tip_ru": "Учи пары вслух: go – went, see – saw, take – took, get – got. Пара, сказанная пять раз, запоминается намертво."
+   },
+   "no-ed": {
+    "ru": "Без -ed у неправильных",
+    "tip_ru": "К неправильным глаголам -ed не добавляем: не goed, а went; не buyed, а bought.",
+    "back": "g25"
+   },
+   "same-form": {
+    "ru": "Одна форма для всех лиц",
+    "tip_ru": "В прошедшем после he, she, it нет -s: he went, she saw, it came.",
+    "back": "g25"
+   },
+   "reg-irr": {
+    "ru": "Правильный или неправильный",
+    "tip_ru": "Сначала вспомни, есть ли глагол в списке неправильных. Нет — значит, -ed: played, scored, watched.",
+    "back": "g25"
+   },
+   "story": {
+    "ru": "Прошлое в рассказе",
+    "tip_ru": "В рассказе о прошлом все действия в прошедшем: we went, we saw, we won. Подсказки — yesterday, last, ago."
+   }
+  },
+  "items": [
+   {
+    "id": "g26-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "We ___ to the rink yesterday.",
+    "o": [
+     "went",
+     "goed"
+    ],
+    "a": 0,
+    "why": "go — неправильный глагол, его прошедшее — went."
+   },
+   {
+    "id": "g26-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Rex ___ a dinosaur movie last night.",
+    "o": [
+     "saw",
+     "sees"
+    ],
+    "a": 0,
+    "why": "Last night — прошлое: see → saw."
+   },
+   {
+    "id": "g26-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-ed",
+    "q": "Mia ___ a new hockey stick last week.",
+    "o": [
+     "buyed",
+     "bought"
+    ],
+    "a": 1,
+    "why": "buy — неправильный: bought, -ed не добавляем."
+   },
+   {
+    "id": "g26-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Our team ___ the game 5-2 yesterday!",
+    "o": [
+     "won",
+     "winned"
+    ],
+    "a": 0,
+    "why": "win — неправильный: won."
+   },
+   {
+    "id": "g26-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "same-form",
+    "q": "Benny ___ home late yesterday.",
+    "o": [
+     "came",
+     "cames"
+    ],
+    "a": 0,
+    "why": "В прошедшем форма одна для всех: he came, без -s."
+   },
+   {
+    "id": "g26-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "reg-irr",
+    "q": "Какой глагол правильный (получает -ed)?",
+    "o": [
+     "score",
+     "go",
+     "win",
+     "take"
+    ],
+    "a": 0,
+    "why": "score — правильный (scored), а go, win, take — неправильные: went, won, took."
+   },
+   {
+    "id": "g26-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no-ed",
+    "q": "I ___ a cool beat yesterday.",
+    "o": [
+     "maked",
+     "made"
+    ],
+    "a": 1,
+    "why": "make — неправильный: made."
+   },
+   {
+    "id": "g26-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Rex ___ ten pancakes for breakfast yesterday.",
+    "o": [
+     "ate",
+     "eated",
+     "eats",
+     "eat"
+    ],
+    "a": 0,
+    "why": "Yesterday — прошлое, а eat — неправильный: ate."
+   },
+   {
+    "id": "g26-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "same-form",
+    "q": "My sister ___ a cold last week.",
+    "o": [
+     "had",
+     "has"
+    ],
+    "a": 0,
+    "why": "Last week — прошлое: has и have превращаются в had для всех."
+   },
+   {
+    "id": "g26-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "reg-irr",
+    "q": "Coach Walt ___ at us after the game.",
+    "o": [
+     "smiled",
+     "smole"
+    ],
+    "a": 0,
+    "why": "smile — правильный глагол, просто добавляем -d: smiled."
+   },
+   {
+    "id": "g26-011",
+    "t": "match",
+    "lv": 1,
+    "tag": "form",
+    "pairs": [
+     [
+      "go",
+      "went"
+     ],
+     [
+      "see",
+      "saw"
+     ],
+     [
+      "take",
+      "took"
+     ],
+     [
+      "get",
+      "got"
+     ]
+    ],
+    "why": "Это главные пары неправильных глаголов — учи их вместе."
+   },
+   {
+    "id": "g26-012",
+    "t": "match",
+    "lv": 1,
+    "tag": "form",
+    "pairs": [
+     [
+      "buy",
+      "bought"
+     ],
+     [
+      "win",
+      "won"
+     ],
+     [
+      "lose",
+      "lost"
+     ],
+     [
+      "come",
+      "came"
+     ]
+    ],
+    "why": "Ещё четыре важные пары: bought, won, lost, came."
+   },
+   {
+    "id": "g26-013",
+    "t": "listen",
+    "lv": 1,
+    "tag": "form",
+    "say": "We won the game.",
+    "o": [
+     "We won the game.",
+     "We win the game."
+    ],
+    "a": 0,
+    "why": "Ты слышал won — это прошедшее от win."
+   },
+   {
+    "id": "g26-014",
+    "t": "listen",
+    "lv": 1,
+    "tag": "same-form",
+    "say": "She came to the game.",
+    "o": [
+     "She came to the game.",
+     "She comes to the game."
+    ],
+    "a": 0,
+    "why": "Прозвучало came — прошедшее время, без -s."
+   },
+   {
+    "id": "g26-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Benny ___ (fall) on the ice three times yesterday.",
+    "a": [
+     "fell"
+    ],
+    "why": "fall — неправильный: fell."
+   },
+   {
+    "id": "g26-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "We ___ (get) home at ten last night.",
+    "a": [
+     "got"
+    ],
+    "why": "get — неправильный: got."
+   },
+   {
+    "id": "g26-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Yesterday Mia ___ (take) a selfie with Coach Walt.",
+    "a": [
+     "took"
+    ],
+    "why": "take — неправильный: took."
+   },
+   {
+    "id": "g26-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "no-ed",
+    "q": "I ___ (do) my homework an hour ago.",
+    "a": [
+     "did"
+    ],
+    "why": "Ago — прошлое, а do — неправильный: did, не doed."
+   },
+   {
+    "id": "g26-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "same-form",
+    "q": "Rex ___ (have) pizza for dinner yesterday.",
+    "a": [
+     "had"
+    ],
+    "why": "Для всех лиц, и для Rex тоже, прошедшее от have — had."
+   },
+   {
+    "id": "g26-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Last Saturday we ___ (lose) the game 3-2.",
+    "a": [
+     "lost"
+    ],
+    "why": "lose — неправильный: lost."
+   },
+   {
+    "id": "g26-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "reg-irr",
+    "q": "Yesterday my dad ___ (watch) the game on TV.",
+    "a": [
+     "watched"
+    ],
+    "why": "watch — правильный глагол, добавляем -ed: watched."
+   },
+   {
+    "id": "g26-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "same-form",
+    "q": "Last Friday Benny ___ (come) to the rink with a big cake.",
+    "a": [
+     "came"
+    ],
+    "why": "Прошлое от come — came, одно для всех, без -s."
+   },
+   {
+    "id": "g26-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "no-ed",
+    "s": "Yesterday we goed to the skate park.",
+    "bad": 2,
+    "fix": "went",
+    "why": "go — неправильный: went, а не goed."
+   },
+   {
+    "id": "g26-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "no-ed",
+    "s": "Rex buyed new gloves for his tiny arms.",
+    "bad": 1,
+    "fix": "bought",
+    "why": "buy — неправильный: bought."
+   },
+   {
+    "id": "g26-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Last night Benny sees a moose in the yard.",
+    "bad": 3,
+    "fix": "saw",
+    "why": "Last night — прошлое: see → saw."
+   },
+   {
+    "id": "g26-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "no-ed",
+    "s": "She taked a photo of Rex.",
+    "bad": 1,
+    "fix": "took",
+    "why": "take — неправильный: took."
+   },
+   {
+    "id": "g26-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "same-form",
+    "s": "He wents to bed at midnight yesterday.",
+    "bad": 1,
+    "fix": "went",
+    "why": "К went не добавляем -s, даже после he."
+   },
+   {
+    "id": "g26-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "We went to the museum last Sunday.",
+    "ru": "В прошлое воскресенье мы ходили в музей.",
+    "extra": [
+     "goed"
+    ],
+    "why": "go → went, и никакого goed."
+   },
+   {
+    "id": "g26-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "no-ed",
+    "a": "Rex ate all the cookies.",
+    "ru": "Рекс съел все печенья.",
+    "extra": [
+     "eated"
+    ],
+    "why": "eat — неправильный: ate."
+   },
+   {
+    "id": "g26-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "no-ed",
+    "a": "Benny took my headphones.",
+    "ru": "Бенни взял мои наушники.",
+    "extra": [
+     "taked"
+    ],
+    "why": "take — неправильный: took."
+   },
+   {
+    "id": "g26-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "same-form",
+    "a": "My friends came to my birthday party.",
+    "ru": "Мои друзья пришли на мой день рождения.",
+    "extra": [
+     "comes"
+    ],
+    "why": "Прошлое от come — came, без -s."
+   },
+   {
+    "id": "g26-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "Mia saw a bear near the rink.",
+    "ru": "Мия видела медведя возле катка.",
+    "extra": [
+     "see"
+    ],
+    "why": "Прошедшее от see — saw."
+   },
+   {
+    "id": "g26-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "reg-irr",
+    "a": "Yesterday we played hockey and won.",
+    "ru": "Вчера мы играли в хоккей и выиграли.",
+    "extra": [
+     "winned"
+    ],
+    "why": "play — правильный (played), а win — неправильный (won)."
+   },
+   {
+    "id": "g26-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "form",
+    "src": "I go to the rink every day.",
+    "task_ru": "Перепиши про вчера: замени every day на yesterday.",
+    "a": [
+     "I went to the rink yesterday.",
+     "Yesterday I went to the rink."
+    ],
+    "why": "Вчера — прошлое: go → went."
+   },
+   {
+    "id": "g26-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "form",
+    "src": "Rex eats ten pancakes.",
+    "task_ru": "Перепиши в прошедшем времени.",
+    "a": [
+     "Rex ate ten pancakes."
+    ],
+    "why": "eats → ate: у неправильного глагола своя форма, и -s пропадает."
+   },
+   {
+    "id": "g26-036",
+    "t": "tr",
+    "lv": 3,
+    "tag": "same-form",
+    "src": "Mia gets a new jersey and takes a photo.",
+    "task_ru": "Перепиши в прошедшем времени.",
+    "a": [
+     "Mia got a new jersey and took a photo."
+    ],
+    "why": "gets → got, takes → took: в прошедшем -s нет."
+   },
+   {
+    "id": "g26-037",
+    "t": "tr",
+    "lv": 3,
+    "tag": "reg-irr",
+    "src": "We play well and win.",
+    "task_ru": "Перепиши в прошедшем времени.",
+    "a": [
+     "We played well and won."
+    ],
+    "why": "play правильный (played), win неправильный (won)."
+   },
+   {
+    "id": "g26-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "story",
+    "src": "On Saturday I get up, have breakfast and go to the rink.",
+    "task_ru": "Расскажи это о прошлой субботе: перепиши в прошедшем времени.",
+    "a": [
+     "On Saturday I got up, had breakfast and went to the rink."
+    ],
+    "why": "В рассказе о прошлом все глаголы в прошедшем: got, had, went."
+   },
+   {
+    "id": "g26-039",
+    "t": "err",
+    "lv": 3,
+    "tag": "reg-irr",
+    "s": "We winned the game and celebrated with pizza.",
+    "bad": 1,
+    "fix": "won",
+    "why": "celebrate — правильный (celebrated), а win — неправильный: won."
+   },
+   {
+    "id": "g26-040",
+    "t": "text",
+    "lv": 3,
+    "tag": "story",
+    "title": "Benny's first game",
+    "text": "Last Saturday Benny ___ (go) to his first hockey game. He ___ (buy) a huge hot dog. Then he ___ (see) Mia on the ice. She ___ (score) two goals! Mia's team ___ (win), and Benny ___ (eat) three more hot dogs.",
+    "a": [
+     [
+      "went"
+     ],
+     [
+      "bought"
+     ],
+     [
+      "saw"
+     ],
+     [
+      "scored"
+     ],
+     [
+      "won"
+     ],
+     [
+      "ate"
+     ]
+    ],
+    "why": "Рассказ о прошлом: went, bought, saw, won, ate — неправильные, а scored — правильный."
+   },
+   {
+    "id": "g26-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "story",
+    "title": "Rex's bad day",
+    "text": "Yesterday Rex ___ (get) up late. He ___ (have) no time for breakfast. He ___ (take) the bus to the rink, but he ___ (lose) his gloves on the way. Coach Walt ___ (give) him new ones.",
+    "a": [
+     [
+      "got"
+     ],
+     [
+      "had"
+     ],
+     [
+      "took"
+     ],
+     [
+      "lost"
+     ],
+     [
+      "gave"
+     ]
+    ],
+    "why": "Всё случилось вчера, и все пять глаголов неправильные: got, had, took, lost, gave."
+   },
+   {
+    "id": "g26-042",
+    "t": "chat",
+    "lv": 3,
+    "tag": "story",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hey! How was your weekend?"
+     },
+     {
+      "who": "you",
+      "t": "Awesome! I ___ (go) to a phonk concert."
+     },
+     {
+      "who": "Mia",
+      "t": "Wow! Was it loud?"
+     },
+     {
+      "who": "you",
+      "t": "Very! I ___ (buy) a T-shirt and ___ (meet) a cool DJ."
+     },
+     {
+      "who": "Mia",
+      "t": "Lucky you! We ___ (lose) our game. Rex was sad."
+     }
+    ],
+    "a": [
+     [
+      "went"
+     ],
+     [
+      "bought"
+     ],
+     [
+      "met"
+     ],
+     [
+      "lost"
+     ]
+    ],
+    "why": "Выходные уже прошли: went, bought, met, lost — неправильные формы."
+   },
+   {
+    "id": "g26-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "form",
+    "ru": "Вчера мы выиграли матч.",
+    "a": [
+     "We won the game yesterday.",
+     "Yesterday we won the game.",
+     "We won the match yesterday.",
+     "Yesterday we won the match."
+    ],
+    "why": "Выиграли — прошлое от win: won."
+   },
+   {
+    "id": "g26-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "same-form",
+    "ru": "Бенни съел мой торт.",
+    "a": [
+     "Benny ate my cake."
+    ],
+    "why": "Съел — прошлое от eat: ate, без -s."
+   },
+   {
+    "id": "g26-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "no-ed",
+    "ru": "Мия купила новые коньки.",
+    "a": [
+     "Mia bought new skates.",
+     "Mia bought some new skates."
+    ],
+    "why": "Купила — bought, а не buyed."
+   },
+   {
+    "id": "g26-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "no-ed",
+    "ru": "Вчера вечером я сделал новый бит.",
+    "a": [
+     "I made a new beat last night.",
+     "Last night I made a new beat.",
+     "I made a new beat yesterday evening.",
+     "Yesterday evening I made a new beat."
+    ],
+    "why": "Сделал — прошлое от make: made."
+   },
+   {
+    "id": "g26-047",
+    "t": "speak",
+    "lv": 3,
+    "tag": "story",
+    "say": "Last week we went to Toronto and saw a big game.",
+    "ru": "На прошлой неделе мы ездили в Торонто и смотрели большой матч.",
+    "why": "went и saw — прошедшие формы go и see."
+   },
+   {
+    "id": "g26-048",
+    "t": "write",
+    "lv": 3,
+    "tag": "story",
+    "task_ru": "Напиши 3 предложения о том, что ты делал в прошлые выходные. Используй went, saw, got, had или made.",
+    "check_ru": [
+     "Все глаголы в прошедшем времени?",
+     "У неправильных глаголов нет -ed (went, а не goed)?",
+     "Есть слово времени: last weekend, on Saturday, yesterday?"
+    ],
+    "model": "Last weekend I went to the rink with my friends. We had pizza after the game. On Sunday I made a new phonk beat.",
+    "why": "В рассказе о прошлом все глаголы в прошедшем: went, had, made."
+   }
+  ]
+ },
+ {
+  "id": "g27",
+  "stage": "A2",
+  "title_ru": "Past Simple: отрицание и вопросы",
+  "goal_ru": "Спросить: Did you win? — No, we didn't.",
+  "prereq": [
+   "g26"
+  ],
+  "spotlight": [
+   "1c",
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Отрицание: didn't",
+    "body_ru": "Чтобы сказать «не», ставим **didn't + глагол в начальной форме**. Прошлое уже показывает didn't, поэтому глагол не меняем: didn't go, didn't see.",
+    "ex": [
+     [
+      "We didn't win.",
+      "Мы не выиграли."
+     ],
+     [
+      "Rex didn't see the puck.",
+      "Рекс не увидел шайбу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопрос: Did…?",
+    "body_ru": "**Did + кто + глагол в начальной форме?** Краткий ответ: **Yes, I did. / No, I didn't.**",
+    "ex": [
+     [
+      "Did you win? — No, we didn't.",
+      "Вы выиграли? — Нет."
+     ],
+     [
+      "Did Mia score? — Yes, she did.",
+      "Мия забила? — Да."
+     ]
+    ]
+   },
+   {
+    "title_ru": "What did you do?",
+    "body_ru": "Вопросительное слово ставим перед did: **What / Where / When / Who + did + кто + глагол?**",
+    "ex": [
+     [
+      "What did you do yesterday?",
+      "Что ты делал вчера?"
+     ],
+     [
+      "Where did Benny go?",
+      "Куда пошёл Бенни?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Was/were — без did",
+    "body_ru": "С **was/were** did не нужен: **Were you tired? I wasn't at home.** Did — для всех других глаголов.",
+    "ex": [
+     [
+      "Was the game fun? — Yes, it was.",
+      "Матч был весёлым? — Да."
+     ],
+     [
+      "Did you like the game? — Yes, I did.",
+      "Тебе понравился матч? — Да."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I didn't went to school.",
+    "right": "I didn't go to school.",
+    "why_ru": "После didn't — начальная форма: go."
+   },
+   {
+    "wrong": "Did you saw the goal?",
+    "right": "Did you see the goal?",
+    "why_ru": "После Did — начальная форма: see."
+   },
+   {
+    "wrong": "He didn't played.",
+    "right": "He didn't play.",
+    "why_ru": "-ed после didn't тоже не нужен."
+   },
+   {
+    "wrong": "Where you went?",
+    "right": "Where did you go?",
+    "why_ru": "В вопросе нужен did, а глагол — в начальной форме."
+   },
+   {
+    "wrong": "Did you tired?",
+    "right": "Were you tired?",
+    "why_ru": "tired — не глагол, тут нужен were."
+   }
+  ],
+  "tags": {
+   "didnt-base": {
+    "ru": "didn't + начальная форма",
+    "tip_ru": "После didn't глагол в начальной форме: didn't go, didn't see, didn't play. Прошлое уже показано словом didn't.",
+    "back": "g10"
+   },
+   "did-q": {
+    "ru": "Вопрос Did…?",
+    "tip_ru": "Did + кто + глагол в начальной форме: Did you win? Did she see it?",
+    "back": "g11"
+   },
+   "short": {
+    "ru": "Краткие ответы",
+    "tip_ru": "На вопрос с Did отвечаем: Yes, I did. / No, we didn't. На вопрос с Was/Were — Yes, it was. / No, they weren't.",
+    "back": "g11"
+   },
+   "wh-q": {
+    "ru": "What / Where / When did…?",
+    "tip_ru": "Вопросительное слово + did + кто + глагол: What did you do? Where did you go?",
+    "back": "g13"
+   },
+   "be-did": {
+    "ru": "Was/were или did",
+    "tip_ru": "С прилагательными и местами (tired, happy, at home) — was/were. С обычными глаголами — did.",
+    "back": "g24"
+   }
+  },
+  "items": [
+   {
+    "id": "g27-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "didnt-base",
+    "q": "We ___ win the game yesterday.",
+    "o": [
+     "didn't",
+     "don't"
+    ],
+    "a": 0,
+    "why": "Yesterday — прошлое, поэтому didn't."
+   },
+   {
+    "id": "g27-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "didnt-base",
+    "q": "Rex didn't ___ the puck.",
+    "o": [
+     "see",
+     "saw"
+    ],
+    "a": 0,
+    "why": "После didn't — начальная форма: see."
+   },
+   {
+    "id": "g27-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "didnt-base",
+    "q": "Benny didn't ___ his homework.",
+    "o": [
+     "do",
+     "did"
+    ],
+    "a": 0,
+    "why": "После didn't — начальная форма do."
+   },
+   {
+    "id": "g27-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "did-q",
+    "q": "___ you go to the concert last night?",
+    "o": [
+     "Did",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Last night — прошлое: вопрос с Did."
+   },
+   {
+    "id": "g27-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "did-q",
+    "q": "Did Mia ___ a goal?",
+    "o": [
+     "score",
+     "scored"
+    ],
+    "a": 0,
+    "why": "После Did — начальная форма score, без -ed."
+   },
+   {
+    "id": "g27-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Did you like the movie? — Yes, I ___.",
+    "o": [
+     "did",
+     "liked"
+    ],
+    "a": 0,
+    "why": "На вопрос с Did кратко отвечаем did."
+   },
+   {
+    "id": "g27-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Did Rex catch the puck? — No, he ___.",
+    "o": [
+     "didn't",
+     "wasn't"
+    ],
+    "a": 0,
+    "why": "Вопрос с Did — ответ с didn't."
+   },
+   {
+    "id": "g27-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "wh-q",
+    "q": "Where ___ you go on Saturday?",
+    "o": [
+     "did",
+     "were"
+    ],
+    "a": 0,
+    "why": "go — обычный глагол, поэтому Where did you go."
+   },
+   {
+    "id": "g27-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-did",
+    "q": "___ you tired after practice?",
+    "o": [
+     "Were",
+     "Did"
+    ],
+    "a": 0,
+    "why": "tired — не глагол, нужен were."
+   },
+   {
+    "id": "g27-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-did",
+    "q": "___ the game exciting?",
+    "o": [
+     "Was",
+     "Did"
+    ],
+    "a": 0,
+    "why": "exciting — прилагательное, поэтому Was."
+   },
+   {
+    "id": "g27-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "wh-q",
+    "q": "What ___ you eat yesterday?",
+    "o": [
+     "did",
+     "do",
+     "were",
+     "was"
+    ],
+    "a": 0,
+    "why": "Yesterday и обычный глагол eat — What did you eat."
+   },
+   {
+    "id": "g27-012",
+    "t": "mc",
+    "lv": 1,
+    "tag": "did-q",
+    "q": "Did they ___ the game on TV?",
+    "o": [
+     "watch",
+     "watched",
+     "watching",
+     "watches"
+    ],
+    "a": 0,
+    "why": "После Did — начальная форма: watch."
+   },
+   {
+    "id": "g27-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "short",
+    "pairs": [
+     [
+      "Did you win?",
+      "Yes, we did."
+     ],
+     [
+      "Was it fun?",
+      "Yes, it was."
+     ],
+     [
+      "Were they late?",
+      "No, they weren't."
+     ],
+     [
+      "Did she call?",
+      "No, she didn't."
+     ]
+    ],
+    "why": "Отвечаем тем же словом, что в вопросе: did → did, was → was, were → weren't."
+   },
+   {
+    "id": "g27-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "wh-q",
+    "pairs": [
+     [
+      "Where did you go?",
+      "To the rink."
+     ],
+     [
+      "What did you buy?",
+      "New skates."
+     ],
+     [
+      "When did you come home?",
+      "At nine."
+     ],
+     [
+      "Who did you see?",
+      "Benny and Rex."
+     ]
+    ],
+    "why": "Where — место, What — что, When — время, Who — кто."
+   },
+   {
+    "id": "g27-015",
+    "t": "listen",
+    "lv": 1,
+    "tag": "did-q",
+    "say": "Did you see the goal?",
+    "o": [
+     "Did you see the goal?",
+     "Do you see the goal?"
+    ],
+    "a": 0,
+    "why": "Прозвучало Did — вопрос о прошлом."
+   },
+   {
+    "id": "g27-016",
+    "t": "listen",
+    "lv": 1,
+    "tag": "didnt-base",
+    "say": "He didn't call me.",
+    "o": [
+     "He didn't call me.",
+     "He doesn't call me."
+    ],
+    "a": 0,
+    "why": "Прозвучало didn't — это прошлое, doesn't — настоящее."
+   },
+   {
+    "id": "g27-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "didnt-base",
+    "q": "I ___ (not / watch) the game yesterday.",
+    "a": [
+     "didn't watch"
+    ],
+    "why": "Отрицание в прошлом: didn't + watch."
+   },
+   {
+    "id": "g27-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "didnt-base",
+    "q": "Benny ___ (not / go) to school on Monday.",
+    "a": [
+     "didn't go"
+    ],
+    "why": "didn't + начальная форма go, а не went."
+   },
+   {
+    "id": "g27-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "didnt-base",
+    "q": "Oh no! Rex ___ (not / catch) the puck again!",
+    "a": [
+     "didn't catch"
+    ],
+    "why": "didn't + catch, а не caught."
+   },
+   {
+    "id": "g27-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "did-q",
+    "q": "___ you buy the new game yesterday? (Did / Were)",
+    "a": [
+     "Did"
+    ],
+    "why": "buy — обычный глагол, вопрос начинается с Did."
+   },
+   {
+    "id": "g27-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "did-q",
+    "q": "Did Mia ___ (win) the race?",
+    "a": [
+     "win"
+    ],
+    "why": "После Did — начальная форма win, а не won."
+   },
+   {
+    "id": "g27-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh-q",
+    "q": "Where did you ___ (go) last weekend?",
+    "a": [
+     "go"
+    ],
+    "why": "После did — начальная форма go."
+   },
+   {
+    "id": "g27-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh-q",
+    "q": "What ___ Benny eat this morning? (did / was)",
+    "a": [
+     "did"
+    ],
+    "why": "eat — обычный глагол: What did Benny eat."
+   },
+   {
+    "id": "g27-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short",
+    "q": "Did you see Rex's save? — Yes, I ___.",
+    "a": [
+     "did"
+    ],
+    "why": "Краткий ответ на Did: Yes, I did."
+   },
+   {
+    "id": "g27-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-did",
+    "q": "Were you at home last night? — No, I ___.",
+    "a": [
+     "wasn't"
+    ],
+    "why": "Вопрос с Were — ответ про I: No, I wasn't."
+   },
+   {
+    "id": "g27-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-did",
+    "q": "___ the pizza good? (Was / Did)",
+    "a": [
+     "Was"
+    ],
+    "why": "good — прилагательное, поэтому Was."
+   },
+   {
+    "id": "g27-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "didnt-base",
+    "s": "I didn't went to the party.",
+    "bad": 2,
+    "fix": "go",
+    "why": "После didn't — начальная форма: go."
+   },
+   {
+    "id": "g27-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "did-q",
+    "s": "Did you saw my new beat?",
+    "bad": 2,
+    "fix": "see",
+    "why": "После Did — начальная форма: see."
+   },
+   {
+    "id": "g27-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "didnt-base",
+    "s": "Mia didn't scored today.",
+    "bad": 2,
+    "fix": "score",
+    "why": "После didn't -ed не нужен: score."
+   },
+   {
+    "id": "g27-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "wh-q",
+    "s": "Where did you went yesterday?",
+    "bad": 3,
+    "fix": "go",
+    "why": "Прошлое уже показал did, поэтому go."
+   },
+   {
+    "id": "g27-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "did-q",
+    "a": "Did you watch the game last night?",
+    "ru": "Ты смотрел матч вчера вечером?",
+    "extra": [
+     "watched"
+    ],
+    "why": "Did + you + начальная форма watch."
+   },
+   {
+    "id": "g27-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "didnt-base",
+    "a": "We didn't lose the game.",
+    "ru": "Мы не проиграли матч.",
+    "extra": [
+     "lost"
+    ],
+    "why": "didn't + lose, а не lost."
+   },
+   {
+    "id": "g27-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh-q",
+    "a": "What did Rex eat for lunch?",
+    "ru": "Что Рекс ел на обед?",
+    "extra": [
+     "ate"
+    ],
+    "why": "What + did + Rex + eat."
+   },
+   {
+    "id": "g27-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh-q",
+    "a": "Where did Benny find his skates?",
+    "ru": "Где Бенни нашёл свои коньки?",
+    "extra": [
+     "found"
+    ],
+    "why": "Where + did + Benny + начальная форма find."
+   },
+   {
+    "id": "g27-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "didnt-base",
+    "a": "Mia didn't see the puck.",
+    "ru": "Мия не увидела шайбу.",
+    "extra": [
+     "saw"
+    ],
+    "why": "didn't + see, а не saw."
+   },
+   {
+    "id": "g27-036",
+    "t": "build",
+    "lv": 2,
+    "tag": "be-did",
+    "a": "Was the concert loud?",
+    "ru": "Концерт был громким?",
+    "extra": [
+     "did"
+    ],
+    "why": "loud — прилагательное, нужен was, а не did."
+   },
+   {
+    "id": "g27-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "didnt-base",
+    "src": "We won the game.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "We didn't win the game."
+    ],
+    "why": "won → didn't win: глагол возвращается в начальную форму."
+   },
+   {
+    "id": "g27-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "did-q",
+    "src": "Mia bought a new stick.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Did Mia buy a new stick?"
+    ],
+    "why": "Did в начало, bought → buy."
+   },
+   {
+    "id": "g27-039",
+    "t": "tr",
+    "lv": 3,
+    "tag": "wh-q",
+    "src": "Benny went to the park.",
+    "task_ru": "Задай вопрос со словом Where.",
+    "a": [
+     "Where did Benny go?"
+    ],
+    "why": "Where + did + Benny + go."
+   },
+   {
+    "id": "g27-040",
+    "t": "tr",
+    "lv": 3,
+    "tag": "be-did",
+    "src": "Rex was angry.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Was Rex angry?"
+    ],
+    "why": "С was did не нужен: просто ставим Was вперёд."
+   },
+   {
+    "id": "g27-041",
+    "t": "err",
+    "lv": 3,
+    "tag": "be-did",
+    "s": "Did you tired after the game?",
+    "bad": 0,
+    "fix": "Were",
+    "why": "tired — не глагол, поэтому Were you tired."
+   },
+   {
+    "id": "g27-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "didnt-base",
+    "title": "After the game",
+    "text": "Coach Walt ___ (not / be) happy yesterday. We ___ (not / play) well. Rex ___ (not / catch) the easy shots, and Benny ___ (not / hear) the whistle. But Mia ___ (score) one great goal!",
+    "a": [
+     [
+      "wasn't"
+     ],
+     [
+      "didn't play"
+     ],
+     [
+      "didn't catch"
+     ],
+     [
+      "didn't hear"
+     ],
+     [
+      "scored"
+     ]
+    ],
+    "why": "С be — wasn't, с другими глаголами — didn't + начальная форма, а в утверждении — scored."
+   },
+   {
+    "id": "g27-043",
+    "t": "text",
+    "lv": 3,
+    "tag": "did-q",
+    "title": "Questions for Mia",
+    "text": "Reporter: ___ you win yesterday? Mia: Yes, we did! Reporter: How many goals ___ you score? Mia: Two. Reporter: ___ you nervous? Mia: A little. Reporter: What ___ you do after the game? Mia: We ___ (have) pizza!",
+    "a": [
+     [
+      "Did"
+     ],
+     [
+      "did"
+     ],
+     [
+      "Were"
+     ],
+     [
+      "did"
+     ],
+     [
+      "had"
+     ]
+    ],
+    "why": "С глаголами (win, score, do) — did, с nervous — were, а в ответе — прошедшее had."
+   },
+   {
+    "id": "g27-044",
+    "t": "chat",
+    "lv": 3,
+    "tag": "short",
+    "lines": [
+     {
+      "who": "Benny",
+      "t": "Did you see the game yesterday?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___! It was great."
+     },
+     {
+      "who": "Benny",
+      "t": "Did Rex stop the last shot?"
+     },
+     {
+      "who": "you",
+      "t": "No, he ___. But we ___ (win) anyway!"
+     },
+     {
+      "who": "Benny",
+      "t": "___ Mia score?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, she did. Two goals!"
+     }
+    ],
+    "a": [
+     [
+      "did"
+     ],
+     [
+      "didn't"
+     ],
+     [
+      "won"
+     ],
+     [
+      "Did"
+     ]
+    ],
+    "why": "Краткие ответы: did / didn't, в утверждении — won, вопрос — с Did."
+   },
+   {
+    "id": "g27-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "didnt-base",
+    "ru": "Я не видел этот гол.",
+    "a": [
+     "I didn't see that goal.",
+     "I didn't see this goal.",
+     "I didn't see the goal."
+    ],
+    "why": "Не видел — didn't + see."
+   },
+   {
+    "id": "g27-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "did-q",
+    "ru": "Ты выиграл?",
+    "a": [
+     "Did you win?"
+    ],
+    "why": "Вопрос о прошлом: Did + you + win."
+   },
+   {
+    "id": "g27-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "wh-q",
+    "ru": "Что ты делал вчера?",
+    "a": [
+     "What did you do yesterday?"
+    ],
+    "why": "What + did + you + do."
+   },
+   {
+    "id": "g27-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-did",
+    "ru": "Ты устал вчера?",
+    "a": [
+     "Were you tired yesterday?"
+    ],
+    "why": "По-русски «устал» — глагол, а по-английски tired — прилагательное, поэтому Were."
+   },
+   {
+    "id": "g27-049",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "wh-q",
+    "ru": "Куда вы ходили в субботу?",
+    "a": [
+     "Where did you go on Saturday?"
+    ],
+    "why": "Where + did + you + go."
+   },
+   {
+    "id": "g27-050",
+    "t": "speak",
+    "lv": 3,
+    "tag": "didnt-base",
+    "say": "We didn't win, but we played really well.",
+    "ru": "Мы не выиграли, но сыграли очень хорошо.",
+    "why": "didn't + win, а в утверждении — played."
+   },
+   {
+    "id": "g27-051",
+    "t": "write",
+    "lv": 3,
+    "tag": "wh-q",
+    "task_ru": "Напиши 3 вопроса другу о его выходных: один с Did…?, один с Where…?, один с What…?",
+    "check_ru": [
+     "После did глагол в начальной форме (go, а не went)?",
+     "did стоит перед подлежащим?",
+     "С tired, happy, at home — was/were вместо did?"
+    ],
+    "model": "Did you play Brawl Stars on Saturday? Where did you go on Sunday? What did you eat at the party?",
+    "why": "Во всех вопросах did + кто + начальная форма глагола."
+   }
+  ]
+ },
+ {
+  "id": "g28",
+  "stage": "A2",
+  "title_ru": "Past Continuous и Past Simple",
+  "goal_ru": "Рассказать историю: I was skating when Rex fell.",
+  "prereq": [
+   "g27",
+   "g20"
+  ],
+  "spotlight": [
+   "1c",
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Что происходило",
+    "body_ru": "**was/were + глагол-ing** — действие шло в какой-то момент прошлого. I/he/she/it **was**, you/we/they **were**.",
+    "ex": [
+     [
+      "At 8 pm I was making a beat.",
+      "В 8 вечера я делал бит."
+     ],
+     [
+      "The fans were singing.",
+      "Болельщики пели."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Фон и событие",
+    "body_ru": "Длинное действие-фон — **was/were + -ing**. Короткое событие, которое его прервало, — **Past Simple**.",
+    "ex": [
+     [
+      "I was skating when Rex fell.",
+      "Я катался, когда Рекс упал."
+     ],
+     [
+      "Benny was sleeping when the phone rang.",
+      "Бенни спал, когда зазвонил телефон."
+     ]
+    ]
+   },
+   {
+    "title_ru": "When и while",
+    "body_ru": "**while** («пока») — перед длинным действием с -ing. **when** — перед коротким событием в Past Simple.",
+    "ex": [
+     [
+      "While Mia was skating, she saw a fox.",
+      "Пока Мия каталась, она увидела лису."
+     ],
+     [
+      "We were eating when Coach Walt came in.",
+      "Мы ели, когда вошёл тренер Уолт."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Не и вопросы",
+    "body_ru": "Отрицание: **wasn't / weren't + -ing**. Вопрос: **Was he …ing? What were you doing?** Did тут не нужен.",
+    "ex": [
+     [
+      "I wasn't sleeping!",
+      "Я не спал!"
+     ],
+     [
+      "What were you doing at 9?",
+      "Что ты делал в 9?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I was skate when Rex fell.",
+    "right": "I was skating when Rex fell.",
+    "why_ru": "После was нужен глагол с -ing."
+   },
+   {
+    "wrong": "We was playing Roblox.",
+    "right": "We were playing Roblox.",
+    "why_ru": "С we — were."
+   },
+   {
+    "wrong": "I was watching TV when the lights were going out.",
+    "right": "I was watching TV when the lights went out.",
+    "why_ru": "Короткое событие — Past Simple: went out."
+   },
+   {
+    "wrong": "What did you doing at 8?",
+    "right": "What were you doing at 8?",
+    "why_ru": "С -ing нужен were, а не did."
+   }
+  ],
+  "tags": {
+   "was-ing": {
+    "ru": "was/were + -ing",
+    "tip_ru": "I/he/she/it was + -ing, you/we/they were + -ing: I was skating, they were playing.",
+    "back": "g24"
+   },
+   "neg-q": {
+    "ru": "Отрицание и вопросы",
+    "tip_ru": "Отрицание — wasn't/weren't + -ing, вопрос — Was he sleeping? What were you doing? Без did.",
+    "back": "g20"
+   },
+   "when-while": {
+    "ru": "when и while",
+    "tip_ru": "while + длинное действие (was …ing), when + короткое событие (Past Simple): I was skating when Rex fell."
+   },
+   "bg-event": {
+    "ru": "Фон и событие",
+    "tip_ru": "Длинное действие-фон — was/were + -ing, короткое событие, которое его прервало, — Past Simple.",
+    "back": "g26"
+   },
+   "at-time": {
+    "ru": "В тот момент прошлого",
+    "tip_ru": "Если говорим, что происходило в конкретный момент (at 7 yesterday, at this time yesterday), — was/were + -ing."
+   }
+  },
+  "items": [
+   {
+    "id": "g28-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-ing",
+    "q": "At 7 pm we ___ hockey.",
+    "o": [
+     "were playing",
+     "was playing"
+    ],
+    "a": 0,
+    "why": "С we — were + -ing."
+   },
+   {
+    "id": "g28-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-ing",
+    "q": "Benny ___ when the phone rang.",
+    "o": [
+     "was sleeping",
+     "were sleeping"
+    ],
+    "a": 0,
+    "why": "Benny — он, значит was + -ing."
+   },
+   {
+    "id": "g28-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "when-while",
+    "q": "I was skating ___ Rex fell.",
+    "o": [
+     "when",
+     "while"
+    ],
+    "a": 0,
+    "why": "Rex fell — короткое событие, перед ним ставим when."
+   },
+   {
+    "id": "g28-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "when-while",
+    "q": "While I ___ TV, the lights went out.",
+    "o": [
+     "was watching",
+     "watched"
+    ],
+    "a": 0,
+    "why": "После while — длинное действие: was watching."
+   },
+   {
+    "id": "g28-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "bg-event",
+    "q": "We were eating when Coach Walt ___ in.",
+    "o": [
+     "came",
+     "was coming"
+    ],
+    "a": 0,
+    "why": "Тренер вошёл — короткое событие, поэтому Past Simple: came."
+   },
+   {
+    "id": "g28-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "bg-event",
+    "q": "Mia ___ when she saw a fox on the ice.",
+    "o": [
+     "was skating",
+     "skated"
+    ],
+    "a": 0,
+    "why": "Катание — фон, оно шло, когда появилась лиса: was skating."
+   },
+   {
+    "id": "g28-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "What ___ you doing at 9 last night?",
+    "o": [
+     "were",
+     "did"
+    ],
+    "a": 0,
+    "why": "С doing нужен were, а не did."
+   },
+   {
+    "id": "g28-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "I ___ sleeping! I was just resting my eyes.",
+    "o": [
+     "wasn't",
+     "didn't"
+    ],
+    "a": 0,
+    "why": "Перед sleeping — wasn't, did тут не нужен."
+   },
+   {
+    "id": "g28-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "at-time",
+    "q": "At 10 o'clock yesterday Rex ___ pizza.",
+    "o": [
+     "was eating",
+     "is eating"
+    ],
+    "a": 0,
+    "why": "Yesterday — прошлое, а в тот момент действие шло: was eating."
+   },
+   {
+    "id": "g28-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "___ Rex sleeping at 11?",
+    "o": [
+     "Was",
+     "Did"
+    ],
+    "a": 0,
+    "why": "Перед sleeping — Was, вопрос без did."
+   },
+   {
+    "id": "g28-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "at-time",
+    "q": "At this time yesterday they ___ to Toronto.",
+    "o": [
+     "were flying",
+     "was flying",
+     "flying",
+     "are flying"
+    ],
+    "a": 0,
+    "why": "Момент в прошлом и they — were flying."
+   },
+   {
+    "id": "g28-012",
+    "t": "mc",
+    "lv": 1,
+    "tag": "bg-event",
+    "q": "Benny was carrying a cake when he ___.",
+    "o": [
+     "fell",
+     "was falling",
+     "falls",
+     "fall"
+    ],
+    "a": 0,
+    "why": "Упал — короткое событие, оно прервало фон: fell."
+   },
+   {
+    "id": "g28-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "was-ing",
+    "pairs": [
+     [
+      "skate",
+      "skating"
+     ],
+     [
+      "run",
+      "running"
+     ],
+     [
+      "sit",
+      "sitting"
+     ],
+     [
+      "make",
+      "making"
+     ]
+    ],
+    "why": "Глагол с -ing: e убираем (skating), согласную удваиваем после короткой гласной (running)."
+   },
+   {
+    "id": "g28-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "neg-q",
+    "pairs": [
+     [
+      "What were you doing at 8?",
+      "I was watching YouTube."
+     ],
+     [
+      "Was Rex sleeping?",
+      "No, he wasn't."
+     ],
+     [
+      "Were they playing?",
+      "Yes, they were."
+     ],
+     [
+      "What happened?",
+      "Benny fell."
+     ]
+    ],
+    "why": "Отвечаем тем же словом, что в вопросе: was → wasn't, were → were."
+   },
+   {
+    "id": "g28-015",
+    "t": "listen",
+    "lv": 1,
+    "tag": "was-ing",
+    "say": "I was watching TV.",
+    "o": [
+     "I was watching TV.",
+     "I watched TV."
+    ],
+    "a": 0,
+    "why": "Прозвучало was watching — действие шло."
+   },
+   {
+    "id": "g28-016",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg-q",
+    "say": "He wasn't sleeping.",
+    "o": [
+     "He wasn't sleeping.",
+     "He was sleeping."
+    ],
+    "a": 0,
+    "why": "Прозвучало wasn't — он не спал."
+   },
+   {
+    "id": "g28-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "at-time",
+    "q": "At 6 am yesterday Coach Walt ___ (swim) in the sea, so he missed my call.",
+    "a": [
+     "was swimming"
+    ],
+    "why": "В тот момент действие шло: was + swimming (m удваиваем)."
+   },
+   {
+    "id": "g28-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "bg-event",
+    "q": "We ___ (watch) a movie when the lights went out.",
+    "a": [
+     "were watching"
+    ],
+    "why": "Фильм — фон, его прервало событие: were watching."
+   },
+   {
+    "id": "g28-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "bg-event",
+    "q": "Benny ___ (eat) popcorn when he dropped the bowl.",
+    "a": [
+     "was eating"
+    ],
+    "why": "Он ел — фон, уронил — событие: was eating."
+   },
+   {
+    "id": "g28-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "bg-event",
+    "q": "Rex was running when he ___ (fall).",
+    "a": [
+     "fell"
+    ],
+    "why": "Упал — короткое событие: Past Simple fell."
+   },
+   {
+    "id": "g28-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "when-while",
+    "q": "While Mia ___ (practice), she broke her stick.",
+    "a": [
+     "was practicing"
+    ],
+    "why": "После while — длинное действие: was practicing."
+   },
+   {
+    "id": "g28-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "when-while",
+    "q": "I saw Benny ___ I was walking to school. (when / while)",
+    "a": [
+     "while",
+     "when"
+    ],
+    "why": "Перед длинным действием was walking лучше всего while, но when тоже возможно."
+   },
+   {
+    "id": "g28-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "Sorry, I ___ listening. What did you say? (wasn't / weren't)",
+    "a": [
+     "wasn't"
+    ],
+    "why": "С I — wasn't."
+   },
+   {
+    "id": "g28-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "What ___ Benny doing in the kitchen at midnight? (was / were)",
+    "a": [
+     "was"
+    ],
+    "why": "Benny — он, поэтому was."
+   },
+   {
+    "id": "g28-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "at-time",
+    "q": "At 9 pm yesterday my friends ___ (play) Brawl Stars, so they didn't see my message.",
+    "a": [
+     "were playing"
+    ],
+    "why": "Момент в прошлом и friends — were playing."
+   },
+   {
+    "id": "g28-026",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "___ it snowing when you left? (Was / Did)",
+    "a": [
+     "Was"
+    ],
+    "why": "Перед snowing — Was, без did."
+   },
+   {
+    "id": "g28-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "was-ing",
+    "s": "We was skating when it started to snow.",
+    "bad": 1,
+    "fix": "were",
+    "why": "С we — were."
+   },
+   {
+    "id": "g28-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "was-ing",
+    "s": "I was play Roblox when Mom called.",
+    "bad": 2,
+    "fix": "playing",
+    "why": "После was — глагол с -ing: playing."
+   },
+   {
+    "id": "g28-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "bg-event",
+    "s": "Rex was sleeping when the puck hits his head.",
+    "bad": 6,
+    "fix": "hit",
+    "why": "Всё в прошлом, а удар — короткое событие: hit."
+   },
+   {
+    "id": "g28-030",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg-q",
+    "s": "What did you doing at 8 last night?",
+    "bad": 1,
+    "fix": "were",
+    "why": "С doing нужен were: What were you doing?"
+   },
+   {
+    "id": "g28-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "What were you doing at the rink?",
+    "ru": "Что ты делал на катке?",
+    "extra": [
+     "did"
+    ],
+    "why": "What + were + you + doing — без did."
+   },
+   {
+    "id": "g28-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "They weren't listening to the coach.",
+    "ru": "Они не слушали тренера.",
+    "extra": [
+     "didn't"
+    ],
+    "why": "Отрицание с -ing: weren't listening."
+   },
+   {
+    "id": "g28-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "was-ing",
+    "a": "Benny was eating my popcorn.",
+    "ru": "Бенни ел мой попкорн.",
+    "extra": [
+     "were"
+    ],
+    "why": "Benny — он: was eating."
+   },
+   {
+    "id": "g28-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "was-ing",
+    "a": "My friends were playing Brawl Stars.",
+    "ru": "Мои друзья играли в Brawl Stars.",
+    "extra": [
+     "was"
+    ],
+    "why": "friends — они: were playing."
+   },
+   {
+    "id": "g28-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "Was it raining in Toronto?",
+    "ru": "В Торонто шёл дождь?",
+    "extra": [
+     "Did"
+    ],
+    "why": "Вопрос с -ing: Was it raining."
+   },
+   {
+    "id": "g28-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "at-time",
+    "src": "I play the guitar.",
+    "task_ru": "Скажи, что ты делал вчера в 8 вечера. Начни с At 8 pm yesterday.",
+    "a": [
+     "At 8 pm yesterday I was playing the guitar."
+    ],
+    "why": "Действие шло в тот момент: was playing."
+   },
+   {
+    "id": "g28-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg-q",
+    "src": "They were sleeping.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "They weren't sleeping."
+    ],
+    "why": "were → weren't, -ing остаётся."
+   },
+   {
+    "id": "g28-038",
+    "t": "tr",
+    "lv": 3,
+    "tag": "when-while",
+    "src": "Mia was skating. She saw a fox.",
+    "task_ru": "Соедини в одно предложение со словом while.",
+    "a": [
+     "While Mia was skating she saw a fox.",
+     "Mia saw a fox while she was skating.",
+     "While she was skating Mia saw a fox."
+    ],
+    "why": "while ставим перед длинным действием was skating."
+   },
+   {
+    "id": "g28-039",
+    "t": "tr",
+    "lv": 3,
+    "tag": "bg-event",
+    "src": "Benny was cooking. The smoke alarm went off.",
+    "task_ru": "Соедини в одно предложение со словом when.",
+    "a": [
+     "Benny was cooking when the smoke alarm went off.",
+     "When the smoke alarm went off Benny was cooking."
+    ],
+    "why": "when ставим перед коротким событием went off."
+   },
+   {
+    "id": "g28-040",
+    "t": "tr",
+    "lv": 3,
+    "tag": "neg-q",
+    "src": "He was watching YouTube.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Was he watching YouTube?"
+    ],
+    "why": "Was переносим вперёд: Was he watching…?"
+   },
+   {
+    "id": "g28-041",
+    "t": "err",
+    "lv": 3,
+    "tag": "at-time",
+    "s": "At 7 yesterday Mia is doing her homework.",
+    "bad": 4,
+    "fix": "was",
+    "why": "Yesterday — прошлое: was doing."
+   },
+   {
+    "id": "g28-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "bg-event",
+    "title": "Benny's kitchen disaster",
+    "text": "It was 10 am last Sunday. Benny ___ (make) pancakes, and Mrs Parker ___ (read) a book in the garden. Suddenly the smoke alarm ___ (go) off! Mr Parker ran in while Benny ___ (try) to catch a flying pancake. The pancake ___ (land) on Mr Parker's head!",
+    "a": [
+     [
+      "was making"
+     ],
+     [
+      "was reading"
+     ],
+     [
+      "went"
+     ],
+     [
+      "was trying"
+     ],
+     [
+      "landed"
+     ]
+    ],
+    "why": "Фон — was making, was reading, was trying; события — went off и landed."
+   },
+   {
+    "id": "g28-043",
+    "t": "text",
+    "lv": 3,
+    "tag": "at-time",
+    "title": "Rex's big save",
+    "text": "At 7 pm yesterday the fans ___ (sing) and the players ___ (skate) fast. Rex ___ (look) at his phone when Mia shouted 'Rex!' He ___ (jump) up and ___ (catch) the puck with his tiny arms!",
+    "a": [
+     [
+      "were singing"
+     ],
+     [
+      "were skating"
+     ],
+     [
+      "was looking"
+     ],
+     [
+      "jumped"
+     ],
+     [
+      "caught"
+     ]
+    ],
+    "why": "В 7 вечера шли фоновые действия (were singing, were skating, was looking), а потом случились события: jumped, caught."
+   },
+   {
+    "id": "g28-044",
+    "t": "chat",
+    "lv": 3,
+    "tag": "neg-q",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "I called you at 8. What ___ you doing?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ (make) a new beat. Sorry!"
+     },
+     {
+      "who": "Mia",
+      "t": "___ you wearing headphones?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I was. I ___ (not / hear) the phone."
+     }
+    ],
+    "a": [
+     [
+      "were"
+     ],
+     [
+      "was making"
+     ],
+     [
+      "Were"
+     ],
+     [
+      "didn't hear"
+     ]
+    ],
+    "why": "Что шло в 8 — were/was + -ing, а не услышал — короткое: didn't hear."
+   },
+   {
+    "id": "g28-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "bg-event",
+    "ru": "Я спал, когда ты позвонил.",
+    "a": [
+     "I was sleeping when you called.",
+     "When you called I was sleeping."
+    ],
+    "why": "Спал — фон (was sleeping), позвонил — событие (called)."
+   },
+   {
+    "id": "g28-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg-q",
+    "ru": "Что вы делали, когда пришёл тренер?",
+    "a": [
+     "What were you doing when the coach came?",
+     "What were you doing when the coach came in?",
+     "What were you doing when the coach arrived?",
+     "What were you doing when Coach came?"
+    ],
+    "why": "Фон в вопросе — were you doing, событие — came."
+   },
+   {
+    "id": "g28-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "when-while",
+    "ru": "Пока мы играли, пошёл снег.",
+    "a": [
+     "While we were playing it started to snow.",
+     "While we were playing it started snowing.",
+     "It started to snow while we were playing.",
+     "It started snowing while we were playing.",
+     "While we were playing it began to snow.",
+     "It began to snow while we were playing."
+    ],
+    "why": "Пока — while + were playing, снег пошёл — started."
+   },
+   {
+    "id": "g28-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "at-time",
+    "ru": "В 7 утра Рекс ещё спал.",
+    "a": [
+     "At 7 am Rex was still sleeping.",
+     "At 7 am Rex was still asleep.",
+     "Rex was still sleeping at 7 am.",
+     "At seven am Rex was still sleeping.",
+     "At 7 in the morning Rex was still sleeping."
+    ],
+    "why": "В тот момент сон ещё шёл: was still sleeping."
+   },
+   {
+    "id": "g28-049",
+    "t": "speak",
+    "lv": 3,
+    "tag": "bg-event",
+    "say": "I was skating with Mia when Rex fell on the ice.",
+    "ru": "Я катался с Мией, когда Рекс упал на лёд.",
+    "why": "Фон — was skating, событие — fell."
+   },
+   {
+    "id": "g28-050",
+    "t": "write",
+    "lv": 3,
+    "tag": "bg-event",
+    "task_ru": "Напиши 3 предложения: что ты делал, когда случилось что-то неожиданное.",
+    "check_ru": [
+     "Длинное действие — was/were + -ing?",
+     "Короткое событие — Past Simple (fell, rang, came)?",
+     "when перед коротким событием, while перед длинным?"
+    ],
+    "model": "Yesterday I was making a beat when my cat jumped on the keyboard. While I was fixing the track, the lights went out. I was really angry!",
+    "why": "Фон — was making, was fixing; события — jumped, went out."
+   }
+  ]
+ },
+ {
+  "id": "g29",
+  "stage": "A2",
+  "title_ru": "Be going to",
+  "goal_ru": "Рассказать о планах: I'm going to watch the game.",
+  "prereq": [
+   "g20"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Планы",
+    "body_ru": "**am/is/are + going to + глагол** — то, что ты **уже решил** сделать. По-русски: «собираюсь», «буду».",
+    "ex": [
+     [
+      "I'm going to watch the game tonight.",
+      "Сегодня вечером я буду смотреть матч."
+     ],
+     [
+      "Mia is going to buy new skates.",
+      "Мия собирается купить новые коньки."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Не забудь am/is/are",
+    "body_ru": "**I'm** going to, **he's / she's** going to, **we're / they're** going to. После going to — глагол в **начальной форме**.",
+    "ex": [
+     [
+      "They're going to play Roblox.",
+      "Они собираются поиграть в Roblox."
+     ],
+     [
+      "Benny is going to make a cake.",
+      "Бенни собирается испечь торт."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Не собираюсь / Собираешься?",
+    "body_ru": "Отрицание: **I'm not / isn't / aren't going to**. Вопрос: **Are you going to…? What is he going to do?**",
+    "ex": [
+     [
+      "I'm not going to cry.",
+      "Я не собираюсь плакать."
+     ],
+     [
+      "What are you going to do on Saturday?",
+      "Что ты собираешься делать в субботу?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вижу — значит, будет",
+    "body_ru": "Если **видно по признакам**, что что-то сейчас случится, тоже говорим going to.",
+    "ex": [
+     [
+      "Look at those clouds! It's going to snow.",
+      "Посмотри на тучи! Сейчас пойдёт снег."
+     ],
+     [
+      "Watch out! Benny is going to fall!",
+      "Осторожно! Бенни сейчас упадёт!"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I going to play.",
+    "right": "I'm going to play.",
+    "why_ru": "Без am не обойтись: I'm going to."
+   },
+   {
+    "wrong": "She is going to plays.",
+    "right": "She is going to play.",
+    "why_ru": "После going to — начальная форма, без -s."
+   },
+   {
+    "wrong": "Are you going play hockey?",
+    "right": "Are you going to play hockey?",
+    "why_ru": "Не теряй to: going to play."
+   },
+   {
+    "wrong": "Do you going to watch it?",
+    "right": "Are you going to watch it?",
+    "why_ru": "Вопрос строим с am/is/are, а не с do."
+   },
+   {
+    "wrong": "I don't going to tell him.",
+    "right": "I'm not going to tell him.",
+    "why_ru": "Отрицание — am not, а не don't."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "am/is/are going to + глагол",
+    "tip_ru": "Не забудь am/is/are: I'm going to, she's going to, they're going to + глагол в начальной форме.",
+    "back": "g01"
+   },
+   "neg": {
+    "ru": "Отрицание",
+    "tip_ru": "not ставим после am/is/are: I'm not going to, he isn't going to, they aren't going to.",
+    "back": "g02"
+   },
+   "q": {
+    "ru": "Вопросы",
+    "tip_ru": "Am/Is/Are переносим вперёд: Are you going to play? What is she going to do?",
+    "back": "g20"
+   },
+   "plan": {
+    "ru": "План или намерение",
+    "tip_ru": "going to — то, что ты уже решил сделать: I'm going to buy new skates."
+   },
+   "evidence": {
+    "ru": "Предсказание по признакам",
+    "tip_ru": "Видишь признаки — говори going to: Look at those clouds! It's going to snow."
+   }
+  },
+  "items": [
+   {
+    "id": "g29-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "I ___ going to watch the game tonight.",
+    "o": [
+     "am",
+     "is"
+    ],
+    "a": 0,
+    "why": "С I — am: I am going to."
+   },
+   {
+    "id": "g29-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Mia is going to ___ a new stick.",
+    "o": [
+     "buy",
+     "buys"
+    ],
+    "a": 0,
+    "why": "После going to — начальная форма buy, без -s."
+   },
+   {
+    "id": "g29-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "They ___ going to play Roblox after school.",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "С they — are going to."
+   },
+   {
+    "id": "g29-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "q",
+    "q": "___ you going to come to the concert?",
+    "o": [
+     "Are",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Вопрос с going to начинается с Are, а не с Do."
+   },
+   {
+    "id": "g29-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "Rex ___ going to give up. He's a goalie!",
+    "o": [
+     "isn't",
+     "doesn't"
+    ],
+    "a": 0,
+    "why": "Отрицание с going to — isn't, а не doesn't."
+   },
+   {
+    "id": "g29-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "evidence",
+    "q": "Look at that black sky! ___",
+    "o": [
+     "It's going to rain.",
+     "It rains every day."
+    ],
+    "a": 0,
+    "why": "Видим чёрное небо — предсказание по признакам: It's going to rain."
+   },
+   {
+    "id": "g29-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "evidence",
+    "q": "Benny is carrying ten plates. He ___ drop them!",
+    "o": [
+     "is going to",
+     "goes to"
+    ],
+    "a": 0,
+    "why": "Видно, что сейчас случится, — is going to."
+   },
+   {
+    "id": "g29-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "q",
+    "q": "What ___ Benny going to cook?",
+    "o": [
+     "is",
+     "does"
+    ],
+    "a": 0,
+    "why": "What + is + Benny + going to."
+   },
+   {
+    "id": "g29-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "plan",
+    "q": "Next summer Mia ___ go to a hockey camp.",
+    "o": [
+     "is going to",
+     "is going"
+    ],
+    "a": 0,
+    "why": "Не теряй to: is going to go."
+   },
+   {
+    "id": "g29-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "plan",
+    "q": "I saved money for new headphones. I ___ buy them on Saturday.",
+    "o": [
+     "am going to",
+     "going to",
+     "am going",
+     "go to"
+    ],
+    "a": 0,
+    "why": "План уже есть: am going to + buy."
+   },
+   {
+    "id": "g29-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "We ___ going to lose this game!",
+    "o": [
+     "aren't",
+     "don't",
+     "isn't",
+     "not"
+    ],
+    "a": 0,
+    "why": "С we отрицание — aren't going to."
+   },
+   {
+    "id": "g29-012",
+    "t": "match",
+    "lv": 1,
+    "tag": "evidence",
+    "pairs": [
+     [
+      "Look at those clouds!",
+      "It's going to rain."
+     ],
+     [
+      "Benny is running with a full cup.",
+      "He's going to spill it."
+     ],
+     [
+      "Mia has her skates and stick.",
+      "She's going to practice."
+     ],
+     [
+      "The score is 5-0 for us.",
+      "We're going to win!"
+     ]
+    ],
+    "why": "Видишь признаки — предсказываешь с going to."
+   },
+   {
+    "id": "g29-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "q",
+    "pairs": [
+     [
+      "Are you going to play?",
+      "Yes, I am."
+     ],
+     [
+      "Is Rex going to come?",
+      "No, he isn't."
+     ],
+     [
+      "Are they going to win?",
+      "Yes, they are."
+     ],
+     [
+      "What are you going to do?",
+      "Make a new beat."
+     ]
+    ],
+    "why": "На вопрос с am/is/are отвечаем тем же словом: Yes, I am или No, he isn't."
+   },
+   {
+    "id": "g29-014",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg",
+    "say": "She isn't going to come.",
+    "o": [
+     "She isn't going to come.",
+     "She's going to come."
+    ],
+    "a": 0,
+    "why": "Прозвучало isn't — она не придёт."
+   },
+   {
+    "id": "g29-015",
+    "t": "listen",
+    "lv": 1,
+    "tag": "q",
+    "say": "Are you going to watch it?",
+    "o": [
+     "Are you going to watch it?",
+     "Do you want to watch it?"
+    ],
+    "a": 0,
+    "why": "Прозвучало Are you going to — вопрос о плане."
+   },
+   {
+    "id": "g29-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "I ___ going to sleep late on Saturday. (am / is)",
+    "a": [
+     "am"
+    ],
+    "why": "С I — am."
+   },
+   {
+    "id": "g29-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Rex ___ (going to / play) in the big game on Friday.",
+    "a": [
+     "is going to play"
+    ],
+    "why": "Rex — он: is going to play."
+   },
+   {
+    "id": "g29-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "My friends ___ (going to / make) a Roblox game.",
+    "a": [
+     "are going to make"
+    ],
+    "why": "friends — они: are going to make."
+   },
+   {
+    "id": "g29-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "I ___ (not / going to / tell) Mom about the window.",
+    "a": [
+     "am not going to tell"
+    ],
+    "why": "Отрицание с I: am not going to."
+   },
+   {
+    "id": "g29-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "q",
+    "q": "___ Mia going to play tomorrow? (Is / Does)",
+    "a": [
+     "Is"
+    ],
+    "why": "Вопрос с going to: Is Mia going to…?"
+   },
+   {
+    "id": "g29-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "q",
+    "q": "What ___ you going to buy with your money? (are / do)",
+    "a": [
+     "are"
+    ],
+    "why": "What + are + you + going to."
+   },
+   {
+    "id": "g29-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "evidence",
+    "q": "Watch out! That box ___ (going to / fall)!",
+    "a": [
+     "is going to fall"
+    ],
+    "why": "Видно, что коробка падает, — is going to fall."
+   },
+   {
+    "id": "g29-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "evidence",
+    "q": "Coach Walt's face is red. He ___ (going to / shout)!",
+    "a": [
+     "is going to shout"
+    ],
+    "why": "Красное лицо — признак: is going to shout."
+   },
+   {
+    "id": "g29-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "plan",
+    "q": "This summer I ___ (going to / learn) to surf.",
+    "a": [
+     "am going to learn"
+    ],
+    "why": "Это твой план: am going to learn."
+   },
+   {
+    "id": "g29-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "I is going to make a new beat tonight.",
+    "bad": 1,
+    "fix": "am",
+    "why": "С I — am."
+   },
+   {
+    "id": "g29-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Mia is going to plays hockey tomorrow.",
+    "bad": 4,
+    "fix": "play",
+    "why": "После going to — начальная форма play."
+   },
+   {
+    "id": "g29-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "q",
+    "s": "Do you going to watch the game?",
+    "bad": 0,
+    "fix": "Are",
+    "why": "Вопрос с going to — Are you going to…?"
+   },
+   {
+    "id": "g29-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg",
+    "s": "Rex don't going to eat the salad.",
+    "bad": 1,
+    "fix": "isn't",
+    "why": "Отрицание с going to — isn't, а не don't."
+   },
+   {
+    "id": "g29-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "q",
+    "s": "What is they going to do on Saturday?",
+    "bad": 1,
+    "fix": "are",
+    "why": "С they — are."
+   },
+   {
+    "id": "g29-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "plan",
+    "a": "We're going to watch the game at Mia's house.",
+    "ru": "Мы будем смотреть матч у Мии дома.",
+    "extra": [
+     "watching"
+    ],
+    "why": "We're going to + начальная форма watch."
+   },
+   {
+    "id": "g29-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "q",
+    "a": "Are you going to play Brawl Stars?",
+    "ru": "Ты собираешься играть в Brawl Stars?",
+    "extra": [
+     "do"
+    ],
+    "why": "Вопрос: Are + you + going to."
+   },
+   {
+    "id": "g29-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "Benny isn't going to cook again.",
+    "ru": "Бенни больше не собирается готовить.",
+    "extra": [
+     "doesn't"
+    ],
+    "why": "Отрицание: isn't going to."
+   },
+   {
+    "id": "g29-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "evidence",
+    "a": "The ice is going to break!",
+    "ru": "Лёд сейчас треснет!",
+    "extra": [
+     "breaks"
+    ],
+    "why": "Видно, что лёд трескается, — is going to break."
+   },
+   {
+    "id": "g29-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "q",
+    "a": "What are you going to do on Saturday?",
+    "ru": "Что ты собираешься делать в субботу?",
+    "extra": [
+     "does"
+    ],
+    "why": "What + are + you + going to do."
+   },
+   {
+    "id": "g29-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "plan",
+    "a": "My sister is going to learn Spanish.",
+    "ru": "Моя сестра собирается учить испанский.",
+    "extra": [
+     "learns"
+    ],
+    "why": "is going to + начальная форма learn."
+   },
+   {
+    "id": "g29-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "plan",
+    "src": "I play hockey.",
+    "task_ru": "Расскажи о плане на завтра: используй going to и tomorrow.",
+    "a": [
+     "I'm going to play hockey tomorrow.",
+     "Tomorrow I'm going to play hockey."
+    ],
+    "why": "План: I'm going to + play."
+   },
+   {
+    "id": "g29-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "q",
+    "src": "They are going to win.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Are they going to win?"
+    ],
+    "why": "Are переносим вперёд."
+   },
+   {
+    "id": "g29-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "Rex is going to eat the cake.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Rex isn't going to eat the cake."
+    ],
+    "why": "not после is: isn't going to."
+   },
+   {
+    "id": "g29-039",
+    "t": "tr",
+    "lv": 3,
+    "tag": "q",
+    "src": "Mia is going to buy new skates.",
+    "task_ru": "Задай вопрос со словом What (что Мия купит?).",
+    "a": [
+     "What is Mia going to buy?"
+    ],
+    "why": "What + is + Mia + going to buy."
+   },
+   {
+    "id": "g29-040",
+    "t": "err",
+    "lv": 3,
+    "tag": "evidence",
+    "s": "Look at Benny! He is going to falls off the chair.",
+    "bad": 7,
+    "fix": "fall",
+    "why": "После going to — начальная форма fall."
+   },
+   {
+    "id": "g29-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "plan",
+    "title": "Mia's weekend plans",
+    "text": "This weekend is going to be busy! On Saturday I ___ (going to / play) in a tournament. Benny ___ (going to / bring) a big sign. My parents ___ (going to / film) every goal. On Sunday I ___ (not / going to / get up) early!",
+    "a": [
+     [
+      "am going to play"
+     ],
+     [
+      "is going to bring"
+     ],
+     [
+      "are going to film"
+     ],
+     [
+      "am not going to get up"
+     ]
+    ],
+    "why": "Планы: I — am going to, Benny — is going to, parents — are going to, а отрицание — am not going to."
+   },
+   {
+    "id": "g29-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "evidence",
+    "title": "Watch out, Benny!",
+    "text": "Benny is on the roof with a kite. The wind is really strong. Oh no! He ___ (going to / fly) away! Mr Parker is running with a ladder. He ___ (going to / help) him. But look, the ladder ___ (going to / fall)! I think we ___ (going to / need) a bigger ladder.",
+    "a": [
+     [
+      "is going to fly"
+     ],
+     [
+      "is going to help"
+     ],
+     [
+      "is going to fall"
+     ],
+     [
+      "are going to need"
+     ]
+    ],
+    "why": "Всё видно по признакам, поэтому is/are going to + глагол."
+   },
+   {
+    "id": "g29-043",
+    "t": "chat",
+    "lv": 3,
+    "tag": "q",
+    "lines": [
+     {
+      "who": "Rex",
+      "t": "What ___ you going to do after school?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ (going to / make) a new phonk track."
+     },
+     {
+      "who": "Rex",
+      "t": "Cool! ___ you going to post it on YouTube?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I am! Then I ___ (going to / play) Brawl Stars."
+     }
+    ],
+    "a": [
+     [
+      "are"
+     ],
+     [
+      "am going to make"
+     ],
+     [
+      "Are"
+     ],
+     [
+      "am going to play"
+     ]
+    ],
+    "why": "В вопросах — are / Are, в ответах о планах — am going to."
+   },
+   {
+    "id": "g29-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "plan",
+    "ru": "Я собираюсь купить новые коньки.",
+    "a": [
+     "I'm going to buy new skates.",
+     "I'm going to buy some new skates."
+    ],
+    "why": "Собираюсь — I'm going to + buy."
+   },
+   {
+    "id": "g29-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "q",
+    "ru": "Ты собираешься смотреть матч?",
+    "a": [
+     "Are you going to watch the game?",
+     "Are you going to watch the match?"
+    ],
+    "why": "Вопрос: Are you going to + watch."
+   },
+   {
+    "id": "g29-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "evidence",
+    "ru": "Смотри! Сейчас пойдёт дождь.",
+    "a": [
+     "Look! It's going to rain.",
+     "Look, it's going to rain.",
+     "Look. It's going to rain."
+    ],
+    "why": "Видишь тучи — It's going to rain."
+   },
+   {
+    "id": "g29-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "Мы не собираемся проигрывать.",
+    "a": [
+     "We aren't going to lose.",
+     "We're not going to lose."
+    ],
+    "why": "Отрицание: aren't going to + lose."
+   },
+   {
+    "id": "g29-048",
+    "t": "speak",
+    "lv": 3,
+    "tag": "plan",
+    "say": "Next summer I'm going to visit Canada and watch a real NHL game.",
+    "ru": "Следующим летом я собираюсь поехать в Канаду и посмотреть настоящий матч НХЛ.",
+    "why": "План на будущее: I'm going to visit… and watch."
+   },
+   {
+    "id": "g29-049",
+    "t": "write",
+    "lv": 3,
+    "tag": "plan",
+    "task_ru": "Напиши 3 предложения о своих планах на выходные с going to. Одно сделай отрицательным.",
+    "check_ru": [
+     "Есть am/is/are перед going to?",
+     "После going to — начальная форма глагола?",
+     "Отрицание — с not после am/is/are?"
+    ],
+    "model": "On Saturday I'm going to play hockey with my team. After that I'm going to make a new beat. I'm not going to get up early on Sunday!",
+    "why": "Планы — am going to + глагол, отрицание — am not going to."
+   }
+  ]
+ },
+ {
+  "id": "g30",
+  "stage": "A2",
+  "title_ru": "Will и will или going to",
+  "goal_ru": "Пообещать, решить сейчас, предсказать: I'll help you!",
+  "prereq": [
+   "g29"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Will — для всех",
+    "body_ru": "**will + глагол в начальной форме**, одинаково для всех лиц. Коротко: **I'll, she'll, we'll**. Отрицание: **won't** (= will not).",
+    "ex": [
+     [
+      "I'll help you.",
+      "Я тебе помогу."
+     ],
+     [
+      "Rex won't eat salad.",
+      "Рекс не будет есть салат."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Решил прямо сейчас",
+    "body_ru": "Решение принимаешь **в момент разговора** — will. **Обещания и предложения** помощи — тоже will.",
+    "ex": [
+     [
+      "The phone's ringing. — I'll get it!",
+      "Телефон звонит. — Я возьму!"
+     ],
+     [
+      "I promise I won't be late.",
+      "Обещаю, я не опоздаю."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Я думаю, что…",
+    "body_ru": "Мнение о будущем: **I think / I'm sure / maybe + will**. Вопрос: **Will they win?** — **Yes, they will. / No, they won't.**",
+    "ex": [
+     [
+      "I think Mia will score.",
+      "Я думаю, Мия забьёт."
+     ],
+     [
+      "Will it be cold tomorrow?",
+      "Завтра будет холодно?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Will или going to?",
+    "body_ru": "**going to** — план, решённый **заранее**, или то, что видно по признакам. **will** — решение **сейчас**, обещание, просто мнение.",
+    "ex": [
+     [
+      "I saved money for a month. I'm going to buy skates.",
+      "Я копил месяц. Я собираюсь купить коньки."
+     ],
+     [
+      "Oh, these skates are on sale! I'll buy them!",
+      "О, коньки со скидкой! Куплю их!"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I will to help you.",
+    "right": "I will help you.",
+    "why_ru": "После will — глагол без to."
+   },
+   {
+    "wrong": "She wills come.",
+    "right": "She will come.",
+    "why_ru": "will не меняется: без -s."
+   },
+   {
+    "wrong": "I don't will tell anyone.",
+    "right": "I won't tell anyone.",
+    "why_ru": "Отрицание — won't, без don't."
+   },
+   {
+    "wrong": "I think he will wins.",
+    "right": "I think he will win.",
+    "why_ru": "После will — начальная форма, без -s."
+   },
+   {
+    "wrong": "The phone is ringing. — I'm going to answer it.",
+    "right": "The phone is ringing. — I'll answer it.",
+    "why_ru": "Решение принято прямо сейчас — will."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "will / won't + глагол",
+    "tip_ru": "will одинаково для всех: I will, she will. После will — глагол без to и без -s: She'll help. Отрицание — won't."
+   },
+   "decide": {
+    "ru": "Решение прямо сейчас",
+    "tip_ru": "Решил в момент разговора — will: The phone's ringing. — I'll get it!"
+   },
+   "promise": {
+    "ru": "Обещания и предложения",
+    "tip_ru": "Обещаем и предлагаем помощь с will: I'll help you. I won't tell anyone."
+   },
+   "predict": {
+    "ru": "Предсказание: I think… will",
+    "tip_ru": "Своё мнение о будущем — I think / I'm sure / maybe + will: I think we'll win."
+   },
+   "will-going": {
+    "ru": "will или going to",
+    "tip_ru": "Решил заранее или видишь признаки — going to. Решаешь сейчас, обещаешь или просто думаешь — will.",
+    "back": "g29"
+   }
+  },
+  "items": [
+   {
+    "id": "g30-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "I will ___ you with the bag.",
+    "o": [
+     "help",
+     "to help"
+    ],
+    "a": 0,
+    "why": "После will — глагол без to."
+   },
+   {
+    "id": "g30-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "promise",
+    "q": "Your bag looks heavy. ___ carry it for you.",
+    "o": [
+     "I'll",
+     "I"
+    ],
+    "a": 0,
+    "why": "Предлагаем помощь — I'll carry."
+   },
+   {
+    "id": "g30-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "decide",
+    "q": "It's cold in here. — OK, I ___ close the window.",
+    "o": [
+     "will",
+     "am going to"
+    ],
+    "a": 0,
+    "why": "Решение принято прямо сейчас — will."
+   },
+   {
+    "id": "g30-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "predict",
+    "q": "I think Rex ___ every puck tonight.",
+    "o": [
+     "will stop",
+     "stops"
+    ],
+    "a": 0,
+    "why": "Мнение о будущем после I think — will stop."
+   },
+   {
+    "id": "g30-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "promise",
+    "q": "___ you help me, please?",
+    "o": [
+     "Will",
+     "Are"
+    ],
+    "a": 0,
+    "why": "Просьба о помощи — Will you help me?"
+   },
+   {
+    "id": "g30-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "will-going",
+    "q": "We bought tickets last week. We ___ watch the final on Saturday.",
+    "o": [
+     "are going to",
+     "will"
+    ],
+    "a": 0,
+    "why": "Билеты куплены заранее — это план: are going to."
+   },
+   {
+    "id": "g30-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "decide",
+    "q": "Oh no, I left my stick at home! — Don't worry, ___ give you mine.",
+    "o": [
+     "I'll",
+     "I'm going to"
+    ],
+    "a": 0,
+    "why": "Решение пришло в момент разговора — I'll."
+   },
+   {
+    "id": "g30-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "will-going",
+    "q": "Look at Benny on that ladder! He ___ fall!",
+    "o": [
+     "is going to",
+     "will"
+    ],
+    "a": 0,
+    "why": "Видно по признакам, что упадёт, — is going to."
+   },
+   {
+    "id": "g30-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Benny ___ come to the party. He's sick.",
+    "o": [
+     "won't",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "Не придёт — won't + come."
+   },
+   {
+    "id": "g30-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "promise",
+    "q": "I promise I ___ tell anyone your secret.",
+    "o": [
+     "won't",
+     "don't"
+    ],
+    "a": 0,
+    "why": "Обещание о будущем — won't tell."
+   },
+   {
+    "id": "g30-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "predict",
+    "q": "I'm sure you ___ love this song!",
+    "o": [
+     "will",
+     "are",
+     "wills",
+     "going to"
+    ],
+    "a": 0,
+    "why": "I'm sure + will love; will не получает -s."
+   },
+   {
+    "id": "g30-012",
+    "t": "mc",
+    "lv": 1,
+    "tag": "predict",
+    "q": "___ it be cold in Toronto tomorrow?",
+    "o": [
+     "Will",
+     "Does",
+     "Is",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Вопрос о будущем: Will it be…?"
+   },
+   {
+    "id": "g30-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "will-going",
+    "pairs": [
+     [
+      "The phone is ringing.",
+      "I'll get it!"
+     ],
+     [
+      "I saved money for a month.",
+      "I'm going to buy skates."
+     ],
+     [
+      "Look at those clouds!",
+      "It's going to rain."
+     ],
+     [
+      "I'm so hungry.",
+      "I'll make a sandwich."
+     ]
+    ],
+    "why": "Решение сейчас — will, план или признаки — going to."
+   },
+   {
+    "id": "g30-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "form",
+    "pairs": [
+     [
+      "I'll",
+      "I will"
+     ],
+     [
+      "won't",
+      "will not"
+     ],
+     [
+      "she'll",
+      "she will"
+     ],
+     [
+      "we'll",
+      "we will"
+     ]
+    ],
+    "why": "'ll — короткое will, а won't — will not."
+   },
+   {
+    "id": "g30-015",
+    "t": "listen",
+    "lv": 1,
+    "tag": "form",
+    "say": "I won't go.",
+    "o": [
+     "I won't go.",
+     "I want to go."
+    ],
+    "a": 0,
+    "why": "Прозвучало won't [вóунт] — «не буду», а want [уонт] — «хочу»."
+   },
+   {
+    "id": "g30-016",
+    "t": "listen",
+    "lv": 1,
+    "tag": "promise",
+    "say": "She'll help you.",
+    "o": [
+     "She'll help you.",
+     "She helps you."
+    ],
+    "a": 0,
+    "why": "Прозвучало she'll — она поможет."
+   },
+   {
+    "id": "g30-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "promise",
+    "q": "Don't worry, I ___ (not / tell) Mom.",
+    "a": [
+     "won't tell"
+    ],
+    "why": "Обещание не говорить — won't tell."
+   },
+   {
+    "id": "g30-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "predict",
+    "q": "I think it ___ (snow) tomorrow.",
+    "a": [
+     "will snow"
+    ],
+    "why": "После I think — will + snow."
+   },
+   {
+    "id": "g30-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "predict",
+    "q": "Mia ___ (be) a great player one day.",
+    "a": [
+     "will be"
+    ],
+    "why": "Предсказание о будущем: will be."
+   },
+   {
+    "id": "g30-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "decide",
+    "q": "Wait, I ___ (help) you with those boxes!",
+    "a": [
+     "will help"
+    ],
+    "why": "Решил помочь прямо сейчас — will help."
+   },
+   {
+    "id": "g30-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Will Rex play in the final? — Yes, he ___.",
+    "a": [
+     "will"
+    ],
+    "why": "Краткий ответ на Will: Yes, he will."
+   },
+   {
+    "id": "g30-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "predict",
+    "q": "Maybe Benny ___ (not / come) today. He's tired.",
+    "a": [
+     "won't come"
+    ],
+    "why": "Maybe + won't come — мнение о будущем."
+   },
+   {
+    "id": "g30-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "will-going",
+    "q": "We have the tickets! We ___ (going to / see) the game on Friday.",
+    "a": [
+     "are going to see"
+    ],
+    "why": "Билеты уже есть — план: are going to see."
+   },
+   {
+    "id": "g30-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "decide",
+    "q": "Is that your phone? — Oh, yes. I ___ (answer) it!",
+    "a": [
+     "will answer"
+    ],
+    "why": "Решение прямо сейчас — will answer."
+   },
+   {
+    "id": "g30-025",
+    "t": "gap",
+    "lv": 2,
+    "tag": "promise",
+    "q": "I ___ (be) there at six. I promise!",
+    "a": [
+     "will be"
+    ],
+    "why": "Обещание — will be."
+   },
+   {
+    "id": "g30-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "I will calls you after practice.",
+    "bad": 2,
+    "fix": "call",
+    "why": "После will — начальная форма call."
+   },
+   {
+    "id": "g30-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "She wills help us with the project.",
+    "bad": 1,
+    "fix": "will",
+    "why": "will не меняется: без -s."
+   },
+   {
+    "id": "g30-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "promise",
+    "s": "I don't tell anyone, I promise.",
+    "bad": 1,
+    "fix": "won't",
+    "why": "Обещание о будущем — won't tell."
+   },
+   {
+    "id": "g30-029",
+    "t": "err",
+    "lv": 2,
+    "tag": "predict",
+    "s": "I think we will wins tomorrow.",
+    "bad": 4,
+    "fix": "win",
+    "why": "После will — начальная форма win."
+   },
+   {
+    "id": "g30-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "promise",
+    "a": "I'll help you with your homework.",
+    "ru": "Я помогу тебе с домашкой.",
+    "extra": [
+     "to"
+    ],
+    "why": "I'll + help, без to."
+   },
+   {
+    "id": "g30-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "predict",
+    "a": "I think Mia will score tonight.",
+    "ru": "Я думаю, Мия сегодня забьёт.",
+    "extra": [
+     "scores"
+    ],
+    "why": "I think + will score."
+   },
+   {
+    "id": "g30-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "Rex won't eat the salad.",
+    "ru": "Рекс не будет есть салат.",
+    "extra": [
+     "doesn't"
+    ],
+    "why": "Отрицание о будущем — won't eat."
+   },
+   {
+    "id": "g30-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "Will you come to my game?",
+    "ru": "Ты придёшь на мою игру?",
+    "extra": [
+     "Do"
+    ],
+    "why": "Вопрос о будущем: Will you come?"
+   },
+   {
+    "id": "g30-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "will-going",
+    "a": "I'm going to buy new skates.",
+    "ru": "Я собираюсь купить новые коньки (уже решил).",
+    "extra": [
+     "will"
+    ],
+    "why": "Решено заранее — I'm going to buy."
+   },
+   {
+    "id": "g30-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "promise",
+    "a": "Don't worry, I won't be late.",
+    "ru": "Не волнуйся, я не опоздаю.",
+    "extra": [
+     "am"
+    ],
+    "why": "Обещание — I won't be late."
+   },
+   {
+    "id": "g30-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "form",
+    "src": "I will tell Benny.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "I won't tell Benny."
+    ],
+    "why": "will → won't."
+   },
+   {
+    "id": "g30-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "form",
+    "src": "Mia will win the race.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Will Mia win the race?"
+    ],
+    "why": "Will переносим вперёд."
+   },
+   {
+    "id": "g30-038",
+    "t": "tr",
+    "lv": 2,
+    "tag": "predict",
+    "src": "Rex will stop the puck.",
+    "task_ru": "Сделай предсказание: начни с I think.",
+    "a": [
+     "I think Rex will stop the puck."
+    ],
+    "why": "Своё мнение — I think + will."
+   },
+   {
+    "id": "g30-039",
+    "t": "tr",
+    "lv": 3,
+    "tag": "will-going",
+    "src": "I'm going to call Mia.",
+    "task_ru": "Ты решаешь это прямо сейчас, а не заранее. Перепиши с will.",
+    "a": [
+     "I'll call Mia.",
+     "I will call Mia."
+    ],
+    "why": "Решение сейчас — I'll call."
+   },
+   {
+    "id": "g30-040",
+    "t": "tr",
+    "lv": 3,
+    "tag": "will-going",
+    "src": "We will play hockey on Saturday. (We planned it last week.)",
+    "task_ru": "Это план, решённый заранее. Перепиши с going to.",
+    "a": [
+     "We're going to play hockey on Saturday.",
+     "We are going to play hockey on Saturday."
+    ],
+    "why": "План заранее — are going to play."
+   },
+   {
+    "id": "g30-041",
+    "t": "err",
+    "lv": 3,
+    "tag": "predict",
+    "s": "Coach Walt thinks we'll lost the game.",
+    "bad": 4,
+    "fix": "lose",
+    "why": "После will ('ll) — начальная форма lose, а не lost."
+   },
+   {
+    "id": "g30-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "promise",
+    "title": "Benny's promises",
+    "text": "Mrs Parker is angry: Benny broke a window again. Benny says: 'I'm so sorry! I ___ (fix) it, I promise. I ___ (not / play) hockey in the yard again. I ___ (wash) the dishes every day!' Mrs Parker smiles: 'OK, Benny. I think you ___ (be) a good bear.'",
+    "a": [
+     [
+      "will fix",
+      "'ll fix"
+     ],
+     [
+      "won't play"
+     ],
+     [
+      "will wash",
+      "'ll wash"
+     ],
+     [
+      "will be",
+      "'ll be"
+     ]
+    ],
+    "why": "Обещания — will fix, won't play, will wash, а мнение после I think — will be."
+   },
+   {
+    "id": "g30-043",
+    "t": "text",
+    "lv": 3,
+    "tag": "will-going",
+    "title": "Will or going to?",
+    "text": "Mia: 'I ___ (visit) my grandma this weekend. We planned it a month ago.' Rex: 'Cool! Oh no, look at those black clouds. It ___ (snow)!' Mia: 'My bag is so heavy.' Rex: 'Give it to me. I ___ (carry) it!' Mia: 'Thanks! I ___ (bring) you some cookies, I promise.'",
+    "a": [
+     [
+      "am going to visit",
+      "'m going to visit",
+      "am visiting",
+      "'m visiting"
+     ],
+     [
+      "is going to snow",
+      "'s going to snow"
+     ],
+     [
+      "will carry",
+      "'ll carry"
+     ],
+     [
+      "will bring",
+      "'ll bring"
+     ]
+    ],
+    "why": "План заранее и тучи — going to, решение сейчас и обещание — will."
+   },
+   {
+    "id": "g30-044",
+    "t": "chat",
+    "lv": 3,
+    "tag": "decide",
+    "lines": [
+     {
+      "who": "Mom",
+      "t": "There's no milk for your cereal."
+     },
+     {
+      "who": "you",
+      "t": "OK, I ___ (buy) some after school."
+     },
+     {
+      "who": "Mom",
+      "t": "Thanks! And can you take out the trash?"
+     },
+     {
+      "who": "you",
+      "t": "Sure, I ___ (do) it now."
+     },
+     {
+      "who": "Mom",
+      "t": "Great. Are you going to practice tonight?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___. Coach Walt says we ___ (win) on Sunday!"
+     }
+    ],
+    "a": [
+     [
+      "will buy",
+      "'ll buy"
+     ],
+     [
+      "will do",
+      "'ll do"
+     ],
+     [
+      "am"
+     ],
+     [
+      "will win",
+      "'ll win",
+      "are going to win",
+      "'re going to win"
+     ]
+    ],
+    "why": "Решения сейчас — will buy, will do; на Are you…? — Yes, I am; мнение тренера — will win."
+   },
+   {
+    "id": "g30-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "promise",
+    "ru": "Я тебе помогу!",
+    "a": [
+     "I'll help you!",
+     "I will help you!"
+    ],
+    "why": "Обещание помощи — I'll help."
+   },
+   {
+    "id": "g30-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "predict",
+    "ru": "Думаю, завтра будет снег.",
+    "a": [
+     "I think it will snow tomorrow.",
+     "I think it'll snow tomorrow.",
+     "I think tomorrow it will snow.",
+     "I think it will be snowy tomorrow.",
+     "I think there will be snow tomorrow."
+    ],
+    "why": "Мнение о будущем: I think + will snow."
+   },
+   {
+    "id": "g30-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "promise",
+    "ru": "Я никому не скажу.",
+    "a": [
+     "I won't tell anyone.",
+     "I won't tell anybody."
+    ],
+    "why": "Обещание — won't tell anyone."
+   },
+   {
+    "id": "g30-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "will-going",
+    "ru": "Смотри! Рекс сейчас упадёт!",
+    "a": [
+     "Look! Rex is going to fall!",
+     "Look, Rex is going to fall!",
+     "Look. Rex is going to fall!"
+    ],
+    "why": "Видно по признакам — is going to fall."
+   },
+   {
+    "id": "g30-049",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "form",
+    "ru": "Рекс сегодня не придёт.",
+    "a": [
+     "Rex won't come today.",
+     "Rex isn't coming today.",
+     "Rex isn't going to come today."
+    ],
+    "why": "Не придёт — won't come."
+   },
+   {
+    "id": "g30-050",
+    "t": "speak",
+    "lv": 3,
+    "tag": "predict",
+    "say": "I think our team will win the cup this year!",
+    "ru": "Я думаю, наша команда выиграет кубок в этом году!",
+    "why": "Мнение о будущем: I think + will win."
+   },
+   {
+    "id": "g30-051",
+    "t": "write",
+    "lv": 3,
+    "tag": "will-going",
+    "task_ru": "Напиши 3 предложения: один план (going to), одно обещание (will) и одно предсказание (I think … will).",
+    "check_ru": [
+     "План, решённый заранее, — с going to?",
+     "Обещание — с will или won't?",
+     "После will глагол без to и без -s?"
+    ],
+    "model": "Next weekend I'm going to visit my cousin. I promise I'll call you every day. I think it will be a great trip!",
+    "why": "План — going to, обещание и мнение — will."
+   }
+  ]
+ }
+]

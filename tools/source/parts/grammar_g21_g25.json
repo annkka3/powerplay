@@ -1,0 +1,3911 @@
+[
+ {
+  "id": "g21",
+  "stage": "A2",
+  "title_ru": "Present Simple или Present Continuous",
+  "goal_ru": "Различать «обычно» и «сейчас».",
+  "prereq": [
+   "g11",
+   "g20",
+   "g12"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Два настоящих времени",
+    "body_ru": "В русском одно настоящее: «играю». В английском два: **Present Simple** — обычно, регулярно (I play), **Present Continuous** — прямо сейчас (I am playing).",
+    "ex": [
+     [
+      "Mia plays hockey every Saturday.",
+      "Мия играет в хоккей каждую субботу."
+     ],
+     [
+      "Look! Mia is playing hockey.",
+      "Смотри! Мия играет в хоккей."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Слова-подсказки",
+    "body_ru": "**Обычно:** every day, usually, often, always, never, on Mondays → Present Simple. **Сейчас:** now, right now, at the moment, Look!, Listen! → am/is/are + -ing.",
+    "ex": [
+     [
+      "Benny usually sleeps a lot.",
+      "Бенни обычно много спит."
+     ],
+     [
+      "Listen! Benny is snoring.",
+      "Слушай! Бенни храпит."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Временно — тоже -ing",
+    "body_ru": "Если что-то происходит не всегда, а **только в эти дни** (today, this week, this month), тоже бери Present Continuous.",
+    "ex": [
+     [
+      "Rex usually plays in goal, but this week he is resting.",
+      "Рекс обычно стоит на воротах, но на этой неделе он отдыхает."
+     ],
+     [
+      "Today we are training at a new rink.",
+      "Сегодня мы тренируемся на новом катке."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопросы и отрицания",
+    "body_ru": "Обычно → **do/does**, **don't/doesn't**. Сейчас → **am/is/are** в начале, **isn't/aren't** + -ing.",
+    "ex": [
+     [
+      "Do you play Roblox?",
+      "Ты играешь в Roblox?"
+     ],
+     [
+      "Are you playing Roblox now?",
+      "Ты сейчас играешь в Roblox?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I am playing hockey every Saturday.",
+    "right": "I play hockey every Saturday.",
+    "why_ru": "Every Saturday — это привычка, нужен Present Simple."
+   },
+   {
+    "wrong": "Look! Benny dances.",
+    "right": "Look! Benny is dancing.",
+    "why_ru": "Look! — значит прямо сейчас: is dancing."
+   },
+   {
+    "wrong": "What do you do now?",
+    "right": "What are you doing now?",
+    "why_ru": "«Что ты делаешь сейчас?» — это Present Continuous."
+   },
+   {
+    "wrong": "Do you watching TV now?",
+    "right": "Are you watching TV now?",
+    "why_ru": "С -ing в вопросе нужен am/is/are, а не do."
+   },
+   {
+    "wrong": "She isn't play today.",
+    "right": "She isn't playing today.",
+    "why_ru": "После isn't в Present Continuous глагол с -ing."
+   }
+  ],
+  "tags": {
+   "habit": {
+    "ru": "Привычки: Present Simple",
+    "tip_ru": "Если действие повторяется (every day, usually, often), бери простую форму: I play, he plays.",
+    "back": "g09"
+   },
+   "now": {
+    "ru": "Прямо сейчас: am/is/are + -ing",
+    "tip_ru": "Now, right now, Look!, Listen! — действие идёт в эту секунду: he is playing.",
+    "back": "g19"
+   },
+   "temporary": {
+    "ru": "Временно: today, this week",
+    "tip_ru": "Если это только в эти дни, а не всегда, тоже бери am/is/are + -ing: this week he is staying…",
+    "back": "g19"
+   },
+   "negq": {
+    "ru": "Вопросы и отрицания",
+    "tip_ru": "Обычно → do/does, don't/doesn't. Сейчас → am/is/are, isn't/aren't + -ing.",
+    "back": "g20"
+   }
+  },
+  "items": [
+   {
+    "id": "g21-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "habit",
+    "q": "Rex usually ___ the puck with his tail.",
+    "o": [
+     "stops",
+     "is stopping"
+    ],
+    "a": 0,
+    "why": "Usually — это привычка, поэтому Present Simple: stops."
+   },
+   {
+    "id": "g21-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "now",
+    "q": "Look! Benny ___ on the ice.",
+    "o": [
+     "dances",
+     "is dancing"
+    ],
+    "a": 1,
+    "why": "Look! — это происходит прямо сейчас: is dancing."
+   },
+   {
+    "id": "g21-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "habit",
+    "q": "Mia ___ hockey every Saturday.",
+    "o": [
+     "is playing",
+     "plays"
+    ],
+    "a": 1,
+    "why": "Every Saturday — регулярно, значит Present Simple: plays."
+   },
+   {
+    "id": "g21-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "now",
+    "q": "Shh! Dad ___ on the phone right now.",
+    "o": [
+     "talks",
+     "is talking"
+    ],
+    "a": 1,
+    "why": "Right now — прямо сейчас, поэтому is talking."
+   },
+   {
+    "id": "g21-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "temporary",
+    "q": "This week Benny ___ with his cousin in Toronto.",
+    "o": [
+     "stays",
+     "is staying"
+    ],
+    "a": 1,
+    "why": "This week — это временно, только на этой неделе, поэтому is staying."
+   },
+   {
+    "id": "g21-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "negq",
+    "q": "___ you usually play Roblox after school?",
+    "o": [
+     "Do",
+     "Are"
+    ],
+    "a": 0,
+    "why": "Usually — привычка, а вопрос в Present Simple начинается с Do."
+   },
+   {
+    "id": "g21-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "negq",
+    "q": "What ___ Rex doing now?",
+    "o": [
+     "is",
+     "does"
+    ],
+    "a": 0,
+    "why": "Doing и now — это Present Continuous, поэтому нужен is."
+   },
+   {
+    "id": "g21-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "now",
+    "q": "Listen! My sister ___ a new phonk track.",
+    "o": [
+     "plays",
+     "playing",
+     "is playing",
+     "play"
+    ],
+    "a": 2,
+    "why": "Listen! — прямо сейчас, а с she нужен is + -ing: is playing."
+   },
+   {
+    "id": "g21-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "negq",
+    "q": "Coach Walt ___ coffee in the morning. He drinks tea.",
+    "o": [
+     "don't drink",
+     "isn't drinking",
+     "doesn't drink"
+    ],
+    "a": 2,
+    "why": "In the morning — каждый день, привычка, а с he отрицание doesn't drink."
+   },
+   {
+    "id": "g21-010",
+    "t": "mc",
+    "lv": 3,
+    "tag": "temporary",
+    "q": "Mia's skates are broken, so today she ___ her mom's skates.",
+    "o": [
+     "is using",
+     "uses",
+     "use"
+    ],
+    "a": 0,
+    "why": "Today — только сегодня, временно, поэтому is using."
+   },
+   {
+    "id": "g21-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "habit",
+    "q": "Benny ___ (watch) YouTube every evening.",
+    "a": [
+     "watches"
+    ],
+    "why": "Every evening — привычка, а после he (Benny) глагол с -es: watches."
+   },
+   {
+    "id": "g21-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "now",
+    "q": "Be quiet! Rex ___ (sleep) on the bench.",
+    "a": [
+     "is sleeping"
+    ],
+    "why": "Be quiet! — он спит прямо сейчас, поэтому is sleeping."
+   },
+   {
+    "id": "g21-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "negq",
+    "q": "We ___ (not / train) today because the rink is closed.",
+    "a": [
+     "aren't training"
+    ],
+    "why": "Today — временно, только сегодня, а с we отрицание aren't training."
+   },
+   {
+    "id": "g21-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "temporary",
+    "q": "My dad usually works in an office, but this month he ___ (work) from home.",
+    "a": [
+     "is working"
+    ],
+    "why": "This month — временная ситуация, поэтому is working."
+   },
+   {
+    "id": "g21-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "negq",
+    "q": "What ___ you doing at the moment? (do / are)",
+    "a": [
+     "are"
+    ],
+    "why": "Doing и at the moment — Present Continuous, поэтому are."
+   },
+   {
+    "id": "g21-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "negq",
+    "q": "Rex ___ (not / eat) salad. He hates it.",
+    "a": [
+     "doesn't eat"
+    ],
+    "why": "Это всегда так, не только сейчас, значит Present Simple: doesn't eat."
+   },
+   {
+    "id": "g21-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "now",
+    "q": "Listen! Someone ___ (knock) on the door.",
+    "a": [
+     "is knocking"
+    ],
+    "why": "Listen! — стучат прямо сейчас: is knocking."
+   },
+   {
+    "id": "g21-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "habit",
+    "q": "The Parkers ___ (go) to the lake every summer.",
+    "a": [
+     "go"
+    ],
+    "why": "Every summer — привычка, а с they (the Parkers) глагол без -s: go."
+   },
+   {
+    "id": "g21-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "negq",
+    "s": "Does Benny watching cartoons right now?",
+    "bad": 0,
+    "fix": "Is",
+    "why": "Right now и watching — Present Continuous, поэтому вопрос с Is."
+   },
+   {
+    "id": "g21-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "now",
+    "s": "Look! Coach Walt is dance on the ice.",
+    "bad": 4,
+    "fix": "dancing",
+    "why": "После is в Present Continuous нужен глагол с -ing: dancing."
+   },
+   {
+    "id": "g21-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "habit",
+    "s": "Mia go to the rink every morning.",
+    "bad": 1,
+    "fix": "goes",
+    "why": "Every morning — привычка, а после she (Mia) нужно goes."
+   },
+   {
+    "id": "g21-022",
+    "t": "err",
+    "lv": 3,
+    "tag": "negq",
+    "s": "My brother doesn't playing Roblox at the moment.",
+    "bad": 2,
+    "fix": "isn't",
+    "why": "At the moment и playing — это сейчас, поэтому isn't, а не doesn't."
+   },
+   {
+    "id": "g21-023",
+    "t": "err",
+    "lv": 3,
+    "tag": "now",
+    "s": "Listen! Benny sings in the shower.",
+    "bad": 2,
+    "fix": "is singing",
+    "why": "Listen! — он поёт прямо сейчас: is singing."
+   },
+   {
+    "id": "g21-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "temporary",
+    "s": "This week Rex practice at the small rink.",
+    "bad": 3,
+    "fix": "is practicing",
+    "why": "This week — временно, поэтому is practicing."
+   },
+   {
+    "id": "g21-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "now",
+    "a": "Benny is sleeping on the sofa.",
+    "ru": "Бенни сейчас спит на диване.",
+    "extra": [
+     "sleeps"
+    ],
+    "why": "«Сейчас спит» — am/is/are + -ing: is sleeping."
+   },
+   {
+    "id": "g21-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "habit",
+    "a": "Mia usually takes the bus to school.",
+    "ru": "Мия обычно ездит в школу на автобусе.",
+    "extra": [
+     "is"
+    ],
+    "why": "Usually — привычка: takes без is, а usually стоит перед глаголом."
+   },
+   {
+    "id": "g21-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "negq",
+    "a": "Are you listening to phonk right now?",
+    "ru": "Ты сейчас слушаешь фонк?",
+    "extra": [
+     "Do"
+    ],
+    "why": "Right now и -ing — вопрос начинается с Are."
+   },
+   {
+    "id": "g21-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "negq",
+    "a": "Do you play hockey every weekend?",
+    "ru": "Ты играешь в хоккей каждые выходные?",
+    "extra": [
+     "Are"
+    ],
+    "why": "Every weekend — привычка, вопрос начинается с Do."
+   },
+   {
+    "id": "g21-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "now",
+    "a": "Why is Rex wearing two helmets?",
+    "ru": "Почему Рекс сейчас в двух шлемах?",
+    "extra": [
+     "does"
+    ],
+    "why": "Речь о том, что происходит сейчас: Why + is + Rex + wearing."
+   },
+   {
+    "id": "g21-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "now",
+    "src": "Rex blocks the puck every day.",
+    "task_ru": "Замени every day на now и измени глагол.",
+    "a": [
+     "Rex is blocking the puck now.",
+     "Now Rex is blocking the puck."
+    ],
+    "why": "Now — прямо сейчас, поэтому blocks превращается в is blocking."
+   },
+   {
+    "id": "g21-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "habit",
+    "src": "Benny is eating pancakes now.",
+    "task_ru": "Замени now на every Sunday и измени глагол.",
+    "a": [
+     "Benny eats pancakes every Sunday.",
+     "Every Sunday Benny eats pancakes."
+    ],
+    "why": "Every Sunday — привычка, поэтому is eating превращается в eats."
+   },
+   {
+    "id": "g21-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "negq",
+    "src": "Mia is texting her friend.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Is Mia texting her friend?"
+    ],
+    "why": "В Present Continuous для вопроса ставим is в начало: Is Mia texting…?"
+   },
+   {
+    "id": "g21-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "temporary",
+    "src": "Coach Walt usually drives to the rink.",
+    "task_ru": "Скажи, что сегодня (today) он идёт пешком (walk).",
+    "a": [
+     "Today Coach Walt is walking to the rink.",
+     "Coach Walt is walking to the rink today.",
+     "Today he is walking to the rink.",
+     "He is walking to the rink today."
+    ],
+    "why": "Today — только сегодня, временно, поэтому is walking."
+   },
+   {
+    "id": "g21-034",
+    "t": "match",
+    "lv": 1,
+    "tag": "now",
+    "pairs": [
+     [
+      "Look! Rex…",
+      "is falling."
+     ],
+     [
+      "Rex often…",
+      "falls."
+     ],
+     [
+      "Listen! They…",
+      "are singing."
+     ],
+     [
+      "They always…",
+      "sing."
+     ]
+    ],
+    "why": "Look! и Listen! — это сейчас (-ing), often и always — привычка (простая форма)."
+   },
+   {
+    "id": "g21-035",
+    "t": "listen",
+    "lv": 1,
+    "tag": "now",
+    "say": "She is singing.",
+    "o": [
+     "She sings.",
+     "She is singing."
+    ],
+    "a": 1,
+    "why": "Ты слышал is singing — она поёт прямо сейчас."
+   },
+   {
+    "id": "g21-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "habit",
+    "say": "They play hockey.",
+    "o": [
+     "They're playing hockey.",
+     "They play hockey."
+    ],
+    "a": 1,
+    "why": "Ты слышал play без are и -ing — это Present Simple, они играют вообще."
+   },
+   {
+    "id": "g21-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "temporary",
+    "title": "Benny's week",
+    "text": "Benny usually ___ (get) up at 8. But this week he ___ (get) up at 6 because he ___ (train) with Mia. Right now he ___ (sit) on the bench and he ___ (yawn).",
+    "a": [
+     [
+      "gets"
+     ],
+     [
+      "is getting"
+     ],
+     [
+      "is training"
+     ],
+     [
+      "is sitting"
+     ],
+     [
+      "is yawning"
+     ]
+    ],
+    "why": "Usually — gets, а this week и right now — is + -ing."
+   },
+   {
+    "id": "g21-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "habit",
+    "title": "Rex at the rink",
+    "text": "Rex is a goalie. He ___ (play) for the Dinos. He ___ (practice) every day. Look! Now he ___ (stand) in the goal and he ___ (wait) for the puck. His arms are tiny, so he usually ___ (stop) the puck with his tail.",
+    "a": [
+     [
+      "plays"
+     ],
+     [
+      "practices",
+      "practises"
+     ],
+     [
+      "is standing"
+     ],
+     [
+      "is waiting"
+     ],
+     [
+      "stops"
+     ]
+    ],
+    "why": "Факты и every day, usually — Present Simple, а Look! Now — is + -ing."
+   },
+   {
+    "id": "g21-039",
+    "t": "chat",
+    "lv": 3,
+    "tag": "negq",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! What ___ you doing?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ (listen) to music."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! ___ you often listen to phonk?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___ (listen) to it every day."
+     },
+     {
+      "who": "Mia",
+      "t": "Rex ___ (not / answer) my messages today."
+     },
+     {
+      "who": "you",
+      "t": "He ___ (record) a new track right now!"
+     }
+    ],
+    "a": [
+     [
+      "are"
+     ],
+     [
+      "am listening"
+     ],
+     [
+      "Do"
+     ],
+     [
+      "listen"
+     ],
+     [
+      "isn't answering"
+     ],
+     [
+      "is recording"
+     ]
+    ],
+    "why": "Сейчас и today — am/is/are + -ing, а often и every day — Present Simple с do."
+   },
+   {
+    "id": "g21-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "now",
+    "ru": "Бенни сейчас смотрит YouTube.",
+    "a": [
+     "Benny is watching YouTube now.",
+     "Benny is watching YouTube right now.",
+     "Now Benny is watching YouTube.",
+     "Right now Benny is watching YouTube."
+    ],
+    "why": "«Сейчас» — Present Continuous: is watching."
+   },
+   {
+    "id": "g21-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "habit",
+    "ru": "Мия обычно играет в хоккей по субботам.",
+    "a": [
+     "Mia usually plays hockey on Saturdays.",
+     "On Saturdays Mia usually plays hockey."
+    ],
+    "why": "«Обычно» — привычка: usually plays."
+   },
+   {
+    "id": "g21-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "negq",
+    "ru": "Что ты сейчас делаешь?",
+    "a": [
+     "What are you doing now?",
+     "What are you doing right now?",
+     "What are you doing?"
+    ],
+    "why": "«Что ты сейчас делаешь?» — What are you doing?"
+   },
+   {
+    "id": "g21-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "temporary",
+    "ru": "Сегодня Рекс не играет.",
+    "a": [
+     "Rex isn't playing today.",
+     "Today Rex isn't playing."
+    ],
+    "why": "Только сегодня — временно, поэтому isn't playing."
+   },
+   {
+    "id": "g21-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "temporary",
+    "say": "Mia usually plays hockey, but today she is watching a game.",
+    "ru": "Мия обычно играет в хоккей, но сегодня она смотрит игру.",
+    "why": "Usually — plays, а today — is watching."
+   },
+   {
+    "id": "g21-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "now",
+    "task_ru": "Напиши 3 предложения: что ты обычно делаешь после школы и что ты делаешь прямо сейчас.",
+    "check_ru": [
+     "Для «обычно» — простая форма: I play, he plays?",
+     "Для «сейчас» — am/is/are + -ing?",
+     "Есть слова-подсказки: usually, every day, now, at the moment?"
+    ],
+    "model": "I usually play Brawl Stars after school. Right now I am doing my homework. My sister is listening to music.",
+    "why": "Обычно — Present Simple, сейчас — am/is/are + -ing."
+   }
+  ]
+ },
+ {
+  "id": "g22",
+  "stage": "A2",
+  "title_ru": "Глаголы состояния",
+  "goal_ru": "Понять, почему нельзя сказать I am knowing.",
+  "prereq": [
+   "g21"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Состояние, а не действие",
+    "body_ru": "Некоторые глаголы описывают не действие, а **состояние**: знать, хотеть, любить, нуждаться. Их **не ставят в -ing**, даже когда речь о «сейчас».",
+    "ex": [
+     [
+      "I know the answer.",
+      "Я знаю ответ."
+     ],
+     [
+      "Rex wants pizza now.",
+      "Рекс сейчас хочет пиццу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Кто в списке",
+    "body_ru": "**Чувства и желания:** like, love, hate, want, need. **Голова:** know, understand, believe, remember, mean. **Чьё это:** belong, have (= у меня есть). **Восприятие:** see, hear.",
+    "ex": [
+     [
+      "This stick belongs to Mia.",
+      "Эта клюшка принадлежит Мие."
+     ],
+     [
+      "Do you understand me?",
+      "Ты меня понимаешь?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Have и think: два смысла",
+    "body_ru": "**have** = «у меня есть» → без -ing: I have a dog. Но have lunch, have fun — это действие, можно -ing: I'm having lunch. **think** = «считаю» → I think…; **think about** = «обдумываю» → I'm thinking about…",
+    "ex": [
+     [
+      "I'm having lunch now.",
+      "Я сейчас обедаю."
+     ],
+     [
+      "I think Rex is cool.",
+      "Я считаю, что Рекс классный."
+     ]
+    ]
+   },
+   {
+    "title_ru": "See и look, hear и listen",
+    "body_ru": "**see, hear** — просто видишь и слышишь, без -ing (часто с can: I can see). **look, listen** — смотришь и слушаешь специально, тут -ing можно.",
+    "ex": [
+     [
+      "I can hear music.",
+      "Я слышу музыку."
+     ],
+     [
+      "I'm listening to music.",
+      "Я слушаю музыку."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I am knowing the answer.",
+    "right": "I know the answer.",
+    "why_ru": "Know — глагол состояния, с ним -ing не бывает."
+   },
+   {
+    "wrong": "Rex is wanting a pizza.",
+    "right": "Rex wants a pizza.",
+    "why_ru": "Want — это желание, состояние: wants без is и -ing."
+   },
+   {
+    "wrong": "Are you understand me?",
+    "right": "Do you understand me?",
+    "why_ru": "С глаголами состояния вопрос строим с do/does."
+   },
+   {
+    "wrong": "I am having a new phone.",
+    "right": "I have a new phone.",
+    "why_ru": "Have в смысле «у меня есть» — без -ing."
+   },
+   {
+    "wrong": "I'm thinking it's a good idea.",
+    "right": "I think it's a good idea.",
+    "why_ru": "Think в смысле «считаю» — без -ing."
+   }
+  ],
+  "tags": {
+   "like-want": {
+    "ru": "like, love, want, need — без -ing",
+    "tip_ru": "Чувства и желания — это состояние: I want, she needs, he loves. Даже со словом now.",
+    "back": "g18"
+   },
+   "know": {
+    "ru": "know, understand, believe, belong",
+    "tip_ru": "Знать, понимать, верить, принадлежать — не действия, поэтому без -ing: I know, it belongs."
+   },
+   "have": {
+    "ru": "have: «есть у меня» или действие",
+    "tip_ru": "«У меня есть» — I have (без -ing). Have lunch, have fun — действие, можно I'm having.",
+    "back": "g07"
+   },
+   "see-hear": {
+    "ru": "see, hear или look, listen",
+    "tip_ru": "See и hear — без -ing (I can see, I hear). Look и listen — действия: I'm looking, I'm listening."
+   },
+   "think": {
+    "ru": "think: «считаю» или «обдумываю»",
+    "tip_ru": "I think = я считаю (без -ing). I'm thinking about… = я сейчас обдумываю."
+   }
+  },
+  "items": [
+   {
+    "id": "g22-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "know",
+    "q": "Benny ___ the answer to this question.",
+    "o": [
+     "is knowing",
+     "knows"
+    ],
+    "a": 1,
+    "why": "Know — глагол состояния, поэтому просто knows."
+   },
+   {
+    "id": "g22-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "like-want",
+    "q": "Rex ___ a pizza right now.",
+    "o": [
+     "is wanting",
+     "wants"
+    ],
+    "a": 1,
+    "why": "Want — состояние, даже с right now говорим wants."
+   },
+   {
+    "id": "g22-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have",
+    "q": "Mia ___ a new hockey stick.",
+    "o": [
+     "has",
+     "is having"
+    ],
+    "a": 0,
+    "why": "Has = «у неё есть», это состояние, -ing нельзя."
+   },
+   {
+    "id": "g22-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have",
+    "q": "The Parkers ___ dinner at the moment.",
+    "o": [
+     "have",
+     "are having"
+    ],
+    "a": 1,
+    "why": "Have dinner — действие (ужинать), а at the moment — сейчас: are having."
+   },
+   {
+    "id": "g22-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "see-hear",
+    "q": "Shh! I ___ a strange noise.",
+    "o": [
+     "hear",
+     "am hearing"
+    ],
+    "a": 0,
+    "why": "Hear — восприятие, состояние, поэтому без -ing: I hear."
+   },
+   {
+    "id": "g22-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "think",
+    "q": "I ___ Rex is a great goalie.",
+    "o": [
+     "am thinking",
+     "think"
+    ],
+    "a": 1,
+    "why": "Здесь think = «считаю», это мнение, поэтому без -ing."
+   },
+   {
+    "id": "g22-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "think",
+    "q": "Don't talk to Mia now. She ___ about the game.",
+    "o": [
+     "is thinking",
+     "thinks"
+    ],
+    "a": 0,
+    "why": "Think about = «обдумывает» прямо сейчас — это действие: is thinking."
+   },
+   {
+    "id": "g22-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "know",
+    "q": "This blue helmet ___ to Benny.",
+    "o": [
+     "is belonging",
+     "belong",
+     "belongs"
+    ],
+    "a": 2,
+    "why": "Belong — принадлежать, состояние; с helmet (it) нужно belongs."
+   },
+   {
+    "id": "g22-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "like-want",
+    "q": "I ___ new skates. These are very small.",
+    "o": [
+     "am needing",
+     "need",
+     "needs"
+    ],
+    "a": 1,
+    "why": "Need — состояние, без -ing, а с I просто need."
+   },
+   {
+    "id": "g22-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "see-hear",
+    "q": "Benny ___ at the dinosaur poster right now.",
+    "o": [
+     "looks",
+     "is seeing",
+     "is looking"
+    ],
+    "a": 2,
+    "why": "Look at — действие (разглядывать), с right now: is looking."
+   },
+   {
+    "id": "g22-011",
+    "t": "mc",
+    "lv": 3,
+    "tag": "think",
+    "q": "What ___ you thinking about? — My new track.",
+    "o": [
+     "is",
+     "are",
+     "do"
+    ],
+    "a": 1,
+    "why": "Thinking about — обдумываешь сейчас, это Present Continuous: are you thinking."
+   },
+   {
+    "id": "g22-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "know",
+    "q": "Rex ___ (not / understand) the new game.",
+    "a": [
+     "doesn't understand"
+    ],
+    "why": "Understand — состояние, отрицание через doesn't, без -ing."
+   },
+   {
+    "id": "g22-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "like-want",
+    "q": "Benny ___ (love) pancakes with maple syrup.",
+    "a": [
+     "loves"
+    ],
+    "why": "Love — чувство, состояние; с he (Benny) просто loves."
+   },
+   {
+    "id": "g22-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "see-hear",
+    "q": "Mia ___ (listen) to phonk right now.",
+    "a": [
+     "is listening"
+    ],
+    "why": "Listen — действие (слушать), поэтому можно -ing: is listening."
+   },
+   {
+    "id": "g22-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "see-hear",
+    "q": "I ___ (see) Rex! He's on the ice.",
+    "a": [
+     "see",
+     "can see"
+    ],
+    "why": "See — восприятие, без -ing: I see или I can see."
+   },
+   {
+    "id": "g22-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have",
+    "q": "Right now we ___ (have) fun at Mia's party.",
+    "a": [
+     "are having"
+    ],
+    "why": "Have fun — действие (веселиться), а right now — сейчас: are having."
+   },
+   {
+    "id": "g22-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have",
+    "q": "Rex ___ (have) very short arms.",
+    "a": [
+     "has"
+    ],
+    "why": "Have = «у него есть», это состояние: has."
+   },
+   {
+    "id": "g22-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "know",
+    "q": "___ you know Coach Walt? (Do / Are)",
+    "a": [
+     "Do"
+    ],
+    "why": "Know — глагол состояния, вопрос строим с Do."
+   },
+   {
+    "id": "g22-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "think",
+    "q": "I ___ (think) about my new song right now.",
+    "a": [
+     "am thinking"
+    ],
+    "why": "Think about = обдумываю прямо сейчас, это действие: am thinking."
+   },
+   {
+    "id": "g22-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "know",
+    "q": "What ___ this word mean? (do / does)",
+    "a": [
+     "does"
+    ],
+    "why": "Mean — состояние, вопрос через does (this word = it)."
+   },
+   {
+    "id": "g22-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "know",
+    "s": "Are you know the new boy?",
+    "bad": 0,
+    "fix": "Do",
+    "why": "Know — глагол состояния, поэтому вопрос с Do, а не Are."
+   },
+   {
+    "id": "g22-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "like-want",
+    "s": "Is Rex want a snack?",
+    "bad": 0,
+    "fix": "Does",
+    "why": "Want — состояние, поэтому вопрос с Does: Does Rex want…?"
+   },
+   {
+    "id": "g22-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "see-hear",
+    "s": "Do you hearing that noise?",
+    "bad": 2,
+    "fix": "hear",
+    "why": "Hear — глагол состояния, после do нужна простая форма: hear."
+   },
+   {
+    "id": "g22-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "think",
+    "s": "What are you think of my track?",
+    "bad": 1,
+    "fix": "do",
+    "why": "Think of = какое у тебя мнение, это состояние: What do you think…?"
+   },
+   {
+    "id": "g22-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "have",
+    "s": "Benny has lunch at the moment.",
+    "bad": 1,
+    "fix": "is having",
+    "why": "Have lunch — действие, а at the moment — сейчас: is having."
+   },
+   {
+    "id": "g22-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "know",
+    "a": "I don't understand this level.",
+    "ru": "Я не понимаю этот уровень.",
+    "extra": [
+     "am"
+    ],
+    "why": "Understand — состояние: don't understand без am и -ing."
+   },
+   {
+    "id": "g22-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "like-want",
+    "a": "Rex wants a new helmet.",
+    "ru": "Рекс хочет новый шлем.",
+    "extra": [
+     "is"
+    ],
+    "why": "Want — состояние: wants без is."
+   },
+   {
+    "id": "g22-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "think",
+    "a": "What are you thinking about?",
+    "ru": "О чём ты думаешь?",
+    "extra": [
+     "do"
+    ],
+    "why": "Думать о чём-то сейчас — действие: What are you thinking about?"
+   },
+   {
+    "id": "g22-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "have",
+    "a": "Do you have a pet dinosaur?",
+    "ru": "У тебя есть домашний динозавр?",
+    "extra": [
+     "Are"
+    ],
+    "why": "«У тебя есть» — have, вопрос с Do."
+   },
+   {
+    "id": "g22-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "see-hear",
+    "a": "Can you hear the music?",
+    "ru": "Ты слышишь музыку?",
+    "extra": [
+     "hearing"
+    ],
+    "why": "Hear — без -ing, часто с can: Can you hear…?"
+   },
+   {
+    "id": "g22-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "know",
+    "src": "Benny knows Mia.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does Benny know Mia?"
+    ],
+    "why": "Know — состояние, вопрос с Does, а knows теряет -s: Does Benny know…?"
+   },
+   {
+    "id": "g22-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "have",
+    "src": "Rex has a sister.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Rex doesn't have a sister."
+    ],
+    "why": "Have = «есть», отрицание через doesn't have."
+   },
+   {
+    "id": "g22-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "like-want",
+    "src": "Rex wants pizza.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does Rex want pizza?"
+    ],
+    "why": "Want — состояние, вопрос с Does, глагол без -s: want."
+   },
+   {
+    "id": "g22-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "have",
+    "src": "Mia is having breakfast.",
+    "task_ru": "Скажи, что у Мии есть кошка (a cat).",
+    "a": [
+     "Mia has a cat."
+    ],
+    "why": "«У неё есть» — это состояние, поэтому has, без is и -ing."
+   },
+   {
+    "id": "g22-035",
+    "t": "match",
+    "lv": 1,
+    "tag": "have",
+    "pairs": [
+     [
+      "I have a dog.",
+      "У меня есть собака."
+     ],
+     [
+      "I'm having lunch.",
+      "Я обедаю."
+     ],
+     [
+      "I think so.",
+      "Я так считаю."
+     ],
+     [
+      "I'm thinking.",
+      "Я думаю (сейчас обдумываю)."
+     ]
+    ],
+    "why": "Have и think без -ing — состояние, с -ing — действие."
+   },
+   {
+    "id": "g22-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "think",
+    "say": "I think you're right.",
+    "o": [
+     "I'm thinking you're right.",
+     "I think you're right."
+    ],
+    "a": 1,
+    "why": "Ты слышал I think — это мнение, без -ing."
+   },
+   {
+    "id": "g22-037",
+    "t": "listen",
+    "lv": 1,
+    "tag": "have",
+    "say": "Rex has a new stick.",
+    "o": [
+     "Rex is having a new stick.",
+     "Rex has a new stick."
+    ],
+    "a": 1,
+    "why": "Ты слышал has — «у него есть», без -ing."
+   },
+   {
+    "id": "g22-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "like-want",
+    "title": "Benny's problem",
+    "text": "Benny ___ (want) a new phone. He ___ (need) it for YouTube. Right now he ___ (talk) to Mr Parker. Mr Parker ___ (not / believe) him. \"You ___ (have) a phone, Benny!\"",
+    "a": [
+     [
+      "wants"
+     ],
+     [
+      "needs"
+     ],
+     [
+      "is talking"
+     ],
+     [
+      "doesn't believe"
+     ],
+     [
+      "have"
+     ]
+    ],
+    "why": "Want, need, believe, have (= есть) — без -ing, а talk — действие: is talking."
+   },
+   {
+    "id": "g22-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "see-hear",
+    "title": "At the rink",
+    "text": "I ___ (see) Rex. He ___ (stand) in the goal. I ___ (think) he is nervous. Mia ___ (wave) to him, but Rex ___ (not / hear) her. The music is very loud!",
+    "a": [
+     [
+      "see",
+      "can see"
+     ],
+     [
+      "is standing"
+     ],
+     [
+      "think"
+     ],
+     [
+      "is waving"
+     ],
+     [
+      "doesn't hear",
+      "can't hear"
+     ]
+    ],
+    "why": "See, hear и think (= считаю) — без -ing, а stand и wave — действия: is standing, is waving."
+   },
+   {
+    "id": "g22-040",
+    "t": "chat",
+    "lv": 3,
+    "tag": "like-want",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "What ___ you doing?"
+     },
+     {
+      "who": "you",
+      "t": "I'm making a beat. ___ you like phonk?"
+     },
+     {
+      "who": "Mia",
+      "t": "Yes! I ___ (love) it."
+     },
+     {
+      "who": "you",
+      "t": "Cool. I ___ (need) a singer for my track."
+     },
+     {
+      "who": "Mia",
+      "t": "I ___ (know) a good singer. It's Benny!"
+     }
+    ],
+    "a": [
+     [
+      "are"
+     ],
+     [
+      "Do"
+     ],
+     [
+      "love"
+     ],
+     [
+      "need"
+     ],
+     [
+      "know"
+     ]
+    ],
+    "why": "Doing — действие (are), а like, love, need, know — состояния без -ing."
+   },
+   {
+    "id": "g22-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "know",
+    "ru": "Я тебя не понимаю.",
+    "a": [
+     "I don't understand you."
+    ],
+    "why": "Understand — состояние: I don't understand, без -ing."
+   },
+   {
+    "id": "g22-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "know",
+    "ru": "Этот шлем принадлежит Рексу.",
+    "a": [
+     "This helmet belongs to Rex.",
+     "This helmet is Rex's."
+    ],
+    "why": "Belong — состояние: belongs to, без -ing."
+   },
+   {
+    "id": "g22-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "think",
+    "ru": "Я думаю, что Рекс прав.",
+    "a": [
+     "I think Rex is right.",
+     "I think that Rex is right."
+    ],
+    "why": "Думаю = считаю, это мнение: I think, без -ing."
+   },
+   {
+    "id": "g22-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "have",
+    "ru": "Мы сейчас обедаем.",
+    "a": [
+     "We are having lunch now.",
+     "We are having lunch right now.",
+     "Now we are having lunch.",
+     "We're having lunch now.",
+     "We're having lunch right now.",
+     "Now we're having lunch.",
+     "We are eating lunch now.",
+     "We're eating lunch now."
+    ],
+    "why": "Have lunch — действие, а «сейчас» — are having."
+   },
+   {
+    "id": "g22-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "like-want",
+    "ru": "Тебе нужна помощь?",
+    "a": [
+     "Do you need help?",
+     "Do you need any help?"
+    ],
+    "why": "Need — состояние, вопрос с Do: Do you need help?"
+   },
+   {
+    "id": "g22-046",
+    "t": "speak",
+    "lv": 3,
+    "tag": "like-want",
+    "say": "Rex has tiny arms, but he wants to play in goal.",
+    "ru": "У Рекса крошечные лапки, но он хочет играть на воротах.",
+    "why": "Has и wants — глаголы состояния, без -ing."
+   },
+   {
+    "id": "g22-047",
+    "t": "write",
+    "lv": 3,
+    "tag": "like-want",
+    "task_ru": "Напиши 3 предложения о себе: что ты любишь, что тебе нужно и что ты знаешь.",
+    "check_ru": [
+     "Like, love, need, know — без -ing?",
+     "После he/she у глагола есть -s?",
+     "Если обдумываешь что-то сейчас — I'm thinking about…?"
+    ],
+    "model": "I love electronic folk. I need a new microphone. I know every Brawl Stars character.",
+    "why": "Глаголы состояния (love, need, know) стоят в простой форме, без -ing."
+   }
+  ]
+ },
+ {
+  "id": "g23",
+  "stage": "A2",
+  "title_ru": "Some / any, much / many, a lot of",
+  "goal_ru": "Сказать «немного», «много», «нет ни одного».",
+  "prereq": [
+   "g06",
+   "g04"
+  ],
+  "spotlight": [
+   "2b"
+  ],
+  "cards": [
+   {
+    "title_ru": "Считаем или нет",
+    "body_ru": "**Исчисляемые** можно посчитать: a puck, two pucks. **Неисчисляемые** — нельзя: water, milk, money, music, homework, time, cheese. У них нет -s и нет a.",
+    "ex": [
+     [
+      "three pucks",
+      "три шайбы"
+     ],
+     [
+      "some water",
+      "немного воды"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Some и any",
+    "body_ru": "**some** — в утверждениях и в просьбах (Can I have some…?). **any** — в отрицаниях и вопросах.",
+    "ex": [
+     [
+      "There are some pucks in the bag.",
+      "В сумке есть шайбы."
+     ],
+     [
+      "There aren't any pucks in the bag.",
+      "В сумке нет шайб."
+     ],
+     [
+      "Do you have any brothers?",
+      "У тебя есть братья?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Много: many, much, a lot of",
+    "body_ru": "**many** — с исчисляемыми (many games), **much** — с неисчисляемыми (much time), обычно в вопросах и отрицаниях. **a lot of** — со всеми, особенно в утверждениях. Сколько? — **How many…? How much…?**",
+    "ex": [
+     [
+      "How many goals?",
+      "Сколько голов?"
+     ],
+     [
+      "We don't have much time.",
+      "У нас не так много времени."
+     ],
+     [
+      "I have a lot of comics.",
+      "У меня много комиксов."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Немного и совсем нет",
+    "body_ru": "**a few** — несколько (исчисляемые): a few friends. **a little** — немного (неисчисляемые): a little milk. **no** + существительное = «совсем нет»: There's no milk.",
+    "ex": [
+     [
+      "I have a few friends here.",
+      "У меня тут есть несколько друзей."
+     ],
+     [
+      "There's no milk.",
+      "Молока нет."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I don't have some money.",
+    "right": "I don't have any money.",
+    "why_ru": "В отрицании нужно any, а не some."
+   },
+   {
+    "wrong": "How many money do you have?",
+    "right": "How much money do you have?",
+    "why_ru": "Money неисчисляемое, поэтому How much."
+   },
+   {
+    "wrong": "There isn't no milk.",
+    "right": "There isn't any milk.",
+    "why_ru": "В английском одно отрицание: isn't any или is no."
+   },
+   {
+    "wrong": "I have a little friends.",
+    "right": "I have a few friends.",
+    "why_ru": "Friends можно посчитать, поэтому a few."
+   },
+   {
+    "wrong": "I like musics.",
+    "right": "I like music.",
+    "why_ru": "Music неисчисляемое — без -s."
+   }
+  ],
+  "tags": {
+   "count": {
+    "ru": "Исчисляемые и неисчисляемые",
+    "tip_ru": "Water, milk, money, music, homework, time не считаются: без -s и без a. Pucks, songs, games — считаются.",
+    "back": "g04"
+   },
+   "some-any": {
+    "ru": "some или any",
+    "tip_ru": "Some — в утверждениях и просьбах. Any — в отрицаниях и вопросах.",
+    "back": "g06"
+   },
+   "much-many": {
+    "ru": "much, many, a lot of",
+    "tip_ru": "Many — со считаемыми, much — с несчитаемыми. В утверждениях проще сказать a lot of."
+   },
+   "few-little": {
+    "ru": "a few или a little",
+    "tip_ru": "A few — несколько штук (friends, pucks). A little — немного (milk, time)."
+   },
+   "no": {
+    "ru": "no + существительное",
+    "tip_ru": "No = «совсем нет»: There's no milk. После no уже не нужно not — одно отрицание."
+   }
+  },
+  "items": [
+   {
+    "id": "g23-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "some-any",
+    "q": "There are ___ pucks in the bag.",
+    "o": [
+     "some",
+     "any"
+    ],
+    "a": 0,
+    "why": "Это утверждение, поэтому some."
+   },
+   {
+    "id": "g23-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "some-any",
+    "q": "We don't have ___ milk.",
+    "o": [
+     "some",
+     "any"
+    ],
+    "a": 1,
+    "why": "В отрицании (don't) нужно any."
+   },
+   {
+    "id": "g23-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "much-many",
+    "q": "How ___ water do you drink every day?",
+    "o": [
+     "many",
+     "much"
+    ],
+    "a": 1,
+    "why": "Water нельзя посчитать, поэтому How much."
+   },
+   {
+    "id": "g23-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "much-many",
+    "q": "How ___ songs are on your playlist?",
+    "o": [
+     "much",
+     "many"
+    ],
+    "a": 1,
+    "why": "Songs можно посчитать, поэтому How many."
+   },
+   {
+    "id": "g23-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "much-many",
+    "q": "Rex eats ___ pancakes. He loves them!",
+    "o": [
+     "much",
+     "a lot of"
+    ],
+    "a": 1,
+    "why": "Pancakes исчисляемые, с ними much нельзя, а a lot of подходит всегда."
+   },
+   {
+    "id": "g23-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "some-any",
+    "q": "Can I have ___ juice, please?",
+    "o": [
+     "some",
+     "any"
+    ],
+    "a": 0,
+    "why": "Это просьба, а в просьбах говорим some."
+   },
+   {
+    "id": "g23-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "few-little",
+    "q": "I have ___ friends in Canada: Mia, Rex and Benny.",
+    "o": [
+     "a little",
+     "a few"
+    ],
+    "a": 1,
+    "why": "Friends можно посчитать, поэтому a few."
+   },
+   {
+    "id": "g23-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "few-little",
+    "q": "Put ___ sugar in my tea, please.",
+    "o": [
+     "a few",
+     "a little"
+    ],
+    "a": 1,
+    "why": "Sugar нельзя посчитать, поэтому a little."
+   },
+   {
+    "id": "g23-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "no",
+    "q": "There's ___ milk in the fridge. Let's buy some!",
+    "o": [
+     "any",
+     "no"
+    ],
+    "a": 1,
+    "why": "There's без not, поэтому «нет молока» = no milk."
+   },
+   {
+    "id": "g23-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "count",
+    "q": "Which noun is uncountable?",
+    "o": [
+     "puck",
+     "song",
+     "music",
+     "game"
+    ],
+    "a": 2,
+    "why": "Music нельзя посчитать (нет two musics), а song, puck, game — можно."
+   },
+   {
+    "id": "g23-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "count",
+    "q": "Benny doesn't have ___ money for new skates.",
+    "o": [
+     "much",
+     "a few",
+     "many"
+    ],
+    "a": 0,
+    "why": "Money неисчисляемое, а в отрицании с ним much."
+   },
+   {
+    "id": "g23-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "no",
+    "q": "There are ___ chairs in the room. Sit on the floor!",
+    "o": [
+     "no",
+     "not",
+     "any"
+    ],
+    "a": 0,
+    "why": "There are без not, поэтому «нет стульев» = no chairs."
+   },
+   {
+    "id": "g23-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "some-any",
+    "q": "We have ___ cookies. Do you want one? (some / any)",
+    "a": [
+     "some"
+    ],
+    "why": "We have — утверждение, поэтому some."
+   },
+   {
+    "id": "g23-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "some-any",
+    "q": "There aren't ___ dinosaurs in our town. (some / any)",
+    "a": [
+     "any"
+    ],
+    "why": "Aren't — отрицание, поэтому any."
+   },
+   {
+    "id": "g23-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "count",
+    "q": "How ___ homework do you have today? (much / many)",
+    "a": [
+     "much"
+    ],
+    "why": "Homework неисчисляемое, поэтому How much."
+   },
+   {
+    "id": "g23-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "much-many",
+    "q": "How ___ goals does Mia usually score in a game? (much / many)",
+    "a": [
+     "many"
+    ],
+    "why": "Goals можно посчитать, поэтому How many."
+   },
+   {
+    "id": "g23-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "few-little",
+    "q": "I need ___ help with my song. (a few / a little)",
+    "a": [
+     "a little"
+    ],
+    "why": "Help нельзя посчитать, поэтому a little."
+   },
+   {
+    "id": "g23-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "few-little",
+    "q": "Coach Walt has ___ old pucks in his car. (a few / a little)",
+    "a": [
+     "a few"
+    ],
+    "why": "Pucks можно посчитать, поэтому a few."
+   },
+   {
+    "id": "g23-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "no",
+    "q": "There is ___ ice on the rink. We can't skate! (no / any)",
+    "a": [
+     "no"
+    ],
+    "why": "There is без not, поэтому «нет льда» = no ice."
+   },
+   {
+    "id": "g23-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "no",
+    "q": "Rex has ___ time today. He is very busy. (no / any)",
+    "a": [
+     "no"
+    ],
+    "why": "Has без doesn't, поэтому «нет времени» = no time."
+   },
+   {
+    "id": "g23-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "much-many",
+    "q": "There aren't ___ people at the game. (many / much)",
+    "a": [
+     "many"
+    ],
+    "why": "People — это много людей, их можно посчитать, поэтому many."
+   },
+   {
+    "id": "g23-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "some-any",
+    "s": "I don't have some money.",
+    "bad": 3,
+    "fix": "any",
+    "why": "В отрицании (don't) нужно any."
+   },
+   {
+    "id": "g23-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "count",
+    "s": "How many milk do we need?",
+    "bad": 1,
+    "fix": "much",
+    "why": "Milk неисчисляемое, поэтому How much."
+   },
+   {
+    "id": "g23-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "few-little",
+    "s": "There are a little apples on the table.",
+    "bad": 3,
+    "fix": "few",
+    "why": "Apples можно посчитать, поэтому a few."
+   },
+   {
+    "id": "g23-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "no",
+    "s": "There isn't no juice.",
+    "bad": 2,
+    "fix": "any",
+    "why": "Isn't уже отрицание, второе не нужно: isn't any."
+   },
+   {
+    "id": "g23-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "count",
+    "s": "Benny drinks a lot of waters.",
+    "bad": 5,
+    "fix": "water",
+    "why": "Water неисчисляемое, у него нет -s."
+   },
+   {
+    "id": "g23-027",
+    "t": "err",
+    "lv": 3,
+    "tag": "some-any",
+    "s": "Can I have any water, please?",
+    "bad": 3,
+    "fix": "some",
+    "why": "Это просьба, а в просьбах говорим some."
+   },
+   {
+    "id": "g23-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "some-any",
+    "a": "Are there any snacks in the bag?",
+    "ru": "В сумке есть что-нибудь перекусить?",
+    "extra": [
+     "much"
+    ],
+    "why": "Это вопрос, поэтому any."
+   },
+   {
+    "id": "g23-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "much-many",
+    "a": "We don't have much time.",
+    "ru": "У нас не так много времени.",
+    "extra": [
+     "many"
+    ],
+    "why": "Time неисчисляемое, в отрицании — much."
+   },
+   {
+    "id": "g23-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "much-many",
+    "a": "How many players are on the ice?",
+    "ru": "Сколько игроков на льду?",
+    "extra": [
+     "much"
+    ],
+    "why": "Players можно посчитать, поэтому How many."
+   },
+   {
+    "id": "g23-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "few-little",
+    "a": "I have a few comics about dinosaurs.",
+    "ru": "У меня есть несколько комиксов про динозавров.",
+    "extra": [
+     "little"
+    ],
+    "why": "Comics можно посчитать, поэтому a few."
+   },
+   {
+    "id": "g23-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "no",
+    "a": "There is no juice in the fridge.",
+    "ru": "В холодильнике нет сока.",
+    "extra": [
+     "any"
+    ],
+    "why": "There is без not + no = «совсем нет»."
+   },
+   {
+    "id": "g23-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "some-any",
+    "src": "There is some cake on the plate.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "There isn't any cake on the plate."
+    ],
+    "why": "В отрицании some меняется на any: isn't any."
+   },
+   {
+    "id": "g23-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "some-any",
+    "src": "There are some pucks in the box.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Are there any pucks in the box?"
+    ],
+    "why": "В вопросе some меняется на any: Are there any…?"
+   },
+   {
+    "id": "g23-035",
+    "t": "tr",
+    "lv": 3,
+    "tag": "no",
+    "src": "There isn't any milk.",
+    "task_ru": "Скажи то же самое с no.",
+    "a": [
+     "There is no milk.",
+     "There's no milk."
+    ],
+    "why": "Isn't any и is no значат одно и то же: There is no milk."
+   },
+   {
+    "id": "g23-036",
+    "t": "tr",
+    "lv": 3,
+    "tag": "much-many",
+    "src": "Mia has a lot of friends.",
+    "task_ru": "Задай вопрос со словами How many.",
+    "a": [
+     "How many friends does Mia have?"
+    ],
+    "why": "Friends можно посчитать: How many friends + does Mia have?"
+   },
+   {
+    "id": "g23-037",
+    "t": "match",
+    "lv": 1,
+    "tag": "few-little",
+    "pairs": [
+     [
+      "немного воды",
+      "a little water"
+     ],
+     [
+      "несколько игр",
+      "a few games"
+     ],
+     [
+      "много музыки",
+      "a lot of music"
+     ],
+     [
+      "совсем нет времени",
+      "no time"
+     ]
+    ],
+    "why": "A few — со считаемыми, a little — с несчитаемыми, a lot of — с любыми, no — «совсем нет»."
+   },
+   {
+    "id": "g23-038",
+    "t": "listen",
+    "lv": 1,
+    "tag": "some-any",
+    "say": "There isn't any juice.",
+    "o": [
+     "There's some juice.",
+     "There isn't any juice."
+    ],
+    "a": 1,
+    "why": "Ты слышал isn't any — сока нет."
+   },
+   {
+    "id": "g23-039",
+    "t": "listen",
+    "lv": 1,
+    "tag": "few-little",
+    "say": "We have a few pucks.",
+    "o": [
+     "We have a lot of pucks.",
+     "We have a few pucks."
+    ],
+    "a": 1,
+    "why": "Ты слышал a few — несколько шайб, не много."
+   },
+   {
+    "id": "g23-040",
+    "t": "text",
+    "lv": 3,
+    "tag": "some-any",
+    "title": "Benny's fridge",
+    "text": "Benny is hungry. He opens the fridge. There ___ (is / are) some cheese, but there isn't ___ (some / any) bread. There are ___ (a few / a little) eggs. There's ___ (no / any) milk! Benny calls Mrs Parker: \"How ___ (much / many) eggs do I need for pancakes?\"",
+    "a": [
+     [
+      "is"
+     ],
+     [
+      "any"
+     ],
+     [
+      "a few"
+     ],
+     [
+      "no"
+     ],
+     [
+      "many"
+     ]
+    ],
+    "why": "Cheese неисчисляемое (is), в отрицании any, eggs считаются (a few, many), no = «совсем нет»."
+   },
+   {
+    "id": "g23-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "much-many",
+    "title": "Our band",
+    "text": "We have ___ (much / a lot of) instruments. Mia has two guitars, and I have ___ (some / any) drums. We don't have ___ (much / many) money, so we don't have ___ (some / any) speakers. But we have ___ (a few / a little) great songs!",
+    "a": [
+     [
+      "a lot of"
+     ],
+     [
+      "some"
+     ],
+     [
+      "much"
+     ],
+     [
+      "any"
+     ],
+     [
+      "a few"
+     ]
+    ],
+    "why": "В утверждении a lot of и some, в отрицании much (money) и any, songs считаются — a few."
+   },
+   {
+    "id": "g23-042",
+    "t": "chat",
+    "lv": 3,
+    "tag": "some-any",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "I'm making pizza. Do we have ___ (some / any) cheese?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, there's ___ (some / any) cheese in the fridge."
+     },
+     {
+      "who": "Mia",
+      "t": "How ___ (much / many) tomatoes do we have?"
+     },
+     {
+      "who": "you",
+      "t": "Only ___ (a few / a little). Two or three."
+     },
+     {
+      "who": "Mia",
+      "t": "And mushrooms?"
+     },
+     {
+      "who": "you",
+      "t": "Sorry, there are ___ (no / any) mushrooms."
+     }
+    ],
+    "a": [
+     [
+      "any"
+     ],
+     [
+      "some"
+     ],
+     [
+      "many"
+     ],
+     [
+      "a few"
+     ],
+     [
+      "no"
+     ]
+    ],
+    "why": "Вопрос — any, утверждение — some, tomatoes считаются — many и a few, there are без not — no."
+   },
+   {
+    "id": "g23-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "some-any",
+    "ru": "У меня нет денег.",
+    "a": [
+     "I don't have any money.",
+     "I have no money."
+    ],
+    "why": "Нет денег: don't have any или have no — одно отрицание."
+   },
+   {
+    "id": "g23-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "count",
+    "ru": "Сколько воды тебе нужно?",
+    "a": [
+     "How much water do you need?"
+    ],
+    "why": "Water неисчисляемое, поэтому How much."
+   },
+   {
+    "id": "g23-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "few-little",
+    "ru": "В комнате несколько стульев.",
+    "a": [
+     "There are a few chairs in the room.",
+     "There are some chairs in the room.",
+     "There are several chairs in the room."
+    ],
+    "why": "Стулья можно посчитать: a few chairs."
+   },
+   {
+    "id": "g23-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "much-many",
+    "ru": "Рекс ест много пиццы.",
+    "a": [
+     "Rex eats a lot of pizza.",
+     "Rex eats lots of pizza."
+    ],
+    "why": "В утверждении «много» = a lot of."
+   },
+   {
+    "id": "g23-047",
+    "t": "speak",
+    "lv": 3,
+    "tag": "some-any",
+    "say": "There aren't any pucks in the bag, but there is a little water.",
+    "ru": "В сумке нет шайб, но есть немного воды.",
+    "why": "В отрицании any, а с water — a little."
+   },
+   {
+    "id": "g23-048",
+    "t": "write",
+    "lv": 3,
+    "tag": "count",
+    "task_ru": "Напиши 3 предложения о том, что есть и чего нет у тебя в холодильнике или в комнате.",
+    "check_ru": [
+     "В утверждении some, а в отрицании и вопросе any?",
+     "Much — с несчитаемыми (water, music), many — со считаемыми (games, songs)?",
+     "Нет ли двойного отрицания, вроде isn't no?"
+    ],
+    "model": "There is some juice in my fridge. There aren't any eggs. I have a lot of comics in my room.",
+    "why": "Juice — some в утверждении, eggs — any в отрицании, comics — a lot of."
+   }
+  ]
+ },
+ {
+  "id": "g24",
+  "stage": "A2",
+  "title_ru": "Past Simple: was / were",
+  "goal_ru": "Сказать, где ты был и каким было: The game was amazing.",
+  "prereq": [
+   "g02"
+  ],
+  "spotlight": [
+   "1c",
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Was и were",
+    "body_ru": "Прошлое от am/is — **was**, от are — **were**. I / he / she / it **was**, you / we / they **were**.",
+    "ex": [
+     [
+      "The game was amazing.",
+      "Игра была потрясающей."
+     ],
+     [
+      "We were at the rink.",
+      "Мы были на катке."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Отрицание и вопрос",
+    "body_ru": "Отрицание: **wasn't / weren't**. Вопрос: was / were **в начало**. Короткий ответ: Yes, I was. / No, I wasn't.",
+    "ex": [
+     [
+      "Rex wasn't nervous.",
+      "Рекс не нервничал."
+     ],
+     [
+      "Were you at home? — Yes, I was.",
+      "Ты был дома? — Да."
+     ]
+    ]
+   },
+   {
+    "title_ru": "There was / there were",
+    "body_ru": "«Там был / были»: **There was** + один предмет или неисчисляемое, **There were** + много.",
+    "ex": [
+     [
+      "There was a puck on the ice.",
+      "На льду была шайба."
+     ],
+     [
+      "There were a lot of fans.",
+      "Было много болельщиков."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Слова прошлого",
+    "body_ru": "**yesterday**, **last** night / week / year, two days **ago**. Ago ставим **после** срока: three years ago.",
+    "ex": [
+     [
+      "I was sick last week.",
+      "На прошлой неделе я болел."
+     ],
+     [
+      "Benny was in Russia two years ago.",
+      "Два года назад Бенни был в России."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I were at home.",
+    "right": "I was at home.",
+    "why_ru": "С I в прошлом — was."
+   },
+   {
+    "wrong": "They was late.",
+    "right": "They were late.",
+    "why_ru": "С they — were."
+   },
+   {
+    "wrong": "Was you at school?",
+    "right": "Were you at school?",
+    "why_ru": "С you всегда were, даже если ты один."
+   },
+   {
+    "wrong": "There was many people.",
+    "right": "There were many people.",
+    "why_ru": "People — много, поэтому there were."
+   },
+   {
+    "wrong": "Yesterday I am at home.",
+    "right": "Yesterday I was at home.",
+    "why_ru": "Yesterday — прошлое, am превращается в was."
+   }
+  ],
+  "tags": {
+   "was-were": {
+    "ru": "was или were",
+    "tip_ru": "I / he / she / it — was. You / we / they — were.",
+    "back": "g01"
+   },
+   "neg": {
+    "ru": "wasn't / weren't",
+    "tip_ru": "Отрицание — просто not после was / were: wasn't, weren't.",
+    "back": "g02"
+   },
+   "q": {
+    "ru": "Вопросы с was / were",
+    "tip_ru": "Was / were ставим в начало: Were you at home? Короткий ответ: Yes, I was. / No, I wasn't.",
+    "back": "g02"
+   },
+   "there-was": {
+    "ru": "there was / there were",
+    "tip_ru": "Один предмет или неисчисляемое — there was. Много — there were.",
+    "back": "g06"
+   },
+   "time": {
+    "ru": "Слова прошлого: yesterday, last, ago",
+    "tip_ru": "Yesterday, last week, two days ago — значит прошлое: was / were вместо am / is / are."
+   }
+  },
+  "items": [
+   {
+    "id": "g24-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-were",
+    "q": "The game yesterday ___ amazing.",
+    "o": [
+     "were",
+     "was"
+    ],
+    "a": 1,
+    "why": "Game — это it, поэтому was."
+   },
+   {
+    "id": "g24-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-were",
+    "q": "We ___ at the rink last Saturday.",
+    "o": [
+     "were",
+     "was"
+    ],
+    "a": 0,
+    "why": "С we в прошлом — were."
+   },
+   {
+    "id": "g24-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-were",
+    "q": "Rex ___ very tired last night.",
+    "o": [
+     "were",
+     "was"
+    ],
+    "a": 1,
+    "why": "Rex — это he, поэтому was."
+   },
+   {
+    "id": "g24-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-were",
+    "q": "Yesterday my skates ___ wet.",
+    "o": [
+     "was",
+     "were"
+    ],
+    "a": 1,
+    "why": "Skates — много, это they, поэтому were."
+   },
+   {
+    "id": "g24-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "was-were",
+    "q": "I ___ sick last week.",
+    "o": [
+     "was",
+     "were"
+    ],
+    "a": 0,
+    "why": "С I в прошлом — was."
+   },
+   {
+    "id": "g24-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "Benny ___ at school yesterday. He was at the dentist.",
+    "o": [
+     "weren't",
+     "wasn't"
+    ],
+    "a": 1,
+    "why": "Benny — это he, поэтому wasn't."
+   },
+   {
+    "id": "g24-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "q",
+    "q": "___ you at the party last night?",
+    "o": [
+     "Was",
+     "Were"
+    ],
+    "a": 1,
+    "why": "С you всегда were: Were you…?"
+   },
+   {
+    "id": "g24-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "there-was",
+    "q": "There ___ a lot of people at the game.",
+    "o": [
+     "was",
+     "were"
+    ],
+    "a": 1,
+    "why": "People — много, поэтому there were."
+   },
+   {
+    "id": "g24-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time",
+    "q": "I'm at home now, but two hours ___ I was at the rink.",
+    "o": [
+     "ago",
+     "last"
+    ],
+    "a": 0,
+    "why": "«Два часа назад» — two hours ago, ago стоит после срока."
+   },
+   {
+    "id": "g24-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time",
+    "q": "Mia ___ fourteen now. Last year she was thirteen.",
+    "o": [
+     "is",
+     "was"
+    ],
+    "a": 0,
+    "why": "Now — это настоящее, поэтому is."
+   },
+   {
+    "id": "g24-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "q",
+    "q": "Where ___ Mr and Mrs Parker last weekend?",
+    "o": [
+     "was",
+     "are",
+     "were"
+    ],
+    "a": 2,
+    "why": "Last weekend — прошлое, а Mr and Mrs Parker — это they: were."
+   },
+   {
+    "id": "g24-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "there-was",
+    "q": "Last year there ___ a T-rex skeleton in our museum.",
+    "o": [
+     "was",
+     "is",
+     "were"
+    ],
+    "a": 0,
+    "why": "Last year — прошлое, а skeleton один, поэтому there was."
+   },
+   {
+    "id": "g24-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "q",
+    "q": "Was Rex nervous? — Yes, he ___.",
+    "o": [
+     "was",
+     "is",
+     "were"
+    ],
+    "a": 0,
+    "why": "Вопрос с Was, а Rex — это he, поэтому Yes, he was."
+   },
+   {
+    "id": "g24-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "was-were",
+    "q": "Benny and Rex ___ (be) hungry after practice yesterday.",
+    "a": [
+     "were"
+    ],
+    "why": "Benny and Rex — это they, поэтому were."
+   },
+   {
+    "id": "g24-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "was-were",
+    "q": "It ___ (be) cold at the rink last night.",
+    "a": [
+     "was"
+    ],
+    "why": "С it в прошлом — was."
+   },
+   {
+    "id": "g24-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "The pizza ___ (not / be) hot. It was cold!",
+    "a": [
+     "wasn't"
+    ],
+    "why": "Pizza — это it, поэтому wasn't."
+   },
+   {
+    "id": "g24-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "We ___ (not / be) at home last Sunday.",
+    "a": [
+     "weren't"
+    ],
+    "why": "С we в прошлом отрицание — weren't."
+   },
+   {
+    "id": "g24-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "q",
+    "q": "___ the movie good? — Yes, it was great! (Was / Were)",
+    "a": [
+     "Was"
+    ],
+    "why": "Movie — это it, поэтому вопрос с Was."
+   },
+   {
+    "id": "g24-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "there-was",
+    "q": "___ there many fans at the game? (Was / Were)",
+    "a": [
+     "Were"
+    ],
+    "why": "Fans — много, поэтому Were there…?"
+   },
+   {
+    "id": "g24-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "there-was",
+    "q": "There ___ (be) no milk in the fridge this morning.",
+    "a": [
+     "was"
+    ],
+    "why": "Milk неисчисляемое, поэтому there was."
+   },
+   {
+    "id": "g24-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "time",
+    "q": "I was in Moscow three years ___. (ago / last)",
+    "a": [
+     "ago"
+    ],
+    "why": "«Три года назад» — three years ago, ago после срока."
+   },
+   {
+    "id": "g24-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "time",
+    "q": "Where were you ___ night? (last / ago)",
+    "a": [
+     "last"
+    ],
+    "why": "«Вчера вечером / прошлой ночью» — last night."
+   },
+   {
+    "id": "g24-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "was-were",
+    "s": "The players was very happy.",
+    "bad": 2,
+    "fix": "were",
+    "why": "Players — много, это they, поэтому were."
+   },
+   {
+    "id": "g24-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "was-were",
+    "s": "I were at Mia's house yesterday.",
+    "bad": 1,
+    "fix": "was",
+    "why": "С I в прошлом — was."
+   },
+   {
+    "id": "g24-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "q",
+    "s": "Was you at school last Friday?",
+    "bad": 0,
+    "fix": "Were",
+    "why": "С you всегда were: Were you…?"
+   },
+   {
+    "id": "g24-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "there-was",
+    "s": "There was ten pucks on the ice.",
+    "bad": 1,
+    "fix": "were",
+    "why": "Ten pucks — много, поэтому there were."
+   },
+   {
+    "id": "g24-027",
+    "t": "err",
+    "lv": 3,
+    "tag": "time",
+    "s": "Benny is at the zoo yesterday.",
+    "bad": 1,
+    "fix": "was",
+    "why": "Yesterday — прошлое, поэтому was вместо is."
+   },
+   {
+    "id": "g24-028",
+    "t": "err",
+    "lv": 3,
+    "tag": "neg",
+    "s": "We wasn't late for practice.",
+    "bad": 1,
+    "fix": "weren't",
+    "why": "С we отрицание в прошлом — weren't."
+   },
+   {
+    "id": "g24-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "q",
+    "a": "Were you at home last night?",
+    "ru": "Ты был дома вчера вечером?",
+    "extra": [
+     "Was"
+    ],
+    "why": "С you — Were, и он стоит в начале вопроса."
+   },
+   {
+    "id": "g24-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "was-were",
+    "a": "The match was very exciting.",
+    "ru": "Матч был очень захватывающим.",
+    "extra": [
+     "were"
+    ],
+    "why": "Match — это it, поэтому was."
+   },
+   {
+    "id": "g24-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "there-was",
+    "a": "There were two goalies on the bench.",
+    "ru": "На скамейке было два вратаря.",
+    "extra": [
+     "was"
+    ],
+    "why": "Two goalies — много, поэтому there were."
+   },
+   {
+    "id": "g24-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "Rex wasn't at practice.",
+    "ru": "Рекса не было на тренировке.",
+    "extra": [
+     "weren't"
+    ],
+    "why": "Rex — это he, поэтому wasn't."
+   },
+   {
+    "id": "g24-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "q",
+    "a": "Where were your skates?",
+    "ru": "Где были твои коньки?",
+    "extra": [
+     "was"
+    ],
+    "why": "Skates — много, поэтому where were."
+   },
+   {
+    "id": "g24-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "time",
+    "src": "Mia is at the rink.",
+    "task_ru": "Перенеси в прошлое: добавь yesterday.",
+    "a": [
+     "Mia was at the rink yesterday.",
+     "Yesterday Mia was at the rink."
+    ],
+    "why": "Yesterday — прошлое, is превращается в was."
+   },
+   {
+    "id": "g24-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "q",
+    "src": "They were at the cinema.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Were they at the cinema?"
+    ],
+    "why": "Для вопроса ставим were в начало: Were they…?"
+   },
+   {
+    "id": "g24-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "The test was easy.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "The test wasn't easy."
+    ],
+    "why": "Отрицание — not после was: wasn't."
+   },
+   {
+    "id": "g24-037",
+    "t": "tr",
+    "lv": 3,
+    "tag": "there-was",
+    "src": "There are three pizzas on the table.",
+    "task_ru": "Перенеси в прошлое.",
+    "a": [
+     "There were three pizzas on the table."
+    ],
+    "why": "Are в прошлом — were: there were three pizzas."
+   },
+   {
+    "id": "g24-038",
+    "t": "match",
+    "lv": 1,
+    "tag": "was-were",
+    "pairs": [
+     [
+      "Rex…",
+      "was hungry."
+     ],
+     [
+      "Rex and Benny…",
+      "were hungry."
+     ],
+     [
+      "Was…",
+      "he at home?"
+     ],
+     [
+      "Were…",
+      "they at home?"
+     ]
+    ],
+    "why": "Один (he, Rex) — was, много (they, Rex and Benny) — were."
+   },
+   {
+    "id": "g24-039",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg",
+    "say": "Benny wasn't at home.",
+    "o": [
+     "Benny was at home.",
+     "Benny wasn't at home."
+    ],
+    "a": 1,
+    "why": "Ты слышал wasn't — Бенни не было дома."
+   },
+   {
+    "id": "g24-040",
+    "t": "listen",
+    "lv": 1,
+    "tag": "time",
+    "say": "They were late.",
+    "o": [
+     "They were late.",
+     "They are late."
+    ],
+    "a": 0,
+    "why": "Ты слышал were — это прошлое: они опоздали."
+   },
+   {
+    "id": "g24-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "was-were",
+    "title": "The big game",
+    "text": "The game yesterday ___ (be) amazing! There ___ (be) a lot of fans at the rink. Rex ___ (be) in goal. He ___ (not / be) nervous at all. His tiny arms ___ (be) tired after the game, but he was happy.",
+    "a": [
+     [
+      "was"
+     ],
+     [
+      "were"
+     ],
+     [
+      "was"
+     ],
+     [
+      "wasn't"
+     ],
+     [
+      "were"
+     ]
+    ],
+    "why": "Game, Rex — was, fans и arms — много, поэтому were."
+   },
+   {
+    "id": "g24-042",
+    "t": "text",
+    "lv": 3,
+    "tag": "q",
+    "title": "At the museum",
+    "text": "Last Saturday Benny and Mia ___ (be) at the dinosaur museum. The museum ___ (be) huge. There ___ (be) a T-rex skeleton. ___ (be) it scary? No, it ___ (not / be) scary. It was funny. It was just like Rex!",
+    "a": [
+     [
+      "were"
+     ],
+     [
+      "was"
+     ],
+     [
+      "was"
+     ],
+     [
+      "Was"
+     ],
+     [
+      "wasn't"
+     ]
+    ],
+    "why": "Benny and Mia — were, museum, skeleton, it — was, вопрос с Was в начале."
+   },
+   {
+    "id": "g24-043",
+    "t": "chat",
+    "lv": 3,
+    "tag": "q",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Where ___ you yesterday?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ at home. I was sick."
+     },
+     {
+      "who": "Mia",
+      "t": "Oh no! ___ you OK now?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I'm fine. ___ the practice fun?"
+     },
+     {
+      "who": "Mia",
+      "t": "No, it ___. Coach Walt was angry!"
+     }
+    ],
+    "a": [
+     [
+      "were"
+     ],
+     [
+      "was"
+     ],
+     [
+      "Are"
+     ],
+     [
+      "Was"
+     ],
+     [
+      "wasn't"
+     ]
+    ],
+    "why": "Yesterday — were / was, а now — настоящее: Are you OK now?"
+   },
+   {
+    "id": "g24-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "time",
+    "ru": "Вчера я был дома.",
+    "a": [
+     "I was at home yesterday.",
+     "Yesterday I was at home.",
+     "I was home yesterday.",
+     "Yesterday I was home."
+    ],
+    "why": "Вчера — прошлое, а с I — was."
+   },
+   {
+    "id": "g24-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "q",
+    "ru": "Где вы были на прошлой неделе?",
+    "a": [
+     "Where were you last week?"
+    ],
+    "why": "С you — were, а «на прошлой неделе» — last week."
+   },
+   {
+    "id": "g24-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "there-was",
+    "ru": "На катке было много людей.",
+    "a": [
+     "There were a lot of people at the rink.",
+     "There were many people at the rink.",
+     "There were lots of people at the rink."
+    ],
+    "why": "People — много, поэтому there were."
+   },
+   {
+    "id": "g24-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "Игра не была скучной.",
+    "a": [
+     "The game wasn't boring."
+    ],
+    "why": "Game — это it, поэтому wasn't."
+   },
+   {
+    "id": "g24-048",
+    "t": "speak",
+    "lv": 3,
+    "tag": "was-were",
+    "say": "Yesterday we were at the rink, and the game was amazing.",
+    "ru": "Вчера мы были на катке, и игра была потрясающей.",
+    "why": "С we — were, а с game (it) — was."
+   },
+   {
+    "id": "g24-049",
+    "t": "write",
+    "lv": 3,
+    "tag": "time",
+    "task_ru": "Напиши 3 предложения о том, где ты был вчера и каким был твой день.",
+    "check_ru": [
+     "I / he / she / it — was, you / we / they — were?",
+     "Есть слово прошлого: yesterday, last…, …ago?",
+     "В отрицании wasn't / weren't?"
+    ],
+    "model": "Yesterday I was at school. The lessons were boring, but practice was great. My friends were at the rink too.",
+    "why": "I и practice — was, lessons и friends — were."
+   }
+  ]
+ },
+ {
+  "id": "g25",
+  "stage": "A2",
+  "title_ru": "Past Simple: правильные глаголы",
+  "goal_ru": "Рассказать, что было вчера: We played and won.",
+  "prereq": [
+   "g24",
+   "g09"
+  ],
+  "spotlight": [
+   "1c",
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Просто добавь -ed",
+    "body_ru": "Прошлое правильных глаголов: глагол **+ -ed**. Форма одна для всех: I played, she played, they played. Никакого -s!",
+    "ex": [
+     [
+      "We played Roblox all night.",
+      "Мы играли в Roblox всю ночь."
+     ],
+     [
+      "Mia watched a video.",
+      "Мия посмотрела видео."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Правописание",
+    "body_ru": "**-e → + d:** like → liked. **согласная + y → -ied:** study → studied (но play → played). **короткий глагол «согласная-гласная-согласная» → удваиваем:** stop → stopped, plan → planned. В американском английском travel → traveled.",
+    "ex": [
+     [
+      "We clapped and shouted.",
+      "Мы хлопали и кричали."
+     ],
+     [
+      "Rex cried at the sad movie.",
+      "Рекс плакал на грустном фильме."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как звучит -ed",
+    "body_ru": "После **t, d** → /ɪd/, отдельный слог: wanted, needed. После глухих **p, k, s, sh, ch, f** → /t/: helped, watched. После остальных звуков → /d/: played, loved.",
+    "ex": [
+     [
+      "We wanted pizza.",
+      "Мы хотели пиццу."
+     ],
+     [
+      "Mia helped me.",
+      "Мия мне помогла."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Когда это было",
+    "body_ru": "Слова прошлого: **yesterday, last night, last week, two days ago**. А every day, usually — это настоящее, там -ed не нужен.",
+    "ex": [
+     [
+      "I played Roblox yesterday.",
+      "Я играл в Roblox вчера."
+     ],
+     [
+      "I play Roblox every day.",
+      "Я играю в Roblox каждый день."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Yesterday I play hockey.",
+    "right": "Yesterday I played hockey.",
+    "why_ru": "Yesterday — прошлое, нужен -ed: played."
+   },
+   {
+    "wrong": "He stoped the puck.",
+    "right": "He stopped the puck.",
+    "why_ru": "Stop короткий: согласная удваивается — stopped."
+   },
+   {
+    "wrong": "She studyed English.",
+    "right": "She studied English.",
+    "why_ru": "Согласная + y → -ied: studied."
+   },
+   {
+    "wrong": "We enjoied the game.",
+    "right": "We enjoyed the game.",
+    "why_ru": "Перед y гласная, поэтому просто -ed: enjoyed."
+   },
+   {
+    "wrong": "Mia visitted Toronto.",
+    "right": "Mia visited Toronto.",
+    "why_ru": "Ударение на первый слог (VIsit), поэтому t не удваиваем."
+   }
+  ],
+  "tags": {
+   "ed": {
+    "ru": "Глагол + -ed",
+    "tip_ru": "В прошлом к правильному глаголу добавляем -ed, одна форма для всех: I played, he played.",
+    "back": "g09"
+   },
+   "spell": {
+    "ru": "Правописание -ed",
+    "tip_ru": "Like → liked, study → studied, play → played, stop → stopped."
+   },
+   "sound": {
+    "ru": "Как звучит -ed",
+    "tip_ru": "После t / d — /ɪd/ (wanted), после глухих p, k, s, ch — /t/ (helped), после остальных — /d/ (played)."
+   },
+   "time": {
+    "ru": "Прошлое или настоящее",
+    "tip_ru": "Yesterday, last week, ago — прошлое, нужен -ed. Every day, usually — настоящее.",
+    "back": "g24"
+   }
+  },
+  "items": [
+   {
+    "id": "g25-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time",
+    "q": "Yesterday Mia ___ three goals.",
+    "o": [
+     "scored",
+     "scores"
+    ],
+    "a": 0,
+    "why": "Yesterday — прошлое, поэтому scored."
+   },
+   {
+    "id": "g25-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spell",
+    "q": "Benny ___ his phone into the water.",
+    "o": [
+     "dropped",
+     "droped"
+    ],
+    "a": 0,
+    "why": "Drop короткий (согласная-гласная-согласная): p удваивается — dropped."
+   },
+   {
+    "id": "g25-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spell",
+    "q": "Last night I ___ for my English test.",
+    "o": [
+     "studied",
+     "studyed"
+    ],
+    "a": 0,
+    "why": "Согласная + y → -ied: studied."
+   },
+   {
+    "id": "g25-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spell",
+    "q": "Rex ___ the puck with his tail yesterday.",
+    "o": [
+     "stopped",
+     "stoped"
+    ],
+    "a": 0,
+    "why": "Stop короткий: p удваивается — stopped."
+   },
+   {
+    "id": "g25-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spell",
+    "q": "We ___ Brawl Stars all evening yesterday.",
+    "o": [
+     "played",
+     "plaied"
+    ],
+    "a": 0,
+    "why": "Перед y гласная a, поэтому просто -ed: played."
+   },
+   {
+    "id": "g25-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time",
+    "q": "My brother ___ YouTube every day.",
+    "o": [
+     "watches",
+     "watched"
+    ],
+    "a": 0,
+    "why": "Every day — привычка в настоящем, а не прошлое: watches."
+   },
+   {
+    "id": "g25-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "sound",
+    "q": "Как звучит -ed в слове wanted?",
+    "o": [
+     "/ɪd/",
+     "/t/"
+    ],
+    "a": 0,
+    "why": "После t окончание читается отдельным слогом /ɪd/: WANT-id."
+   },
+   {
+    "id": "g25-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "sound",
+    "q": "Как звучит -ed в слове watched?",
+    "o": [
+     "/d/",
+     "/t/"
+    ],
+    "a": 1,
+    "why": "Watch кончается на глухой звук «ч», поэтому -ed звучит /t/."
+   },
+   {
+    "id": "g25-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "sound",
+    "q": "Как звучит -ed в слове played?",
+    "o": [
+     "/ɪd/",
+     "/d/"
+    ],
+    "a": 1,
+    "why": "Play кончается на гласный звук, поэтому -ed звучит /d/."
+   },
+   {
+    "id": "g25-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spell",
+    "q": "Benny ___ with Mrs Parker in the kitchen yesterday.",
+    "o": [
+     "danceed",
+     "danced"
+    ],
+    "a": 1,
+    "why": "Dance кончается на -e, добавляем только -d: danced."
+   },
+   {
+    "id": "g25-011",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time",
+    "q": "Coach Walt ___ at us after yesterday's game.",
+    "o": [
+     "smiled",
+     "smiles"
+    ],
+    "a": 0,
+    "why": "Yesterday's game — это было вчера, поэтому smiled."
+   },
+   {
+    "id": "g25-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "sound",
+    "q": "В каком слове -ed звучит как отдельный слог /ɪd/?",
+    "o": [
+     "needed",
+     "cleaned",
+     "jumped"
+    ],
+    "a": 0,
+    "why": "Need кончается на d, поэтому -ed читается /ɪd/: NEED-id."
+   },
+   {
+    "id": "g25-013",
+    "t": "mc",
+    "lv": 2,
+    "tag": "sound",
+    "q": "В каком слове -ed звучит как /t/?",
+    "o": [
+     "helped",
+     "painted",
+     "loved"
+    ],
+    "a": 0,
+    "why": "Help кончается на глухой /p/, поэтому -ed звучит /t/."
+   },
+   {
+    "id": "g25-014",
+    "t": "mc",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Rex ___ to catch the puck with his tiny arms.",
+    "o": [
+     "tried",
+     "tryed",
+     "tries"
+    ],
+    "a": 0,
+    "why": "Согласная + y → -ied: tried."
+   },
+   {
+    "id": "g25-015",
+    "t": "mc",
+    "lv": 3,
+    "tag": "spell",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "Mia plans a party last week.",
+     "Mia planed a party last week.",
+     "Mia planned a party last week."
+    ],
+    "a": 2,
+    "why": "Last week — прошлое, а у plan согласная удваивается: planned."
+   },
+   {
+    "id": "g25-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Mia ___ (travel) to Toronto with her team last month.",
+    "a": [
+     "traveled",
+     "travelled"
+    ],
+    "why": "В американском английском traveled с одной l, британское travelled тоже верно."
+   },
+   {
+    "id": "g25-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Benny ___ (carry) all the hockey bags yesterday.",
+    "a": [
+     "carried"
+    ],
+    "why": "Согласная + y → -ied: carried."
+   },
+   {
+    "id": "g25-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "We ___ (chat) online for two hours last night.",
+    "a": [
+     "chatted"
+    ],
+    "why": "Chat короткий: t удваивается — chatted."
+   },
+   {
+    "id": "g25-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Last night we watched a dinosaur movie. I ___ (like) it a lot.",
+    "a": [
+     "liked"
+    ],
+    "why": "Like кончается на -e, добавляем только -d: liked."
+   },
+   {
+    "id": "g25-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ed",
+    "q": "Rex ___ (wait) for the bus for an hour this morning.",
+    "a": [
+     "waited"
+    ],
+    "why": "This morning уже прошло, просто + -ed: waited."
+   },
+   {
+    "id": "g25-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Benny ___ (move) to Canada last year.",
+    "a": [
+     "moved"
+    ],
+    "why": "Move кончается на -e, добавляем только -d: moved."
+   },
+   {
+    "id": "g25-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ed",
+    "q": "Yesterday Mr Parker ___ (cook) pancakes for everyone.",
+    "a": [
+     "cooked"
+    ],
+    "why": "Yesterday — прошлое, просто + -ed: cooked."
+   },
+   {
+    "id": "g25-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ed",
+    "q": "It ___ (rain) all day last Sunday.",
+    "a": [
+     "rained"
+    ],
+    "why": "Last Sunday — прошлое, просто + -ed: rained."
+   },
+   {
+    "id": "g25-024",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spell",
+    "q": "Mia ___ (enjoy) the concert last Friday.",
+    "a": [
+     "enjoyed"
+    ],
+    "why": "Перед y гласная o, поэтому просто -ed: enjoyed."
+   },
+   {
+    "id": "g25-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "spell",
+    "s": "The bus stoped near the rink.",
+    "bad": 2,
+    "fix": "stopped",
+    "why": "Stop короткий: p удваивается — stopped."
+   },
+   {
+    "id": "g25-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "spell",
+    "s": "Last week Mia studyed with Benny every day.",
+    "bad": 3,
+    "fix": "studied",
+    "why": "Согласная + y → -ied: studied."
+   },
+   {
+    "id": "g25-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "time",
+    "s": "We play hockey yesterday and scored five goals.",
+    "bad": 1,
+    "fix": "played",
+    "why": "Yesterday — прошлое, нужно played."
+   },
+   {
+    "id": "g25-028",
+    "t": "err",
+    "lv": 3,
+    "tag": "time",
+    "s": "Two days ago Benny help Mrs Parker in the garden.",
+    "bad": 4,
+    "fix": "helped",
+    "why": "Two days ago — прошлое, нужно helped."
+   },
+   {
+    "id": "g25-029",
+    "t": "err",
+    "lv": 3,
+    "tag": "spell",
+    "s": "Rex jumpped over the bench.",
+    "bad": 1,
+    "fix": "jumped",
+    "why": "В jump две согласные в конце (mp), поэтому не удваиваем: jumped."
+   },
+   {
+    "id": "g25-030",
+    "t": "err",
+    "lv": 3,
+    "tag": "spell",
+    "s": "Last summer I visitted my grandma in Russia.",
+    "bad": 3,
+    "fix": "visited",
+    "why": "Ударение на первый слог (VIsit), поэтому t не удваиваем: visited."
+   },
+   {
+    "id": "g25-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "ed",
+    "a": "We watched a funny video about dinosaurs.",
+    "ru": "Мы посмотрели смешное видео про динозавров.",
+    "extra": [
+     "watch"
+    ],
+    "why": "Прошлое: watch + -ed = watched."
+   },
+   {
+    "id": "g25-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "ed",
+    "a": "Mia scored the winning goal.",
+    "ru": "Мия забила решающий гол.",
+    "extra": [
+     "scores"
+    ],
+    "why": "Это уже случилось: score + -d = scored."
+   },
+   {
+    "id": "g25-033",
+    "t": "build",
+    "lv": 2,
+    "tag": "spell",
+    "a": "Benny tried a pancake with maple syrup.",
+    "ru": "Бенни попробовал блинчик с кленовым сиропом.",
+    "extra": [
+     "tryed"
+    ],
+    "why": "Согласная + y → -ied: tried."
+   },
+   {
+    "id": "g25-034",
+    "t": "build",
+    "lv": 2,
+    "tag": "spell",
+    "a": "Coach Walt stopped the practice.",
+    "ru": "Тренер Уолт остановил тренировку.",
+    "extra": [
+     "stoped"
+    ],
+    "why": "Stop короткий: p удваивается — stopped."
+   },
+   {
+    "id": "g25-035",
+    "t": "build",
+    "lv": 2,
+    "tag": "ed",
+    "a": "I recorded a new phonk track.",
+    "ru": "Я записал новый фонк-трек.",
+    "extra": [
+     "record"
+    ],
+    "why": "Прошлое: record + -ed = recorded."
+   },
+   {
+    "id": "g25-036",
+    "t": "tr",
+    "lv": 2,
+    "tag": "time",
+    "src": "I play Roblox every day.",
+    "task_ru": "Замени every day на yesterday.",
+    "a": [
+     "I played Roblox yesterday.",
+     "Yesterday I played Roblox."
+    ],
+    "why": "Yesterday — прошлое: play + -ed = played."
+   },
+   {
+    "id": "g25-037",
+    "t": "tr",
+    "lv": 2,
+    "tag": "spell",
+    "src": "Mia studies English.",
+    "task_ru": "Перенеси в прошлое: добавь last night.",
+    "a": [
+     "Mia studied English last night.",
+     "Last night Mia studied English."
+    ],
+    "why": "Study в прошлом — studied (y → -ied)."
+   },
+   {
+    "id": "g25-038",
+    "t": "tr",
+    "lv": 3,
+    "tag": "spell",
+    "src": "Rex usually practices at the rink.",
+    "task_ru": "Замени usually на yesterday.",
+    "a": [
+     "Rex practiced at the rink yesterday.",
+     "Yesterday Rex practiced at the rink.",
+     "Rex practised at the rink yesterday.",
+     "Yesterday Rex practised at the rink."
+    ],
+    "why": "Yesterday — прошлое, practice кончается на -e: practiced."
+   },
+   {
+    "id": "g25-039",
+    "t": "tr",
+    "lv": 3,
+    "tag": "spell",
+    "src": "We stop at the store and shop for snacks.",
+    "task_ru": "Перенеси в прошлое.",
+    "a": [
+     "We stopped at the store and shopped for snacks."
+    ],
+    "why": "У stop и shop согласная удваивается: stopped, shopped."
+   },
+   {
+    "id": "g25-040",
+    "t": "match",
+    "lv": 1,
+    "tag": "spell",
+    "pairs": [
+     [
+      "stop",
+      "stopped"
+     ],
+     [
+      "study",
+      "studied"
+     ],
+     [
+      "dance",
+      "danced"
+     ],
+     [
+      "play",
+      "played"
+     ]
+    ],
+    "why": "Stop удваивает p, study меняет y на i, dance добавляет -d, play просто + -ed."
+   },
+   {
+    "id": "g25-041",
+    "t": "listen",
+    "lv": 1,
+    "tag": "time",
+    "say": "We played hockey.",
+    "o": [
+     "We played hockey.",
+     "We play hockey."
+    ],
+    "a": 0,
+    "why": "Ты слышал played — это прошлое."
+   },
+   {
+    "id": "g25-042",
+    "t": "listen",
+    "lv": 1,
+    "tag": "sound",
+    "say": "Rex waited for the puck.",
+    "o": [
+     "Rex waits for the puck.",
+     "Rex waited for the puck."
+    ],
+    "a": 1,
+    "why": "Ты слышал лишний слог /ɪd/ — waited, это прошлое."
+   },
+   {
+    "id": "g25-043",
+    "t": "text",
+    "lv": 3,
+    "tag": "spell",
+    "title": "Benny's disaster",
+    "text": "Yesterday Benny ___ (decide) to cook pancakes. He ___ (mix) eggs and milk. Then he ___ (drop) the bowl! The kitchen ___ (look) terrible. Mrs Parker just ___ (laugh) and ___ (help) him.",
+    "a": [
+     [
+      "decided"
+     ],
+     [
+      "mixed"
+     ],
+     [
+      "dropped"
+     ],
+     [
+      "looked"
+     ],
+     [
+      "laughed"
+     ],
+     [
+      "helped"
+     ]
+    ],
+    "why": "Decide + d, drop удваивает p, остальные просто + -ed."
+   },
+   {
+    "id": "g25-044",
+    "t": "text",
+    "lv": 3,
+    "tag": "ed",
+    "title": "Rex's best day",
+    "text": "Last Saturday the Dinos ___ (play) against the Bears. Rex ___ (stop) twenty pucks! Mia ___ (score) two goals. The fans ___ (shout) and ___ (clap). After the game Coach Walt ___ (hug) everyone.",
+    "a": [
+     [
+      "played"
+     ],
+     [
+      "stopped"
+     ],
+     [
+      "scored"
+     ],
+     [
+      "shouted"
+     ],
+     [
+      "clapped"
+     ],
+     [
+      "hugged"
+     ]
+    ],
+    "why": "Last Saturday — прошлое: + -ed, а stop, clap, hug удваивают последнюю букву."
+   },
+   {
+    "id": "g25-045",
+    "t": "chat",
+    "lv": 3,
+    "tag": "ed",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Tell me about your weekend!"
+     },
+     {
+      "who": "you",
+      "t": "On Saturday I ___ (play) Brawl Stars with Benny."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! I ___ (practice) all day."
+     },
+     {
+      "who": "you",
+      "t": "On Sunday we ___ (watch) a hockey game."
+     },
+     {
+      "who": "Mia",
+      "t": "I ___ (watch) it too! Rex ___ (stop) every puck!"
+     }
+    ],
+    "a": [
+     [
+      "played"
+     ],
+     [
+      "practiced",
+      "practised"
+     ],
+     [
+      "watched"
+     ],
+     [
+      "watched"
+     ],
+     [
+      "stopped"
+     ]
+    ],
+    "why": "Это было на выходных — прошлое: + -ed, practice + d, stop удваивает p."
+   },
+   {
+    "id": "g25-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "time",
+    "ru": "Вчера мы играли в хоккей.",
+    "a": [
+     "We played hockey yesterday.",
+     "Yesterday we played hockey."
+    ],
+    "why": "Вчера — прошлое: played."
+   },
+   {
+    "id": "g25-047",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "spell",
+    "ru": "Бенни уронил торт.",
+    "a": [
+     "Benny dropped the cake.",
+     "Benny dropped a cake."
+    ],
+    "why": "Drop в прошлом — dropped, p удваивается."
+   },
+   {
+    "id": "g25-048",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "spell",
+    "ru": "Вчера вечером я учил английский.",
+    "a": [
+     "I studied English last night.",
+     "Last night I studied English.",
+     "I studied English yesterday evening.",
+     "Yesterday evening I studied English."
+    ],
+    "why": "Study в прошлом — studied."
+   },
+   {
+    "id": "g25-049",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "ed",
+    "ru": "Рекс улыбнулся и помахал нам.",
+    "a": [
+     "Rex smiled and waved at us.",
+     "Rex smiled and waved to us."
+    ],
+    "why": "Оба глагола в прошлом: smile + d, wave + d."
+   },
+   {
+    "id": "g25-050",
+    "t": "speak",
+    "lv": 3,
+    "tag": "sound",
+    "say": "Last night I recorded a new track and posted it online.",
+    "ru": "Вчера вечером я записал новый трек и выложил его в интернет.",
+    "why": "В recorded и posted -ed звучит отдельным слогом /ɪd/."
+   },
+   {
+    "id": "g25-051",
+    "t": "write",
+    "lv": 3,
+    "tag": "ed",
+    "task_ru": "Напиши 3 предложения о том, что ты делал в прошлые выходные (только правильные глаголы: played, watched, listened…).",
+    "check_ru": [
+     "У каждого глагола есть -ed?",
+     "Правописание: stopped, studied, liked?",
+     "Есть слово прошлого: last weekend, on Saturday, yesterday?"
+    ],
+    "model": "Last weekend I played hockey with my team. On Sunday I listened to phonk and cleaned my room. In the evening I watched YouTube.",
+    "why": "Played, listened, cleaned, watched — правильные глаголы + -ed."
+   }
+  ]
+ }
+]

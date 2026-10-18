@@ -1,0 +1,3494 @@
+[
+ {
+  "id": "g36",
+  "stage": "A2",
+  "title_ru": "Артикли: подробнее",
+  "goal_ru": "Решать, где нужен the, а где артикля нет.",
+  "prereq": [
+   "g05",
+   "g23"
+  ],
+  "spotlight": [
+   "2b"
+  ],
+  "cards": [
+   {
+    "title_ru": "The — когда понятно, о чём речь",
+    "body_ru": "**The** ставим, если предмет один на свете (**the sun, the moon, the sky, the internet**) или уже ясно, о каком речь.",
+    "ex": [
+     [
+      "The sun is hot today.",
+      "Сегодня солнце жаркое."
+     ],
+     [
+      "I saw a movie. The movie was scary.",
+      "Я посмотрел фильм. Фильм был страшный."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Инструменты и «самый-самый»",
+    "body_ru": "**play the** + инструмент: play the guitar, play the drums (в разговоре американцы иногда говорят просто play guitar). Перед превосходной степенью всегда **the**: the best, the fastest, the most popular.",
+    "ex": [
+     [
+      "Mia plays the piano.",
+      "Мия играет на пианино."
+     ],
+     [
+      "Rex is the best goalie.",
+      "Рекс — лучший вратарь."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Без артикля",
+    "body_ru": "Спорт и игры, еда, языки, школьные предметы — **без артикля**: play hockey, have lunch, speak English, study math.",
+    "ex": [
+     [
+      "We play hockey on Fridays.",
+      "Мы играем в хоккей по пятницам."
+     ],
+     [
+      "My dad speaks French.",
+      "Мой папа говорит по-французски."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Устойчивые фразы",
+    "body_ru": "**at school, at home, in bed, go to bed, go home, by bus, by car** — без артикля. Но: **on the bus, take the bus**. В Америке говорят **in the hospital** — с the (в Британии — in hospital).",
+    "ex": [
+     [
+      "I go to school by bus.",
+      "Я езжу в школу на автобусе."
+     ],
+     [
+      "Grandpa is in the hospital.",
+      "Дедушка в больнице."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I play the hockey.",
+    "right": "I play hockey.",
+    "why_ru": "Перед видом спорта артикль не нужен."
+   },
+   {
+    "wrong": "Rex is best goalie.",
+    "right": "Rex is the best goalie.",
+    "why_ru": "Превосходная степень всегда идёт с the."
+   },
+   {
+    "wrong": "We go to school by the bus.",
+    "right": "We go to school by bus.",
+    "why_ru": "После by транспорт без артикля."
+   },
+   {
+    "wrong": "Sun is very hot.",
+    "right": "The sun is very hot.",
+    "why_ru": "Солнце одно — нужен the."
+   },
+   {
+    "wrong": "I have the dinner at 7.",
+    "right": "I have dinner at 7.",
+    "why_ru": "Перед приёмом пищи артикля нет."
+   }
+  ],
+  "tags": {
+   "known": {
+    "ru": "the: одно на свете или уже известно",
+    "tip_ru": "The ставим, когда предмет один на свете (the sun, the internet) или уже понятно, о каком речь.",
+    "back": "g05"
+   },
+   "instrument": {
+    "ru": "play the + инструмент",
+    "tip_ru": "С музыкальными инструментами ставим the: play the guitar. Со спортом и играми — без артикля: play hockey."
+   },
+   "superlative": {
+    "ru": "the + превосходная степень",
+    "tip_ru": "Перед «самым-самым» всегда the: the best, the fastest, the most popular.",
+    "back": "g31"
+   },
+   "zero": {
+    "ru": "без артикля: спорт, еда, языки",
+    "tip_ru": "Спорт, игры, завтрак-обед-ужин, языки и предметы идут без артикля: play hockey, have lunch, speak English."
+   },
+   "places": {
+    "ru": "at school, by bus, go to bed",
+    "tip_ru": "Запомни фразы без артикля: at school, at home, in bed, go to bed, go home, by bus."
+   }
+  },
+  "items": [
+   {
+    "id": "g36-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "known",
+    "q": "Look! ___ moon is so bright tonight.",
+    "o": [
+     "The",
+     "A"
+    ],
+    "a": 0,
+    "why": "Луна у нас одна, поэтому the moon."
+   },
+   {
+    "id": "g36-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "instrument",
+    "q": "Mia plays ___ drums in a band.",
+    "o": [
+     "the",
+     "a"
+    ],
+    "a": 0,
+    "why": "С музыкальными инструментами ставим the: play the drums."
+   },
+   {
+    "id": "g36-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "Rex and Benny play ___ every Saturday.",
+    "o": [
+     "hockey",
+     "the hockey"
+    ],
+    "a": 0,
+    "why": "Перед видом спорта артикля нет: play hockey."
+   },
+   {
+    "id": "g36-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "superlative",
+    "q": "Coach Walt is ___ coach in Canada!",
+    "o": [
+     "the best",
+     "a best"
+    ],
+    "a": 0,
+    "why": "Перед превосходной степенью всегда the: the best."
+   },
+   {
+    "id": "g36-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "We have ___ at 8 o'clock.",
+    "o": [
+     "breakfast",
+     "the breakfast"
+    ],
+    "a": 0,
+    "why": "Перед завтраком, обедом и ужином артикля нет: have breakfast."
+   },
+   {
+    "id": "g36-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "places",
+    "q": "Benny goes to school ___ bus.",
+    "o": [
+     "by",
+     "by the"
+    ],
+    "a": 0,
+    "why": "После by транспорт идёт без артикля: by bus."
+   },
+   {
+    "id": "g36-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "zero",
+    "q": "My cousin speaks ___ very well.",
+    "o": [
+     "Spanish",
+     "the Spanish"
+    ],
+    "a": 0,
+    "why": "Перед названием языка артикля нет: speaks Spanish."
+   },
+   {
+    "id": "g36-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "places",
+    "q": "It's 11 p.m. Go to ___, Benny!",
+    "o": [
+     "bed",
+     "the bed"
+    ],
+    "a": 0,
+    "why": "Go to bed — «иди спать», устойчивая фраза без артикля."
+   },
+   {
+    "id": "g36-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "known",
+    "q": "I watch hockey videos on ___ internet every day.",
+    "o": [
+     "the",
+     "a",
+     "an"
+    ],
+    "a": 0,
+    "why": "Интернет один на всех, поэтому the internet."
+   },
+   {
+    "id": "g36-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "superlative",
+    "q": "This is ___ popular game at our school.",
+    "o": [
+     "the most",
+     "a most",
+     "most"
+    ],
+    "a": 0,
+    "why": "«Самая популярная» — the most popular, the обязателен."
+   },
+   {
+    "id": "g36-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "superlative",
+    "say": "Rex is the fastest goalie in the league.",
+    "o": [
+     "Rex is the fastest goalie in the league.",
+     "Rex is a fast goalie in the league."
+    ],
+    "a": 0,
+    "why": "Ты слышал the fastest — «самый быстрый», поэтому с the."
+   },
+   {
+    "id": "g36-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "places",
+    "say": "Mia goes to practice by bus.",
+    "o": [
+     "Mia goes to practice by bus.",
+     "Mia goes to practice by the bus."
+    ],
+    "a": 0,
+    "why": "Ты слышал by bus — после by артикля нет."
+   },
+   {
+    "id": "g36-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "zero",
+    "pairs": [
+     [
+      "play the",
+      "guitar"
+     ],
+     [
+      "have",
+      "dinner"
+     ],
+     [
+      "go to",
+      "bed"
+     ],
+     [
+      "travel by",
+      "train"
+     ]
+    ],
+    "why": "Инструмент — с the, а dinner, go to bed и by train — без артикля."
+   },
+   {
+    "id": "g36-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "known",
+    "q": "___ sun is very hot today. (A / The)",
+    "a": [
+     "The"
+    ],
+    "why": "Солнце одно на небе — the sun."
+   },
+   {
+    "id": "g36-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "instrument",
+    "q": "Benny wants to play ___ violin. (a / the)",
+    "a": [
+     "the"
+    ],
+    "why": "Скрипка — инструмент, поэтому play the violin."
+   },
+   {
+    "id": "g36-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "superlative",
+    "q": "Rex has ___ shortest arms on the team. (a / the)",
+    "a": [
+     "the"
+    ],
+    "why": "«Самые короткие» — превосходная степень, нужен the."
+   },
+   {
+    "id": "g36-017",
+    "t": "gap",
+    "lv": 3,
+    "tag": "superlative",
+    "q": "It was ___ (bad) game of the season!",
+    "a": [
+     "the worst"
+    ],
+    "why": "Bad → worst, и перед превосходной степенью ставим the: the worst."
+   },
+   {
+    "id": "g36-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "places",
+    "q": "Mia isn't home. She's ___ school. She has classes until 3. (at / at the)",
+    "a": [
+     "at"
+    ],
+    "why": "«На уроках, в школе» — at school, без артикля."
+   },
+   {
+    "id": "g36-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "places",
+    "q": "Mia is still ___ bed. She's sleeping. (in / in the)",
+    "a": [
+     "in"
+    ],
+    "why": "«Лежит в кровати, спит» — in bed, без артикля."
+   },
+   {
+    "id": "g36-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "known",
+    "q": "I saw a dinosaur movie yesterday. ___ movie was really scary. (A / The)",
+    "a": [
+     "The"
+    ],
+    "why": "Фильм уже упоминали, теперь понятно, какой, — the movie."
+   },
+   {
+    "id": "g36-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "superlative",
+    "s": "Rex is a best goalie in the league.",
+    "bad": 2,
+    "fix": "the",
+    "why": "Перед best всегда the: the best goalie."
+   },
+   {
+    "id": "g36-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "known",
+    "s": "Look at a sky! It's all orange.",
+    "bad": 2,
+    "fix": "the",
+    "why": "Небо одно — the sky."
+   },
+   {
+    "id": "g36-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "places",
+    "s": "Benny goes to school on bus every morning.",
+    "bad": 4,
+    "fix": "by",
+    "why": "Без артикля говорим by bus, а on — только с the: on the bus."
+   },
+   {
+    "id": "g36-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "instrument",
+    "s": "Mia plays a piano really well.",
+    "bad": 2,
+    "fix": "the",
+    "why": "С инструментом ставим the: plays the piano."
+   },
+   {
+    "id": "g36-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "places",
+    "s": "Benny is in home with a cold.",
+    "bad": 2,
+    "fix": "at",
+    "why": "«Дома» — at home, без артикля."
+   },
+   {
+    "id": "g36-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "instrument",
+    "a": "My brother plays the guitar after school.",
+    "ru": "Мой брат играет на гитаре после школы.",
+    "extra": [
+     "a"
+    ],
+    "why": "Инструмент — с the, а after school — без артикля."
+   },
+   {
+    "id": "g36-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "superlative",
+    "a": "This is the best song on my playlist.",
+    "ru": "Это лучшая песня в моём плейлисте.",
+    "extra": [
+     "a"
+    ],
+    "why": "«Лучшая» — превосходная степень, поэтому the best."
+   },
+   {
+    "id": "g36-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "zero",
+    "a": "Rex has breakfast at home every day.",
+    "ru": "Рекс завтракает дома каждый день.",
+    "extra": [
+     "the"
+    ],
+    "why": "Have breakfast и at home — без артикля."
+   },
+   {
+    "id": "g36-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "places",
+    "a": "Do you go to school by bus?",
+    "ru": "Ты ездишь в школу на автобусе?",
+    "extra": [
+     "the"
+    ],
+    "why": "By bus — транспорт после by без артикля."
+   },
+   {
+    "id": "g36-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "known",
+    "a": "The internet is slow today.",
+    "ru": "Сегодня интернет медленный.",
+    "extra": [
+     "a"
+    ],
+    "why": "Интернет один на всех — the internet."
+   },
+   {
+    "id": "g36-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "superlative",
+    "src": "Rex is a fast player.",
+    "task_ru": "Скажи, что Рекс — самый быстрый игрок в команде (on the team).",
+    "a": [
+     "Rex is the fastest player on the team.",
+     "Rex is the fastest player in the team."
+    ],
+    "why": "Fast → the fastest, и перед ним обязательно the."
+   },
+   {
+    "id": "g36-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "instrument",
+    "src": "I play hockey.",
+    "task_ru": "Замени хоккей на барабаны (drums).",
+    "a": [
+     "I play the drums.",
+     "I play drums."
+    ],
+    "why": "Спорт — без артикля, а инструмент обычно с the: play the drums."
+   },
+   {
+    "id": "g36-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "places",
+    "src": "My dad drives me to school.",
+    "task_ru": "Скажи, что ты сам ездишь в школу на автобусе.",
+    "a": [
+     "I go to school by bus.",
+     "I take the bus to school."
+    ],
+    "why": "By bus — без артикля, а с take нужен the: take the bus."
+   },
+   {
+    "id": "g36-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "places",
+    "title": "Benny's Monday",
+    "text": "Benny gets up at 7 and has ___ (breakfast / a breakfast). He goes to school ___ (by / on) bus. ___ (At / At the) school, he studies math and ___ (English / the English). After school, he goes ___ (home / to home). At 10 p.m., he goes to ___ (bed / the bed).",
+    "a": [
+     [
+      "breakfast"
+     ],
+     [
+      "by"
+     ],
+     [
+      "At"
+     ],
+     [
+      "English"
+     ],
+     [
+      "home"
+     ],
+     [
+      "bed"
+     ]
+    ],
+    "why": "Еда, языки, at school, by bus, go home и go to bed — без артикля."
+   },
+   {
+    "id": "g36-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "known",
+    "title": "Rex's big game",
+    "text": "Rex and Benny went to a game. ___ (A / The) game started at 6. Rex was ___ (a / the) best player on ___ (an / the) ice. After the game, Mia played ___ (a / the) guitar, and everyone sang. ___ (A / The) sky was dark, and ___ (a / the) moon was big and white.",
+    "a": [
+     [
+      "The"
+     ],
+     [
+      "the"
+     ],
+     [
+      "the"
+     ],
+     [
+      "the"
+     ],
+     [
+      "The"
+     ],
+     [
+      "the"
+     ]
+    ],
+    "why": "Игра уже упомянута, best — превосходная, лёд, гитара, небо и луна понятны — везде the."
+   },
+   {
+    "id": "g36-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "places",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Are you at home?"
+     },
+     {
+      "who": "you",
+      "t": "No, I'm ___ school. Classes end at 3."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool. Let's play hockey after school!"
+     },
+     {
+      "who": "you",
+      "t": "OK! I'll come ___ bus."
+     },
+     {
+      "who": "Mia",
+      "t": "Great. Rex says he's ___ best goalie in Canada, haha."
+     },
+     {
+      "who": "you",
+      "t": "Ha! He also says he plays ___ piano with his tiny arms."
+     }
+    ],
+    "a": [
+     [
+      "at"
+     ],
+     [
+      "by"
+     ],
+     [
+      "the"
+     ],
+     [
+      "the"
+     ]
+    ],
+    "why": "At school и by bus — без артикля, the best и the piano — с the."
+   },
+   {
+    "id": "g36-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "zero",
+    "ru": "Мой папа говорит по-французски.",
+    "a": [
+     "My dad speaks French.",
+     "My father speaks French."
+    ],
+    "why": "Перед названием языка артикля нет: speaks French."
+   },
+   {
+    "id": "g36-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "superlative",
+    "ru": "Это самое смешное видео на YouTube.",
+    "a": [
+     "This is the funniest video on YouTube.",
+     "It's the funniest video on YouTube."
+    ],
+    "why": "Funny → the funniest, с the."
+   },
+   {
+    "id": "g36-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "places",
+    "ru": "Мы ездим на каток на автобусе.",
+    "a": [
+     "We go to the rink by bus.",
+     "We take the bus to the rink."
+    ],
+    "why": "By bus — без артикля, а каток известный — the rink."
+   },
+   {
+    "id": "g36-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "instrument",
+    "say": "Mia plays the guitar, and I play hockey.",
+    "ru": "Мия играет на гитаре, а я играю в хоккей.",
+    "why": "Инструмент — с the, а спорт — без артикля."
+   },
+   {
+    "id": "g36-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "zero",
+    "task_ru": "Напиши 3 предложения о своём обычном дне: еда, школа, спорт или музыка.",
+    "check_ru": [
+     "Перед breakfast, lunch, dinner и hockey нет артикля?",
+     "At school, at home, by bus — без the?",
+     "Перед музыкальным инструментом стоит the?"
+    ],
+    "model": "I have breakfast at home at 7. I go to school by bus. After school, I play hockey or play the guitar.",
+    "why": "Еда, спорт, at school и by bus — без артикля, инструмент — с the."
+   }
+  ]
+ },
+ {
+  "id": "g37",
+  "stage": "B1",
+  "title_ru": "Present Perfect Continuous; been или gone",
+  "goal_ru": "Сказать «я тренируюсь уже два часа».",
+  "prereq": [
+   "g35"
+  ],
+  "spotlight": [
+   "2c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Форма",
+    "body_ru": "**have/has + been + глагол-ing**: I have been training, she has been waiting. Коротко: **I've been, she's been**.",
+    "ex": [
+     [
+      "I've been training since 9.",
+      "Я тренируюсь с девяти."
+     ],
+     [
+      "Mia has been skating for an hour.",
+      "Мия катается уже час."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как долго?",
+    "body_ru": "Действие началось в прошлом и идёт до сих пор. **for** + отрезок (for two hours), **since** + момент начала (since Monday). Вопрос: **How long have you been…?**",
+    "ex": [
+     [
+      "How long have you been waiting?",
+      "Сколько ты уже ждёшь?"
+     ],
+     [
+      "We've been waiting since 6.",
+      "Мы ждём с шести."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Ловушка русского языка",
+    "body_ru": "По-русски «я жду уже час» — настоящее время. В английском так нельзя: не I am waiting for an hour, а **I have been waiting for an hour**. С know, like, have (иметь) — просто Present Perfect: I've known Mia for a year.",
+    "ex": [
+     [
+      "I have been waiting for an hour.",
+      "Я жду уже час."
+     ],
+     [
+      "I've known Mia for a year.",
+      "Я знаю Мию уже год."
+     ]
+    ]
+   },
+   {
+    "title_ru": "been или gone",
+    "body_ru": "**has gone to** — ушёл/уехал и сейчас там. **has been to** — был и вернулся. **has been in** — находится там уже какое-то время.",
+    "ex": [
+     [
+      "Benny has gone to the rink.",
+      "Бенни ушёл на каток (он там)."
+     ],
+     [
+      "Benny has been to Toronto.",
+      "Бенни бывал в Торонто."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I am waiting for an hour.",
+    "right": "I have been waiting for an hour.",
+    "why_ru": "Ждёшь с прошлого до сейчас — нужен have been + -ing."
+   },
+   {
+    "wrong": "I play hockey since 2019.",
+    "right": "I have been playing hockey since 2019.",
+    "why_ru": "Со since действие тянется из прошлого — Present Perfect Continuous."
+   },
+   {
+    "wrong": "She has been skate for two hours.",
+    "right": "She has been skating for two hours.",
+    "why_ru": "После been глагол всегда с -ing."
+   },
+   {
+    "wrong": "We have been waiting since two hours.",
+    "right": "We have been waiting for two hours.",
+    "why_ru": "Two hours — отрезок, нужен for."
+   },
+   {
+    "wrong": "Dad has been to the store. He'll be back soon.",
+    "right": "Dad has gone to the store. He'll be back soon.",
+    "why_ru": "Папа ещё в магазине — has gone."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "have/has been + -ing",
+    "tip_ru": "Форма: have/has + been + глагол с -ing. He has been training. После been всегда -ing.",
+    "back": "g34"
+   },
+   "duration": {
+    "ru": "for / since / How long",
+    "tip_ru": "for + отрезок (for two hours), since + момент начала (since 3 o'clock). Вопрос — How long have you been…?",
+    "back": "g35"
+   },
+   "now-trap": {
+    "ru": "не Present Simple и не Continuous",
+    "tip_ru": "По-русски «тренируюсь уже два часа» — настоящее, а в английском нужно have been training.",
+    "back": "g21"
+   },
+   "neg-q": {
+    "ru": "вопросы и отрицание",
+    "tip_ru": "Вопрос: Have you been waiting? How long have you been…? Отрицание: I haven't been sleeping well."
+   },
+   "been-gone": {
+    "ru": "been или gone",
+    "tip_ru": "has gone to — ушёл и сейчас там; has been to — был и вернулся; has been in — находится там уже какое-то время.",
+    "back": "g34"
+   }
+  },
+  "items": [
+   {
+    "id": "g37-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Rex ___ been training since 6 a.m.",
+    "o": [
+     "has",
+     "have"
+    ],
+    "a": 0,
+    "why": "Rex = he, поэтому has been training."
+   },
+   {
+    "id": "g37-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "We have ___ waiting for the bus for twenty minutes.",
+    "o": [
+     "been",
+     "be"
+    ],
+    "a": 0,
+    "why": "Форма: have + been + глагол с -ing."
+   },
+   {
+    "id": "g37-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "duration",
+    "q": "Mia has been skating ___ two hours.",
+    "o": [
+     "for",
+     "since"
+    ],
+    "a": 0,
+    "why": "Two hours — отрезок времени, поэтому for."
+   },
+   {
+    "id": "g37-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "duration",
+    "q": "Benny has been living in Canada ___ March.",
+    "o": [
+     "since",
+     "for"
+    ],
+    "a": 0,
+    "why": "March — момент, с которого всё началось, поэтому since."
+   },
+   {
+    "id": "g37-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "been-gone",
+    "q": "Mr. Parker isn't here. He has ___ to the store.",
+    "o": [
+     "gone",
+     "been"
+    ],
+    "a": 0,
+    "why": "Он ушёл и ещё не вернулся — has gone."
+   },
+   {
+    "id": "g37-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "been-gone",
+    "q": "I have ___ to Moscow twice. It's a big city.",
+    "o": [
+     "been",
+     "gone"
+    ],
+    "a": 0,
+    "why": "Был там и вернулся — have been to."
+   },
+   {
+    "id": "g37-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "now-trap",
+    "q": "Look at Benny! He's so tired. He ___ hockey all morning.",
+    "o": [
+     "has been playing",
+     "plays"
+    ],
+    "a": 0,
+    "why": "Играл всё утро до сих пор, и это видно — has been playing."
+   },
+   {
+    "id": "g37-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "now-trap",
+    "q": "I ___ to this song for an hour!",
+    "o": [
+     "have been listening",
+     "am listening"
+    ],
+    "a": 0,
+    "why": "Слушаю уже час (с прошлого до сейчас) — have been listening, не am listening."
+   },
+   {
+    "id": "g37-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "How long ___ you been playing Brawl Stars?",
+    "o": [
+     "have",
+     "are",
+     "do"
+    ],
+    "a": 0,
+    "why": "Вопрос: How long + have you been + -ing."
+   },
+   {
+    "id": "g37-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "form",
+    "q": "She has been ___ a new beat all day.",
+    "o": [
+     "making",
+     "make",
+     "made"
+    ],
+    "a": 0,
+    "why": "После been нужен глагол с -ing: making."
+   },
+   {
+    "id": "g37-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "been-gone",
+    "say": "Mia has gone to the rink.",
+    "o": [
+     "Mia has gone to the rink.",
+     "Mia has been to the rink."
+    ],
+    "a": 0,
+    "why": "Ты слышал gone — Мия ушла на каток и сейчас там."
+   },
+   {
+    "id": "g37-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "form",
+    "say": "They've been waiting for an hour.",
+    "o": [
+     "They've been waiting for an hour.",
+     "They were waiting for an hour."
+    ],
+    "a": 0,
+    "why": "Ты слышал they've been — ждут уже час и до сих пор."
+   },
+   {
+    "id": "g37-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "been-gone",
+    "pairs": [
+     [
+      "has gone to Toronto",
+      "уехал в Торонто (и сейчас там)"
+     ],
+     [
+      "has been to Toronto",
+      "бывал в Торонто"
+     ],
+     [
+      "has been in Toronto for a week",
+      "уже неделю в Торонто"
+     ],
+     [
+      "has been skating for an hour",
+      "катается уже час"
+     ]
+    ],
+    "why": "Gone to — уехал и там, been to — бывал, been in — находится там, been + -ing — делает уже какое-то время."
+   },
+   {
+    "id": "g37-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Coach Walt has been ___ (work) here since 2015.",
+    "a": [
+     "working"
+    ],
+    "why": "После has been — глагол с -ing: working."
+   },
+   {
+    "id": "g37-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "My friends ___ (play) Roblox all evening.",
+    "a": [
+     "have been playing",
+     "have played"
+    ],
+    "why": "Friends = they, поэтому have been playing — играют весь вечер."
+   },
+   {
+    "id": "g37-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "duration",
+    "q": "Benny has been learning English ___ last year. (for / since)",
+    "a": [
+     "since"
+    ],
+    "why": "Last year — точка начала, значит since."
+   },
+   {
+    "id": "g37-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "duration",
+    "q": "Mia has been playing hockey ___ eight years. (for / since)",
+    "a": [
+     "for"
+    ],
+    "why": "Eight years — отрезок времени, значит for."
+   },
+   {
+    "id": "g37-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "___ you been waiting long? (Have / Are)",
+    "a": [
+     "Have"
+    ],
+    "why": "Вопрос начинается с Have: Have you been waiting…?"
+   },
+   {
+    "id": "g37-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "been-gone",
+    "q": "Mrs. Parker has ___ to Mexico three times. She loves it. (been / gone)",
+    "a": [
+     "been"
+    ],
+    "why": "Ездила и вернулась, причём три раза — has been to."
+   },
+   {
+    "id": "g37-020",
+    "t": "gap",
+    "lv": 3,
+    "tag": "neg-q",
+    "q": "I'm so tired. I ___ (not / sleep) well lately.",
+    "a": [
+     "haven't been sleeping",
+     "haven't slept"
+    ],
+    "why": "Отрицание: haven't been + -ing — плохо сплю в последнее время."
+   },
+   {
+    "id": "g37-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Rex has been eat pizza all day.",
+    "bad": 3,
+    "fix": "eating",
+    "why": "После been нужен -ing: eating."
+   },
+   {
+    "id": "g37-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Mia have been skating since 4 o'clock.",
+    "bad": 1,
+    "fix": "has",
+    "why": "Mia = she, поэтому has been."
+   },
+   {
+    "id": "g37-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "duration",
+    "s": "Benny has been living here since two years.",
+    "bad": 5,
+    "fix": "for",
+    "why": "Two years — отрезок, нужен for."
+   },
+   {
+    "id": "g37-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "been-gone",
+    "s": "Dad isn't home. He has been to the store.",
+    "bad": 5,
+    "fix": "gone",
+    "why": "Папы нет дома, он ещё в магазине — has gone."
+   },
+   {
+    "id": "g37-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "duration",
+    "s": "Mia has been skating for 9 a.m.",
+    "bad": 4,
+    "fix": "since",
+    "why": "9 a.m. — момент начала, нужен since."
+   },
+   {
+    "id": "g37-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "She has been making beats all day.",
+    "ru": "Она весь день делает биты.",
+    "extra": [
+     "is"
+    ],
+    "why": "Has been + making: делает весь день до сих пор."
+   },
+   {
+    "id": "g37-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "How long have you been playing hockey?",
+    "ru": "Сколько ты уже играешь в хоккей?",
+    "extra": [
+     "do"
+    ],
+    "why": "Вопрос о длительности: How long have you been + -ing?"
+   },
+   {
+    "id": "g37-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "duration",
+    "a": "We have been waiting since six o'clock.",
+    "ru": "Мы ждём с шести часов.",
+    "extra": [
+     "for"
+    ],
+    "why": "Six o'clock — момент начала, поэтому since."
+   },
+   {
+    "id": "g37-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "been-gone",
+    "a": "Benny has gone to the rink.",
+    "ru": "Бенни ушёл на каток (он сейчас там).",
+    "extra": [
+     "been"
+    ],
+    "why": "Ушёл и ещё там — has gone."
+   },
+   {
+    "id": "g37-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "now-trap",
+    "a": "I have been studying for three hours.",
+    "ru": "Я занимаюсь уже три часа.",
+    "extra": [
+     "am"
+    ],
+    "why": "«Уже три часа» — have been studying, а не am studying."
+   },
+   {
+    "id": "g37-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "now-trap",
+    "src": "I train every day.",
+    "task_ru": "Скажи, что ты тренируешься уже два часа (for two hours).",
+    "a": [
+     "I have been training for two hours.",
+     "I've been training for two hours."
+    ],
+    "why": "Действие длится до сих пор — have been training."
+   },
+   {
+    "id": "g37-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg-q",
+    "src": "You have been waiting for a long time.",
+    "task_ru": "Сделай вопрос с How long.",
+    "a": [
+     "How long have you been waiting?"
+    ],
+    "why": "How long + have + you + been + -ing."
+   },
+   {
+    "id": "g37-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "been-gone",
+    "src": "Mia went to Toronto. She is there now.",
+    "task_ru": "Скажи одним предложением с has gone.",
+    "a": [
+     "Mia has gone to Toronto."
+    ],
+    "why": "Уехала и сейчас там — has gone to."
+   },
+   {
+    "id": "g37-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "now-trap",
+    "title": "Rex's long day",
+    "text": "Rex is so tired. He ___ (train) since 6 a.m. Coach Walt ___ (shout) at him all morning. Rex's tiny arms hurt because he ___ (catch) pucks for five hours. Benny isn't here. He ___ (go) to buy pizza for Rex. Rex ___ (wait) for the pizza for an hour!",
+    "a": [
+     [
+      "has been training"
+     ],
+     [
+      "has been shouting"
+     ],
+     [
+      "has been catching"
+     ],
+     [
+      "has gone"
+     ],
+     [
+      "has been waiting"
+     ]
+    ],
+    "why": "Всё длится до сих пор — has been + -ing, а Бенни ушёл и ещё не вернулся — has gone."
+   },
+   {
+    "id": "g37-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "duration",
+    "title": "Benny in Canada",
+    "text": "Benny moved to Canada two years ago. He has been living with the Parkers ___ two years. He has been going to hockey practice ___ last September. He has been learning English ___ he arrived. Mia has been helping him ___ a long time. Now Benny asks you: \"___ long have you been learning English?\"",
+    "a": [
+     [
+      "for"
+     ],
+     [
+      "since"
+     ],
+     [
+      "since"
+     ],
+     [
+      "for"
+     ],
+     [
+      "How"
+     ]
+    ],
+    "why": "For + отрезок (two years, a long time), since + начало (last September, he arrived), а вопрос — How long."
+   },
+   {
+    "id": "g37-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "been-gone",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Where's Benny? He isn't at home."
+     },
+     {
+      "who": "you",
+      "t": "He has ___ to the store. He'll be back soon."
+     },
+     {
+      "who": "Mia",
+      "t": "OK. By the way, have you ever ___ to Vancouver?"
+     },
+     {
+      "who": "you",
+      "t": "No, never. How long have you ___ living in Canada?"
+     },
+     {
+      "who": "Mia",
+      "t": "Since I was born! And how long have you been learning English?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ been learning it for a year."
+     }
+    ],
+    "a": [
+     [
+      "gone"
+     ],
+     [
+      "been"
+     ],
+     [
+      "been"
+     ],
+     [
+      "have"
+     ]
+    ],
+    "why": "Ушёл и ещё там — gone, бывал — been to, а длительность — have been + -ing."
+   },
+   {
+    "id": "g37-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "now-trap",
+    "ru": "Я жду тебя уже двадцать минут!",
+    "a": [
+     "I have been waiting for you for twenty minutes!",
+     "I've been waiting for you for twenty minutes!"
+    ],
+    "why": "Ждёшь с прошлого до сейчас — have been waiting, а не am waiting."
+   },
+   {
+    "id": "g37-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg-q",
+    "ru": "Как долго ты играешь в Roblox?",
+    "a": [
+     "How long have you been playing Roblox?",
+     "How long have you played Roblox?"
+    ],
+    "why": "Как долго до сих пор — How long have you been playing…?"
+   },
+   {
+    "id": "g37-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "duration",
+    "ru": "Бенни живёт в Канаде уже два года.",
+    "a": [
+     "Benny has been living in Canada for two years.",
+     "Benny has lived in Canada for two years.",
+     "Benny's been living in Canada for two years."
+    ],
+    "why": "Живёт до сих пор, два года — отрезок: has been living… for two years."
+   },
+   {
+    "id": "g37-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "form",
+    "say": "I've been making music since I was twelve.",
+    "ru": "Я занимаюсь музыкой с двенадцати лет.",
+    "why": "I've been + making: начал в двенадцать и делаю до сих пор."
+   },
+   {
+    "id": "g37-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "duration",
+    "task_ru": "Напиши 3 предложения о том, чем ты занимаешься и как долго (for / since).",
+    "check_ru": [
+     "Есть have/has been + глагол с -ing?",
+     "for + отрезок, since + момент начала?",
+     "Нет ошибки «I play hockey since…»?"
+    ],
+    "model": "I've been playing hockey for six years. I've been making music since last summer. I've been learning English for a long time.",
+    "why": "Длительность до сих пор — have been + -ing с for или since."
+   }
+  ]
+ },
+ {
+  "id": "g38",
+  "stage": "B1",
+  "title_ru": "Past Perfect",
+  "goal_ru": "Сказать, что случилось раньше другого прошлого.",
+  "prereq": [
+   "g28",
+   "g34"
+  ],
+  "spotlight": [
+   "3c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Форма",
+    "body_ru": "**had + третья форма** — одинаково для всех: I had seen, she had gone, they had won. Коротко: I'd, she'd. Отрицание: **hadn't seen**. Вопрос: **Had you seen…?**",
+    "ex": [
+     [
+      "The bus had left.",
+      "Автобус уже ушёл."
+     ],
+     [
+      "I hadn't seen the movie.",
+      "Я не видел этот фильм (до того)."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Раньше прошлого",
+    "body_ru": "Два события в прошлом. То, что было **раньше**, — had + третья форма. То, что позже, — обычное Past Simple.",
+    "ex": [
+     [
+      "When we arrived, the game had started.",
+      "Когда мы пришли, игра уже шла."
+     ],
+     [
+      "When we arrived, the game started.",
+      "Когда мы пришли, игра началась."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Слова-помощники",
+    "body_ru": "**by the time** (к тому времени как), **already**, **never… before**, **when**, **after**, **before**. После after и before часто хватает и Past Simple — порядок и так ясен.",
+    "ex": [
+     [
+      "By the time I woke up, Mom had left.",
+      "Когда я проснулся, мама уже ушла."
+     ],
+     [
+      "Rex had never played in a real game before.",
+      "Рекс никогда раньше не играл в настоящем матче."
+     ]
+    ]
+   },
+   {
+    "title_ru": "had been + -ing (узнавай)",
+    "body_ru": "**had been + -ing** — действие длилось до какого-то момента в прошлом.",
+    "ex": [
+     [
+      "He was tired because he had been training all day.",
+      "Он устал, потому что тренировался весь день."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "When I came, the game has started.",
+    "right": "When I came, the game had started.",
+    "why_ru": "Всё в прошлом — нужен had, а не has."
+   },
+   {
+    "wrong": "She had went home.",
+    "right": "She had gone home.",
+    "why_ru": "После had — третья форма: gone, а не went."
+   },
+   {
+    "wrong": "By the time we arrived, they ate all the pizza.",
+    "right": "By the time we arrived, they had eaten all the pizza.",
+    "why_ru": "Съели до нашего прихода — had eaten."
+   },
+   {
+    "wrong": "Had you saw it before?",
+    "right": "Had you seen it before?",
+    "why_ru": "В вопросе тоже третья форма: seen."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "had + третья форма",
+    "tip_ru": "Past Perfect = had + третья форма для всех лиц: I had seen, she had gone.",
+    "back": "g34"
+   },
+   "sequence": {
+    "ru": "что было раньше",
+    "tip_ru": "Раньше → had + третья форма, позже → Past Simple: When I came, they had left.",
+    "back": "g28"
+   },
+   "time-words": {
+    "ru": "by the time, already, never…before",
+    "tip_ru": "By the time I came, the game had started. Такие слова подсказывают Past Perfect."
+   },
+   "neg-q": {
+    "ru": "hadn't и Had you…?",
+    "tip_ru": "Отрицание: hadn't + третья форма. Вопрос: Had you ever…? Had she finished?",
+    "back": "g27"
+   },
+   "ppc": {
+    "ru": "had been + -ing (узнавать)",
+    "tip_ru": "Had been + -ing показывает, что действие длилось до момента в прошлом: He was tired because he had been training."
+   }
+  },
+  "items": [
+   {
+    "id": "g38-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "When Mia called, I ___ already gone to bed.",
+    "o": [
+     "had",
+     "have"
+    ],
+    "a": 0,
+    "why": "Лёг спать раньше звонка, и всё это в прошлом — had gone."
+   },
+   {
+    "id": "g38-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Benny was sad because he ___ his new stick.",
+    "o": [
+     "had broken",
+     "has broken"
+    ],
+    "a": 0,
+    "why": "Сломал раньше, чем загрустил (was sad), — had broken."
+   },
+   {
+    "id": "g38-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "sequence",
+    "q": "I didn't watch the movie because I ___ it before.",
+    "o": [
+     "had seen",
+     "have seen"
+    ],
+    "a": 0,
+    "why": "Видел раньше того момента в прошлом — had seen."
+   },
+   {
+    "id": "g38-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time-words",
+    "q": "By the time Mom came home, we ___ all the pizza.",
+    "o": [
+     "had eaten",
+     "have eaten"
+    ],
+    "a": 0,
+    "why": "By the time + прошлое: к тому моменту уже had eaten."
+   },
+   {
+    "id": "g38-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "Mia was nervous. She ___ flown on a plane before.",
+    "o": [
+     "hadn't",
+     "hasn't"
+    ],
+    "a": 0,
+    "why": "До того момента в прошлом не летала — hadn't flown."
+   },
+   {
+    "id": "g38-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time-words",
+    "q": "___ the time Mom got home, we had cleaned the kitchen.",
+    "o": [
+     "By",
+     "In"
+    ],
+    "a": 0,
+    "why": "«К тому времени как» — by the time."
+   },
+   {
+    "id": "g38-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "sequence",
+    "q": "«When I arrived, the game had started.» Что было раньше?",
+    "o": [
+     "The game started.",
+     "I arrived."
+    ],
+    "a": 0,
+    "why": "Had started — более раннее действие: игра началась до моего прихода."
+   },
+   {
+    "id": "g38-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ppc",
+    "q": "Rex was tired because he ___ all day.",
+    "o": [
+     "had been training",
+     "has been training"
+    ],
+    "a": 0,
+    "why": "Тренировался весь день до момента в прошлом — had been training."
+   },
+   {
+    "id": "g38-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "form",
+    "q": "Mia had ___ her phone at home, so she used Benny's phone.",
+    "o": [
+     "left",
+     "leave",
+     "leaving"
+    ],
+    "a": 0,
+    "why": "После had — третья форма: left."
+   },
+   {
+    "id": "g38-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "___ you ever played hockey before you moved to Canada?",
+    "o": [
+     "Had",
+     "Have",
+     "Were"
+    ],
+    "a": 0,
+    "why": "Опыт до другого события в прошлом — Had you ever played…?"
+   },
+   {
+    "id": "g38-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "form",
+    "say": "They had already left.",
+    "o": [
+     "They had already left.",
+     "They have already left."
+    ],
+    "a": 0,
+    "why": "Ты слышал had — это Past Perfect."
+   },
+   {
+    "id": "g38-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg-q",
+    "say": "She hadn't seen the new episode.",
+    "o": [
+     "She hadn't seen the new episode.",
+     "She had seen the new episode."
+    ],
+    "a": 0,
+    "why": "Ты слышал hadn't — она ещё не видела серию."
+   },
+   {
+    "id": "g38-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "form",
+    "pairs": [
+     [
+      "go",
+      "gone"
+     ],
+     [
+      "eat",
+      "eaten"
+     ],
+     [
+      "break",
+      "broken"
+     ],
+     [
+      "see",
+      "seen"
+     ]
+    ],
+    "why": "Для Past Perfect нужна третья форма: go — gone, eat — eaten, break — broken, see — seen."
+   },
+   {
+    "id": "g38-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "When I woke up, my dad ___ (go) to work.",
+    "a": [
+     "had gone",
+     "had already gone"
+    ],
+    "why": "Папа ушёл раньше, чем я проснулся, — had gone."
+   },
+   {
+    "id": "g38-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Benny couldn't play because he ___ (forget) his skates.",
+    "a": [
+     "had forgotten"
+    ],
+    "why": "Забыл раньше, чем не смог играть, — had forgotten."
+   },
+   {
+    "id": "g38-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "time-words",
+    "q": "By the time we got to the party, Rex ___ (eat) all the cake!",
+    "a": [
+     "had eaten",
+     "had already eaten"
+    ],
+    "why": "By the time: к нашему приходу торт уже был съеден — had eaten."
+   },
+   {
+    "id": "g38-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "I ___ (not / finish) my homework when Mia called.",
+    "a": [
+     "hadn't finished",
+     "had not finished"
+    ],
+    "why": "К моменту звонка ещё не закончил — hadn't finished."
+   },
+   {
+    "id": "g38-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "sequence",
+    "q": "The game ___ (start) when we turned on the TV, so we missed the first goal.",
+    "a": [
+     "had started",
+     "had already started"
+    ],
+    "why": "Игра началась раньше, чем мы включили телевизор, — had started."
+   },
+   {
+    "id": "g38-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "time-words",
+    "q": "We went outside ___ the rain had stopped, so we didn't get wet. (after / before)",
+    "a": [
+     "after"
+    ],
+    "why": "Сначала дождь закончился, потом мы вышли — after."
+   },
+   {
+    "id": "g38-020",
+    "t": "gap",
+    "lv": 3,
+    "tag": "ppc",
+    "q": "Benny's hands were cold because he ___ (play) in the snow.",
+    "a": [
+     "had been playing",
+     "had played"
+    ],
+    "why": "Долго играл в снегу до того момента — had been playing."
+   },
+   {
+    "id": "g38-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "When I came home, my sister had eat all the cookies.",
+    "bad": 7,
+    "fix": "eaten",
+    "why": "После had — третья форма: eaten."
+   },
+   {
+    "id": "g38-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Rex was happy because he has stopped every puck.",
+    "bad": 5,
+    "fix": "had",
+    "why": "Всё в прошлом (was happy), а то, что раньше, — had stopped."
+   },
+   {
+    "id": "g38-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg-q",
+    "s": "Benny hadn't saw snow before he moved to Canada.",
+    "bad": 2,
+    "fix": "seen",
+    "why": "После hadn't — третья форма: seen."
+   },
+   {
+    "id": "g38-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "time-words",
+    "s": "By the time we arrived, the movie has already started.",
+    "bad": 7,
+    "fix": "had",
+    "why": "By the time + прошлое: фильм уже had started."
+   },
+   {
+    "id": "g38-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "ppc",
+    "s": "He was tired because he had been run for an hour.",
+    "bad": 7,
+    "fix": "running",
+    "why": "После had been — глагол с -ing: running."
+   },
+   {
+    "id": "g38-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "The bus had already left.",
+    "ru": "Автобус уже ушёл.",
+    "extra": [
+     "has"
+    ],
+    "why": "Ушёл раньше другого момента в прошлом — had left."
+   },
+   {
+    "id": "g38-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "time-words",
+    "a": "By the time I woke up, Mom had made pancakes.",
+    "ru": "К тому времени как я проснулся, мама уже сделала блины.",
+    "extra": [
+     "has"
+    ],
+    "why": "By the time + прошлое, а более раннее — had made."
+   },
+   {
+    "id": "g38-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "Had you ever seen a beaver before you met Coach Walt?",
+    "ru": "Ты видел бобра до того, как познакомился с тренером Уолтом?",
+    "extra": [
+     "Have"
+    ],
+    "why": "Опыт до события в прошлом — Had you ever seen…?"
+   },
+   {
+    "id": "g38-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "sequence",
+    "a": "Mia was happy because she had scored two goals.",
+    "ru": "Мия была счастлива, потому что забила два гола.",
+    "extra": [
+     "has"
+    ],
+    "why": "Забила раньше, чем обрадовалась, — had scored."
+   },
+   {
+    "id": "g38-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "ppc",
+    "a": "They had been waiting for an hour when the bus came.",
+    "ru": "Они ждали уже час, когда пришёл автобус.",
+    "extra": [
+     "have"
+    ],
+    "why": "Ждали долго до момента в прошлом — had been waiting."
+   },
+   {
+    "id": "g38-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "sequence",
+    "src": "Benny ate his lunch. Then Mia arrived.",
+    "task_ru": "Соедини: When Mia arrived, … (Бенни уже съел обед).",
+    "a": [
+     "When Mia arrived, Benny had already eaten his lunch.",
+     "When Mia arrived, Benny had eaten his lunch."
+    ],
+    "why": "Бенни поел раньше её прихода — had eaten."
+   },
+   {
+    "id": "g38-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg-q",
+    "src": "She had seen the game.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "She hadn't seen the game.",
+     "She had not seen the game."
+    ],
+    "why": "Отрицание Past Perfect: hadn't + третья форма."
+   },
+   {
+    "id": "g38-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "time-words",
+    "src": "The game started. Then we got to the rink.",
+    "task_ru": "Соедини в одно предложение с by the time.",
+    "a": [
+     "By the time we got to the rink, the game had started.",
+     "By the time we got to the rink, the game had already started.",
+     "The game had started by the time we got to the rink.",
+     "The game had already started by the time we got to the rink."
+    ],
+    "why": "By the time + Past Simple, а то, что раньше, — had started."
+   },
+   {
+    "id": "g38-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "sequence",
+    "title": "Benny's bad morning",
+    "text": "Benny got to school at 9, but the class ___ (start) at 8:30. He ___ (forget) about the new schedule! Then he saw that he ___ (take) Mia's backpack by mistake. At lunch, he wanted pizza, but the other kids ___ (eat) it all. By the time he got home, he ___ (lose) his phone too.",
+    "a": [
+     [
+      "had started",
+      "had already started"
+     ],
+     [
+      "had forgotten"
+     ],
+     [
+      "had taken"
+     ],
+     [
+      "had eaten",
+      "had already eaten"
+     ],
+     [
+      "had lost"
+     ]
+    ],
+    "why": "Всё это случилось раньше других событий в прошлом — had + третья форма."
+   },
+   {
+    "id": "g38-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "time-words",
+    "title": "Rex's first game",
+    "text": "That night was Rex's first real game. He had never ___ (play) in front of a crowd before. By the time the game ended, he ___ (stop) thirty pucks! The fans ___ (never / see) a goalie with such tiny arms. When Benny found him after the game, Rex ___ (already / eat) ten tacos. Coach Walt said it was the best game he ___ (ever / see).",
+    "a": [
+     [
+      "played"
+     ],
+     [
+      "had stopped"
+     ],
+     [
+      "had never seen"
+     ],
+     [
+      "had already eaten"
+     ],
+     [
+      "had ever seen"
+     ]
+    ],
+    "why": "Never, by the time, already и ever показывают, что это было раньше, — had + третья форма."
+   },
+   {
+    "id": "g38-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "neg-q",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Did you watch the game last night?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, but I was late. By the time I turned on the TV, Rex ___ already stopped five pucks!"
+     },
+     {
+      "who": "Mia",
+      "t": "Ha! And Benny?"
+     },
+     {
+      "who": "you",
+      "t": "He missed it. He ___ (not) bought a ticket."
+     },
+     {
+      "who": "Mia",
+      "t": "Poor Benny! Why not?"
+     },
+     {
+      "who": "you",
+      "t": "He ___ fallen asleep on the couch before it started!"
+     }
+    ],
+    "a": [
+     [
+      "had"
+     ],
+     [
+      "hadn't",
+      "had not"
+     ],
+     [
+      "had"
+     ]
+    ],
+    "why": "Всё это произошло раньше вечерних событий — had / hadn't + третья форма."
+   },
+   {
+    "id": "g38-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "sequence",
+    "ru": "Когда я пришёл, фильм уже начался.",
+    "a": [
+     "When I came, the movie had already started.",
+     "When I came, the film had already started.",
+     "When I arrived, the movie had already started.",
+     "When I arrived, the film had already started.",
+     "When I got there, the movie had already started.",
+     "When I got there, the film had already started.",
+     "When I came, the movie had started.",
+     "When I came, the film had started.",
+     "When I arrived, the movie had started.",
+     "When I arrived, the film had started.",
+     "When I got there, the movie had started.",
+     "When I got there, the film had started."
+    ],
+    "why": "Фильм начался раньше моего прихода — had already started."
+   },
+   {
+    "id": "g38-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg-q",
+    "ru": "До переезда в Канаду Бенни никогда не видел снега.",
+    "a": [
+     "Benny had never seen snow before he moved to Canada.",
+     "Before he moved to Canada, Benny had never seen snow.",
+     "Benny had never seen snow before he came to Canada.",
+     "Before he came to Canada, Benny had never seen snow.",
+     "Benny had never seen snow before moving to Canada.",
+     "Before moving to Canada, Benny had never seen snow."
+    ],
+    "why": "Не видел до другого события в прошлом — had never seen."
+   },
+   {
+    "id": "g38-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "time-words",
+    "ru": "К тому времени как мы приехали, Рекс съел всю пиццу.",
+    "a": [
+     "By the time we arrived, Rex had eaten all the pizza.",
+     "By the time we arrived, Rex had eaten the whole pizza.",
+     "By the time we arrived, Rex had already eaten all the pizza.",
+     "By the time we arrived, Rex had already eaten the whole pizza.",
+     "By the time we got there, Rex had eaten all the pizza.",
+     "By the time we got there, Rex had eaten the whole pizza.",
+     "By the time we got there, Rex had already eaten all the pizza.",
+     "By the time we got there, Rex had already eaten the whole pizza.",
+     "By the time we came, Rex had eaten all the pizza.",
+     "By the time we came, Rex had eaten the whole pizza.",
+     "By the time we came, Rex had already eaten all the pizza.",
+     "By the time we came, Rex had already eaten the whole pizza."
+    ],
+    "why": "By the time + Past Simple, а съел раньше — had eaten."
+   },
+   {
+    "id": "g38-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "form",
+    "say": "When I got home, my brother had already eaten my pizza.",
+    "ru": "Когда я пришёл домой, брат уже съел мою пиццу.",
+    "why": "Брат съел раньше моего прихода — had eaten."
+   },
+   {
+    "id": "g38-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "sequence",
+    "task_ru": "Напиши 3 предложения о неудачном дне: что уже случилось к тому моменту, когда ты пришёл.",
+    "check_ru": [
+     "Есть had + третья форма?",
+     "Действие с had было раньше другого прошлого?",
+     "Есть when, by the time или before?"
+    ],
+    "model": "When I got to the rink, practice had already started. I had forgotten my gloves at home. By the time I found them, the coach had left.",
+    "why": "Более раннее действие — had + третья форма, более позднее — Past Simple."
+   },
+   {
+    "id": "g38-042",
+    "t": "mc",
+    "lv": 2,
+    "tag": "ppc",
+    "q": "We ___ for two hours when the rink finally opened.",
+    "o": [
+     "had been waiting",
+     "have been waiting"
+    ],
+    "a": 0,
+    "why": "Ждали два часа до момента в прошлом — had been waiting."
+   }
+  ]
+ },
+ {
+  "id": "g39",
+  "stage": "B1",
+  "title_ru": "Used to",
+  "goal_ru": "Сказать, что раньше было иначе: I used to hate skating.",
+  "prereq": [
+   "g27"
+  ],
+  "spotlight": [
+   "5c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Раньше, а теперь нет",
+    "body_ru": "**used to + глагол** — то, что ты делал много раз или как было раньше, а теперь уже не так. Для всех лиц одинаково: I / he / they **used to play**.",
+    "ex": [
+     [
+      "I used to watch cartoons.",
+      "Раньше я смотрел мультики."
+     ],
+     [
+      "There used to be a park here.",
+      "Раньше здесь был парк."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Отрицание и вопрос",
+    "body_ru": "После **did / didn't** пишем **use to** — без -d.",
+    "ex": [
+     [
+      "I didn't use to like hockey.",
+      "Раньше я не любил хоккей."
+     ],
+     [
+      "Did you use to play with Lego?",
+      "Ты раньше играл в Лего?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Один раз — Past Simple",
+    "body_ru": "Для одного случая или точного времени (yesterday, last week) used to не подходит. Для привычки в прошлом можно и used to, и обычное прошлое.",
+    "ex": [
+     [
+      "Last Saturday I went to the rink.",
+      "В прошлую субботу я ходил на каток."
+     ],
+     [
+      "I used to go to the rink every Saturday.",
+      "Раньше я ходил на каток каждую субботу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "be used to — привык",
+    "body_ru": "**be used to + -ing / существительное** = привык. **get used to** = привыкать. Это другое значение!",
+    "ex": [
+     [
+      "I'm used to waking up early.",
+      "Я привык рано вставать."
+     ],
+     [
+      "Benny got used to the snow.",
+      "Бенни привык к снегу."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I use to play soccer.",
+    "right": "I used to play soccer.",
+    "why_ru": "В утверждении — used с -d. А про сейчас говори I usually play."
+   },
+   {
+    "wrong": "Did you used to live here?",
+    "right": "Did you use to live here?",
+    "why_ru": "После did — use без -d."
+   },
+   {
+    "wrong": "She used to plays the piano.",
+    "right": "She used to play the piano.",
+    "why_ru": "После used to — глагол без -s."
+   },
+   {
+    "wrong": "I'm used to wake up early.",
+    "right": "I'm used to waking up early.",
+    "why_ru": "После be used to — -ing."
+   },
+   {
+    "wrong": "Yesterday I used to watch a movie.",
+    "right": "Yesterday I watched a movie.",
+    "why_ru": "Один раз вчера — просто Past Simple."
+   }
+  ],
+  "tags": {
+   "form": {
+    "ru": "used to + глагол",
+    "tip_ru": "used to + первая форма: I used to play. Для всех лиц одинаково, без -s."
+   },
+   "neg-q": {
+    "ru": "didn't use to / Did you use to",
+    "tip_ru": "После did/didn't пишем use без -d: didn't use to, Did you use to…?",
+    "back": "g27"
+   },
+   "meaning": {
+    "ru": "раньше, а теперь нет",
+    "tip_ru": "Used to — то, что было много раз или долго в прошлом, а сейчас уже не так. Для одного случая — Past Simple.",
+    "back": "g26"
+   },
+   "be-used": {
+    "ru": "be / get used to + -ing",
+    "tip_ru": "be used to = привык, get used to = привыкать. После них -ing или существительное: I'm used to waking up early."
+   }
+  },
+  "items": [
+   {
+    "id": "g39-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Rex ___ be a tiny baby dinosaur. Now he's a big goalie.",
+    "o": [
+     "used to",
+     "use to"
+    ],
+    "a": 0,
+    "why": "В утверждении пишем used to — с -d."
+   },
+   {
+    "id": "g39-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "When I was ten, I used to ___ dinosaur cartoons every day.",
+    "o": [
+     "watch",
+     "watching"
+    ],
+    "a": 0,
+    "why": "После used to — первая форма глагола: watch."
+   },
+   {
+    "id": "g39-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "Mia didn't ___ like hockey. Now she loves it!",
+    "o": [
+     "use to",
+     "used to"
+    ],
+    "a": 0,
+    "why": "После didn't — use to, без -d."
+   },
+   {
+    "id": "g39-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg-q",
+    "q": "___ you use to play with toy dinosaurs?",
+    "o": [
+     "Did",
+     "Were"
+    ],
+    "a": 0,
+    "why": "Вопрос с used to строится через Did: Did you use to…?"
+   },
+   {
+    "id": "g39-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "meaning",
+    "q": "I ___ to the rink last Saturday.",
+    "o": [
+     "went",
+     "used to go"
+    ],
+    "a": 0,
+    "why": "Один раз в прошлую субботу — просто Past Simple: went."
+   },
+   {
+    "id": "g39-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "meaning",
+    "q": "Какая фраза значит «раньше я много играл, а теперь нет»?",
+    "o": [
+     "I used to play Roblox a lot.",
+     "I am playing Roblox a lot."
+    ],
+    "a": 0,
+    "why": "Used to — то, что было раньше много раз, а сейчас уже нет."
+   },
+   {
+    "id": "g39-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-used",
+    "q": "Benny is used to ___ in the cold now.",
+    "o": [
+     "skating",
+     "skate"
+    ],
+    "a": 0,
+    "why": "После be used to — -ing: skating."
+   },
+   {
+    "id": "g39-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-used",
+    "q": "Mia's new helmet felt strange, but she soon ___ used to it.",
+    "o": [
+     "got",
+     "did"
+    ],
+    "a": 0,
+    "why": "Get used to — привыкнуть: she got used to it."
+   },
+   {
+    "id": "g39-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "form",
+    "q": "My dad ___ play in a rock band when he was young.",
+    "o": [
+     "used to",
+     "uses to",
+     "was used to"
+    ],
+    "a": 0,
+    "why": "Раньше играл, а теперь нет — used to + play."
+   },
+   {
+    "id": "g39-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "be-used",
+    "q": "I'm not ___ getting up at 5 for practice.",
+    "o": [
+     "used to",
+     "use to",
+     "using to"
+    ],
+    "a": 0,
+    "why": "«Не привык» — I'm not used to + -ing."
+   },
+   {
+    "id": "g39-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "meaning",
+    "say": "She used to have long hair.",
+    "o": [
+     "She used to have long hair.",
+     "She has long hair."
+    ],
+    "a": 0,
+    "why": "Ты слышал used to — длинные волосы были раньше, а теперь нет."
+   },
+   {
+    "id": "g39-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg-q",
+    "say": "My brother didn't use to like phonk.",
+    "o": [
+     "My brother didn't use to like phonk.",
+     "My brother used to like phonk."
+    ],
+    "a": 0,
+    "why": "Ты слышал didn't — раньше брат не любил фонк."
+   },
+   {
+    "id": "g39-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "be-used",
+    "pairs": [
+     [
+      "I used to skate.",
+      "Раньше я катался (теперь нет)."
+     ],
+     [
+      "I'm used to skating.",
+      "Я привык кататься."
+     ],
+     [
+      "I'm getting used to skating.",
+      "Я привыкаю кататься."
+     ],
+     [
+      "I skate.",
+      "Я катаюсь (обычно)."
+     ]
+    ],
+    "why": "Used to + глагол — раньше, be used to + -ing — привык, get used to — привыкаю."
+   },
+   {
+    "id": "g39-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "Coach Walt ___ play for a big team. Now he's a coach.",
+    "a": [
+     "used to"
+    ],
+    "why": "Раньше играл, а теперь тренер — used to play."
+   },
+   {
+    "id": "g39-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "There ___ be a park here. Now there's a mall.",
+    "a": [
+     "used to"
+    ],
+    "why": "«Раньше здесь был» — there used to be."
+   },
+   {
+    "id": "g39-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "Rex ___ (not) use to wear a helmet. Now he always does.",
+    "a": [
+     "didn't",
+     "did not"
+    ],
+    "why": "Отрицание: didn't use to — раньше не носил."
+   },
+   {
+    "id": "g39-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg-q",
+    "q": "Did your dad ___ to have long hair?",
+    "a": [
+     "use"
+    ],
+    "why": "После Did пишем use без -d."
+   },
+   {
+    "id": "g39-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-used",
+    "q": "Mia is used to ___ (wake) up early for practice.",
+    "a": [
+     "waking"
+    ],
+    "why": "После be used to — -ing: waking."
+   },
+   {
+    "id": "g39-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-used",
+    "q": "Benny is getting used to ___ (speak) English every day.",
+    "a": [
+     "speaking"
+    ],
+    "why": "После get used to — -ing: speaking."
+   },
+   {
+    "id": "g39-020",
+    "t": "gap",
+    "lv": 3,
+    "tag": "meaning",
+    "q": "Yesterday I ___ (play) Brawl Stars for three hours.",
+    "a": [
+     "played"
+    ],
+    "why": "Yesterday — один конкретный раз, used to не подходит: played."
+   },
+   {
+    "id": "g39-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "My sister used to plays the violin.",
+    "bad": 4,
+    "fix": "play",
+    "why": "После used to — первая форма без -s: play."
+   },
+   {
+    "id": "g39-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg-q",
+    "s": "I didn't used to like spicy food.",
+    "bad": 2,
+    "fix": "use",
+    "why": "После didn't пишем use без -d."
+   },
+   {
+    "id": "g39-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Benny use to sleep all winter in the forest.",
+    "bad": 1,
+    "fix": "used",
+    "why": "В утверждении — used to, с -d."
+   },
+   {
+    "id": "g39-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "be-used",
+    "s": "I'm used to train in the morning.",
+    "bad": 3,
+    "fix": "training",
+    "why": "После be used to — -ing: training."
+   },
+   {
+    "id": "g39-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg-q",
+    "s": "Where did you used to live?",
+    "bad": 3,
+    "fix": "use",
+    "why": "После did — use без -d."
+   },
+   {
+    "id": "g39-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "form",
+    "a": "We used to live in a small apartment.",
+    "ru": "Раньше мы жили в маленькой квартире.",
+    "extra": [
+     "use"
+    ],
+    "why": "Утверждение: used to + live."
+   },
+   {
+    "id": "g39-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "Did you use to play with Lego?",
+    "ru": "Ты раньше играл в Лего?",
+    "extra": [
+     "used"
+    ],
+    "why": "Вопрос: Did + you + use to + глагол."
+   },
+   {
+    "id": "g39-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg-q",
+    "a": "Rex didn't use to like vegetables.",
+    "ru": "Раньше Рекс не любил овощи.",
+    "extra": [
+     "used"
+    ],
+    "why": "Отрицание: didn't use to + like."
+   },
+   {
+    "id": "g39-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "be-used",
+    "a": "Benny is used to the cold now.",
+    "ru": "Бенни теперь привык к холоду.",
+    "extra": [
+     "use"
+    ],
+    "why": "Привык к чему-то — be used to + существительное."
+   },
+   {
+    "id": "g39-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "meaning",
+    "a": "There used to be a dinosaur museum here.",
+    "ru": "Раньше здесь был музей динозавров.",
+    "extra": [
+     "was"
+    ],
+    "why": "«Раньше здесь был» — there used to be."
+   },
+   {
+    "id": "g39-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "meaning",
+    "src": "I played soccer every weekend, but now I don't.",
+    "task_ru": "Скажи то же короче с used to.",
+    "a": [
+     "I used to play soccer every weekend.",
+     "I used to play soccer every weekend, but now I don't."
+    ],
+    "why": "Привычка в прошлом, которой больше нет, — used to play."
+   },
+   {
+    "id": "g39-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg-q",
+    "src": "She used to wear glasses.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Did she use to wear glasses?"
+    ],
+    "why": "Вопрос: Did she use to…? — use без -d."
+   },
+   {
+    "id": "g39-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "neg-q",
+    "src": "He used to be afraid of the dark.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "He didn't use to be afraid of the dark.",
+     "He never used to be afraid of the dark."
+    ],
+    "why": "Отрицание: didn't use to — use без -d."
+   },
+   {
+    "id": "g39-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "form",
+    "title": "Benny's old life",
+    "text": "Benny ___ live in a big forest. He ___ sleep all winter. He didn't ___ go to school. At first, life in the city was hard, but he ___ (get) used to it. Now he ___ (be) used to eating pancakes every morning!",
+    "a": [
+     [
+      "used to"
+     ],
+     [
+      "used to"
+     ],
+     [
+      "use to"
+     ],
+     [
+      "got"
+     ],
+     [
+      "is"
+     ]
+    ],
+    "why": "Раньше — used to, после didn't — use to, привык — got used to / is used to."
+   },
+   {
+    "id": "g39-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "meaning",
+    "title": "Mia then and now",
+    "text": "When Mia was little, she ___ (hate) skating. Her dad ___ (take) her to the rink every Sunday, and she cried. But one day in 2018, she ___ (score) her first goal. After that, everything changed. Now she ___ (not / cry) on the ice — she loves it!",
+    "a": [
+     [
+      "used to hate",
+      "hated"
+     ],
+     [
+      "used to take",
+      "took"
+     ],
+     [
+      "scored"
+     ],
+     [
+      "doesn't cry",
+      "does not cry"
+     ]
+    ],
+    "why": "Для привычки в прошлом подходят used to и Past Simple, для одного случая — только scored, а про сейчас — Present Simple."
+   },
+   {
+    "id": "g39-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "neg-q",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Did you use to play hockey when you were little?"
+     },
+     {
+      "who": "you",
+      "t": "No, I didn't ___ to like sports at all!"
+     },
+     {
+      "who": "Mia",
+      "t": "Really? What did you ___ to do?"
+     },
+     {
+      "who": "you",
+      "t": "I ___ to play video games all day."
+     },
+     {
+      "who": "Mia",
+      "t": "And now you play hockey every day! Are you used to it?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I'm used to ___ (train) every day now."
+     }
+    ],
+    "a": [
+     [
+      "use"
+     ],
+     [
+      "use"
+     ],
+     [
+      "used"
+     ],
+     [
+      "training"
+     ]
+    ],
+    "why": "После did/didn't — use, в утверждении — used, а после be used to — -ing."
+   },
+   {
+    "id": "g39-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "form",
+    "ru": "Раньше Мия боялась льда.",
+    "a": [
+     "Mia used to be afraid of the ice.",
+     "Mia used to be scared of the ice."
+    ],
+    "why": "Раньше было, а теперь нет — used to be."
+   },
+   {
+    "id": "g39-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg-q",
+    "ru": "Раньше у нас не было собаки.",
+    "a": [
+     "We didn't use to have a dog.",
+     "We never used to have a dog."
+    ],
+    "why": "Отрицание: didn't use to have — use без -d."
+   },
+   {
+    "id": "g39-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-used",
+    "ru": "Я привык рано вставать.",
+    "a": [
+     "I'm used to getting up early.",
+     "I am used to getting up early.",
+     "I'm used to waking up early.",
+     "I am used to waking up early."
+    ],
+    "why": "Привык — be used to + -ing: getting up."
+   },
+   {
+    "id": "g39-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "meaning",
+    "say": "I used to hate skating, but now I love hockey.",
+    "ru": "Раньше я ненавидел коньки, а теперь люблю хоккей.",
+    "why": "Used to — так было раньше, now — теперь по-другому."
+   },
+   {
+    "id": "g39-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "meaning",
+    "task_ru": "Напиши 3 предложения: что ты делал раньше и чего уже не делаешь.",
+    "check_ru": [
+     "После used to — первая форма глагола?",
+     "В отрицании и вопросе — use без -d?",
+     "Это про то, что было много раз, а не один раз?"
+    ],
+    "model": "I used to watch cartoons every morning. I didn't use to like hockey. Now I'm used to training five days a week.",
+    "why": "Used to + глагол — привычка в прошлом, а be used to + -ing — «привык»."
+   }
+  ]
+ },
+ {
+  "id": "g40",
+  "stage": "B1",
+  "title_ru": "Страдательный залог",
+  "goal_ru": "Сказать, что что-то делают или сделали: The game was won.",
+  "prereq": [
+   "g26",
+   "g34"
+  ],
+  "spotlight": [
+   "4c",
+   "4d"
+  ],
+  "cards": [
+   {
+    "title_ru": "Что такое пассив",
+    "body_ru": "Пассив — когда главное не КТО делает, а ЧТО происходит с предметом. Формула: **be + третья форма**.",
+    "ex": [
+     [
+      "Rex stopped the puck.",
+      "Рекс остановил шайбу."
+     ],
+     [
+      "The puck was stopped.",
+      "Шайбу остановили."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Настоящее и прошлое",
+    "body_ru": "**am/is/are + третья форма** — обычно, всегда. **was/were + третья форма** — в прошлом.",
+    "ex": [
+     [
+      "English is spoken here.",
+      "Здесь говорят по-английски."
+     ],
+     [
+      "The rink was built in 2020.",
+      "Каток построили в 2020 году."
+     ]
+    ]
+   },
+   {
+    "title_ru": "by — кем",
+    "body_ru": "Если важно, кто сделал, добавь **by**. Если неважно или неизвестно — без by.",
+    "ex": [
+     [
+      "The comic was drawn by Benny.",
+      "Комикс нарисовал Бенни."
+     ],
+     [
+      "My bike was stolen.",
+      "Мой велик украли."
+     ]
+    ]
+   },
+   {
+    "title_ru": "have something done (узнавай)",
+    "body_ru": "**have + предмет + третья форма** — тебе это сделал кто-то другой. В разговоре часто **get**: I got my hair cut.",
+    "ex": [
+     [
+      "I had my hair cut.",
+      "Меня подстригли."
+     ],
+     [
+      "Mia had her skates sharpened.",
+      "Мии наточили коньки."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "English is speak in Canada.",
+    "right": "English is spoken in Canada.",
+    "why_ru": "В пассиве нужна третья форма: spoken."
+   },
+   {
+    "wrong": "The tickets was sold.",
+    "right": "The tickets were sold.",
+    "why_ru": "Tickets — много, поэтому were."
+   },
+   {
+    "wrong": "The song was written from Mia.",
+    "right": "The song was written by Mia.",
+    "why_ru": "Кто сделал — после by."
+   },
+   {
+    "wrong": "The rink built in 2020.",
+    "right": "The rink was built in 2020.",
+    "why_ru": "Без was получается, что каток сам что-то построил."
+   },
+   {
+    "wrong": "I had cut my hair at the barbershop.",
+    "right": "I had my hair cut at the barbershop.",
+    "why_ru": "Порядок: had + предмет + третья форма."
+   }
+  ],
+  "tags": {
+   "present": {
+    "ru": "is/are + третья форма",
+    "tip_ru": "Present Passive: am/is/are + третья форма. English is spoken here. Pucks are made of rubber.",
+    "back": "g34"
+   },
+   "past": {
+    "ru": "was/were + третья форма",
+    "tip_ru": "Past Passive: was/were + третья форма. The game was won. The tickets were sold.",
+    "back": "g24"
+   },
+   "by": {
+    "ru": "by — кем сделано",
+    "tip_ru": "Кто сделал — после by: The song was written by Mia. Если неважно кто — by не нужен."
+   },
+   "choice": {
+    "ru": "активный или пассивный",
+    "tip_ru": "Если подлежащее само делает — обычный глагол (Rex stopped). Если с ним что-то делают — пассив (Rex was hit)."
+   },
+   "have-done": {
+    "ru": "have something done (узнавать)",
+    "tip_ru": "have + предмет + третья форма = тебе это сделал кто-то другой: I had my skates sharpened."
+   }
+  },
+  "items": [
+   {
+    "id": "g40-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "present",
+    "q": "English ___ spoken in Canada.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "English — одно, поэтому is spoken."
+   },
+   {
+    "id": "g40-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "present",
+    "q": "These skates ___ made in Finland.",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "Skates — много, поэтому are made."
+   },
+   {
+    "id": "g40-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "past",
+    "q": "The window ___ broken by a puck yesterday.",
+    "o": [
+     "was",
+     "is"
+    ],
+    "a": 0,
+    "why": "Yesterday — прошлое, окно одно: was broken."
+   },
+   {
+    "id": "g40-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "past",
+    "q": "The pizzas ___ eaten in five minutes.",
+    "o": [
+     "were",
+     "was"
+    ],
+    "a": 0,
+    "why": "Pizzas — много, и это прошлое: were eaten."
+   },
+   {
+    "id": "g40-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "by",
+    "q": "This song was written ___ Mia.",
+    "o": [
+     "by",
+     "from"
+    ],
+    "a": 0,
+    "why": "Кто сделал — после by: by Mia."
+   },
+   {
+    "id": "g40-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "choice",
+    "q": "Rex ___ the puck with his tiny arms.",
+    "o": [
+     "stopped",
+     "was stopped"
+    ],
+    "a": 0,
+    "why": "Рекс сам остановил шайбу — активный залог: stopped."
+   },
+   {
+    "id": "g40-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "choice",
+    "q": "The game ___ on TV last night.",
+    "o": [
+     "was shown",
+     "showed"
+    ],
+    "a": 0,
+    "why": "Игру показывали (сама она ничего не делала) — пассив: was shown."
+   },
+   {
+    "id": "g40-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-done",
+    "q": "«I had my hair cut.» Что это значит?",
+    "o": [
+     "Меня подстригли (в парикмахерской).",
+     "Я сам подстриг себе волосы."
+    ],
+    "a": 0,
+    "why": "have + предмет + третья форма — это сделал кто-то другой для тебя."
+   },
+   {
+    "id": "g40-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "present",
+    "q": "Dinosaur bones ___ in museums.",
+    "o": [
+     "are kept",
+     "are keep",
+     "keep"
+    ],
+    "a": 0,
+    "why": "Кости хранят (не они сами) — are + третья форма: are kept."
+   },
+   {
+    "id": "g40-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "past",
+    "q": "The new rink ___ in 2020.",
+    "o": [
+     "was built",
+     "built",
+     "was build"
+    ],
+    "a": 0,
+    "why": "Каток построили — was + третья форма: was built."
+   },
+   {
+    "id": "g40-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "past",
+    "say": "The game was won in the last minute.",
+    "o": [
+     "The game was won in the last minute.",
+     "The game is won in the last minute."
+    ],
+    "a": 0,
+    "why": "Ты слышал was — это прошлое."
+   },
+   {
+    "id": "g40-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "choice",
+    "say": "Benny was hit by the puck.",
+    "o": [
+     "Benny was hit by the puck.",
+     "Benny hit the puck."
+    ],
+    "a": 0,
+    "why": "Ты слышал was hit — шайба попала в Бенни, а не он по ней ударил."
+   },
+   {
+    "id": "g40-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "past",
+    "pairs": [
+     [
+      "write",
+      "written"
+     ],
+     [
+      "make",
+      "made"
+     ],
+     [
+      "build",
+      "built"
+     ],
+     [
+      "sell",
+      "sold"
+     ]
+    ],
+    "why": "Для пассива нужна третья форма: written, made, built, sold."
+   },
+   {
+    "id": "g40-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "present",
+    "q": "Maple syrup ___ (make) in Canada.",
+    "a": [
+     "is made"
+    ],
+    "why": "Сироп делают (не он сам) — is + третья форма: is made."
+   },
+   {
+    "id": "g40-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "present",
+    "q": "Brawl Stars ___ (play) all over the world.",
+    "a": [
+     "is played"
+    ],
+    "why": "Brawl Stars — одна игра, поэтому is played."
+   },
+   {
+    "id": "g40-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "past",
+    "q": "Our team photo ___ (take) after the final.",
+    "a": [
+     "was taken"
+    ],
+    "why": "Фото сделали в прошлом — was + taken."
+   },
+   {
+    "id": "g40-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "past",
+    "q": "Twenty goals ___ (score) in that crazy game.",
+    "a": [
+     "were scored"
+    ],
+    "why": "Goals — много, прошлое: were scored."
+   },
+   {
+    "id": "g40-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "by",
+    "q": "The comic was drawn ___ my friend Max. (by / with)",
+    "a": [
+     "by"
+    ],
+    "why": "Кто нарисовал — после by: by my friend Max."
+   },
+   {
+    "id": "g40-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-done",
+    "q": "Mrs. Parker ___ (have) her car fixed last week.",
+    "a": [
+     "had"
+    ],
+    "why": "Ей починили машину в мастерской — had + car + fixed."
+   },
+   {
+    "id": "g40-020",
+    "t": "gap",
+    "lv": 3,
+    "tag": "choice",
+    "q": "Benny ___ (break) the lamp yesterday. Oops!",
+    "a": [
+     "broke"
+    ],
+    "why": "Бенни сам разбил лампу — активный залог: broke."
+   },
+   {
+    "id": "g40-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "present",
+    "s": "Spanish is speak in Mexico.",
+    "bad": 2,
+    "fix": "spoken",
+    "why": "В пассиве нужна третья форма: spoken."
+   },
+   {
+    "id": "g40-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "past",
+    "s": "The tickets was sold in one hour.",
+    "bad": 2,
+    "fix": "were",
+    "why": "Tickets — много, поэтому were sold."
+   },
+   {
+    "id": "g40-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "by",
+    "s": "This beat was made from my brother.",
+    "bad": 4,
+    "fix": "by",
+    "why": "Кто сделал — после by: by my brother."
+   },
+   {
+    "id": "g40-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "present",
+    "s": "Pucks is made of rubber.",
+    "bad": 1,
+    "fix": "are",
+    "why": "Pucks — много, поэтому are made."
+   },
+   {
+    "id": "g40-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "have-done",
+    "s": "I had my bike repair yesterday.",
+    "bad": 4,
+    "fix": "repaired",
+    "why": "have + предмет + третья форма: had my bike repaired."
+   },
+   {
+    "id": "g40-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "present",
+    "a": "Our games are played on Saturdays.",
+    "ru": "Наши игры проходят по субботам.",
+    "extra": [
+     "is"
+    ],
+    "why": "Games — много: are + played."
+   },
+   {
+    "id": "g40-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "past",
+    "a": "The window was broken by Benny.",
+    "ru": "Окно разбил Бенни.",
+    "extra": [
+     "were"
+    ],
+    "why": "Окно одно и это прошлое: was broken."
+   },
+   {
+    "id": "g40-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "by",
+    "a": "This video was made by Rex.",
+    "ru": "Это видео сделал Рекс.",
+    "extra": [
+     "from"
+    ],
+    "why": "Кто сделал — после by: by Rex."
+   },
+   {
+    "id": "g40-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "have-done",
+    "a": "Mia had her skates sharpened.",
+    "ru": "Мии наточили коньки.",
+    "extra": [
+     "sharpen"
+    ],
+    "why": "Сделал мастер — had + skates + sharpened."
+   },
+   {
+    "id": "g40-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "by",
+    "a": "The puck was stopped by Rex.",
+    "ru": "Шайбу остановил Рекс.",
+    "extra": [
+     "stop"
+    ],
+    "why": "Пассив was + stopped, а кто — после by."
+   },
+   {
+    "id": "g40-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "present",
+    "src": "People speak French in Quebec.",
+    "task_ru": "Перепиши в пассиве. Начни с French…",
+    "a": [
+     "French is spoken in Quebec."
+    ],
+    "why": "Пассив: is + spoken, а people можно убрать."
+   },
+   {
+    "id": "g40-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "past",
+    "src": "Rex ate all the cookies.",
+    "task_ru": "Перепиши в пассиве с by.",
+    "a": [
+     "All the cookies were eaten by Rex.",
+     "All of the cookies were eaten by Rex."
+    ],
+    "why": "Cookies — много: were eaten by Rex."
+   },
+   {
+    "id": "g40-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "past",
+    "src": "Somebody stole Benny's helmet.",
+    "task_ru": "Перепиши в пассиве (кто украл — неважно).",
+    "a": [
+     "Benny's helmet was stolen."
+    ],
+    "why": "Кто — неизвестно, поэтому без by: was stolen."
+   },
+   {
+    "id": "g40-034",
+    "t": "text",
+    "lv": 3,
+    "tag": "present",
+    "title": "Our school rink",
+    "text": "Our rink ___ (clean) every morning. The ice ___ (check) by Coach Walt. Snacks ___ (sell) in a small cafe. Hot chocolate ___ (make) there too. The lights ___ (turn) off at 10 p.m.",
+    "a": [
+     [
+      "is cleaned"
+     ],
+     [
+      "is checked"
+     ],
+     [
+      "are sold"
+     ],
+     [
+      "is made"
+     ],
+     [
+      "are turned"
+     ]
+    ],
+    "why": "Всё это делают люди, а не сами предметы, — is/are + третья форма."
+   },
+   {
+    "id": "g40-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "past",
+    "title": "The big final",
+    "text": "Last Saturday, the final ___ (play) in our city. The tickets ___ (sell) in one hour. The first goal ___ (score) by Mia. Rex ___ (hit) by the puck three times, but he was OK. In the end, the game ___ (win) by our team!",
+    "a": [
+     [
+      "was played"
+     ],
+     [
+      "were sold"
+     ],
+     [
+      "was scored"
+     ],
+     [
+      "was hit"
+     ],
+     [
+      "was won"
+     ]
+    ],
+    "why": "Это было в прошлом и с предметами что-то делали — was/were + третья форма."
+   },
+   {
+    "id": "g40-036",
+    "t": "chat",
+    "lv": 3,
+    "tag": "have-done",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Your hair looks cool! Did you cut it yourself?"
+     },
+     {
+      "who": "you",
+      "t": "No, I ___ it cut at a barbershop."
+     },
+     {
+      "who": "Mia",
+      "t": "Nice! Look, this is my new jersey. It ___ made in Canada."
+     },
+     {
+      "who": "you",
+      "t": "Cool! And your skates look great too."
+     },
+     {
+      "who": "Mia",
+      "t": "Thanks! They ___ sharpened yesterday by Coach Walt."
+     }
+    ],
+    "a": [
+     [
+      "had",
+      "got"
+     ],
+     [
+      "was",
+      "is"
+     ],
+     [
+      "were"
+     ]
+    ],
+    "why": "Стриг мастер — had/got it cut, а с джерси и коньками что-то делали — пассив."
+   },
+   {
+    "id": "g40-037",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "present",
+    "ru": "В Канаде говорят на английском и французском.",
+    "a": [
+     "English and French are spoken in Canada.",
+     "In Canada, English and French are spoken.",
+     "People speak English and French in Canada.",
+     "They speak English and French in Canada."
+    ],
+    "why": "Удобно сказать пассивом: English and French are spoken."
+   },
+   {
+    "id": "g40-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "past",
+    "ru": "Эту песню написали в 2020 году.",
+    "a": [
+     "This song was written in 2020.",
+     "They wrote this song in 2020."
+    ],
+    "why": "Кто написал — неважно, поэтому пассив: was written."
+   },
+   {
+    "id": "g40-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "by",
+    "ru": "Этот комикс нарисовал Бенни.",
+    "a": [
+     "This comic was drawn by Benny.",
+     "Benny drew this comic."
+    ],
+    "why": "Важно, кто нарисовал, — by Benny: was drawn by Benny."
+   },
+   {
+    "id": "g40-040",
+    "t": "speak",
+    "lv": 3,
+    "tag": "by",
+    "say": "The best goal of the season was scored by Rex!",
+    "ru": "Лучший гол сезона забил Рекс!",
+    "why": "Was scored — пассив, а кто забил — после by."
+   },
+   {
+    "id": "g40-041",
+    "t": "write",
+    "lv": 3,
+    "tag": "choice",
+    "task_ru": "Напиши 3 предложения о своём городе или школе в пассиве: что где делают, продают или построили.",
+    "check_ru": [
+     "Есть is/are или was/were + третья форма?",
+     "Третья форма правильная (made, built, sold)?",
+     "by поставил, только если важно, кто сделал?"
+    ],
+    "model": "Hockey is played at our school. Fresh bread is sold near my house. A new rink was built last year.",
+    "why": "Когда важно, что происходит с предметом, — пассив: be + третья форма."
+   }
+  ]
+ }
+]

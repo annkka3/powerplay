@@ -1,0 +1,3757 @@
+[
+ {
+  "id": "g16",
+  "stage": "A1",
+  "title_ru": "Предлоги места",
+  "goal_ru": "Сказать, где что лежит: The puck is under the bench.",
+  "prereq": [
+   "g06"
+  ],
+  "spotlight": [
+   "2b"
+  ],
+  "cards": [
+   {
+    "title_ru": "В, на, под",
+    "body_ru": "**in** — внутри, **on** — на поверхности, **under** — под. Перед предметом не забывай **the** или **my**: under **the** bench.",
+    "ex": [
+     [
+      "The puck is in the bag.",
+      "Шайба в сумке."
+     ],
+     [
+      "My phone is on the table.",
+      "Мой телефон на столе."
+     ],
+     [
+      "Benny's cat is under the bed.",
+      "Кот Бенни под кроватью."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Рядом, перед, позади",
+    "body_ru": "**next to** — рядом с, **in front of** — перед, **behind** — позади, за. Маленькие слова обязательны: next **to**, in front **of**.",
+    "ex": [
+     [
+      "Mia sits next to Benny.",
+      "Мия сидит рядом с Бенни."
+     ],
+     [
+      "Coach Walt is in front of the team.",
+      "Тренер Уолт перед командой."
+     ],
+     [
+      "The net is behind Rex.",
+      "Ворота позади Рекса."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Между, напротив, около",
+    "body_ru": "**between** A **and** B — между двумя. **opposite** — напротив (в Америке часто говорят **across from**). **near** — недалеко, около, без to.",
+    "ex": [
+     [
+      "Rex is between Mia and Benny.",
+      "Рекс между Мией и Бенни."
+     ],
+     [
+      "The rink is opposite the school.",
+      "Каток напротив школы."
+     ],
+     [
+      "We live near the park.",
+      "Мы живём около парка."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Дома, в школе, в городе",
+    "body_ru": "Запомни готовые фразы: **at home** (дома), **at school** (в школе), **at work** (на работе). Город и страна — **in**: in the city, in Canada. «На фото» — **in** the photo, «на льду» — **on** the ice.",
+    "ex": [
+     [
+      "Benny is at home.",
+      "Бенни дома."
+     ],
+     [
+      "Mia is at school.",
+      "Мия в школе."
+     ],
+     [
+      "The Parkers live in Canada.",
+      "Паркеры живут в Канаде."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "My bag is next the door.",
+    "right": "My bag is next to the door.",
+    "why_ru": "next всегда идёт с to: next to."
+   },
+   {
+    "wrong": "Rex stands in front the goal.",
+    "right": "Rex stands in front of the goal.",
+    "why_ru": "in front всегда идёт с of: in front of."
+   },
+   {
+    "wrong": "Benny is in home now.",
+    "right": "Benny is at home now.",
+    "why_ru": "«Дома» по-английски — at home, без the."
+   },
+   {
+    "wrong": "Mia is on the photo.",
+    "right": "Mia is in the photo.",
+    "why_ru": "«На фото» — in the photo: человек как бы внутри картинки."
+   },
+   {
+    "wrong": "The puck is under bench.",
+    "right": "The puck is under the bench.",
+    "why_ru": "После предлога перед предметом нужен the (или my, his)."
+   }
+  ],
+  "tags": {
+   "in-on-under": {
+    "ru": "in, on, under",
+    "tip_ru": "in — внутри (in the bag), on — на поверхности (on the table, on the ice), under — под (under the bed)."
+   },
+   "next-front-behind": {
+    "ru": "next to, in front of, behind",
+    "tip_ru": "Рядом с = next to, перед = in front of, позади = behind. Не теряй to и of!"
+   },
+   "between-opposite-near": {
+    "ru": "between, opposite, near",
+    "tip_ru": "between A and B — между двумя, opposite — напротив (или across from), near — недалеко, без to."
+   },
+   "places": {
+    "ru": "at home, at school, in the city",
+    "tip_ru": "Дома = at home, в школе = at school, на работе = at work. Город и страна — in."
+   }
+  },
+  "items": [
+   {
+    "id": "g16-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "in-on-under",
+    "q": "Benny's phone is ___ (на) the table.",
+    "o": [
+     "on",
+     "in"
+    ],
+    "a": 0,
+    "why": "Телефон лежит на поверхности стола → on."
+   },
+   {
+    "id": "g16-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "in-on-under",
+    "q": "Rex's helmet is ___ (под) the bed.",
+    "o": [
+     "under",
+     "on"
+    ],
+    "a": 0,
+    "why": "«Под кроватью» → under."
+   },
+   {
+    "id": "g16-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "next-front-behind",
+    "q": "Mia sits ___ (рядом с) Benny in class.",
+    "o": [
+     "next to",
+     "next"
+    ],
+    "a": 0,
+    "why": "«Рядом с» — это next to, без to нельзя."
+   },
+   {
+    "id": "g16-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "next-front-behind",
+    "q": "The net is ___ (позади) Rex.",
+    "o": [
+     "behind",
+     "in front of"
+    ],
+    "a": 0,
+    "why": "«Позади, за спиной» → behind."
+   },
+   {
+    "id": "g16-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "between-opposite-near",
+    "q": "The puck is ___ (между) the two sticks.",
+    "o": [
+     "between",
+     "behind"
+    ],
+    "a": 0,
+    "why": "Между двумя предметами → between."
+   },
+   {
+    "id": "g16-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "between-opposite-near",
+    "q": "We live ___ (недалеко от) the rink.",
+    "o": [
+     "near",
+     "under"
+    ],
+    "a": 0,
+    "why": "«Недалеко, около» → near."
+   },
+   {
+    "id": "g16-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "places",
+    "q": "Benny is ___ home.",
+    "o": [
+     "at",
+     "in"
+    ],
+    "a": 0,
+    "why": "«Дома» — всегда at home."
+   },
+   {
+    "id": "g16-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "places",
+    "q": "Mia is ___ school now.",
+    "o": [
+     "at",
+     "on"
+    ],
+    "a": 0,
+    "why": "«В школе» (на уроках) — at school."
+   },
+   {
+    "id": "g16-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "places",
+    "q": "The Parkers live ___ a big city.",
+    "o": [
+     "in",
+     "at",
+     "on",
+     "under"
+    ],
+    "a": 0,
+    "why": "Город и страна — in: in a big city."
+   },
+   {
+    "id": "g16-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "q": "Coach Walt stands ___ (перед) the team and talks.",
+    "o": [
+     "in front of",
+     "in front",
+     "front of",
+     "before"
+    ],
+    "a": 0,
+    "why": "«Перед» о месте — in front of, все три слова."
+   },
+   {
+    "id": "g16-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "between-opposite-near",
+    "q": "The café is ___ the school, on the other side of the street.",
+    "o": [
+     "opposite",
+     "between",
+     "under",
+     "in"
+    ],
+    "a": 0,
+    "why": "На другой стороне улицы, лицом к школе → opposite."
+   },
+   {
+    "id": "g16-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "in-on-under",
+    "q": "My stick is ___ (в) the car.",
+    "a": [
+     "in"
+    ],
+    "why": "Клюшка внутри машины → in."
+   },
+   {
+    "id": "g16-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "in-on-under",
+    "q": "There is a poster of Rex ___ (на) the wall.",
+    "a": [
+     "on"
+    ],
+    "why": "Постер висит на поверхности стены → on."
+   },
+   {
+    "id": "g16-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "q": "The bench is next ___ the door.",
+    "a": [
+     "to"
+    ],
+    "why": "next всегда с to: next to the door."
+   },
+   {
+    "id": "g16-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "q": "Rex stands in front ___ the net.",
+    "a": [
+     "of"
+    ],
+    "why": "in front всегда с of: in front of the net."
+   },
+   {
+    "id": "g16-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "between-opposite-near",
+    "q": "Benny sits ___ (между) Mia and Rex.",
+    "a": [
+     "between"
+    ],
+    "why": "Между двумя людьми → between."
+   },
+   {
+    "id": "g16-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "between-opposite-near",
+    "q": "The bus stop is ___ (напротив) my house.",
+    "a": [
+     "opposite",
+     "across from"
+    ],
+    "why": "«Напротив» — opposite, в Америке часто across from."
+   },
+   {
+    "id": "g16-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "places",
+    "q": "Mr Parker is ___ work. Mrs Parker is at home.",
+    "a": [
+     "at"
+    ],
+    "why": "«На работе» — at work."
+   },
+   {
+    "id": "g16-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "s": "My bag is next of the door.",
+    "bad": 4,
+    "fix": "to",
+    "why": "Правильно next to, а не next of."
+   },
+   {
+    "id": "g16-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "s": "The puck is in front to the net.",
+    "bad": 5,
+    "fix": "of",
+    "why": "Правильно in front of, а не in front to."
+   },
+   {
+    "id": "g16-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "places",
+    "s": "Benny is in home after school.",
+    "bad": 2,
+    "fix": "at",
+    "why": "«Дома» — at home, а не in home."
+   },
+   {
+    "id": "g16-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "in-on-under",
+    "s": "Mia is on this photo with Benny.",
+    "bad": 2,
+    "fix": "in",
+    "why": "«На фото» по-английски — in the photo."
+   },
+   {
+    "id": "g16-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "between-opposite-near",
+    "s": "The puck is between the bench or the wall.",
+    "bad": 6,
+    "fix": "and",
+    "why": "Правильно between ... and ..., а не or."
+   },
+   {
+    "id": "g16-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "in-on-under",
+    "s": "There are two pucks in the ice.",
+    "bad": 4,
+    "fix": "on",
+    "why": "Шайбы лежат на поверхности льда → on the ice."
+   },
+   {
+    "id": "g16-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "in-on-under",
+    "a": "The puck is under the bench.",
+    "ru": "Шайба под скамейкой.",
+    "extra": [
+     "on"
+    ],
+    "why": "«Под» → under, перед bench нужен the."
+   },
+   {
+    "id": "g16-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "a": "My dog is next to me.",
+    "ru": "Моя собака рядом со мной.",
+    "extra": [
+     "of"
+    ],
+    "why": "«Рядом с» — next to, of здесь лишнее."
+   },
+   {
+    "id": "g16-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "a": "The goal is behind Rex.",
+    "ru": "Ворота позади Рекса.",
+    "extra": [
+     "front"
+    ],
+    "why": "«Позади» → behind."
+   },
+   {
+    "id": "g16-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "between-opposite-near",
+    "a": "Is there a rink near your house?",
+    "ru": "Рядом с твоим домом есть каток?",
+    "extra": [
+     "next"
+    ],
+    "why": "Is there...? + near your house — «рядом, недалеко»."
+   },
+   {
+    "id": "g16-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "places",
+    "a": "My parents are at work.",
+    "ru": "Мои родители на работе.",
+    "extra": [
+     "in"
+    ],
+    "why": "«На работе» — at work."
+   },
+   {
+    "id": "g16-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "in-on-under",
+    "src": "The cat is on the box.",
+    "task_ru": "Скажи, что кот ВНУТРИ коробки.",
+    "a": [
+     "The cat is in the box."
+    ],
+    "why": "Внутри → in, а on — сверху."
+   },
+   {
+    "id": "g16-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "next-front-behind",
+    "src": "Benny is in front of Mia.",
+    "task_ru": "Скажи наоборот: Бенни ПОЗАДИ Мии.",
+    "a": [
+     "Benny is behind Mia."
+    ],
+    "why": "Противоположность in front of — behind."
+   },
+   {
+    "id": "g16-032",
+    "t": "tr",
+    "lv": 3,
+    "tag": "places",
+    "src": "There is a rink in my town.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Is there a rink in your town?",
+     "Is there a rink in my town?"
+    ],
+    "why": "В вопросе is встаёт перед there, а предлог in остаётся на месте."
+   },
+   {
+    "id": "g16-033",
+    "t": "match",
+    "lv": 1,
+    "tag": "in-on-under",
+    "pairs": [
+     [
+      "в",
+      "in"
+     ],
+     [
+      "на",
+      "on"
+     ],
+     [
+      "под",
+      "under"
+     ],
+     [
+      "позади",
+      "behind"
+     ]
+    ],
+    "why": "in — в, on — на, under — под, behind — позади."
+   },
+   {
+    "id": "g16-034",
+    "t": "match",
+    "lv": 1,
+    "tag": "between-opposite-near",
+    "pairs": [
+     [
+      "рядом с",
+      "next to"
+     ],
+     [
+      "перед",
+      "in front of"
+     ],
+     [
+      "между",
+      "between"
+     ],
+     [
+      "напротив",
+      "opposite"
+     ]
+    ],
+    "why": "next to — рядом с, in front of — перед, between — между, opposite — напротив."
+   },
+   {
+    "id": "g16-035",
+    "t": "listen",
+    "lv": 1,
+    "tag": "in-on-under",
+    "say": "The ball is under the sofa.",
+    "o": [
+     "The ball is under the sofa.",
+     "The ball is on the sofa."
+    ],
+    "a": 0,
+    "why": "Прозвучало under — мяч под диваном."
+   },
+   {
+    "id": "g16-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "next-front-behind",
+    "say": "Mia is behind the goal.",
+    "o": [
+     "Mia is in front of the goal.",
+     "Mia is behind the goal."
+    ],
+    "a": 1,
+    "why": "Прозвучало behind — Мия позади ворот."
+   },
+   {
+    "id": "g16-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "in-on-under",
+    "title": "Benny's messy room",
+    "text": "Benny's room is a disaster! His skates are ___ (под) the bed. His helmet is ___ (на) the lamp. There are three socks ___ (в) the fish tank. His stick is ___ (за) the door. And where is Benny? He is ___ (на) the sofa with a comic.",
+    "a": [
+     [
+      "under"
+     ],
+     [
+      "on"
+     ],
+     [
+      "in"
+     ],
+     [
+      "behind"
+     ],
+     [
+      "on"
+     ]
+    ],
+    "why": "Под — under, на — on, в — in, за — behind."
+   },
+   {
+    "id": "g16-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "between-opposite-near",
+    "title": "Mia's street",
+    "text": "Mia lives ___ (в) a small house ___ (в) the city. Her school is ___ (напротив) her house. There is a park ___ (около) the school. The rink is ___ (между) the park and a pizza place. After school, Mia is ___ home for an hour.",
+    "a": [
+     [
+      "in"
+     ],
+     [
+      "in"
+     ],
+     [
+      "opposite",
+      "across from"
+     ],
+     [
+      "near"
+     ],
+     [
+      "between"
+     ],
+     [
+      "at"
+     ]
+    ],
+    "why": "in a house, in the city, opposite — напротив, near — около, between — между, at home — дома."
+   },
+   {
+    "id": "g16-039",
+    "t": "chat",
+    "lv": 3,
+    "tag": "places",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Where are you? The game starts at six!"
+     },
+     {
+      "who": "you",
+      "t": "I'm ___ home. Where is my stick?"
+     },
+     {
+      "who": "Mia",
+      "t": "It's in the car."
+     },
+     {
+      "who": "you",
+      "t": "OK! And where is my helmet? Is it ___ (под) the bed?"
+     },
+     {
+      "who": "Mia",
+      "t": "No, Benny. It's on your head!"
+     }
+    ],
+    "a": [
+     [
+      "at"
+     ],
+     [
+      "under"
+     ]
+    ],
+    "why": "«Дома» — at home, «под кроватью» — under the bed."
+   },
+   {
+    "id": "g16-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "in-on-under",
+    "ru": "Мои коньки под кроватью.",
+    "a": [
+     "My skates are under the bed."
+    ],
+    "why": "«Под» → under, коньки — множественное, поэтому are."
+   },
+   {
+    "id": "g16-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "between-opposite-near",
+    "ru": "Мой дом напротив катка.",
+    "a": [
+     "My house is opposite the rink.",
+     "My house is across from the rink."
+    ],
+    "why": "«Напротив» — opposite или across from."
+   },
+   {
+    "id": "g16-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "places",
+    "ru": "Мия дома, а Бенни в школе.",
+    "a": [
+     "Mia is at home, and Benny is at school.",
+     "Mia is at home, but Benny is at school.",
+     "Mia is at home, while Benny is at school."
+    ],
+    "why": "Дома — at home, в школе — at school."
+   },
+   {
+    "id": "g16-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "next-front-behind",
+    "ru": "Рекс стоит перед воротами.",
+    "a": [
+     "Rex is in front of the goal.",
+     "Rex stands in front of the goal.",
+     "Rex is standing in front of the goal.",
+     "Rex is in front of the net.",
+     "Rex stands in front of the net."
+    ],
+    "why": "«Перед» — in front of, не теряй of."
+   },
+   {
+    "id": "g16-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "between-opposite-near",
+    "say": "There is a big rink near my school.",
+    "ru": "Около моей школы есть большой каток.",
+    "why": "near — «около, недалеко», без to."
+   },
+   {
+    "id": "g16-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "in-on-under",
+    "task_ru": "Напиши 3 предложения о том, где лежат вещи в твоей комнате.",
+    "check_ru": [
+     "Есть in, on или under?",
+     "После next стоит to, после in front — of?",
+     "Перед предметом есть the или my?"
+    ],
+    "model": "My phone is on the bed. My skates are under the desk. My guitar is next to the door.",
+    "why": "Проверь предлоги: in — внутри, on — на, under — под, next to — рядом."
+   }
+  ]
+ },
+ {
+  "id": "g17",
+  "stage": "A1",
+  "title_ru": "Команды и Let's",
+  "goal_ru": "Дать команду и предложить: Pass the puck! Let's go!",
+  "prereq": [
+   "g09"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Команда — это просто глагол",
+    "body_ru": "Чтобы сказать «сделай!», начни с глагола в начальной форме: без **you**, без **to**, без **-s**.",
+    "ex": [
+     [
+      "Pass the puck!",
+      "Пасуй!"
+     ],
+     [
+      "Skate faster!",
+      "Катись быстрее!"
+     ],
+     [
+      "Be careful!",
+      "Будь осторожен!"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Запрет: Don't",
+    "body_ru": "«Не делай!» = **Don't** + глагол. Одного not мало. «Не бойся», «не опаздывай» — с **be**: Don't **be** scared!",
+    "ex": [
+     [
+      "Don't touch my stick!",
+      "Не трогай мою клюшку!"
+     ],
+     [
+      "Don't be late!",
+      "Не опаздывай!"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Давай: Let's",
+    "body_ru": "**Let's** + глагол = «давай(те) сделаем». «Давай не будем» = **Let's not** + глагол. После Let's никаких to и -s.",
+    "ex": [
+     [
+      "Let's go!",
+      "Пошли!"
+     ],
+     [
+      "Let's play Brawl Stars.",
+      "Давай поиграем в Brawl Stars."
+     ],
+     [
+      "Let's not watch this video.",
+      "Давай не будем смотреть это видео."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вежливо: please",
+    "body_ru": "**please** ставь в начало или в конец: **Please** sit down. / Sit down, **please**. Не в середину!",
+    "ex": [
+     [
+      "Please close the door.",
+      "Закрой дверь, пожалуйста."
+     ],
+     [
+      "Help me, please.",
+      "Помоги мне, пожалуйста."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Not touch my stick!",
+    "right": "Don't touch my stick!",
+    "why_ru": "«Не делай» = Don't + глагол, одного not мало."
+   },
+   {
+    "wrong": "Don't to shout!",
+    "right": "Don't shout!",
+    "why_ru": "После Don't сразу глагол, без to."
+   },
+   {
+    "wrong": "Let's to go!",
+    "right": "Let's go!",
+    "why_ru": "После Let's глагол без to."
+   },
+   {
+    "wrong": "Let's don't play now.",
+    "right": "Let's not play now.",
+    "why_ru": "«Давай не будем» = Let's not."
+   },
+   {
+    "wrong": "Don't late!",
+    "right": "Don't be late!",
+    "why_ru": "«Не опаздывай» = Don't be late: нужен be."
+   }
+  ],
+  "tags": {
+   "imperative": {
+    "ru": "Команда: глагол",
+    "tip_ru": "Команда начинается с глагола в начальной форме: Pass! Sit down! Без you, to и -s."
+   },
+   "dont": {
+    "ru": "Запрет: Don't",
+    "tip_ru": "Чтобы запретить, ставь Don't перед глаголом: Don't shout! Даже для he/she — не doesn't."
+   },
+   "lets": {
+    "ru": "Let's / Let's not",
+    "tip_ru": "Let's + глагол = давай сделаем. Let's not + глагол = давай не будем."
+   },
+   "be": {
+    "ru": "Be / Don't be",
+    "tip_ru": "«Будь осторожен» = Be careful, «не бойся» = Don't be scared. Не are, а be.",
+    "back": "g01"
+   },
+   "please": {
+    "ru": "please",
+    "tip_ru": "please ставим в начало или в конец просьбы: Please sit down. / Sit down, please."
+   }
+  },
+  "items": [
+   {
+    "id": "g17-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "imperative",
+    "q": "___ the puck, Rex!",
+    "o": [
+     "Pass",
+     "Passes"
+    ],
+    "a": 0,
+    "why": "Команда — глагол в начальной форме, без -s."
+   },
+   {
+    "id": "g17-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "dont",
+    "q": "___ touch my stick!",
+    "o": [
+     "Don't",
+     "Not"
+    ],
+    "a": 0,
+    "why": "Запрет начинается с Don't."
+   },
+   {
+    "id": "g17-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "lets",
+    "q": "Let's ___ Brawl Stars!",
+    "o": [
+     "play",
+     "to play"
+    ],
+    "a": 0,
+    "why": "После Let's глагол без to."
+   },
+   {
+    "id": "g17-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "lets",
+    "q": "I'm tired. Let's ___ go to the rink today.",
+    "o": [
+     "not",
+     "don't"
+    ],
+    "a": 0,
+    "why": "«Давай не будем» = Let's not."
+   },
+   {
+    "id": "g17-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be",
+    "q": "___ careful! The ice is wet.",
+    "o": [
+     "Be",
+     "Are"
+    ],
+    "a": 0,
+    "why": "«Будь осторожен» = Be careful: be в начальной форме."
+   },
+   {
+    "id": "g17-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be",
+    "q": "Don't ___ late for practice!",
+    "o": [
+     "be",
+     "are"
+    ],
+    "a": 0,
+    "why": "После Don't — be: Don't be late."
+   },
+   {
+    "id": "g17-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "imperative",
+    "q": "Benny, ___ your jacket. It's cold!",
+    "o": [
+     "put on",
+     "to put on"
+    ],
+    "a": 0,
+    "why": "Команда начинается с глагола без to: Put on."
+   },
+   {
+    "id": "g17-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "please",
+    "q": "Как вежливо попросить воду?",
+    "o": [
+     "Please pass the water.",
+     "Pass please the water."
+    ],
+    "a": 0,
+    "why": "please ставим в начало или в конец, а не в середину."
+   },
+   {
+    "id": "g17-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "lets",
+    "q": "It's winter! Let's ___ a snowman!",
+    "o": [
+     "make",
+     "to make",
+     "makes",
+     "we make"
+    ],
+    "a": 0,
+    "why": "Let's + глагол в начальной форме: make."
+   },
+   {
+    "id": "g17-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "dont",
+    "q": "Rex, ___ eat the puck! It's not a cookie!",
+    "o": [
+     "don't",
+     "doesn't",
+     "not",
+     "no"
+    ],
+    "a": 0,
+    "why": "Запрет — всегда don't, даже если говоришь о Рексе."
+   },
+   {
+    "id": "g17-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "be",
+    "q": "Rex, ___ sad. We can win next time.",
+    "o": [
+     "don't be",
+     "don't",
+     "not be",
+     "be not"
+    ],
+    "a": 0,
+    "why": "«Не грусти» = Don't be sad: нужен be."
+   },
+   {
+    "id": "g17-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "imperative",
+    "q": "___ (shoot) now, Mia!",
+    "a": [
+     "Shoot"
+    ],
+    "why": "Команда — глагол в начальной форме: Shoot!"
+   },
+   {
+    "id": "g17-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont",
+    "q": "___ (not / shout) at the referee!",
+    "a": [
+     "Don't shout"
+    ],
+    "why": "«Не кричи» = Don't + shout."
+   },
+   {
+    "id": "g17-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "lets",
+    "q": "___ (давай) watch a new video on YouTube.",
+    "a": [
+     "Let's"
+    ],
+    "why": "«Давай» = Let's + глагол."
+   },
+   {
+    "id": "g17-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "lets",
+    "q": "It's late. Let's ___ (не будем) play another game.",
+    "a": [
+     "not"
+    ],
+    "why": "«Давай не будем» = Let's not."
+   },
+   {
+    "id": "g17-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be",
+    "q": "___ (be) quiet! Mrs Parker is on the phone.",
+    "a": [
+     "Be"
+    ],
+    "why": "«Тише!» = Be quiet: be в начальной форме."
+   },
+   {
+    "id": "g17-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "please",
+    "q": "Can you help me, ___ (пожалуйста)?",
+    "a": [
+     "please"
+    ],
+    "why": "please в конце делает просьбу вежливой."
+   },
+   {
+    "id": "g17-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "please",
+    "q": "___ (пожалуйста) don't shout. Benny is asleep.",
+    "a": [
+     "Please"
+    ],
+    "why": "please можно поставить перед don't: Please don't shout."
+   },
+   {
+    "id": "g17-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont",
+    "q": "Benny, ___ (not / put) your skates on the sofa!",
+    "a": [
+     "don't put"
+    ],
+    "why": "Запрет: don't + put."
+   },
+   {
+    "id": "g17-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "imperative",
+    "s": "Skates faster, Benny!",
+    "bad": 0,
+    "fix": "Skate",
+    "why": "В команде глагол без -s: Skate!"
+   },
+   {
+    "id": "g17-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "dont",
+    "s": "Not touch my phone!",
+    "bad": 0,
+    "fix": "Don't",
+    "why": "Запрет начинается с Don't, одного not мало."
+   },
+   {
+    "id": "g17-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "lets",
+    "s": "Let's watches a movie tonight!",
+    "bad": 1,
+    "fix": "watch",
+    "why": "После Let's глагол в начальной форме: watch."
+   },
+   {
+    "id": "g17-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "dont",
+    "s": "Rex, don't eats my homework!",
+    "bad": 2,
+    "fix": "eat",
+    "why": "После don't глагол без -s: eat."
+   },
+   {
+    "id": "g17-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "be",
+    "s": "Are careful on the ice, Benny!",
+    "bad": 0,
+    "fix": "Be",
+    "why": "«Будь осторожен» = Be careful, а не Are."
+   },
+   {
+    "id": "g17-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "lets",
+    "s": "Let's don't play outside. It's very cold.",
+    "bad": 1,
+    "fix": "not",
+    "why": "«Давай не будем» = Let's not, а не Let's don't."
+   },
+   {
+    "id": "g17-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "imperative",
+    "a": "Pass the puck to Mia.",
+    "ru": "Передай шайбу Мии.",
+    "extra": [
+     "passes"
+    ],
+    "why": "Команда начинается с глагола без -s: Pass."
+   },
+   {
+    "id": "g17-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "dont",
+    "a": "Don't play Roblox at dinner.",
+    "ru": "Не играй в Roblox за ужином.",
+    "extra": [
+     "not"
+    ],
+    "why": "Запрет: Don't + play."
+   },
+   {
+    "id": "g17-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "lets",
+    "a": "Let's go to the park.",
+    "ru": "Давай пойдём в парк.",
+    "extra": [
+     "goes"
+    ],
+    "why": "Let's + go без -s."
+   },
+   {
+    "id": "g17-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "lets",
+    "a": "Let's not watch this video.",
+    "ru": "Давай не будем смотреть это видео.",
+    "extra": [
+     "don't"
+    ],
+    "why": "«Давай не будем» = Let's not + глагол."
+   },
+   {
+    "id": "g17-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "be",
+    "a": "Be nice to your sister.",
+    "ru": "Будь добр к своей сестре.",
+    "extra": [
+     "Are"
+    ],
+    "why": "«Будь» = Be в начале команды."
+   },
+   {
+    "id": "g17-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "dont",
+    "src": "Open the window.",
+    "task_ru": "Запрети: «Не открывай окно».",
+    "a": [
+     "Don't open the window."
+    ],
+    "why": "Запрет = Don't + та же команда."
+   },
+   {
+    "id": "g17-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "lets",
+    "src": "We play a new game.",
+    "task_ru": "Предложи: «Давай…» (Let's).",
+    "a": [
+     "Let's play a new game."
+    ],
+    "why": "Let's + глагол, we убираем."
+   },
+   {
+    "id": "g17-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "please",
+    "src": "Give me the remote.",
+    "task_ru": "Сделай просьбу вежливой с please.",
+    "a": [
+     "Please give me the remote.",
+     "Give me the remote, please."
+    ],
+    "why": "please ставим в начало или в конец просьбы."
+   },
+   {
+    "id": "g17-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "lets",
+    "src": "Let's go to the rink.",
+    "task_ru": "Скажи наоборот: «Давай не пойдём на каток».",
+    "a": [
+     "Let's not go to the rink."
+    ],
+    "why": "Let's not + глагол = давай не будем."
+   },
+   {
+    "id": "g17-035",
+    "t": "match",
+    "lv": 1,
+    "tag": "imperative",
+    "pairs": [
+     [
+      "Сядь.",
+      "Sit down."
+     ],
+     [
+      "Не кричи.",
+      "Don't shout."
+     ],
+     [
+      "Давай играть.",
+      "Let's play."
+     ],
+     [
+      "Будь осторожен.",
+      "Be careful."
+     ]
+    ],
+    "why": "Команда — глагол, запрет — Don't, предложение — Let's, «будь» — Be."
+   },
+   {
+    "id": "g17-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "dont",
+    "say": "Don't pass the puck!",
+    "o": [
+     "Pass the puck!",
+     "Don't pass the puck!"
+    ],
+    "a": 1,
+    "why": "Прозвучало Don't — это запрет."
+   },
+   {
+    "id": "g17-037",
+    "t": "listen",
+    "lv": 1,
+    "tag": "lets",
+    "say": "Let's not go outside.",
+    "o": [
+     "Let's go outside.",
+     "Let's not go outside."
+    ],
+    "a": 1,
+    "why": "Прозвучало not — давай НЕ пойдём."
+   },
+   {
+    "id": "g17-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "dont",
+    "title": "Coach Walt's rules",
+    "text": "Coach Walt has five rules. ___ (come) to practice on time. ___ (not / forget) your helmet. ___ (listen) to the coach. ___ (not / eat) fish in the locker room. And Rex, ___ (not / bite) the puck!",
+    "a": [
+     [
+      "Come"
+     ],
+     [
+      "Don't forget"
+     ],
+     [
+      "Listen"
+     ],
+     [
+      "Don't eat"
+     ],
+     [
+      "don't bite"
+     ]
+    ],
+    "why": "Правило-команда начинается с глагола, правило-запрет — с Don't."
+   },
+   {
+    "id": "g17-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "lets",
+    "title": "Snow day",
+    "text": "Mia: School is closed today! ___ (давай) go outside. Benny: OK! Let's ___ (make) a snowman. Mia: And let's ___ (не будем) play video games today. Benny: Good idea. ___ (take) your sled, Mia! Mia: And you, ___ (not / forget) your hat!",
+    "a": [
+     [
+      "Let's"
+     ],
+     [
+      "make"
+     ],
+     [
+      "not"
+     ],
+     [
+      "Take"
+     ],
+     [
+      "don't forget"
+     ]
+    ],
+    "why": "Let's + глагол, Let's not — давай не будем, команда — глагол, запрет — don't."
+   },
+   {
+    "id": "g17-040",
+    "t": "chat",
+    "lv": 3,
+    "tag": "lets",
+    "lines": [
+     {
+      "who": "Benny",
+      "t": "Hey! I'm bored."
+     },
+     {
+      "who": "you",
+      "t": "___ play Brawl Stars together!"
+     },
+     {
+      "who": "Benny",
+      "t": "OK! But my phone is dead."
+     },
+     {
+      "who": "you",
+      "t": "___ worry. Use my tablet."
+     },
+     {
+      "who": "Benny",
+      "t": "Thanks! Can I have a cookie too?"
+     },
+     {
+      "who": "you",
+      "t": "Sure. Take one, but ___ eat all of them!"
+     }
+    ],
+    "a": [
+     [
+      "Let's"
+     ],
+     [
+      "Don't"
+     ],
+     [
+      "don't"
+     ]
+    ],
+    "why": "Предложение — Let's, «не волнуйся» и «не ешь» — Don't."
+   },
+   {
+    "id": "g17-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "dont",
+    "ru": "Не ешь мою пиццу!",
+    "a": [
+     "Don't eat my pizza!"
+    ],
+    "why": "Запрет: Don't + eat."
+   },
+   {
+    "id": "g17-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "lets",
+    "ru": "Давай посмотрим мультик.",
+    "a": [
+     "Let's watch a cartoon.",
+     "Let's watch cartoons."
+    ],
+    "why": "«Давай» = Let's + watch."
+   },
+   {
+    "id": "g17-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be",
+    "ru": "Не бойся, Бенни!",
+    "a": [
+     "Don't be scared, Benny!",
+     "Don't be afraid, Benny!",
+     "Benny, don't be scared!",
+     "Benny, don't be afraid!"
+    ],
+    "why": "«Не бойся» = Don't be scared: нужен be."
+   },
+   {
+    "id": "g17-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "please",
+    "ru": "Пожалуйста, закрой дверь.",
+    "a": [
+     "Please close the door.",
+     "Close the door, please.",
+     "Please shut the door.",
+     "Shut the door, please."
+    ],
+    "why": "Команда close + please в начале или в конце."
+   },
+   {
+    "id": "g17-045",
+    "t": "speak",
+    "lv": 3,
+    "tag": "please",
+    "say": "Please pass the puck to me!",
+    "ru": "Передай мне шайбу, пожалуйста!",
+    "why": "Вежливая команда: Please + глагол."
+   },
+   {
+    "id": "g17-046",
+    "t": "write",
+    "lv": 3,
+    "tag": "imperative",
+    "task_ru": "Напиши 3 правила для своей комнаты: что делать и чего не делать.",
+    "check_ru": [
+     "Команда начинается с глагола без to и -s?",
+     "Запрет начинается с Don't?",
+     "Есть хотя бы одно please?"
+    ],
+    "model": "Please knock on the door. Don't touch my guitar. Don't eat pizza on my bed.",
+    "why": "Правило — глагол, запрет — Don't + глагол, вежливо — please."
+   }
+  ]
+ },
+ {
+  "id": "g18",
+  "stage": "A1",
+  "title_ru": "Like / love / hate + -ing, want to",
+  "goal_ru": "Сказать, что любишь делать: I love playing Roblox.",
+  "prereq": [
+   "g09"
+  ],
+  "spotlight": [
+   "5c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Люблю делать: love + -ing",
+    "body_ru": "После **like, love, hate** второй глагол получает **-ing**: I love play**ing**. Нельзя «I like play». В американском английском можно и с to: I love **to play** — это тоже правильно.",
+    "ex": [
+     [
+      "I love playing Roblox.",
+      "Я обожаю играть в Roblox."
+     ],
+     [
+      "He likes skating.",
+      "Он любит кататься на коньках."
+     ],
+     [
+      "She hates getting up early.",
+      "Она ненавидит рано вставать."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Enjoy — только -ing",
+    "body_ru": "**enjoy** = «получать удовольствие». После него только **-ing**, с to нельзя: enjoy mak**ing** music.",
+    "ex": [
+     [
+      "I enjoy making music.",
+      "Мне нравится делать музыку."
+     ],
+     [
+      "Rex enjoys eating pizza.",
+      "Рекс с удовольствием ест пиццу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Хочу: want to, would like to",
+    "body_ru": "После **want** и **would like** — **to** + глагол. **would like** (I'd like) — вежливое «хотел бы».",
+    "ex": [
+     [
+      "I want to win.",
+      "Я хочу победить."
+     ],
+     [
+      "He wants to be a goalie.",
+      "Он хочет быть вратарём."
+     ],
+     [
+      "I'd like to try.",
+      "Я бы хотел попробовать."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как пишется -ing",
+    "body_ru": "Обычно просто + ing: play → play**ing**. Немое e убираем: make → mak**ing**. Короткий слог «согласная-гласная-согласная» — удваиваем: run → ru**nn**ing, swim → swi**mm**ing, sit → si**tt**ing.",
+    "ex": [
+     [
+      "Mia loves dancing.",
+      "Мия обожает танцевать."
+     ],
+     [
+      "Benny enjoys swimming.",
+      "Бенни нравится плавать."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I like play hockey.",
+    "right": "I like playing hockey.",
+    "why_ru": "После like второй глагол с -ing (или to play)."
+   },
+   {
+    "wrong": "He enjoys to make music.",
+    "right": "He enjoys making music.",
+    "why_ru": "После enjoy только -ing."
+   },
+   {
+    "wrong": "I want play Roblox.",
+    "right": "I want to play Roblox.",
+    "why_ru": "После want нужен to."
+   },
+   {
+    "wrong": "She wants going home.",
+    "right": "She wants to go home.",
+    "why_ru": "После want — to + глагол, не -ing."
+   },
+   {
+    "wrong": "I love runing.",
+    "right": "I love running.",
+    "why_ru": "run → running: удваиваем n."
+   }
+  ],
+  "tags": {
+   "like-ing": {
+    "ru": "like / love / hate + -ing",
+    "tip_ru": "После like, love, hate второй глагол с -ing: I love skating. Не забудь -s: he likes.",
+    "back": "g09"
+   },
+   "enjoy": {
+    "ru": "enjoy + -ing",
+    "tip_ru": "enjoy — только с -ing: I enjoy reading. «enjoy to read» — ошибка."
+   },
+   "want-to": {
+    "ru": "want to / would like to",
+    "tip_ru": "После want и would like — to + глагол: I want to win. I'd like to go."
+   },
+   "spelling": {
+    "ru": "Как пишется -ing",
+    "tip_ru": "make → making (e убираем), run → running, swim → swimming (удваиваем), play → playing."
+   }
+  },
+  "items": [
+   {
+    "id": "g18-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "like-ing",
+    "q": "I love ___ comics.",
+    "o": [
+     "drawing",
+     "draw"
+    ],
+    "a": 0,
+    "why": "После love второй глагол с -ing: drawing."
+   },
+   {
+    "id": "g18-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "like-ing",
+    "q": "Mia likes ___ fast.",
+    "o": [
+     "skating",
+     "skate"
+    ],
+    "a": 0,
+    "why": "После likes нужен глагол с -ing: skating."
+   },
+   {
+    "id": "g18-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "enjoy",
+    "q": "Rex enjoys ___ pizza.",
+    "o": [
+     "eating",
+     "to eat"
+    ],
+    "a": 0,
+    "why": "После enjoy — только -ing: eating."
+   },
+   {
+    "id": "g18-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "want-to",
+    "q": "I want ___ a new stick.",
+    "o": [
+     "to buy",
+     "buying"
+    ],
+    "a": 0,
+    "why": "После want — to + глагол: to buy."
+   },
+   {
+    "id": "g18-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "want-to",
+    "q": "Rex would like ___ a goal one day.",
+    "o": [
+     "to score",
+     "scoring"
+    ],
+    "a": 0,
+    "why": "После would like — to + глагол: to score."
+   },
+   {
+    "id": "g18-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spelling",
+    "q": "I love ___ (run) in the park.",
+    "o": [
+     "running",
+     "runing"
+    ],
+    "a": 0,
+    "why": "run → running: короткий слог, удваиваем n."
+   },
+   {
+    "id": "g18-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spelling",
+    "q": "My sister hates ___ (make) breakfast.",
+    "o": [
+     "making",
+     "makeing"
+    ],
+    "a": 0,
+    "why": "make → making: немое e убираем."
+   },
+   {
+    "id": "g18-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "like-ing",
+    "q": "Rex hates ___ the dishes.",
+    "o": [
+     "doing",
+     "do"
+    ],
+    "a": 0,
+    "why": "После hates глагол с -ing: doing."
+   },
+   {
+    "id": "g18-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "enjoy",
+    "q": "Do you enjoy ___ music?",
+    "o": [
+     "making",
+     "to make",
+     "make",
+     "makes"
+    ],
+    "a": 0,
+    "why": "После enjoy — только -ing, to здесь нельзя."
+   },
+   {
+    "id": "g18-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "want-to",
+    "q": "Coach Walt wants ___ the game.",
+    "o": [
+     "to watch",
+     "watching",
+     "watch",
+     "watches"
+    ],
+    "a": 0,
+    "why": "После want — to + глагол: to watch."
+   },
+   {
+    "id": "g18-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Benny loves ___ (swim) in the lake.",
+    "o": [
+     "swimming",
+     "swiming",
+     "swimeing"
+    ],
+    "a": 0,
+    "why": "swim → swimming: удваиваем m."
+   },
+   {
+    "id": "g18-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "like-ing",
+    "q": "I like ___ (listen) to phonk.",
+    "a": [
+     "listening",
+     "to listen"
+    ],
+    "why": "После like — -ing: listening (в американском можно и to listen)."
+   },
+   {
+    "id": "g18-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "like-ing",
+    "q": "Mia hates ___ (lose).",
+    "a": [
+     "losing",
+     "to lose"
+    ],
+    "why": "После hates — -ing, e убираем: losing."
+   },
+   {
+    "id": "g18-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "enjoy",
+    "q": "We enjoy ___ (watch) hockey on TV.",
+    "a": [
+     "watching"
+    ],
+    "why": "После enjoy — только -ing: watching."
+   },
+   {
+    "id": "g18-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "want-to",
+    "q": "He wants ___ (be) a goalie.",
+    "a": [
+     "to be"
+    ],
+    "why": "После wants — to + глагол: to be."
+   },
+   {
+    "id": "g18-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "want-to",
+    "q": "I'd like ___ (try) your new skateboard.",
+    "a": [
+     "to try"
+    ],
+    "why": "После would like ('d like) — to + глагол."
+   },
+   {
+    "id": "g18-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Benny enjoys ___ (dance) at parties.",
+    "a": [
+     "dancing"
+    ],
+    "why": "dance → dancing: немое e убираем."
+   },
+   {
+    "id": "g18-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Do you enjoy ___ (shop) for sneakers?",
+    "a": [
+     "shopping"
+    ],
+    "why": "shop → shopping: удваиваем p."
+   },
+   {
+    "id": "g18-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Rex doesn't enjoy ___ (sit) on the bench.",
+    "a": [
+     "sitting"
+    ],
+    "why": "sit → sitting: удваиваем t."
+   },
+   {
+    "id": "g18-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "like-ing",
+    "s": "I like play hockey with my friends.",
+    "bad": 2,
+    "fix": "playing",
+    "why": "После like второй глагол с -ing: playing."
+   },
+   {
+    "id": "g18-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "enjoy",
+    "s": "Benny enjoys cook pancakes.",
+    "bad": 2,
+    "fix": "cooking",
+    "why": "После enjoy нужен -ing: cooking."
+   },
+   {
+    "id": "g18-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "want-to",
+    "s": "Mia would likes to play with us.",
+    "bad": 2,
+    "fix": "like",
+    "why": "После would глагол без -s: would like."
+   },
+   {
+    "id": "g18-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "spelling",
+    "s": "My cat loves runing in the yard.",
+    "bad": 3,
+    "fix": "running",
+    "why": "run → running: двойная n."
+   },
+   {
+    "id": "g18-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "spelling",
+    "s": "Benny loves writeing funny songs.",
+    "bad": 2,
+    "fix": "writing",
+    "why": "write → writing: немое e убираем."
+   },
+   {
+    "id": "g18-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "like-ing",
+    "s": "Rex like eating pancakes for breakfast.",
+    "bad": 1,
+    "fix": "likes",
+    "why": "Rex = he, поэтому likes с -s."
+   },
+   {
+    "id": "g18-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "like-ing",
+    "a": "My brother loves making music.",
+    "ru": "Мой брат обожает делать музыку.",
+    "extra": [
+     "make"
+    ],
+    "why": "После loves — -ing: making."
+   },
+   {
+    "id": "g18-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "like-ing",
+    "a": "Benny hates getting up early.",
+    "ru": "Бенни ненавидит рано вставать.",
+    "extra": [
+     "get"
+    ],
+    "why": "После hates — -ing: getting up."
+   },
+   {
+    "id": "g18-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "enjoy",
+    "a": "Do you enjoy watching YouTube?",
+    "ru": "Тебе нравится смотреть YouTube?",
+    "extra": [
+     "to"
+    ],
+    "why": "После enjoy — -ing, без to."
+   },
+   {
+    "id": "g18-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "want-to",
+    "a": "I want to be a hockey player.",
+    "ru": "Я хочу быть хоккеистом.",
+    "extra": [
+     "being"
+    ],
+    "why": "После want — to be."
+   },
+   {
+    "id": "g18-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "want-to",
+    "a": "Would you like to play with us?",
+    "ru": "Хочешь поиграть с нами?",
+    "extra": [
+     "playing"
+    ],
+    "why": "Would you like + to play — вежливое предложение."
+   },
+   {
+    "id": "g18-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "like-ing",
+    "src": "I play Brawl Stars. I love it.",
+    "task_ru": "Скажи одним предложением с love.",
+    "a": [
+     "I love playing Brawl Stars.",
+     "I love to play Brawl Stars."
+    ],
+    "why": "love + playing: «обожаю играть»."
+   },
+   {
+    "id": "g18-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "want-to",
+    "src": "I want to try your skates.",
+    "task_ru": "Скажи вежливее с would like.",
+    "a": [
+     "I would like to try your skates.",
+     "I'd like to try your skates."
+    ],
+    "why": "would like — вежливое want, to остаётся."
+   },
+   {
+    "id": "g18-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "enjoy",
+    "src": "Benny likes to cook.",
+    "task_ru": "Замени likes на enjoys.",
+    "a": [
+     "Benny enjoys cooking."
+    ],
+    "why": "После enjoy to нельзя — только -ing: cooking."
+   },
+   {
+    "id": "g18-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "like-ing",
+    "src": "Rex doesn't like skating.",
+    "task_ru": "Скажи сильнее: Рекс НЕНАВИДИТ кататься (hate).",
+    "a": [
+     "Rex hates skating.",
+     "Rex hates to skate."
+    ],
+    "why": "hates + skating; с he — hates с -s."
+   },
+   {
+    "id": "g18-035",
+    "t": "match",
+    "lv": 1,
+    "tag": "spelling",
+    "pairs": [
+     [
+      "play",
+      "playing"
+     ],
+     [
+      "make",
+      "making"
+     ],
+     [
+      "run",
+      "running"
+     ],
+     [
+      "swim",
+      "swimming"
+     ]
+    ],
+    "why": "play + ing, make без e, run и swim с удвоением."
+   },
+   {
+    "id": "g18-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "like-ing",
+    "say": "He likes skating.",
+    "o": [
+     "He likes skating.",
+     "He likes skate."
+    ],
+    "a": 0,
+    "why": "Прозвучало skating: likes + -ing."
+   },
+   {
+    "id": "g18-037",
+    "t": "listen",
+    "lv": 1,
+    "tag": "want-to",
+    "say": "She wants to dance.",
+    "o": [
+     "She wants to dance.",
+     "She wants dancing."
+    ],
+    "a": 0,
+    "why": "Прозвучало to dance: wants + to."
+   },
+   {
+    "id": "g18-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "like-ing",
+    "title": "Benny's hobbies",
+    "text": "Benny has a lot of hobbies. He loves ___ (cook) pancakes, but he often burns them. He enjoys ___ (draw) dinosaurs. He hates ___ (clean) his room. He likes ___ (swim) in the lake with Mia. And he wants ___ (learn) the guitar.",
+    "a": [
+     [
+      "cooking",
+      "to cook"
+     ],
+     [
+      "drawing"
+     ],
+     [
+      "cleaning",
+      "to clean"
+     ],
+     [
+      "swimming",
+      "to swim"
+     ],
+     [
+      "to learn"
+     ]
+    ],
+    "why": "love/hate/like + -ing, enjoy — только -ing, want — to + глагол."
+   },
+   {
+    "id": "g18-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "want-to",
+    "title": "Rex's dream",
+    "text": "Rex is a goalie, but he wants ___ (be) a famous DJ. He loves ___ (make) phonk music. His arms are tiny, so he enjoys ___ (play) the keyboard with his nose. Mia would like ___ (help) him. She says, \"Let's ___ (record) a song!\"",
+    "a": [
+     [
+      "to be"
+     ],
+     [
+      "making",
+      "to make"
+     ],
+     [
+      "playing"
+     ],
+     [
+      "to help"
+     ],
+     [
+      "record"
+     ]
+    ],
+    "why": "want и would like — с to, loves и enjoys — с -ing, после Let's — просто глагол."
+   },
+   {
+    "id": "g18-040",
+    "t": "chat",
+    "lv": 3,
+    "tag": "want-to",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "What do you want to do on Saturday?"
+     },
+     {
+      "who": "you",
+      "t": "I want ___ go to the rink."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! Do you like skating?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I love ___ (skate)!"
+     },
+     {
+      "who": "Mia",
+      "t": "Great! And after that?"
+     },
+     {
+      "who": "you",
+      "t": "After that I'd like ___ (eat) pizza."
+     }
+    ],
+    "a": [
+     [
+      "to"
+     ],
+     [
+      "skating",
+      "to skate"
+     ],
+     [
+      "to eat"
+     ]
+    ],
+    "why": "want и would like — с to, love — с -ing."
+   },
+   {
+    "id": "g18-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "like-ing",
+    "ru": "Я обожаю играть в Roblox.",
+    "a": [
+     "I love playing Roblox.",
+     "I love to play Roblox."
+    ],
+    "why": "love + playing; «играть в игру» — play без in."
+   },
+   {
+    "id": "g18-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "enjoy",
+    "ru": "Бенни любит читать комиксы. (enjoy)",
+    "a": [
+     "Benny enjoys reading comics."
+    ],
+    "why": "enjoy + reading, с he — enjoys."
+   },
+   {
+    "id": "g18-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "want-to",
+    "ru": "Я хочу стать вратарём.",
+    "a": [
+     "I want to be a goalie.",
+     "I want to become a goalie.",
+     "I want to be a goalkeeper.",
+     "I want to become a goalkeeper.",
+     "I want to be a goaltender.",
+     "I want to become a goaltender."
+    ],
+    "why": "После want — to + be."
+   },
+   {
+    "id": "g18-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "like-ing",
+    "say": "I love listening to phonk and playing hockey.",
+    "ru": "Я обожаю слушать фонк и играть в хоккей.",
+    "why": "После love оба глагола с -ing: listening, playing."
+   },
+   {
+    "id": "g18-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "like-ing",
+    "task_ru": "Напиши 3 предложения: что ты любишь делать, что ненавидишь и что хочешь сделать.",
+    "check_ru": [
+     "После like / love / hate / enjoy глагол с -ing?",
+     "После want / would like есть to?",
+     "Правильно написан -ing (running, making)?"
+    ],
+    "model": "I love playing hockey. I hate getting up early. I want to visit Canada.",
+    "why": "После love и hate ставь -ing, после want — to."
+   }
+  ]
+ },
+ {
+  "id": "g19",
+  "stage": "A2",
+  "title_ru": "Present Continuous: что происходит сейчас",
+  "goal_ru": "Сказать, что происходит прямо сейчас: Rex is blocking the puck.",
+  "prereq": [
+   "g01",
+   "g18"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Прямо сейчас: be + -ing",
+    "body_ru": "Что происходит в эту минуту: **am / is / are** + глагол с **-ing**. Без am/is/are нельзя: не «He playing», а «He **is** playing».",
+    "ex": [
+     [
+      "Rex is blocking the puck.",
+      "Рекс отбивает шайбу."
+     ],
+     [
+      "I am making a beat.",
+      "Я делаю бит."
+     ],
+     [
+      "They are singing.",
+      "Они поют."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Какой be выбрать",
+    "body_ru": "**I am** (I'm), **he / she / it is** (he's), **we / you / they are** (they're). Мия и Бенни = they → **are**.",
+    "ex": [
+     [
+      "Mia is skating.",
+      "Мия катается."
+     ],
+     [
+      "Mia and Benny are skating.",
+      "Мия и Бенни катаются."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как пишется -ing",
+    "body_ru": "Немое e убираем: write → writ**ing**. Удваиваем: swim → swi**mm**ing, sit → si**tt**ing. ie → y: lie → l**y**ing.",
+    "ex": [
+     [
+      "Benny is swimming.",
+      "Бенни плавает."
+     ],
+     [
+      "The dog is lying on the sofa.",
+      "Собака лежит на диване."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Сигналы «сейчас»",
+    "body_ru": "Слова-подсказки: **now**, **right now**, **at the moment**, а также **Look!** и **Listen!** — значит, действие идёт прямо сейчас.",
+    "ex": [
+     [
+      "Look! Rex is dancing!",
+      "Смотри! Рекс танцует!"
+     ],
+     [
+      "Listen! Mia is playing the guitar.",
+      "Послушай! Мия играет на гитаре."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He playing hockey now.",
+    "right": "He is playing hockey now.",
+    "why_ru": "Без is нельзя: is + playing."
+   },
+   {
+    "wrong": "I am play Roblox.",
+    "right": "I am playing Roblox.",
+    "why_ru": "После am глагол с -ing."
+   },
+   {
+    "wrong": "They is singing.",
+    "right": "They are singing.",
+    "why_ru": "С they — are."
+   },
+   {
+    "wrong": "She is writeing a song.",
+    "right": "She is writing a song.",
+    "why_ru": "write → writing: e убираем."
+   },
+   {
+    "wrong": "The dog is lieing on the sofa.",
+    "right": "The dog is lying on the sofa.",
+    "why_ru": "lie → lying: ie меняем на y."
+   }
+  ],
+  "tags": {
+   "be-form": {
+    "ru": "am / is / are",
+    "tip_ru": "I → am, he/she/it и один человек → is, we/you/they и двое → are.",
+    "back": "g01"
+   },
+   "ing-form": {
+    "ru": "be + глагол с -ing",
+    "tip_ru": "Нужны обе части: am/is/are И глагол с -ing. Не «is play», не «he playing»."
+   },
+   "spelling": {
+    "ru": "Как пишется -ing",
+    "tip_ru": "write → writing, swim → swimming, sit → sitting, lie → lying.",
+    "back": "g18"
+   },
+   "signals": {
+    "ru": "now, Look!, Listen!",
+    "tip_ru": "now, right now, at the moment, Look!, Listen! — подсказки, что действие идёт прямо сейчас."
+   }
+  },
+  "items": [
+   {
+    "id": "g19-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-form",
+    "q": "Rex ___ blocking the puck.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Рекс — это he, поэтому is blocking."
+   },
+   {
+    "id": "g19-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-form",
+    "q": "Mia and Benny ___ skating now.",
+    "o": [
+     "are",
+     "is"
+    ],
+    "a": 0,
+    "why": "Мия и Бенни — двое (they) → are."
+   },
+   {
+    "id": "g19-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-form",
+    "q": "I ___ making a new beat.",
+    "o": [
+     "am",
+     "is"
+    ],
+    "a": 0,
+    "why": "С I всегда am."
+   },
+   {
+    "id": "g19-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ing-form",
+    "q": "Benny is ___ pancakes.",
+    "o": [
+     "cooking",
+     "cook"
+    ],
+    "a": 0,
+    "why": "После is нужен глагол с -ing: cooking."
+   },
+   {
+    "id": "g19-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ing-form",
+    "q": "Listen! Mia ___ the guitar.",
+    "o": [
+     "is playing",
+     "playing"
+    ],
+    "a": 0,
+    "why": "Без is нельзя: is playing."
+   },
+   {
+    "id": "g19-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spelling",
+    "q": "Look! Rex is ___ in the pool.",
+    "o": [
+     "swimming",
+     "swiming"
+    ],
+    "a": 0,
+    "why": "swim → swimming: удваиваем m."
+   },
+   {
+    "id": "g19-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "spelling",
+    "q": "Mia is ___ a song for her band.",
+    "o": [
+     "writing",
+     "writeing"
+    ],
+    "a": 0,
+    "why": "write → writing: немое e убираем."
+   },
+   {
+    "id": "g19-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "signals",
+    "q": "Coach Walt is talking to the team ___.",
+    "o": [
+     "at the moment",
+     "every Monday"
+    ],
+    "a": 0,
+    "why": "is talking — это происходит сейчас: at the moment."
+   },
+   {
+    "id": "g19-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "signals",
+    "q": "___! Someone is singing in the locker room.",
+    "o": [
+     "Listen",
+     "Every day"
+    ],
+    "a": 0,
+    "why": "Listen! — сигнал, что поют прямо сейчас."
+   },
+   {
+    "id": "g19-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "be-form",
+    "q": "We ___ watching a hockey game on YouTube.",
+    "o": [
+     "are",
+     "is",
+     "am",
+     "be"
+    ],
+    "a": 0,
+    "why": "С we — are."
+   },
+   {
+    "id": "g19-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "ing-form",
+    "q": "My little sister ___ a dinosaur.",
+    "o": [
+     "is drawing",
+     "drawing",
+     "is draw",
+     "are drawing"
+    ],
+    "a": 0,
+    "why": "Сестра = she → is + drawing."
+   },
+   {
+    "id": "g19-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "The dog ___ on Benny's bed.",
+    "o": [
+     "is lying",
+     "is lieing",
+     "is liing"
+    ],
+    "a": 0,
+    "why": "lie → lying: ie меняем на y."
+   },
+   {
+    "id": "g19-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-form",
+    "q": "They ___ (be) practicing on the ice.",
+    "a": [
+     "are"
+    ],
+    "why": "С they — are."
+   },
+   {
+    "id": "g19-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "be-form",
+    "q": "I ___ (be) listening to phonk right now.",
+    "a": [
+     "am"
+    ],
+    "why": "С I — am."
+   },
+   {
+    "id": "g19-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ing-form",
+    "q": "Rex is ___ (eat) ten pancakes.",
+    "a": [
+     "eating"
+    ],
+    "why": "После is — глагол с -ing: eating."
+   },
+   {
+    "id": "g19-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ing-form",
+    "q": "Mr Parker ___ (wash) the car.",
+    "a": [
+     "is washing"
+    ],
+    "why": "Мистер Паркер — это he, поэтому is washing."
+   },
+   {
+    "id": "g19-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Benny is ___ (run) to the bus stop.",
+    "a": [
+     "running"
+    ],
+    "why": "run → running: удваиваем n."
+   },
+   {
+    "id": "g19-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Mia is ___ (sit) next to Coach Walt.",
+    "a": [
+     "sitting"
+    ],
+    "why": "sit → sitting: удваиваем t."
+   },
+   {
+    "id": "g19-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "spelling",
+    "q": "Rex is ___ (smile) at the camera.",
+    "a": [
+     "smiling"
+    ],
+    "why": "smile → smiling: немое e убираем."
+   },
+   {
+    "id": "g19-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "signals",
+    "q": "___ (Смотри)! Benny is dancing on the table!",
+    "a": [
+     "Look"
+    ],
+    "why": "«Смотри!» = Look! — сигнал, что это происходит сейчас."
+   },
+   {
+    "id": "g19-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "be-form",
+    "s": "Mia and Rex is playing Brawl Stars.",
+    "bad": 3,
+    "fix": "are",
+    "why": "Мия и Рекс — двое → are."
+   },
+   {
+    "id": "g19-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "ing-form",
+    "s": "Benny is make a sandwich.",
+    "bad": 2,
+    "fix": "making",
+    "why": "После is нужен -ing: making."
+   },
+   {
+    "id": "g19-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "be-form",
+    "s": "I is wearing my new jersey.",
+    "bad": 1,
+    "fix": "am",
+    "why": "С I — am."
+   },
+   {
+    "id": "g19-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "spelling",
+    "s": "The kids are swiming in the lake.",
+    "bad": 3,
+    "fix": "swimming",
+    "why": "swim → swimming: двойная m."
+   },
+   {
+    "id": "g19-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "ing-form",
+    "s": "Look! Coach Walt is eats a fish.",
+    "bad": 4,
+    "fix": "eating",
+    "why": "После is нужен -ing, а не -s: eating."
+   },
+   {
+    "id": "g19-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "spelling",
+    "s": "Coach Walt is lieing on the beach.",
+    "bad": 3,
+    "fix": "lying",
+    "why": "lie → lying: ie меняем на y."
+   },
+   {
+    "id": "g19-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "be-form",
+    "a": "We are watching a funny video.",
+    "ru": "Мы смотрим смешное видео.",
+    "extra": [
+     "is"
+    ],
+    "why": "С we — are + watching."
+   },
+   {
+    "id": "g19-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "ing-form",
+    "a": "Rex is blocking every shot.",
+    "ru": "Рекс отбивает каждый бросок.",
+    "extra": [
+     "blocks"
+    ],
+    "why": "Прямо сейчас: is + blocking."
+   },
+   {
+    "id": "g19-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "ing-form",
+    "a": "My friends are playing Roblox.",
+    "ru": "Мои друзья (сейчас) играют в Roblox.",
+    "extra": [
+     "play"
+    ],
+    "why": "Друзья — это they, поэтому are playing."
+   },
+   {
+    "id": "g19-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "spelling",
+    "a": "Benny is writing a letter to Rex.",
+    "ru": "Бенни пишет письмо Рексу.",
+    "extra": [
+     "writeing"
+    ],
+    "why": "write → writing: e убираем."
+   },
+   {
+    "id": "g19-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "signals",
+    "a": "Listen! The baby is crying.",
+    "ru": "Послушай! Малыш плачет.",
+    "extra": [
+     "cries"
+    ],
+    "why": "Listen! — значит, прямо сейчас: is crying."
+   },
+   {
+    "id": "g19-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "be-form",
+    "src": "I am skating.",
+    "task_ru": "Замени I на Mia.",
+    "a": [
+     "Mia is skating."
+    ],
+    "why": "Мия — это she, поэтому am меняем на is."
+   },
+   {
+    "id": "g19-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "ing-form",
+    "src": "Rex / play / the drums",
+    "task_ru": "Составь предложение: что Рекс делает прямо сейчас.",
+    "a": [
+     "Rex is playing the drums."
+    ],
+    "why": "Рекс — это he, поэтому is playing."
+   },
+   {
+    "id": "g19-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "be-form",
+    "src": "Benny is reading a comic.",
+    "task_ru": "Замени Benny на Benny and Mia.",
+    "a": [
+     "Benny and Mia are reading a comic.",
+     "Benny and Mia are reading comics."
+    ],
+    "why": "Бенни и Мия — двое → are."
+   },
+   {
+    "id": "g19-035",
+    "t": "match",
+    "lv": 1,
+    "tag": "spelling",
+    "pairs": [
+     [
+      "swim",
+      "swimming"
+     ],
+     [
+      "write",
+      "writing"
+     ],
+     [
+      "lie",
+      "lying"
+     ],
+     [
+      "play",
+      "playing"
+     ]
+    ],
+    "why": "swim — удвоение, write — без e, lie — ie на y, play — просто + ing."
+   },
+   {
+    "id": "g19-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "be-form",
+    "say": "They're singing.",
+    "o": [
+     "They're singing.",
+     "He's singing."
+    ],
+    "a": 0,
+    "why": "Прозвучало they're = they are — поют они."
+   },
+   {
+    "id": "g19-037",
+    "t": "listen",
+    "lv": 1,
+    "tag": "ing-form",
+    "say": "Benny is cooking.",
+    "o": [
+     "Benny is cooking.",
+     "Benny cooking."
+    ],
+    "a": 0,
+    "why": "Прозвучало is: is cooking."
+   },
+   {
+    "id": "g19-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "ing-form",
+    "title": "At the rink right now",
+    "text": "It's six o'clock. The team ___ (practice) at the rink. Coach Walt ___ (blow) his whistle. Mia ___ (skate) very fast. Benny ___ (lie) on the ice again. And Rex? Rex ___ (eat) a sandwich in the goal!",
+    "a": [
+     [
+      "is practicing",
+      "are practicing",
+      "is practising",
+      "are practising"
+     ],
+     [
+      "is blowing"
+     ],
+     [
+      "is skating"
+     ],
+     [
+      "is lying"
+     ],
+     [
+      "is eating"
+     ]
+    ],
+    "why": "Каждый раз нужны is/are и глагол с -ing; lie → lying."
+   },
+   {
+    "id": "g19-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "be-form",
+    "title": "Benny's message",
+    "text": "Hi Rex! I'm at home now. Mrs Parker ___ (make) dinner. Mr Parker and Mia ___ (watch) a hockey game. Listen! The dog ___ (bark) at the TV. And I ___ (write) to you from my bed!",
+    "a": [
+     [
+      "is making"
+     ],
+     [
+      "are watching"
+     ],
+     [
+      "is barking"
+     ],
+     [
+      "am writing"
+     ]
+    ],
+    "why": "Один человек или собака → is, двое → are, I → am."
+   },
+   {
+    "id": "g19-040",
+    "t": "chat",
+    "lv": 3,
+    "tag": "ing-form",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hey, where are you?"
+     },
+     {
+      "who": "you",
+      "t": "I'm at the park. I ___ (walk) the dog."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool. I'm bored at home."
+     },
+     {
+      "who": "you",
+      "t": "Come here! Rex ___ (do) funny tricks on his skateboard."
+     },
+     {
+      "who": "Mia",
+      "t": "Really?"
+     },
+     {
+      "who": "you",
+      "t": "Yes! Look, I ___ (send) you a video right now."
+     }
+    ],
+    "a": [
+     [
+      "am walking"
+     ],
+     [
+      "is doing"
+     ],
+     [
+      "am sending"
+     ]
+    ],
+    "why": "С I ставим am, с Рексом — is, и глагол с -ing."
+   },
+   {
+    "id": "g19-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "be-form",
+    "ru": "Мы сейчас играем в хоккей.",
+    "a": [
+     "We are playing hockey now.",
+     "We're playing hockey now.",
+     "We are playing hockey right now.",
+     "We're playing hockey right now.",
+     "Now we are playing hockey.",
+     "Now we're playing hockey.",
+     "Right now we are playing hockey.",
+     "Right now we're playing hockey."
+    ],
+    "why": "С we — are + playing."
+   },
+   {
+    "id": "g19-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "signals",
+    "ru": "Смотри! Рекс танцует!",
+    "a": [
+     "Look! Rex is dancing!",
+     "Look, Rex is dancing!"
+    ],
+    "why": "Look! — сигнал «сейчас»: is dancing."
+   },
+   {
+    "id": "g19-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "spelling",
+    "ru": "Бенни бежит к автобусу.",
+    "a": [
+     "Benny is running to the bus.",
+     "Benny is running for the bus."
+    ],
+    "why": "run → running: удваиваем n."
+   },
+   {
+    "id": "g19-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "signals",
+    "say": "Look! Mia is scoring a goal!",
+    "ru": "Смотри! Мия забивает гол!",
+    "why": "Look! — действие идёт сейчас: is scoring."
+   },
+   {
+    "id": "g19-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "ing-form",
+    "task_ru": "Напиши 3 предложения о том, что люди вокруг тебя делают прямо сейчас.",
+    "check_ru": [
+     "Есть am / is / are перед глаголом?",
+     "У глагола есть -ing?",
+     "Правильно написан -ing (sitting, writing)?"
+    ],
+    "model": "My mom is cooking dinner. My cat is sleeping on the sofa. I am writing in English.",
+    "why": "Present Continuous: am/is/are + глагол с -ing."
+   }
+  ]
+ },
+ {
+  "id": "g20",
+  "stage": "A2",
+  "title_ru": "Present Continuous: отрицание и вопросы",
+  "goal_ru": "Спросить: What are you doing? — I'm not watching, I'm playing.",
+  "prereq": [
+   "g19",
+   "g02"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Не делаю сейчас",
+    "body_ru": "**not** ставим после am/is/are: I'**m not** watching. He **isn't** sleeping. They **aren't** playing. Do/don't здесь не нужны!",
+    "ex": [
+     [
+      "I'm not watching, I'm playing.",
+      "Я не смотрю, я играю."
+     ],
+     [
+      "Rex isn't sleeping.",
+      "Рекс не спит."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопрос: be вперёд",
+    "body_ru": "Чтобы спросить, ставим **Am / Is / Are** перед подлежащим: **Are** you playing? **Is** Mia skating?",
+    "ex": [
+     [
+      "Are you listening?",
+      "Ты слушаешь?"
+     ],
+     [
+      "Is Benny cooking again?",
+      "Бенни опять готовит?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Короткие ответы",
+    "body_ru": "Отвечаем тем же глаголом: Yes, I **am**. / No, I'm **not**. Yes, he **is**. / No, he **isn't**. В «да» не сокращаем: Yes, he **is** (не Yes, he's).",
+    "ex": [
+     [
+      "Are you skating? — Yes, I am.",
+      "Ты катаешься? — Да."
+     ],
+     [
+      "Is Rex eating? — No, he isn't.",
+      "Рекс ест? — Нет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "What are you doing?",
+    "body_ru": "Вопросительное слово + **am/is/are** + подлежащее + **-ing**: **What are** you doing? **Where is** Benny going? Если who — подлежащее: **Who is** singing?",
+    "ex": [
+     [
+      "What are you doing?",
+      "Что ты делаешь?"
+     ],
+     [
+      "Where is Mia going?",
+      "Куда идёт Мия?"
+     ],
+     [
+      "Who is singing?",
+      "Кто поёт?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He not playing.",
+    "right": "He isn't playing.",
+    "why_ru": "Нужно is + not: isn't playing."
+   },
+   {
+    "wrong": "You are playing Roblox?",
+    "right": "Are you playing Roblox?",
+    "why_ru": "В вопросе are встаёт перед you."
+   },
+   {
+    "wrong": "What you are doing?",
+    "right": "What are you doing?",
+    "why_ru": "После what сначала are, потом you."
+   },
+   {
+    "wrong": "Yes, I'm.",
+    "right": "Yes, I am.",
+    "why_ru": "В коротком «да» не сокращаем: Yes, I am."
+   },
+   {
+    "wrong": "Do you playing?",
+    "right": "Are you playing?",
+    "why_ru": "С -ing вопрос строим с are, а не do."
+   }
+  ],
+  "tags": {
+   "negative": {
+    "ru": "isn't / aren't + -ing",
+    "tip_ru": "not идёт после am/is/are: I'm not, he isn't, they aren't + глагол с -ing.",
+    "back": "g02"
+   },
+   "yes-no": {
+    "ru": "Are you ...ing?",
+    "tip_ru": "Вопрос: Am/Is/Are + кто + глагол с -ing. Do/does здесь не нужны.",
+    "back": "g19"
+   },
+   "short": {
+    "ru": "Yes, I am / No, he isn't",
+    "tip_ru": "Отвечай тем же глаголом: Is he...? — Yes, he is / No, he isn't. В «да» не сокращай.",
+    "back": "g02"
+   },
+   "wh": {
+    "ru": "What are you doing?",
+    "tip_ru": "What / Where / Why + am/is/are + кто + -ing. Who как подлежащее: Who is singing?",
+    "back": "g13"
+   }
+  },
+  "items": [
+   {
+    "id": "g20-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "negative",
+    "q": "Benny ___ sleeping. He is playing Roblox.",
+    "o": [
+     "isn't",
+     "aren't"
+    ],
+    "a": 0,
+    "why": "Бенни — это he, поэтому isn't."
+   },
+   {
+    "id": "g20-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "negative",
+    "q": "We ___ watching TV. We are reading comics.",
+    "o": [
+     "aren't",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "С we — aren't."
+   },
+   {
+    "id": "g20-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "negative",
+    "q": "I ___ playing now. I'm doing my homework.",
+    "o": [
+     "am not",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "С I — am not."
+   },
+   {
+    "id": "g20-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "yes-no",
+    "q": "___ you listening to me, Rex?",
+    "o": [
+     "Are",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Вопрос с -ing начинается с are, а не do."
+   },
+   {
+    "id": "g20-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "yes-no",
+    "q": "Is Mia ___ a new song?",
+    "o": [
+     "writing",
+     "write"
+    ],
+    "a": 0,
+    "why": "Is + Mia + глагол с -ing: writing."
+   },
+   {
+    "id": "g20-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Is Coach Walt eating fish? — Yes, he ___.",
+    "o": [
+     "is",
+     "does"
+    ],
+    "a": 0,
+    "why": "Вопрос с is → ответ Yes, he is."
+   },
+   {
+    "id": "g20-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "short",
+    "q": "Are the boys playing hockey? — No, they ___.",
+    "o": [
+     "aren't",
+     "don't"
+    ],
+    "a": 0,
+    "why": "Вопрос с are → No, they aren't."
+   },
+   {
+    "id": "g20-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "wh",
+    "q": "What ___ you watching?",
+    "o": [
+     "are",
+     "do"
+    ],
+    "a": 0,
+    "why": "После what идёт are, потом you и глагол с -ing."
+   },
+   {
+    "id": "g20-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "wh",
+    "q": "Where ___ Benny going?",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Бенни — это he, поэтому Where is."
+   },
+   {
+    "id": "g20-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "yes-no",
+    "q": "___ Rex blocking the shots?",
+    "o": [
+     "Is",
+     "Are",
+     "Does",
+     "Do"
+    ],
+    "a": 0,
+    "why": "Rex = he, и есть -ing → Is."
+   },
+   {
+    "id": "g20-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "wh",
+    "q": "Who ___ in the locker room?",
+    "o": [
+     "is singing",
+     "are sing",
+     "singing",
+     "does singing"
+    ],
+    "a": 0,
+    "why": "Who — подлежащее → is + singing."
+   },
+   {
+    "id": "g20-012",
+    "t": "mc",
+    "lv": 2,
+    "tag": "short",
+    "q": "Are you watching the game? — Yes, ___.",
+    "o": [
+     "I am",
+     "I'm",
+     "I do",
+     "you are"
+    ],
+    "a": 0,
+    "why": "Короткое «да» не сокращаем: Yes, I am."
+   },
+   {
+    "id": "g20-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "negative",
+    "q": "Mia ___ (not / skate) today. She has a cold.",
+    "a": [
+     "isn't skating"
+    ],
+    "why": "Мия — это she, поэтому isn't skating."
+   },
+   {
+    "id": "g20-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "negative",
+    "q": "The kids ___ (not / listen) to music.",
+    "a": [
+     "aren't listening"
+    ],
+    "why": "Дети — это they, поэтому aren't listening."
+   },
+   {
+    "id": "g20-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "yes-no",
+    "q": "___ (be) Benny cooking again?",
+    "a": [
+     "Is"
+    ],
+    "why": "Вопрос про Бенни (he) начинается с Is."
+   },
+   {
+    "id": "g20-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "yes-no",
+    "q": "___ you wearing my jersey?",
+    "a": [
+     "Are"
+    ],
+    "why": "Вопрос с you и -ing начинается с Are."
+   },
+   {
+    "id": "g20-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short",
+    "q": "Is it snowing? — No, it ___.",
+    "a": [
+     "isn't"
+    ],
+    "why": "Спросили с is — отвечаем No, it isn't."
+   },
+   {
+    "id": "g20-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "short",
+    "q": "Are you and Mia playing Roblox? — Yes, we ___.",
+    "a": [
+     "are"
+    ],
+    "why": "«Ты и Мия» → отвечаем Yes, we are."
+   },
+   {
+    "id": "g20-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh",
+    "q": "What ___ Benny cooking?",
+    "a": [
+     "is"
+    ],
+    "why": "Бенни — это he, поэтому What is."
+   },
+   {
+    "id": "g20-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "wh",
+    "q": "Why ___ you laughing?",
+    "a": [
+     "are"
+    ],
+    "why": "После why идёт are, потом you и глагол с -ing."
+   },
+   {
+    "id": "g20-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "negative",
+    "s": "Rex not sleeping. He is watching a movie.",
+    "bad": 1,
+    "fix": "isn't",
+    "why": "Нужно isn't (is + not), одного not мало."
+   },
+   {
+    "id": "g20-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "yes-no",
+    "s": "Do you playing Roblox now?",
+    "bad": 0,
+    "fix": "Are",
+    "why": "С -ing вопрос начинается с Are, а не Do."
+   },
+   {
+    "id": "g20-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "short",
+    "s": "Are they training? — Yes, they do.",
+    "bad": 6,
+    "fix": "are",
+    "why": "Вопрос с are → короткий ответ Yes, they are."
+   },
+   {
+    "id": "g20-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "wh",
+    "s": "Where are your dad going?",
+    "bad": 1,
+    "fix": "is",
+    "why": "Папа — это he, поэтому Where is."
+   },
+   {
+    "id": "g20-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "negative",
+    "s": "My parents isn't watching the game.",
+    "bad": 2,
+    "fix": "aren't",
+    "why": "Родители — это they, поэтому aren't."
+   },
+   {
+    "id": "g20-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "wh",
+    "s": "Who are singing in the shower?",
+    "bad": 1,
+    "fix": "is",
+    "why": "Who — подлежащее, после него is: Who is singing?"
+   },
+   {
+    "id": "g20-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "negative",
+    "a": "I am not watching this video.",
+    "ru": "Я не смотрю это видео.",
+    "extra": [
+     "don't"
+    ],
+    "why": "Отрицание: am not + watching, don't не нужен."
+   },
+   {
+    "id": "g20-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "negative",
+    "a": "They aren't listening to the coach.",
+    "ru": "Они не слушают тренера.",
+    "extra": [
+     "don't"
+    ],
+    "why": "С they отрицание — aren't listening."
+   },
+   {
+    "id": "g20-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "yes-no",
+    "a": "Is Rex wearing his helmet?",
+    "ru": "Рекс сейчас в шлеме?",
+    "extra": [
+     "Does"
+    ],
+    "why": "Вопрос: Is + Rex + wearing."
+   },
+   {
+    "id": "g20-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh",
+    "a": "What are you doing?",
+    "ru": "Что ты делаешь?",
+    "extra": [
+     "do"
+    ],
+    "why": "Порядок: What, потом are, потом you doing."
+   },
+   {
+    "id": "g20-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "wh",
+    "a": "Where is Mia going?",
+    "ru": "Куда идёт Мия?",
+    "extra": [
+     "does"
+    ],
+    "why": "Порядок: Where, потом is, потом Mia going."
+   },
+   {
+    "id": "g20-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "negative",
+    "src": "Benny is skating.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Benny isn't skating."
+    ],
+    "why": "not ставим после is: isn't skating."
+   },
+   {
+    "id": "g20-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "yes-no",
+    "src": "Mia is playing Brawl Stars.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Is Mia playing Brawl Stars?"
+    ],
+    "why": "is переносим в начало: Is Mia playing...?"
+   },
+   {
+    "id": "g20-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "wh",
+    "src": "Rex is eating something.",
+    "task_ru": "Спроси, что ест Рекс (What).",
+    "a": [
+     "What is Rex eating?",
+     "What's Rex eating?"
+    ],
+    "why": "What + is + Rex + eating, something убираем."
+   },
+   {
+    "id": "g20-035",
+    "t": "tr",
+    "lv": 3,
+    "tag": "short",
+    "src": "Are you doing your homework?",
+    "task_ru": "Ответь коротко «нет».",
+    "a": [
+     "No, I'm not."
+    ],
+    "why": "На Are you...? отвечаем No, I'm not."
+   },
+   {
+    "id": "g20-036",
+    "t": "match",
+    "lv": 1,
+    "tag": "short",
+    "pairs": [
+     [
+      "Are you skating?",
+      "Yes, I am."
+     ],
+     [
+      "Is Rex sleeping?",
+      "No, he isn't."
+     ],
+     [
+      "Are they singing?",
+      "Yes, they are."
+     ],
+     [
+      "Is Mia cooking?",
+      "No, she isn't."
+     ]
+    ],
+    "why": "Отвечаем тем же глаголом и тем же лицом: you → I am, Rex → he isn't."
+   },
+   {
+    "id": "g20-037",
+    "t": "listen",
+    "lv": 1,
+    "tag": "negative",
+    "say": "Coach Walt isn't smiling.",
+    "o": [
+     "Coach Walt is smiling.",
+     "Coach Walt isn't smiling."
+    ],
+    "a": 1,
+    "why": "Прозвучало isn't — тренер НЕ улыбается."
+   },
+   {
+    "id": "g20-038",
+    "t": "listen",
+    "lv": 1,
+    "tag": "yes-no",
+    "say": "Are they playing?",
+    "o": [
+     "They are playing.",
+     "Are they playing?"
+    ],
+    "a": 1,
+    "why": "Are стоит первым — это вопрос."
+   },
+   {
+    "id": "g20-039",
+    "t": "text",
+    "lv": 3,
+    "tag": "negative",
+    "title": "A crazy Saturday",
+    "text": "It's Saturday morning at the Parkers' house. Mr Parker ___ (not / sleep). He is making pancakes. Mia ___ (not / do) her homework. She is playing Brawl Stars. Benny is in the kitchen, but he ___ (not / help). He ___ (eat) all the pancakes! And the dog ___ (not / sit) on its bed. It is sitting on Benny's comics!",
+    "a": [
+     [
+      "isn't sleeping"
+     ],
+     [
+      "isn't doing"
+     ],
+     [
+      "isn't helping"
+     ],
+     [
+      "is eating"
+     ],
+     [
+      "isn't sitting"
+     ]
+    ],
+    "why": "Отрицание — isn't + -ing, утверждение — is + -ing."
+   },
+   {
+    "id": "g20-040",
+    "t": "text",
+    "lv": 3,
+    "tag": "wh",
+    "title": "Phone call",
+    "text": "Mrs Parker: Hi, Mia! What ___ you doing? Mia: I'm at the rink. Mrs Parker: ___ Benny skating with you? Mia: No, he ___. He is eating hot dogs. Mrs Parker: And what ___ Rex doing? Mia: He ___ (stand) in the goal with a hot dog in his tiny arms!",
+    "a": [
+     [
+      "are"
+     ],
+     [
+      "Is"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "is"
+     ],
+     [
+      "is standing"
+     ]
+    ],
+    "why": "В вопросе is/are стоит перед подлежащим, а в коротком ответе повторяем тот же глагол."
+   },
+   {
+    "id": "g20-041",
+    "t": "chat",
+    "lv": 3,
+    "tag": "short",
+    "lines": [
+     {
+      "who": "Rex",
+      "t": "Hey! What are you doing?"
+     },
+     {
+      "who": "you",
+      "t": "I'm ___ (watch) the game on TV."
+     },
+     {
+      "who": "Rex",
+      "t": "Me too! Is Mia playing tonight?"
+     },
+     {
+      "who": "you",
+      "t": "No, she ___. She is sick."
+     },
+     {
+      "who": "Rex",
+      "t": "Oh no! Are the Bears winning?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, they ___! It's 3-1!"
+     }
+    ],
+    "a": [
+     [
+      "watching"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "are"
+     ]
+    ],
+    "why": "Отвечаем тем же глаголом: Is Mia...? — she isn't, Are the Bears...? — they are."
+   },
+   {
+    "id": "g20-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "negative",
+    "ru": "Я не сплю, я играю.",
+    "a": [
+     "I'm not sleeping, I'm playing.",
+     "I'm not sleeping, I am playing."
+    ],
+    "why": "Отрицание — I'm not sleeping, утверждение — I'm playing."
+   },
+   {
+    "id": "g20-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "yes-no",
+    "ru": "Ты меня слушаешь?",
+    "a": [
+     "Are you listening to me?"
+    ],
+    "why": "Вопрос: Are + you + listening; listen to me."
+   },
+   {
+    "id": "g20-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "wh",
+    "ru": "Почему Рекс плачет?",
+    "a": [
+     "Why is Rex crying?"
+    ],
+    "why": "После why идёт is, потом Rex и crying."
+   },
+   {
+    "id": "g20-045",
+    "t": "speak",
+    "lv": 3,
+    "tag": "wh",
+    "say": "Where are you going after practice?",
+    "ru": "Куда ты идёшь после тренировки?",
+    "why": "После where идёт are, потом you и going."
+   },
+   {
+    "id": "g20-046",
+    "t": "write",
+    "lv": 3,
+    "tag": "negative",
+    "task_ru": "Напиши 2 предложения о том, что ты сейчас НЕ делаешь, и задай другу один вопрос о том, что делает он.",
+    "check_ru": [
+     "После I стоит am not, после he/she — isn't?",
+     "В вопросе am / is / are стоит перед подлежащим?",
+     "У глагола есть -ing?"
+    ],
+    "model": "I'm not playing hockey now. I'm not watching YouTube. What are you doing, Max?",
+    "why": "Отрицание: am not / isn't + -ing; вопрос: What are you doing?"
+   }
+  ]
+ }
+]

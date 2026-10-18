@@ -1,0 +1,3653 @@
+[
+ {
+  "id": "g31",
+  "stage": "A2",
+  "title_ru": "Сравнение: faster, the fastest",
+  "goal_ru": "Сравнить игроков, команды и вещи.",
+  "prereq": [
+   "g01"
+  ],
+  "spotlight": [
+   "1d"
+  ],
+  "cards": [
+   {
+    "title_ru": "Короткие слова: -er и -est",
+    "body_ru": "Слово из одного слога: **-er** = «более», **the -est** = «самый». fast → **faster** → **the fastest**. Кончается на -e — добавь только -r / -st: nice → nicer. Гласная + согласная в конце — удвой букву: big → **bigger**, hot → **hotter**. На -y — меняем на i: easy → **easier**, funny → **the funniest**.",
+    "ex": [
+     [
+      "A puck is smaller than a ball.",
+      "Шайба меньше мяча."
+     ],
+     [
+      "Rex is the tallest goalie on the team.",
+      "Рекс — самый высокий вратарь в команде."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Длинные слова: more и the most",
+    "body_ru": "Слова из двух и больше слогов (famous, exciting, difficult, popular) не меняются, перед ними ставим **more** или **the most**: more famous, the most exciting. Важно: -er и more вместе не бывают — **more faster** нельзя. Слова на -y (easy, happy, funny) — исключение: easier, happier.",
+    "ex": [
+     [
+      "Phonk is more popular than jazz at my school.",
+      "У нас в школе фонк популярнее джаза."
+     ],
+     [
+      "This is the most difficult level in the game.",
+      "Это самый сложный уровень в игре."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Исключения: good, bad, far",
+    "body_ru": "Эти слова надо запомнить: **good → better → the best**, **bad → worse → the worst**, **far → farther → the farthest** (можно и further). Слов gooder, goodest, badder не бывает.",
+    "ex": [
+     [
+      "Your stick is better than mine.",
+      "Твоя клюшка лучше моей."
+     ],
+     [
+      "Benny is the worst cook in the house.",
+      "Бенни — худший повар в доме."
+     ]
+    ]
+   },
+   {
+    "title_ru": "than, the и as … as",
+    "body_ru": "Сравниваешь двоих — после слова ставь **than** (не then!): taller **than** me. Самый из всех — **the** + -est / most, а дальше **in**: the fastest **in** the world, in my class (про команду американцы говорят **on** the team). Одинаково — **as** + обычное слово + **as**: as tall as Mia. Не такой — **not as … as**.",
+    "ex": [
+     [
+      "Benny is as big as a fridge.",
+      "Бенни размером с холодильник."
+     ],
+     [
+      "My brother isn't as tall as me.",
+      "Мой брат не такой высокий, как я."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "Rex is more faster than Benny.",
+    "right": "Rex is faster than Benny.",
+    "why_ru": "Либо -er, либо more — вместе нельзя."
+   },
+   {
+    "wrong": "Mia is taller then me.",
+    "right": "Mia is taller than me.",
+    "why_ru": "«Чем» — это than, а then значит «потом»."
+   },
+   {
+    "wrong": "This is the most good game.",
+    "right": "This is the best game.",
+    "why_ru": "У good своя форма: better, the best."
+   },
+   {
+    "wrong": "He is the tallest boy of our class.",
+    "right": "He is the tallest boy in our class.",
+    "why_ru": "После «самый» перед местом или группой ставим in."
+   },
+   {
+    "wrong": "Benny is as big like a fridge.",
+    "right": "Benny is as big as a fridge.",
+    "why_ru": "Конструкция as … as — оба раза as."
+   }
+  ],
+  "tags": {
+   "er-est": {
+    "ru": "-er / -est у коротких слов",
+    "tip_ru": "Короткие слова (один слог) получают -er и -est: fast – faster – the fastest. Помни правописание: big → bigger, nice → nicer, easy → easier."
+   },
+   "more-most": {
+    "ru": "more / the most у длинных слов",
+    "tip_ru": "Длинные слова не меняются, перед ними ставим more или the most: more famous, the most exciting. Никогда не ставь more и -er вместе: не more faster."
+   },
+   "irregular": {
+    "ru": "good – better – best и другие исключения",
+    "tip_ru": "Эти формы надо запомнить: good – better – the best, bad – worse – the worst, far – farther – the farthest. Слов gooder и baddest нет."
+   },
+   "than-the": {
+    "ru": "than и the в сравнении",
+    "tip_ru": "Сравниваешь двоих — than: taller than Rex. Самый из всех — the: the tallest in my class. После «самого» место — in (in the city, in the world).",
+    "back": "g05"
+   },
+   "as-as": {
+    "ru": "as … as / not as … as",
+    "tip_ru": "as + обычное слово + as = такой же, как: as fast as Mia. not as … as = не такой, как. Внутри as … as слово не меняется: не as faster as."
+   }
+  },
+  "items": [
+   {
+    "id": "g31-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "er-est",
+    "q": "My dog is ___ than my cat.",
+    "o": [
+     "faster",
+     "more fast"
+    ],
+    "a": 0,
+    "why": "Fast — короткое слово, поэтому -er: faster."
+   },
+   {
+    "id": "g31-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "more-most",
+    "q": "This game is ___ than Roblox.",
+    "o": [
+     "more exciting",
+     "excitinger"
+    ],
+    "a": 0,
+    "why": "Exciting — длинное слово, поэтому more exciting."
+   },
+   {
+    "id": "g31-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "My new stick is ___ than my old one.",
+    "o": [
+     "better",
+     "gooder"
+    ],
+    "a": 0,
+    "why": "Good в сравнении превращается в better."
+   },
+   {
+    "id": "g31-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "than-the",
+    "q": "Rex is bigger ___ Benny.",
+    "o": [
+     "than",
+     "then"
+    ],
+    "a": 0,
+    "why": "«Чем» в сравнении — than, а then значит «потом»."
+   },
+   {
+    "id": "g31-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "as-as",
+    "q": "Benny is as strong ___ his dad.",
+    "o": [
+     "as",
+     "than"
+    ],
+    "a": 0,
+    "why": "В конструкции as … as второе слово тоже as."
+   },
+   {
+    "id": "g31-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "er-est",
+    "q": "Today is ___ than yesterday.",
+    "o": [
+     "hotter",
+     "hoter"
+    ],
+    "a": 0,
+    "why": "Hot: гласная + согласная на конце, поэтому удваиваем t: hotter."
+   },
+   {
+    "id": "g31-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "That was the ___ game of the season. We lost 9-0!",
+    "o": [
+     "worst",
+     "baddest"
+    ],
+    "a": 0,
+    "why": "Bad → worse → the worst."
+   },
+   {
+    "id": "g31-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "than-the",
+    "q": "Coach Walt is ___ beaver in Canada.",
+    "o": [
+     "the funniest",
+     "funniest",
+     "the funnier",
+     "funnier"
+    ],
+    "a": 0,
+    "why": "Самый из всех — the + -est, а funny меняет y на i: the funniest."
+   },
+   {
+    "id": "g31-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "more-most",
+    "q": "Brawl Stars is ___ game at my school.",
+    "o": [
+     "the most popular",
+     "the popularest",
+     "more popular",
+     "most popular"
+    ],
+    "a": 0,
+    "why": "Popular — длинное слово, «самый» = the most popular."
+   },
+   {
+    "id": "g31-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "as-as",
+    "q": "My sister is not ___ me.",
+    "o": [
+     "as tall as",
+     "as taller as",
+     "tall as"
+    ],
+    "a": 0,
+    "why": "Not as + обычная форма слова + as: not as tall as."
+   },
+   {
+    "id": "g31-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "er-est",
+    "say": "Benny is bigger than Rex.",
+    "o": [
+     "Benny is bigger than Rex.",
+     "Benny is as big as Rex."
+    ],
+    "a": 0,
+    "why": "Ты услышал bigger than — Бенни больше, чем Рекс."
+   },
+   {
+    "id": "g31-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "as-as",
+    "say": "My phone is not as old as yours.",
+    "o": [
+     "My phone is not as old as yours.",
+     "My phone is older than yours."
+    ],
+    "a": 0,
+    "why": "Ты услышал not as old as — мой телефон не такой старый, как твой."
+   },
+   {
+    "id": "g31-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "irregular",
+    "pairs": [
+     [
+      "good",
+      "better"
+     ],
+     [
+      "bad",
+      "worse"
+     ],
+     [
+      "far",
+      "farther"
+     ],
+     [
+      "big",
+      "bigger"
+     ]
+    ],
+    "why": "Good, bad и far меняются по-особому, а big просто удваивает g."
+   },
+   {
+    "id": "g31-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "er-est",
+    "pairs": [
+     [
+      "easy",
+      "easier"
+     ],
+     [
+      "famous",
+      "more famous"
+     ],
+     [
+      "nice",
+      "nicer"
+     ],
+     [
+      "hot",
+      "hotter"
+     ]
+    ],
+    "why": "Короткие слова берут -er (с правками на письме), а длинное famous — more."
+   },
+   {
+    "id": "g31-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "er-est",
+    "q": "Mia is ___ (young) than her brother.",
+    "a": [
+     "younger"
+    ],
+    "why": "Young — короткое слово: young + er = younger."
+   },
+   {
+    "id": "g31-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "er-est",
+    "q": "Math is ___ (easy) than science for me.",
+    "a": [
+     "easier"
+    ],
+    "why": "Easy кончается на -y, меняем его на i: easier."
+   },
+   {
+    "id": "g31-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "more-most",
+    "q": "Electronic folk is ___ (beautiful) than phonk, I think.",
+    "a": [
+     "more beautiful"
+    ],
+    "why": "Beautiful — длинное слово: more beautiful."
+   },
+   {
+    "id": "g31-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Rex is the ___ (good) goalie in the city.",
+    "a": [
+     "best"
+    ],
+    "why": "Good → better → the best."
+   },
+   {
+    "id": "g31-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "than-the",
+    "q": "Benny is ___ (clumsy) bear in the world.",
+    "a": [
+     "the clumsiest"
+    ],
+    "why": "Самый из всех — the + -est, y меняется на i: the clumsiest."
+   },
+   {
+    "id": "g31-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "as-as",
+    "q": "Your hockey bag is as ___ (heavy) as mine.",
+    "a": [
+     "heavy"
+    ],
+    "why": "Внутри as … as слово не меняется: as heavy as."
+   },
+   {
+    "id": "g31-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "I live ___ (far) from the rink than Mia.",
+    "a": [
+     "farther",
+     "further"
+    ],
+    "why": "Far → farther (можно и further)."
+   },
+   {
+    "id": "g31-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "than-the",
+    "q": "My cat is lazier ___ my dog. (than / then)",
+    "a": [
+     "than"
+    ],
+    "why": "После сравнения «чем» — than."
+   },
+   {
+    "id": "g31-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "than-the",
+    "s": "Rex is stronger then Benny.",
+    "bad": 3,
+    "fix": "than",
+    "why": "«Чем» — than, а then значит «потом»."
+   },
+   {
+    "id": "g31-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "er-est",
+    "s": "My room is biger than your room.",
+    "bad": 3,
+    "fix": "bigger",
+    "why": "Big: гласная + согласная на конце, удваиваем g: bigger."
+   },
+   {
+    "id": "g31-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "Mrs Parker is the goodest cook in Canada.",
+    "bad": 4,
+    "fix": "best",
+    "why": "Слова goodest нет: good → the best."
+   },
+   {
+    "id": "g31-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "more-most",
+    "s": "Coach Walt is the more famous beaver in Canada.",
+    "bad": 4,
+    "fix": "most",
+    "why": "Самый из всех — the most, а не the more."
+   },
+   {
+    "id": "g31-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "as-as",
+    "s": "Benny is as hungry like Rex.",
+    "bad": 4,
+    "fix": "as",
+    "why": "В конструкции as … as второе слово тоже as."
+   },
+   {
+    "id": "g31-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "than-the",
+    "s": "This is the biggest rink of the city.",
+    "bad": 5,
+    "fix": "in",
+    "why": "После «самый» место называем с in: in the city."
+   },
+   {
+    "id": "g31-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "than-the",
+    "a": "Mia is faster than her brother.",
+    "ru": "Миа быстрее своего брата.",
+    "extra": [
+     "then"
+    ],
+    "why": "Fast + er, а дальше than + с кем сравниваем."
+   },
+   {
+    "id": "g31-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "more-most",
+    "a": "This is the most exciting game of the year.",
+    "ru": "Это самая захватывающая игра года.",
+    "extra": [
+     "more"
+    ],
+    "why": "Exciting — длинное слово, «самая» = the most exciting."
+   },
+   {
+    "id": "g31-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "as-as",
+    "a": "Rex is not as fast as Mia.",
+    "ru": "Рекс не такой быстрый, как Миа.",
+    "extra": [
+     "than"
+    ],
+    "why": "«Не такой, как» = not as … as."
+   },
+   {
+    "id": "g31-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "irregular",
+    "a": "Today is the worst day of my life.",
+    "ru": "Сегодня худший день в моей жизни.",
+    "extra": [
+     "baddest"
+    ],
+    "why": "Bad → worse → the worst."
+   },
+   {
+    "id": "g31-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "er-est",
+    "src": "Mia is fast. Benny is not fast.",
+    "task_ru": "Сравни их одним предложением: начни с Mia и используй than.",
+    "a": [
+     "Mia is faster than Benny."
+    ],
+    "why": "Fast — короткое слово: faster than."
+   },
+   {
+    "id": "g31-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "as-as",
+    "src": "Benny is strong. His dad is strong too.",
+    "task_ru": "Скажи, что Бенни такой же сильный, как его папа (as … as).",
+    "a": [
+     "Benny is as strong as his dad.",
+     "Benny is as strong as his father."
+    ],
+    "why": "Одинаково сильные — as strong as."
+   },
+   {
+    "id": "g31-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "more-most",
+    "src": "This game is difficult.",
+    "task_ru": "Скажи, что эта игра сложнее, чем Roblox.",
+    "a": [
+     "This game is more difficult than Roblox."
+    ],
+    "why": "Difficult — длинное слово: more difficult than."
+   },
+   {
+    "id": "g31-036",
+    "t": "tr",
+    "lv": 3,
+    "tag": "as-as",
+    "src": "Benny is not as fast as Coach Walt.",
+    "task_ru": "Скажи то же самое с than. Начни с Coach Walt.",
+    "a": [
+     "Coach Walt is faster than Benny."
+    ],
+    "why": "Бенни не такой быстрый, как Уолт = Уолт быстрее Бенни: faster than."
+   },
+   {
+    "id": "g31-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "er-est",
+    "title": "Who is the best?",
+    "text": "Rex is the ___ (big) player on our team. He is ___ (strong) than everyone, but his arms are ___ (short) than a pencil! Mia is the ___ (fast) skater, and Benny is the ___ (funny). Coach Walt says we are the ___ (good) team in the city!",
+    "a": [
+     [
+      "biggest"
+     ],
+     [
+      "stronger"
+     ],
+     [
+      "shorter"
+     ],
+     [
+      "fastest"
+     ],
+     [
+      "funniest"
+     ],
+     [
+      "best"
+     ]
+    ],
+    "why": "Короткие слова: -er / -est (big → biggest, funny → funniest), а good → the best."
+   },
+   {
+    "id": "g31-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "more-most",
+    "title": "Phonk or folk?",
+    "text": "I think electronic folk is ___ (beautiful) than phonk. But phonk is ___ (popular) at my school. My friend says phonk is the ___ (exciting) music in the world. Folk songs are ___ (long) than phonk tracks. For me, folk is the ___ (relaxing) music of all.",
+    "a": [
+     [
+      "more beautiful"
+     ],
+     [
+      "more popular"
+     ],
+     [
+      "most exciting"
+     ],
+     [
+      "longer"
+     ],
+     [
+      "most relaxing"
+     ]
+    ],
+    "why": "Длинные слова — more / most, а короткое long — longer."
+   },
+   {
+    "id": "g31-039",
+    "t": "chat",
+    "lv": 3,
+    "tag": "irregular",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "How was the game yesterday?"
+     },
+     {
+      "who": "you",
+      "t": "Terrible! It was the ___ (bad) game of the season."
+     },
+     {
+      "who": "Mia",
+      "t": "Oh no! Was the other team strong?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, they were ___ (good) than us."
+     },
+     {
+      "who": "Mia",
+      "t": "Don't worry. Our team is not as bad ___ you think!"
+     }
+    ],
+    "a": [
+     [
+      "worst"
+     ],
+     [
+      "better"
+     ],
+     [
+      "as"
+     ]
+    ],
+    "why": "Bad → the worst, good → better, а «не такой, как» — not as … as."
+   },
+   {
+    "id": "g31-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "er-est",
+    "ru": "Рекс больше, чем Бенни.",
+    "a": [
+     "Rex is bigger than Benny."
+    ],
+    "why": "Big — короткое слово, удваиваем g: bigger than."
+   },
+   {
+    "id": "g31-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "more-most",
+    "ru": "Математика сложнее, чем английский.",
+    "a": [
+     "Math is more difficult than English.",
+     "Math is harder than English.",
+     "Mathematics is more difficult than English.",
+     "Mathematics is harder than English."
+    ],
+    "why": "Difficult — длинное слово: more difficult (или короткое hard → harder)."
+   },
+   {
+    "id": "g31-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "irregular",
+    "ru": "Миа — лучший игрок в нашей команде.",
+    "a": [
+     "Mia is the best player on our team.",
+     "Mia is the best player in our team."
+    ],
+    "why": "«Лучший» = the best (от good)."
+   },
+   {
+    "id": "g31-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "as-as",
+    "ru": "Рекс не такой сильный, как его папа.",
+    "a": [
+     "Rex is not as strong as his dad.",
+     "Rex is not as strong as his father."
+    ],
+    "why": "«Не такой, как» = not as strong as."
+   },
+   {
+    "id": "g31-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "than-the",
+    "say": "Rex has the shortest arms in the world.",
+    "ru": "У Рекса самые короткие руки в мире.",
+    "why": "Самые — the shortest, а место после «самого» — in the world."
+   },
+   {
+    "id": "g31-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "than-the",
+    "task_ru": "Напиши 3 предложения: сравни себя с другом или двух игроков (than, the -est / the most, as … as).",
+    "check_ru": [
+     "Короткие слова с -er / -est, длинные — с more / the most?",
+     "После сравнения стоит than, а не then?",
+     "Перед «самым» стоит the?",
+     "Нет ли gooder или more faster?"
+    ],
+    "model": "My friend Max is taller than me, but I am faster. Max is not as funny as my brother. My brother is the funniest person in our family!",
+    "why": "Сравнение двоих — than, «самый» — the + -est / most, одинаково — as … as."
+   }
+  ]
+ },
+ {
+  "id": "g32",
+  "stage": "A2",
+  "title_ru": "Must, have to, should",
+  "goal_ru": "Сказать «надо», «нельзя», «стоит».",
+  "prereq": [
+   "g08",
+   "g11"
+  ],
+  "spotlight": [
+   "7a"
+  ],
+  "cards": [
+   {
+    "title_ru": "Must и mustn't: правила",
+    "body_ru": "**must** + глагол = обязательно (правило, закон, тренер так сказал). **mustn't** + глагол = нельзя, запрещено. Глагол после must — без to и без -s: he **must wear**, а не must to wear или must wears. В обычном разговоре американцы чаще говорят have to, а must — для правил и табличек.",
+    "ex": [
+     [
+      "Players must listen to the coach.",
+      "Игроки обязаны слушаться тренера."
+     ],
+     [
+      "You mustn't run near the pool.",
+      "Около бассейна бегать нельзя."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Have to: надо, приходится",
+    "body_ru": "**have to / has to** + глагол = надо, приходится. С he / she / it — **has to**. Вопрос и отрицание — через do / does: **Do** you **have to**…? He **doesn't have to**…",
+    "ex": [
+     [
+      "I have to walk my dog every morning.",
+      "Мне приходится каждое утро гулять с собакой."
+     ],
+     [
+      "Does your dad have to work today?",
+      "Твоему папе надо сегодня работать?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "Ловушка: mustn't ≠ don't have to",
+    "body_ru": "**mustn't** = нельзя (запрет). **don't have to** = не обязательно, можно и не делать. По-русски оба похожи на «не надо», но смысл совсем разный!",
+    "ex": [
+     [
+      "You mustn't run near the pool.",
+      "Около бассейна бегать нельзя."
+     ],
+     [
+      "It's Saturday. You don't have to go to school.",
+      "Сегодня суббота. В школу идти не нужно."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Should: совет",
+    "body_ru": "**should** + глагол = стоит, советую. **shouldn't** = не стоит. Это мягче, чем must: совет, а не приказ. Вопрос: **Should I**…? После should глагол тоже без to и без -s.",
+    "ex": [
+     [
+      "You should drink more water.",
+      "Тебе стоит пить больше воды."
+     ],
+     [
+      "Benny shouldn't cook alone.",
+      "Бенни не стоит готовить одному."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "You must to wear a helmet.",
+    "right": "You must wear a helmet.",
+    "why_ru": "После must глагол без to."
+   },
+   {
+    "wrong": "He have to train today.",
+    "right": "He has to train today.",
+    "why_ru": "С he / she / it — has to."
+   },
+   {
+    "wrong": "It's a day off, so you mustn't come.",
+    "right": "It's a day off, so you don't have to come.",
+    "why_ru": "«Не обязательно» = don't have to, а mustn't — это запрет."
+   },
+   {
+    "wrong": "She shoulds sleep more.",
+    "right": "She should sleep more.",
+    "why_ru": "Should никогда не получает -s."
+   },
+   {
+    "wrong": "Do he have to go?",
+    "right": "Does he have to go?",
+    "why_ru": "С he в вопросе — does."
+   }
+  ],
+  "tags": {
+   "must": {
+    "ru": "must / mustn't — правила",
+    "tip_ru": "Must = строгое «обязательно» (правила, таблички), mustn't = «нельзя, запрещено». После must сразу глагол: You must wear a helmet."
+   },
+   "have-to": {
+    "ru": "have to / has to",
+    "tip_ru": "Have to = «надо, приходится». С he / she / it — has to. Вопрос и отрицание через do / does: Do you have to…? He doesn't have to…",
+    "back": "g11"
+   },
+   "dont-have-to": {
+    "ru": "mustn't или don't have to",
+    "tip_ru": "Mustn't = нельзя. Don't have to = не обязательно, можно не делать. You mustn't run — бегать запрещено. You don't have to run — можно и не бежать."
+   },
+   "should": {
+    "ru": "should / shouldn't — совет",
+    "tip_ru": "Should = «стоит, лучше бы» — это совет, а не приказ. Shouldn't = «не стоит». You should sleep more."
+   },
+   "form": {
+    "ru": "глагол после must и should",
+    "tip_ru": "После must и should (как после can) глагол в простой форме: без to, без -s, без -ing. He must go, she should try. А вот have to — с to: he has to go.",
+    "back": "g08"
+   }
+  },
+  "items": [
+   {
+    "id": "g32-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Players must ___ gloves.",
+    "o": [
+     "wear",
+     "to wear"
+    ],
+    "a": 0,
+    "why": "После must глагол без to: must wear."
+   },
+   {
+    "id": "g32-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-to",
+    "q": "Mia ___ to train every morning.",
+    "o": [
+     "has",
+     "have"
+    ],
+    "a": 0,
+    "why": "Mia = she, поэтому has to."
+   },
+   {
+    "id": "g32-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "dont-have-to",
+    "q": "It's Sunday! We ___ get up early.",
+    "o": [
+     "don't have to",
+     "mustn't"
+    ],
+    "a": 0,
+    "why": "В воскресенье вставать рано не обязательно — don't have to."
+   },
+   {
+    "id": "g32-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "must",
+    "q": "Players ___ hit the goalie. It's a rule!",
+    "o": [
+     "mustn't",
+     "don't have to"
+    ],
+    "a": 0,
+    "why": "Это правило-запрет, значит mustn't."
+   },
+   {
+    "id": "g32-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "should",
+    "q": "You look tired. You ___ go to bed.",
+    "o": [
+     "should",
+     "shouldn't"
+    ],
+    "a": 0,
+    "why": "Устал — советуем пойти спать: should."
+   },
+   {
+    "id": "g32-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "should",
+    "q": "Benny ___ eat ten pizzas. He'll be sick!",
+    "o": [
+     "shouldn't",
+     "should"
+    ],
+    "a": 0,
+    "why": "Плохая идея — советуем «не стоит»: shouldn't."
+   },
+   {
+    "id": "g32-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "form",
+    "q": "Rex ___ practice more.",
+    "o": [
+     "should",
+     "shoulds"
+    ],
+    "a": 0,
+    "why": "Should не меняется: без -s даже с he."
+   },
+   {
+    "id": "g32-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-to",
+    "q": "___ you have to wear a uniform at school?",
+    "o": [
+     "Do",
+     "Does",
+     "Have"
+    ],
+    "a": 0,
+    "why": "Вопрос с have to строим через do: Do you have to…?"
+   },
+   {
+    "id": "g32-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "dont-have-to",
+    "q": "You ___ shout. I can hear you!",
+    "o": [
+     "don't have to",
+     "must",
+     "has to"
+    ],
+    "a": 0,
+    "why": "Я тебя слышу — кричать не обязательно: don't have to."
+   },
+   {
+    "id": "g32-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "must",
+    "q": "Sign: NO FOOD ON THE ICE. You ___ eat on the ice.",
+    "o": [
+     "mustn't",
+     "must",
+     "should"
+    ],
+    "a": 0,
+    "why": "Табличка запрещает — значит mustn't."
+   },
+   {
+    "id": "g32-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "must",
+    "say": "You mustn't skate here.",
+    "o": [
+     "You mustn't skate here.",
+     "You must skate here."
+    ],
+    "a": 0,
+    "why": "Ты услышал mustn't — кататься здесь нельзя."
+   },
+   {
+    "id": "g32-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "should",
+    "say": "You shouldn't play all night.",
+    "o": [
+     "You shouldn't play all night.",
+     "You should play all night."
+    ],
+    "a": 0,
+    "why": "Ты услышал shouldn't — всю ночь играть не стоит."
+   },
+   {
+    "id": "g32-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "dont-have-to",
+    "pairs": [
+     [
+      "must",
+      "обязательно (правило)"
+     ],
+     [
+      "mustn't",
+      "нельзя"
+     ],
+     [
+      "don't have to",
+      "не обязательно"
+     ],
+     [
+      "should",
+      "стоит, советую"
+     ]
+    ],
+    "why": "Must — правило, mustn't — запрет, don't have to — можно не делать, should — совет."
+   },
+   {
+    "id": "g32-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-to",
+    "q": "My dad ___ to work on Saturdays. (have / has)",
+    "a": [
+     "has"
+    ],
+    "why": "My dad = he, поэтому has to."
+   },
+   {
+    "id": "g32-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-to",
+    "q": "___ Rex have to wear a mask? (Do / Does)",
+    "a": [
+     "Does"
+    ],
+    "why": "Rex = he, поэтому Does … have to?"
+   },
+   {
+    "id": "g32-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont-have-to",
+    "q": "The game is free. You ___ pay. (mustn't / don't have to)",
+    "a": [
+     "don't have to"
+    ],
+    "why": "Бесплатно — платить не обязательно: don't have to."
+   },
+   {
+    "id": "g32-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "must",
+    "q": "You ___ cross the road on a red light. (must / mustn't)",
+    "a": [
+     "mustn't"
+    ],
+    "why": "Переходить на красный запрещено — mustn't."
+   },
+   {
+    "id": "g32-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "should",
+    "q": "It's cold outside. You ___ wear a hat. (should / shouldn't)",
+    "a": [
+     "should"
+    ],
+    "why": "Холодно — советуем надеть шапку: should."
+   },
+   {
+    "id": "g32-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "form",
+    "q": "He must ___ (finish) his homework first.",
+    "a": [
+     "finish"
+    ],
+    "why": "После must простая форма глагола: finish."
+   },
+   {
+    "id": "g32-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont-have-to",
+    "q": "She ___ (not have to) cook today. Mom is cooking.",
+    "a": [
+     "doesn't have to"
+    ],
+    "why": "She → doesn't have to: готовить ей не нужно."
+   },
+   {
+    "id": "g32-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "should",
+    "q": "You ___ eat a lot of candy before bed. (should / shouldn't)",
+    "a": [
+     "shouldn't"
+    ],
+    "why": "Много сладкого перед сном — плохая идея: shouldn't."
+   },
+   {
+    "id": "g32-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "You must listening to Coach Walt.",
+    "bad": 2,
+    "fix": "listen",
+    "why": "После must простая форма глагола: listen."
+   },
+   {
+    "id": "g32-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "have-to",
+    "s": "Benny have to clean the kitchen again.",
+    "bad": 1,
+    "fix": "has",
+    "why": "Benny = he, поэтому has to."
+   },
+   {
+    "id": "g32-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "form",
+    "s": "Mia shoulds go to bed early.",
+    "bad": 1,
+    "fix": "should",
+    "why": "Should не получает -s."
+   },
+   {
+    "id": "g32-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "have-to",
+    "s": "Do Mia have to wear a uniform?",
+    "bad": 0,
+    "fix": "Does",
+    "why": "Mia = she, поэтому в вопросе Does."
+   },
+   {
+    "id": "g32-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "must",
+    "s": "Benny must washes the dishes after dinner.",
+    "bad": 2,
+    "fix": "wash",
+    "why": "После must глагол без -s: must wash."
+   },
+   {
+    "id": "g32-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "must",
+    "a": "You mustn't use your phone in class.",
+    "ru": "На уроке нельзя пользоваться телефоном.",
+    "extra": [
+     "to"
+    ],
+    "why": "Запрет — mustn't + глагол без to."
+   },
+   {
+    "id": "g32-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "have-to",
+    "a": "Does Benny have to cook dinner?",
+    "ru": "Бенни нужно готовить ужин?",
+    "extra": [
+     "has"
+    ],
+    "why": "Вопрос: Does + Benny + have to + глагол."
+   },
+   {
+    "id": "g32-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "should",
+    "a": "You should try the new skates.",
+    "ru": "Тебе стоит попробовать новые коньки.",
+    "extra": [
+     "to"
+    ],
+    "why": "Совет — should + глагол без to."
+   },
+   {
+    "id": "g32-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "dont-have-to",
+    "a": "We don't have to wear a uniform.",
+    "ru": "Нам не обязательно носить форму.",
+    "extra": [
+     "mustn't"
+    ],
+    "why": "«Не обязательно» = don't have to."
+   },
+   {
+    "id": "g32-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "have-to",
+    "src": "I have to clean my room.",
+    "task_ru": "Начни с My brother.",
+    "a": [
+     "My brother has to clean his room.",
+     "My brother has to clean my room."
+    ],
+    "why": "My brother = he, поэтому has to."
+   },
+   {
+    "id": "g32-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "should",
+    "src": "You should play Roblox all night.",
+    "task_ru": "Переделай в совет НЕ делать этого.",
+    "a": [
+     "You shouldn't play Roblox all night."
+    ],
+    "why": "Совет «не стоит» — shouldn't."
+   },
+   {
+    "id": "g32-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "have-to",
+    "src": "Mia has to train on Monday.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Does Mia have to train on Monday?"
+    ],
+    "why": "Вопрос: Does + Mia + have to (has уже не нужен)."
+   },
+   {
+    "id": "g32-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "dont-have-to",
+    "src": "You mustn't come to practice today.",
+    "task_ru": "Тренировку отменили: приходить не обязательно. Исправь смысл.",
+    "a": [
+     "You don't have to come to practice today."
+    ],
+    "why": "Не запрет, а «не обязательно» — don't have to."
+   },
+   {
+    "id": "g32-035",
+    "t": "text",
+    "lv": 3,
+    "tag": "must",
+    "title": "Coach Walt's rules",
+    "text": "Coach Walt has a lot of rules. You ___ (must / mustn't) wear a helmet on the ice. You ___ (must / mustn't) be late for practice. Players ___ (have to / has to) bring water. Rex ___ (have to / has to) wear a mask. You ___ (mustn't / don't have to) bring your own pucks. The rink has a lot of pucks.",
+    "a": [
+     [
+      "must"
+     ],
+     [
+      "mustn't"
+     ],
+     [
+      "have to"
+     ],
+     [
+      "has to"
+     ],
+     [
+      "don't have to"
+     ]
+    ],
+    "why": "Правило — must, запрет — mustn't, Rex = he → has to, а свои шайбы приносить не обязательно — don't have to."
+   },
+   {
+    "id": "g32-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "should",
+    "title": "Advice for Benny",
+    "text": "Benny has a test tomorrow. Mia gives him some advice. \"You ___ (should / shouldn't) study tonight. You ___ (should / shouldn't) play video games until midnight. You ___ (should / shouldn't) eat a good breakfast. And you ___ (should / shouldn't) forget your pencil!\" Benny asks, \"What ___ (should / does) I bring? A pizza?\"",
+    "a": [
+     [
+      "should"
+     ],
+     [
+      "shouldn't"
+     ],
+     [
+      "should"
+     ],
+     [
+      "shouldn't"
+     ],
+     [
+      "should"
+     ]
+    ],
+    "why": "Хорошая идея — should, плохая — shouldn't, а просим совета — What should I…?"
+   },
+   {
+    "id": "g32-037",
+    "t": "chat",
+    "lv": 3,
+    "tag": "dont-have-to",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Are you coming to practice tomorrow?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, but I ___ (have to / has to) finish my homework first."
+     },
+     {
+      "who": "Mia",
+      "t": "OK. Bring your skates. You ___ (mustn't / don't have to) bring a stick. Coach has a lot."
+     },
+     {
+      "who": "you",
+      "t": "Cool. Do I have to bring a helmet?"
+     },
+     {
+      "who": "Mia",
+      "t": "Yes, you ___ (must / mustn't) wear a helmet. It's a rule."
+     }
+    ],
+    "a": [
+     [
+      "have to"
+     ],
+     [
+      "don't have to"
+     ],
+     [
+      "must"
+     ]
+    ],
+    "why": "I → have to; клюшку брать не обязательно — don't have to; шлем — правило, must."
+   },
+   {
+    "id": "g32-038",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "must",
+    "ru": "Тебе нельзя опаздывать.",
+    "a": [
+     "You mustn't be late.",
+     "You can't be late."
+    ],
+    "why": "Запрет — mustn't + be late."
+   },
+   {
+    "id": "g32-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "have-to",
+    "ru": "Ей приходится вставать в шесть.",
+    "a": [
+     "She has to get up at six.",
+     "She has to get up at 6.",
+     "She has to wake up at six.",
+     "She has to wake up at 6."
+    ],
+    "why": "«Приходится» = have to, с she — has to."
+   },
+   {
+    "id": "g32-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "dont-have-to",
+    "ru": "Тебе не обязательно мне помогать.",
+    "a": [
+     "You don't have to help me."
+    ],
+    "why": "«Не обязательно» = don't have to."
+   },
+   {
+    "id": "g32-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "should",
+    "ru": "Тебе стоит больше спать.",
+    "a": [
+     "You should sleep more.",
+     "You should get more sleep."
+    ],
+    "why": "«Стоит» — это совет: should."
+   },
+   {
+    "id": "g32-042",
+    "t": "speak",
+    "lv": 3,
+    "tag": "should",
+    "say": "You shouldn't skate on thin ice.",
+    "ru": "Не стоит кататься по тонкому льду.",
+    "why": "Совет «не стоит» — shouldn't + skate."
+   },
+   {
+    "id": "g32-043",
+    "t": "write",
+    "lv": 3,
+    "tag": "dont-have-to",
+    "task_ru": "Напиши 3 правила для своей хоккейной команды или класса: что обязательно (must / have to), что нельзя (mustn't) и что не обязательно (don't have to).",
+    "check_ru": [
+     "После must и mustn't глагол без to?",
+     "С he / she — has to и doesn't have to?",
+     "Mustn't — запрет, а don't have to — «не обязательно»?"
+    ],
+    "model": "Players must come on time. You mustn't fight on the ice. You don't have to bring your own pucks.",
+    "why": "Must — обязательно, mustn't — нельзя, don't have to — можно не делать."
+   }
+  ]
+ },
+ {
+  "id": "g33",
+  "stage": "A2",
+  "title_ru": "Наречия: quickly, well; too и enough",
+  "goal_ru": "Сказать, как что-то делают, и «слишком / достаточно».",
+  "prereq": [
+   "g31"
+  ],
+  "spotlight": [
+   "1c",
+   "4b"
+  ],
+  "cards": [
+   {
+    "title_ru": "Как? — наречие на -ly",
+    "body_ru": "Прилагательное описывает предмет: a **quick** player. Наречие описывает действие и отвечает на «как?»: he skates **quickly**. Обычно добавляем **-ly**: slow → slowly, loud → loudly, careful → carefully. На -y меняем на i: easy → **easily**, happy → **happily**. После is / am / are — прилагательное: The song is **good**.",
+    "ex": [
+     [
+      "Rex is a careful goalie.",
+      "Рекс — осторожный вратарь."
+     ],
+     [
+      "Rex catches the puck carefully.",
+      "Рекс осторожно ловит шайбу."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Исключения: well, fast, hard",
+    "body_ru": "**good → well**: She is a good player. She plays **well**. **fast** и **hard** не меняются: he runs **fast**, she works **hard**. Слова fastly нет, а hardly значит совсем другое — «едва». Наречие ставим после того, что делают: I play hockey **well**, а не play well hockey.",
+    "ex": [
+     [
+      "Rex runs fast.",
+      "Рекс быстро бегает."
+     ],
+     [
+      "Benny tries hard, but he falls a lot.",
+      "Бенни очень старается, но часто падает."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Насколько? very, really, quite, so",
+    "body_ru": "**very** = очень, **really** = очень / правда, **quite** = довольно, **so** = так, такой. Ставим перед прилагательным или наречием: very fast, really good, quite easy, so tired. В разговоре американцы часто говорят **pretty** вместо quite: pretty good.",
+    "ex": [
+     [
+      "The game was really exciting.",
+      "Игра была очень захватывающей."
+     ],
+     [
+      "I'm so tired today!",
+      "Я сегодня так устал!"
+     ]
+    ]
+   },
+   {
+    "title_ru": "too и enough",
+    "body_ru": "**too** + прилагательное = слишком (и это мешает): too big, too cold. **прилагательное + enough** = достаточно: big **enough**, old **enough** — enough стоит ПОСЛЕ. С существительным enough стоит ПЕРЕД: **enough** time, **enough** pucks. Дальше часто to + глагол: too tired **to** play.",
+    "ex": [
+     [
+      "These skates are too small for me.",
+      "Эти коньки мне слишком малы."
+     ],
+     [
+      "Do we have enough pucks?",
+      "У нас хватает шайб?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He plays hockey very good.",
+    "right": "He plays hockey very well.",
+    "why_ru": "Как играет? Наречие от good — well."
+   },
+   {
+    "wrong": "Coach Walt swims fastly.",
+    "right": "Coach Walt swims fast.",
+    "why_ru": "Fast не получает -ly."
+   },
+   {
+    "wrong": "I play well hockey.",
+    "right": "I play hockey well.",
+    "why_ru": "Наречие ставим после того, во что играешь."
+   },
+   {
+    "wrong": "He isn't enough tall.",
+    "right": "He isn't tall enough.",
+    "why_ru": "Enough ставим после прилагательного."
+   },
+   {
+    "wrong": "The tea is very hot to drink.",
+    "right": "The tea is too hot to drink.",
+    "why_ru": "«Слишком, поэтому нельзя» — too, а не very."
+   }
+  ],
+  "tags": {
+   "ly": {
+    "ru": "-ly: quick → quickly",
+    "tip_ru": "Наречие отвечает на «как?» и описывает действие: He skates quickly. Обычно это прилагательное + -ly: slow → slowly, easy → easily. Перед существительным и после is — прилагательное без -ly."
+   },
+   "irregular": {
+    "ru": "well, fast, hard",
+    "tip_ru": "Good → well (He plays well). Fast и hard не меняются: runs fast, works hard. Слова fastly нет. Наречие ставим после игры или предмета: plays hockey well."
+   },
+   "degree": {
+    "ru": "very, really, quite, so",
+    "tip_ru": "Very и really = очень, quite = довольно, so = так. Ставим перед прилагательным: really cool, quite easy, so tired."
+   },
+   "too": {
+    "ru": "too + прилагательное",
+    "tip_ru": "Too = слишком, и это мешает: too hot to eat, too small for me. Very просто «очень», а too значит «больше, чем нужно»."
+   },
+   "enough": {
+    "ru": "enough: tall enough, enough time",
+    "tip_ru": "С прилагательным enough стоит после: old enough, tall enough. С существительным — перед: enough time, enough players."
+   }
+  },
+  "items": [
+   {
+    "id": "g33-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ly",
+    "q": "Rex closes the door ___.",
+    "o": [
+     "quietly",
+     "quiet"
+    ],
+    "a": 0,
+    "why": "Как закрывает? Нужно наречие: quietly."
+   },
+   {
+    "id": "g33-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ly",
+    "q": "Mia is a ___ player.",
+    "o": [
+     "careful",
+     "carefully"
+    ],
+    "a": 0,
+    "why": "Перед существительным player нужно прилагательное: careful."
+   },
+   {
+    "id": "g33-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ly",
+    "q": "Benny sings very ___.",
+    "o": [
+     "badly",
+     "bad"
+    ],
+    "a": 0,
+    "why": "Как поёт? Наречие от bad — badly."
+   },
+   {
+    "id": "g33-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "My friend plays the guitar ___.",
+    "o": [
+     "well",
+     "good"
+    ],
+    "a": 0,
+    "why": "Как играет? Good → well."
+   },
+   {
+    "id": "g33-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "irregular",
+    "q": "The puck flies ___.",
+    "o": [
+     "fast",
+     "fastly"
+    ],
+    "a": 0,
+    "why": "Fast не меняется: слова fastly нет."
+   },
+   {
+    "id": "g33-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "too",
+    "q": "I can't wear these gloves. They're ___ small.",
+    "o": [
+     "too",
+     "enough"
+    ],
+    "a": 0,
+    "why": "Слишком маленькие — too small."
+   },
+   {
+    "id": "g33-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "enough",
+    "q": "Benny isn't ___ to drive a car.",
+    "o": [
+     "old enough",
+     "enough old"
+    ],
+    "a": 0,
+    "why": "Enough стоит после прилагательного: old enough."
+   },
+   {
+    "id": "g33-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "enough",
+    "q": "We don't have ___ for a team.",
+    "o": [
+     "enough players",
+     "players enough"
+    ],
+    "a": 0,
+    "why": "С существительным enough стоит перед ним: enough players."
+   },
+   {
+    "id": "g33-009",
+    "t": "mc",
+    "lv": 1,
+    "tag": "degree",
+    "q": "This math problem is ___ easy. I can do it in a minute.",
+    "o": [
+     "quite",
+     "enough"
+    ],
+    "a": 0,
+    "why": "«Довольно лёгкая» — quite easy; enough перед прилагательным не ставят."
+   },
+   {
+    "id": "g33-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "degree",
+    "q": "The new Roblox game is ___ good! You have to try it.",
+    "o": [
+     "really",
+     "too",
+     "enough"
+    ],
+    "a": 0,
+    "why": "Очень хорошая — really good; too значило бы «слишком»."
+   },
+   {
+    "id": "g33-011",
+    "t": "mc",
+    "lv": 2,
+    "tag": "too",
+    "q": "The soup is ___ hot to eat. Wait a minute.",
+    "o": [
+     "too",
+     "very",
+     "enough"
+    ],
+    "a": 0,
+    "why": "Слишком горячий, поэтому есть нельзя — too hot to eat."
+   },
+   {
+    "id": "g33-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "too",
+    "say": "This puzzle is too hard.",
+    "o": [
+     "This puzzle is too hard.",
+     "This puzzle is hard enough."
+    ],
+    "a": 0,
+    "why": "Ты услышал too hard — головоломка слишком трудная."
+   },
+   {
+    "id": "g33-013",
+    "t": "listen",
+    "lv": 1,
+    "tag": "enough",
+    "say": "I'm not tall enough.",
+    "o": [
+     "I'm not tall enough.",
+     "I'm too tall."
+    ],
+    "a": 0,
+    "why": "Ты услышал not tall enough — я недостаточно высокий."
+   },
+   {
+    "id": "g33-014",
+    "t": "match",
+    "lv": 1,
+    "tag": "ly",
+    "pairs": [
+     [
+      "quick",
+      "quickly"
+     ],
+     [
+      "easy",
+      "easily"
+     ],
+     [
+      "good",
+      "well"
+     ],
+     [
+      "fast",
+      "fast"
+     ]
+    ],
+    "why": "Обычно -ly (easy → easily), но good → well, а fast не меняется."
+   },
+   {
+    "id": "g33-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ly",
+    "q": "Please speak ___ (slow). I'm learning English.",
+    "a": [
+     "slowly"
+    ],
+    "why": "Как говорить? slow + ly = slowly."
+   },
+   {
+    "id": "g33-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ly",
+    "q": "Benny opened the box ___ (careful).",
+    "a": [
+     "carefully"
+    ],
+    "why": "careful + ly = carefully, с двумя l."
+   },
+   {
+    "id": "g33-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ly",
+    "q": "Rex won the game ___ (easy).",
+    "a": [
+     "easily"
+    ],
+    "why": "easy → easily: y меняется на i."
+   },
+   {
+    "id": "g33-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Mia trains ___ (hard) every day.",
+    "a": [
+     "hard"
+    ],
+    "why": "Hard не меняется: trains hard."
+   },
+   {
+    "id": "g33-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "irregular",
+    "q": "Do you speak English ___ (good)?",
+    "a": [
+     "well"
+    ],
+    "why": "Как говоришь? Good → well."
+   },
+   {
+    "id": "g33-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "enough",
+    "q": "Is your room big ___ for a drum kit? (enough / too)",
+    "a": [
+     "enough"
+    ],
+    "why": "«Достаточно большая» — big enough."
+   },
+   {
+    "id": "g33-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "too",
+    "q": "Benny is ___ heavy for this chair. Crack! (too / enough)",
+    "a": [
+     "too"
+    ],
+    "why": "Стул сломался — слишком тяжёлый: too heavy."
+   },
+   {
+    "id": "g33-022",
+    "t": "gap",
+    "lv": 2,
+    "tag": "enough",
+    "q": "I don't have ___ money for new skates. (enough / too)",
+    "a": [
+     "enough"
+    ],
+    "why": "Перед существительным money — enough money."
+   },
+   {
+    "id": "g33-023",
+    "t": "gap",
+    "lv": 2,
+    "tag": "degree",
+    "q": "I'm ___ hungry! Let's eat. (so / enough)",
+    "a": [
+     "so"
+    ],
+    "why": "«Так голоден» — so hungry."
+   },
+   {
+    "id": "g33-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "Rex plays hockey very good for a dinosaur.",
+    "bad": 4,
+    "fix": "well",
+    "why": "Как играет? Наречие от good — well."
+   },
+   {
+    "id": "g33-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "ly",
+    "s": "Mrs Parker drives very careful on snowy roads.",
+    "bad": 4,
+    "fix": "carefully",
+    "why": "Как водит? Нужно наречие: carefully."
+   },
+   {
+    "id": "g33-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "too",
+    "s": "It's very cold to swim today.",
+    "bad": 1,
+    "fix": "too",
+    "why": "Слишком холодно, поэтому плавать нельзя — too cold to swim."
+   },
+   {
+    "id": "g33-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "Mia skates fastly and always wins the race.",
+    "bad": 2,
+    "fix": "fast",
+    "why": "Слова fastly нет: skates fast."
+   },
+   {
+    "id": "g33-028",
+    "t": "err",
+    "lv": 2,
+    "tag": "irregular",
+    "s": "Benny works hardly at school, so his grades are good.",
+    "bad": 2,
+    "fix": "hard",
+    "why": "«Усердно» — hard; hardly значит «едва»."
+   },
+   {
+    "id": "g33-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "enough",
+    "a": "Rex's arms aren't long enough to reach the shelf.",
+    "ru": "Руки Рекса недостаточно длинные, чтобы достать до полки.",
+    "extra": [
+     "too"
+    ],
+    "why": "Enough после прилагательного: long enough to…"
+   },
+   {
+    "id": "g33-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "irregular",
+    "a": "Mia plays hockey very well.",
+    "ru": "Миа очень хорошо играет в хоккей.",
+    "extra": [
+     "good"
+    ],
+    "why": "Наречие well стоит после hockey."
+   },
+   {
+    "id": "g33-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "too",
+    "a": "This song is too loud for me.",
+    "ru": "Эта песня для меня слишком громкая.",
+    "extra": [
+     "enough"
+    ],
+    "why": "«Слишком» — too перед прилагательным."
+   },
+   {
+    "id": "g33-032",
+    "t": "build",
+    "lv": 2,
+    "tag": "degree",
+    "a": "The test was quite easy.",
+    "ru": "Контрольная была довольно лёгкой.",
+    "extra": [
+     "easily"
+    ],
+    "why": "После was — прилагательное easy, а quite перед ним."
+   },
+   {
+    "id": "g33-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "ly",
+    "src": "Mia is a quick skater.",
+    "task_ru": "Скажи то же самое, начав с Mia skates…",
+    "a": [
+     "Mia skates quickly.",
+     "Mia skates fast."
+    ],
+    "why": "Как катается? Наречие: quickly (или fast)."
+   },
+   {
+    "id": "g33-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "irregular",
+    "src": "My dad is a good cook.",
+    "task_ru": "Скажи то же самое, начав с My dad cooks…",
+    "a": [
+     "My dad cooks well."
+    ],
+    "why": "Как готовит? Good → well."
+   },
+   {
+    "id": "g33-035",
+    "t": "tr",
+    "lv": 2,
+    "tag": "enough",
+    "src": "I'm too short for this ride.",
+    "task_ru": "Скажи то же самое с enough (not … enough).",
+    "a": [
+     "I'm not tall enough for this ride."
+    ],
+    "why": "Слишком низкий = недостаточно высокий: not tall enough."
+   },
+   {
+    "id": "g33-036",
+    "t": "tr",
+    "lv": 3,
+    "tag": "too",
+    "src": "The water isn't warm enough to swim.",
+    "task_ru": "Скажи то же самое с too.",
+    "a": [
+     "The water is too cold to swim.",
+     "The water is too cold to swim in.",
+     "The water is too cold for swimming."
+    ],
+    "why": "Недостаточно тёплая = слишком холодная: too cold."
+   },
+   {
+    "id": "g33-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "ly",
+    "title": "Benny's first practice",
+    "text": "Benny came to the rink ___ (late). He put on his skates ___ (slow). Then he stepped on the ice very ___ (careful), but he fell! Mia skated to him ___ (quick). \"You can do it,\" she said ___ (kind).",
+    "a": [
+     [
+      "late"
+     ],
+     [
+      "slowly"
+     ],
+     [
+      "carefully"
+     ],
+     [
+      "quickly"
+     ],
+     [
+      "kindly"
+     ]
+    ],
+    "why": "Как он это делал? Наречия: slowly, carefully, quickly, kindly, а late не меняется."
+   },
+   {
+    "id": "g33-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "enough",
+    "title": "Too cold for Rex",
+    "text": "Rex wants to play outside, but it's ___ (too / enough) cold. His coat isn't warm ___ (too / enough). He wants to make a snowman, but his arms aren't long ___ (too / enough)! Mia says, \"Let's play inside. We have ___ (too / enough) pucks and sticks there.\" The ice inside is ___ (too / very) good!",
+    "a": [
+     [
+      "too"
+     ],
+     [
+      "enough"
+     ],
+     [
+      "enough"
+     ],
+     [
+      "enough"
+     ],
+     [
+      "very"
+     ]
+    ],
+    "why": "Too + прилагательное = слишком, прилагательное + enough и enough + существительное = достаточно."
+   },
+   {
+    "id": "g33-039",
+    "t": "chat",
+    "lv": 3,
+    "tag": "degree",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "How was the concert?"
+     },
+     {
+      "who": "you",
+      "t": "It was ___ (really / enough) cool! The music was so loud."
+     },
+     {
+      "who": "Mia",
+      "t": "Did you dance?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, but I dance ___ (bad). Ha-ha!"
+     },
+     {
+      "who": "Mia",
+      "t": "Was it a long concert?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, it was ___ (quite / enough) long. I'm tired now."
+     }
+    ],
+    "a": [
+     [
+      "really"
+     ],
+     [
+      "badly"
+     ],
+     [
+      "quite"
+     ]
+    ],
+    "why": "Really cool = очень круто, dance badly — наречие, quite long = довольно долгий."
+   },
+   {
+    "id": "g33-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "irregular",
+    "ru": "Он хорошо играет в Brawl Stars.",
+    "a": [
+     "He plays Brawl Stars well.",
+     "He is good at Brawl Stars."
+    ],
+    "why": "Как играет? Good → well, и well стоит в конце."
+   },
+   {
+    "id": "g33-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "too",
+    "ru": "Эта куртка мне слишком большая.",
+    "a": [
+     "This jacket is too big for me.",
+     "This jacket is too big."
+    ],
+    "why": "«Слишком» = too + big."
+   },
+   {
+    "id": "g33-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "enough",
+    "ru": "У нас недостаточно времени.",
+    "a": [
+     "We don't have enough time.",
+     "We haven't got enough time."
+    ],
+    "why": "Enough стоит перед существительным: enough time."
+   },
+   {
+    "id": "g33-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "ly",
+    "ru": "Бенни аккуратно несёт торт.",
+    "a": [
+     "Benny is carrying the cake carefully.",
+     "Benny carries the cake carefully.",
+     "Benny is carefully carrying the cake.",
+     "Benny carefully carries the cake.",
+     "Benny is carrying a cake carefully.",
+     "Benny carries a cake carefully."
+    ],
+    "why": "Как несёт? Наречие: careful + ly = carefully."
+   },
+   {
+    "id": "g33-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "degree",
+    "say": "Rex's arms are really short, but he plays really well.",
+    "ru": "У Рекса очень короткие руки, но он очень хорошо играет.",
+    "why": "Really ставим перед прилагательным short и перед наречием well."
+   },
+   {
+    "id": "g33-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "too",
+    "task_ru": "Напиши 3 предложения о себе: что ты делаешь хорошо или быстро, что для тебя слишком трудно и чего тебе не хватает.",
+    "check_ru": [
+     "Действие описано наречием (well, fast, carefully), а не прилагательным?",
+     "Too стоит перед прилагательным?",
+     "Enough стоит после прилагательного, но перед существительным?"
+    ],
+    "model": "I play Brawl Stars really well. Hockey is too hard for me, but I skate quite fast. I don't have enough time for music.",
+    "why": "Как делаешь — наречие, слишком — too + прилагательное, хватает ли — enough."
+   }
+  ]
+ },
+ {
+  "id": "g34",
+  "stage": "A2",
+  "title_ru": "Present Perfect: опыт (ever, never)",
+  "goal_ru": "Сказать «я когда-нибудь…» и «я уже…»: Have you ever been to Canada?",
+  "prereq": [
+   "g26",
+   "g27"
+  ],
+  "spotlight": [
+   "2c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Present Perfect: have / has + V3",
+    "body_ru": "Говорим о **жизненном опыте**: было ли это хоть раз, без точного «когда». Формула: **have / has + третья форма глагола** (V3). I / you / we / they **have**, he / she / it **has**. Коротко: I've, you've, we've, she's, he's.",
+    "ex": [
+     [
+      "I have played hockey in the snow.",
+      "Я играл в хоккей на снегу."
+     ],
+     [
+      "Coach Walt has seen a lot of games.",
+      "Тренер Уолт видел много игр."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Третья форма (V3)",
+    "body_ru": "Правильные глаголы — **-ed**, как в прошедшем: played, watched, tried. Неправильные надо выучить: see – saw – **seen**, eat – ate – **eaten**, be – was – **been**, do – did – **done**, go – went – **gone**, write – wrote – **written**, ride – rode – **ridden**, fly – flew – **flown**, meet – met – **met**, win – won – **won**.",
+    "ex": [
+     [
+      "Benny has eaten ten pancakes in one breakfast!",
+      "Бенни как-то съел десять блинов за один завтрак!"
+     ],
+     [
+      "We have flown on a plane.",
+      "Мы летали на самолёте."
+     ]
+    ]
+   },
+   {
+    "title_ru": "ever, never и вопросы",
+    "body_ru": "**Have you ever…?** = Ты когда-нибудь…? ever стоит перед V3. Ответ коротко: **Yes, I have.** / **No, I haven't.** **never** = никогда, стоит между have и V3: I have **never** been to Canada. Never уже отрицание, поэтому not не нужен: нельзя I haven't never.",
+    "ex": [
+     [
+      "Have you ever played Roblox? — Yes, I have.",
+      "Ты когда-нибудь играл в Roblox? — Да."
+     ],
+     [
+      "Benny has never seen the ocean.",
+      "Бенни никогда не видел океан."
+     ]
+    ]
+   },
+   {
+    "title_ru": "been или gone",
+    "body_ru": "**has been to** New York = был в Нью-Йорке и вернулся (это опыт). **has gone to** New York = уехал в Нью-Йорк и сейчас там. «Я бывал в…» — всегда **I have been to…**",
+    "ex": [
+     [
+      "Mia has been to Chicago.",
+      "Миа бывала в Чикаго."
+     ],
+     [
+      "Coach Walt isn't here. He has gone to the store.",
+      "Тренера Уолта нет. Он ушёл в магазин."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I have saw this video.",
+    "right": "I have seen this video.",
+    "why_ru": "После have нужна третья форма: seen."
+   },
+   {
+    "wrong": "She have been to Canada.",
+    "right": "She has been to Canada.",
+    "why_ru": "С she — has."
+   },
+   {
+    "wrong": "I haven't never eaten sushi.",
+    "right": "I have never eaten sushi.",
+    "why_ru": "Never уже отрицание, not не нужен."
+   },
+   {
+    "wrong": "Have you ever been to a hockey game? — Yes, I was.",
+    "right": "Have you ever been to a hockey game? — Yes, I have.",
+    "why_ru": "Короткий ответ повторяет have."
+   },
+   {
+    "wrong": "Benny has gone to Toronto twice.",
+    "right": "Benny has been to Toronto twice.",
+    "why_ru": "Съездил и вернулся — been."
+   }
+  ],
+  "tags": {
+   "have-has": {
+    "ru": "have / has + V3",
+    "tip_ru": "Present Perfect = have / has + третья форма. I / you / we / they have, he / she / it has: she has seen, they have seen."
+   },
+   "participle": {
+    "ru": "третья форма глагола",
+    "tip_ru": "Правильные глаголы — с -ed (played). Неправильные надо выучить: see – seen, eat – eaten, be – been, do – done, write – written, ride – ridden, fly – flown, meet – met.",
+    "back": "g26"
+   },
+   "ever-never": {
+    "ru": "ever и never",
+    "tip_ru": "Ever = «когда-нибудь», в вопросе перед V3: Have you ever seen…? Never = «никогда», между have и V3: I have never seen… С never не ставим not."
+   },
+   "questions": {
+    "ru": "вопросы и краткие ответы",
+    "tip_ru": "Вопрос: Have / Has + кто + V3? Has she ever tried sushi? Краткий ответ — с have / has: Yes, I have. / No, he hasn't.",
+    "back": "g11"
+   },
+   "been-gone": {
+    "ru": "been или gone",
+    "tip_ru": "Has been to = был там и вернулся (опыт). Has gone to = уехал туда и сейчас там. «Я бывал в…» — I have been to…"
+   }
+  },
+  "items": [
+   {
+    "id": "g34-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "participle",
+    "q": "I have ___ this video three times.",
+    "o": [
+     "seen",
+     "saw"
+    ],
+    "a": 0,
+    "why": "После have нужна третья форма: see → seen."
+   },
+   {
+    "id": "g34-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-has",
+    "q": "Mia ___ won five medals.",
+    "o": [
+     "has",
+     "have"
+    ],
+    "a": 0,
+    "why": "Mia = she, поэтому has."
+   },
+   {
+    "id": "g34-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ever-never",
+    "q": "I have ___ eaten sushi.",
+    "o": [
+     "never",
+     "ever"
+    ],
+    "a": 0,
+    "why": "В утверждении «никогда» — never; ever ставим в вопросах."
+   },
+   {
+    "id": "g34-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "questions",
+    "q": "Have you ever played Brawl Stars? — Yes, I ___.",
+    "o": [
+     "have",
+     "did"
+    ],
+    "a": 0,
+    "why": "Вопрос с have — и ответ с have: Yes, I have."
+   },
+   {
+    "id": "g34-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "been-gone",
+    "q": "Mr Parker isn't home. He has ___ to work.",
+    "o": [
+     "gone",
+     "been"
+    ],
+    "a": 0,
+    "why": "Его нет дома, он сейчас там — has gone."
+   },
+   {
+    "id": "g34-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "been-gone",
+    "q": "I have ___ to Canada twice.",
+    "o": [
+     "been",
+     "gone"
+    ],
+    "a": 0,
+    "why": "Съездил и вернулся (это опыт) — been."
+   },
+   {
+    "id": "g34-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "participle",
+    "q": "Benny has ___ a cake for Mia.",
+    "o": [
+     "made",
+     "maked"
+    ],
+    "a": 0,
+    "why": "Make — неправильный глагол: make → made → made."
+   },
+   {
+    "id": "g34-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "questions",
+    "q": "___ Rex ever scored a goal?",
+    "o": [
+     "Has",
+     "Have",
+     "Did"
+    ],
+    "a": 0,
+    "why": "Rex = he, и дальше V3 scored — значит Has."
+   },
+   {
+    "id": "g34-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "participle",
+    "q": "Have you ever ___ a horse?",
+    "o": [
+     "ridden",
+     "rode",
+     "ride",
+     "rided"
+    ],
+    "a": 0,
+    "why": "Ride → rode → ridden; после have нужна третья форма."
+   },
+   {
+    "id": "g34-010",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ever-never",
+    "q": "My grandma has ___ played a video game.",
+    "o": [
+     "never",
+     "ever",
+     "no"
+    ],
+    "a": 0,
+    "why": "«Никогда не играла» — has never played."
+   },
+   {
+    "id": "g34-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "ever-never",
+    "say": "I've never been to Canada.",
+    "o": [
+     "I've never been to Canada.",
+     "I've been to Canada."
+    ],
+    "a": 0,
+    "why": "Ты услышал never — я никогда не был в Канаде."
+   },
+   {
+    "id": "g34-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "been-gone",
+    "say": "He has gone to the rink.",
+    "o": [
+     "He has gone to the rink.",
+     "He has been to the rink."
+    ],
+    "a": 0,
+    "why": "Ты услышал gone — он ушёл на каток и сейчас там."
+   },
+   {
+    "id": "g34-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "participle",
+    "pairs": [
+     [
+      "see",
+      "seen"
+     ],
+     [
+      "eat",
+      "eaten"
+     ],
+     [
+      "write",
+      "written"
+     ],
+     [
+      "fly",
+      "flown"
+     ]
+    ],
+    "why": "Это неправильные глаголы: их третью форму надо запомнить."
+   },
+   {
+    "id": "g34-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "participle",
+    "q": "Rex has ___ (eat) a whole pizza.",
+    "a": [
+     "eaten"
+    ],
+    "why": "Eat → ate → eaten."
+   },
+   {
+    "id": "g34-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-has",
+    "q": "My parents ___ (be) to Florida.",
+    "a": [
+     "have been"
+    ],
+    "why": "My parents = they, поэтому have been."
+   },
+   {
+    "id": "g34-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "participle",
+    "q": "Have you ever ___ (meet) a famous hockey player?",
+    "a": [
+     "met"
+    ],
+    "why": "Meet → met → met."
+   },
+   {
+    "id": "g34-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ever-never",
+    "q": "Benny has ___ skated before. This is his first time! (ever / never)",
+    "a": [
+     "never"
+    ],
+    "why": "Первый раз — значит раньше никогда: never."
+   },
+   {
+    "id": "g34-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "questions",
+    "q": "___ your sister ever listened to phonk? (Have / Has)",
+    "a": [
+     "Has"
+    ],
+    "why": "Your sister = she, поэтому Has."
+   },
+   {
+    "id": "g34-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "been-gone",
+    "q": "Where's Rex? — He has ___ to the dentist. (been / gone)",
+    "a": [
+     "gone"
+    ],
+    "why": "Рекса здесь нет, он сейчас у зубного — gone."
+   },
+   {
+    "id": "g34-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-has",
+    "q": "We ___ (win) the cup two times!",
+    "a": [
+     "have won"
+    ],
+    "why": "We → have + третья форма won."
+   },
+   {
+    "id": "g34-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "questions",
+    "q": "Has Coach Walt ever played in the NHL? — No, he ___.",
+    "a": [
+     "hasn't"
+    ],
+    "why": "Вопрос с has — короткий ответ No, he hasn't."
+   },
+   {
+    "id": "g34-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "participle",
+    "s": "I have wrote a new phonk track.",
+    "bad": 2,
+    "fix": "written",
+    "why": "После have нужна третья форма: write → written."
+   },
+   {
+    "id": "g34-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "have-has",
+    "s": "Rex have broken his stick again.",
+    "bad": 1,
+    "fix": "has",
+    "why": "Rex = he, поэтому has."
+   },
+   {
+    "id": "g34-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "ever-never",
+    "s": "My cat has ever seen snow.",
+    "bad": 3,
+    "fix": "never",
+    "why": "В утверждении «никогда» — never; ever ставим в вопросах."
+   },
+   {
+    "id": "g34-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "been-gone",
+    "s": "Mia has gone to New York many times.",
+    "bad": 2,
+    "fix": "been",
+    "why": "Ездила много раз и вернулась — been."
+   },
+   {
+    "id": "g34-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "participle",
+    "s": "Have you ever see a real moose?",
+    "bad": 3,
+    "fix": "seen",
+    "why": "После have нужна третья форма: seen."
+   },
+   {
+    "id": "g34-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "questions",
+    "s": "Has your parents ever played golf?",
+    "bad": 0,
+    "fix": "Have",
+    "why": "Your parents = they, поэтому Have."
+   },
+   {
+    "id": "g34-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "questions",
+    "a": "Have you ever been to a concert?",
+    "ru": "Ты когда-нибудь был на концерте?",
+    "extra": [
+     "did"
+    ],
+    "why": "Вопрос: Have + you + ever + been."
+   },
+   {
+    "id": "g34-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "ever-never",
+    "a": "My dad has never played Roblox.",
+    "ru": "Мой папа никогда не играл в Roblox.",
+    "extra": [
+     "not"
+    ],
+    "why": "Never стоит между has и V3, not не нужен."
+   },
+   {
+    "id": "g34-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "have-has",
+    "a": "Benny has broken three plates.",
+    "ru": "Бенни разбил три тарелки.",
+    "extra": [
+     "have"
+    ],
+    "why": "Benny = he, поэтому has + broken."
+   },
+   {
+    "id": "g34-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "been-gone",
+    "a": "Mia has been to Mexico.",
+    "ru": "Миа бывала в Мексике.",
+    "extra": [
+     "gone"
+    ],
+    "why": "Бывала и вернулась — been to."
+   },
+   {
+    "id": "g34-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "have-has",
+    "src": "I have seen a dinosaur skeleton.",
+    "task_ru": "Начни с Rex.",
+    "a": [
+     "Rex has seen a dinosaur skeleton."
+    ],
+    "why": "Rex = he, поэтому has."
+   },
+   {
+    "id": "g34-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "questions",
+    "src": "You have been to a hockey game.",
+    "task_ru": "Сделай вопрос с ever.",
+    "a": [
+     "Have you ever been to a hockey game?"
+    ],
+    "why": "Вопрос: Have + you + ever + been."
+   },
+   {
+    "id": "g34-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "ever-never",
+    "src": "I have eaten a hot dog.",
+    "task_ru": "Скажи, что ты никогда этого не делал (never).",
+    "a": [
+     "I have never eaten a hot dog."
+    ],
+    "why": "Never ставим между have и V3."
+   },
+   {
+    "id": "g34-035",
+    "t": "tr",
+    "lv": 3,
+    "tag": "been-gone",
+    "src": "My brother is in Toronto now. He went there on Monday.",
+    "task_ru": "Скажи одним предложением с has … to Toronto, без on Monday.",
+    "a": [
+     "My brother has gone to Toronto."
+    ],
+    "why": "Уехал и сейчас там — has gone."
+   },
+   {
+    "id": "g34-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "participle",
+    "title": "Rex's crazy life",
+    "text": "Rex is young, but he has ___ (do) a lot of things. He has ___ (fly) on a plane. He has ___ (ride) a horse. The horse wasn't happy! He has ___ (meet) a famous YouTuber. But he has never ___ (write) a letter. His arms are very short.",
+    "a": [
+     [
+      "done"
+     ],
+     [
+      "flown"
+     ],
+     [
+      "ridden"
+     ],
+     [
+      "met"
+     ],
+     [
+      "written"
+     ]
+    ],
+    "why": "После has — третья форма: done, flown, ridden, met, written."
+   },
+   {
+    "id": "g34-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "questions",
+    "title": "Have you ever...?",
+    "text": "Benny asks Mia a lot of questions. \"___ (Have / Has) you ever seen a bear on the ice?\" \"Yes, I ___. I'm looking at one now!\" \"___ (Have / Has) your dad ever tried maple syrup?\" \"Of course he ___. We live in Canada!\" \"I have ___ (ever / never) tried it. Can I try?\"",
+    "a": [
+     [
+      "Have"
+     ],
+     [
+      "have"
+     ],
+     [
+      "Has"
+     ],
+     [
+      "has"
+     ],
+     [
+      "never"
+     ]
+    ],
+    "why": "You → Have, your dad → Has; короткий ответ повторяет have / has, а «никогда» — never."
+   },
+   {
+    "id": "g34-038",
+    "t": "chat",
+    "lv": 3,
+    "tag": "been-gone",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Have you ever ___ (be) to a real NHL game?"
+     },
+     {
+      "who": "you",
+      "t": "No, I ___. But I really want to go!"
+     },
+     {
+      "who": "Mia",
+      "t": "My dad has ___ (be) to a game in Toronto five times."
+     },
+     {
+      "who": "you",
+      "t": "Wow! Where is he now?"
+     },
+     {
+      "who": "Mia",
+      "t": "He's not home. He has ___ (been / gone) to the rink with Rex."
+     }
+    ],
+    "a": [
+     [
+      "been"
+     ],
+     [
+      "haven't"
+     ],
+     [
+      "been"
+     ],
+     [
+      "gone"
+     ]
+    ],
+    "why": "Опыт поездок — been; короткий ответ — No, I haven't; ушёл и сейчас там — gone."
+   },
+   {
+    "id": "g34-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "ever-never",
+    "ru": "Я никогда не видел живого медведя.",
+    "a": [
+     "I have never seen a real bear.",
+     "I've never seen a real bear.",
+     "I have never seen a live bear.",
+     "I've never seen a live bear."
+    ],
+    "why": "Never стоит между have и V3 seen."
+   },
+   {
+    "id": "g34-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "questions",
+    "ru": "Ты когда-нибудь ел пиццу с ананасами?",
+    "a": [
+     "Have you ever eaten pizza with pineapple?",
+     "Have you ever eaten pineapple pizza?",
+     "Have you ever had pizza with pineapple?",
+     "Have you ever had pineapple pizza?"
+    ],
+    "why": "«Когда-нибудь» — Have you ever + V3 (eaten)."
+   },
+   {
+    "id": "g34-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "have-has",
+    "ru": "Мой папа никогда не летал на самолёте.",
+    "a": [
+     "My dad has never flown on a plane.",
+     "My dad has never flown in a plane.",
+     "My dad has never been on a plane.",
+     "My father has never flown on a plane.",
+     "My father has never flown in a plane.",
+     "My father has never been on a plane."
+    ],
+    "why": "My dad = he, поэтому has never + flown."
+   },
+   {
+    "id": "g34-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "been-gone",
+    "ru": "Мой брат бывал в Лондоне.",
+    "a": [
+     "My brother has been to London.",
+     "My brother's been to London."
+    ],
+    "why": "«Бывал» — опыт, значит has been to."
+   },
+   {
+    "id": "g34-043",
+    "t": "speak",
+    "lv": 3,
+    "tag": "participle",
+    "say": "Have you ever written your own song?",
+    "ru": "Ты когда-нибудь писал свою песню?",
+    "why": "Write → wrote → written: после have — written."
+   },
+   {
+    "id": "g34-044",
+    "t": "write",
+    "lv": 3,
+    "tag": "ever-never",
+    "task_ru": "Напиши 3 предложения о своём опыте: что ты делал хотя бы раз и чего никогда не делал. Используй have / has + V3 и never.",
+    "check_ru": [
+     "Есть have / has + третья форма (seen, been, eaten)?",
+     "Never стоит между have и V3?",
+     "Нет ли haven't never?"
+    ],
+    "model": "I have flown on a plane three times. I have never seen a real moose. My friend has never played hockey.",
+    "why": "Опыт — have / has + V3, а «никогда» — never без not."
+   }
+  ]
+ },
+ {
+  "id": "g35",
+  "stage": "A2",
+  "title_ru": "Present Perfect: just, already, yet, for, since",
+  "goal_ru": "Сказать «только что», «уже», «ещё не» и «с тех пор как».",
+  "prereq": [
+   "g34"
+  ],
+  "spotlight": [
+   "2c"
+  ],
+  "cards": [
+   {
+    "title_ru": "just и already",
+    "body_ru": "**just** = только что, **already** = уже. Оба стоят между have / has и V3: I have **just** scored! She has **already** eaten. В разговорном американском часто говорят и проще: I just scored, I already ate — это тоже нормально.",
+    "ex": [
+     [
+      "Rex has just blocked the shot!",
+      "Рекс только что отбил бросок!"
+     ],
+     [
+      "Benny has already eaten all the cookies.",
+      "Бенни уже съел всё печенье."
+     ]
+    ]
+   },
+   {
+    "title_ru": "yet — в конце",
+    "body_ru": "**yet** ставим в самом конце отрицания или вопроса. haven't … **yet** = ещё не. Have you … **yet**? = ты уже …? Сравни: I have **already** done it (уже сделал) — I haven't done it **yet** (ещё не сделал).",
+    "ex": [
+     [
+      "I haven't finished my homework yet.",
+      "Я ещё не закончил домашку."
+     ],
+     [
+      "Has Rex found his mask yet?",
+      "Рекс уже нашёл свою маску?"
+     ]
+    ]
+   },
+   {
+    "title_ru": "for и since",
+    "body_ru": "Что длится до сих пор: **for** + отрезок времени (for two years, for a week, for ten minutes), **since** + момент начала (since 2022, since Monday, since I was five). Глагол — have / has + V3: I **have known** Mia **for** three years. Не говори I know her since…",
+    "ex": [
+     [
+      "Rex has had his stick since he was five.",
+      "У Рекса эта клюшка с пяти лет."
+     ],
+     [
+      "We have had our dog for five years.",
+      "Наша собака живёт у нас уже пять лет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Present Perfect или Past Simple",
+    "body_ru": "Есть **законченное время** — yesterday, last week, in 2024, two days ago, вопрос When…? — значит **Past Simple**: I **saw** it yesterday. Нет точного времени, важен опыт или результат сейчас — **Present Perfect**: I **have seen** it. Нельзя: I have seen it yesterday.",
+    "ex": [
+     [
+      "I have lost my phone! Can you call it?",
+      "Я потерял телефон! Можешь на него позвонить?"
+     ],
+     [
+      "I lost my phone two days ago.",
+      "Я потерял телефон два дня назад."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "I have seen this video yesterday.",
+    "right": "I saw this video yesterday.",
+    "why_ru": "Yesterday — законченное время, нужен Past Simple."
+   },
+   {
+    "wrong": "I know Rex since 2021.",
+    "right": "I have known Rex since 2021.",
+    "why_ru": "«С какого-то момента и до сих пор» — Present Perfect."
+   },
+   {
+    "wrong": "We have lived here since three years.",
+    "right": "We have lived here for three years.",
+    "why_ru": "Три года — это отрезок, значит for."
+   },
+   {
+    "wrong": "Benny hasn't yet cleaned his room.",
+    "right": "Benny hasn't cleaned his room yet.",
+    "why_ru": "Yet ставим в конце."
+   },
+   {
+    "wrong": "She has finished already her homework.",
+    "right": "She has already finished her homework.",
+    "why_ru": "Already ставим между has и V3."
+   }
+  ],
+  "tags": {
+   "just": {
+    "ru": "just — только что",
+    "tip_ru": "Just = «только что». Ставим между have / has и V3: I have just eaten. В Америке говорят и I just ate — это тоже правильно.",
+    "back": "g34"
+   },
+   "already": {
+    "ru": "already — уже",
+    "tip_ru": "Already = «уже», обычно в утверждении. Ставим между have / has и V3: She has already finished.",
+    "back": "g34"
+   },
+   "yet": {
+    "ru": "yet — ещё не / уже?",
+    "tip_ru": "Yet ставим в КОНЦЕ отрицания или вопроса. I haven't finished yet = я ещё не закончил. Have you finished yet? = ты уже закончил?",
+    "back": "g34"
+   },
+   "for-since": {
+    "ru": "for или since",
+    "tip_ru": "For + сколько времени: for two years, for a week. Since + с какого момента: since 2020, since Monday, since I was six."
+   },
+   "pp-vs-ps": {
+    "ru": "Present Perfect или Past Simple",
+    "tip_ru": "Названо законченное время (yesterday, last week, in 2020, two days ago, When…?) — только Past Simple: I saw it yesterday. Без точного времени — Present Perfect.",
+    "back": "g27"
+   }
+  },
+  "items": [
+   {
+    "id": "g35-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "just",
+    "q": "Look! Rex has ___ caught the puck!",
+    "o": [
+     "just",
+     "yet"
+    ],
+    "a": 0,
+    "why": "«Только что» — just, между has и V3."
+   },
+   {
+    "id": "g35-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "yet",
+    "q": "I haven't eaten breakfast ___.",
+    "o": [
+     "yet",
+     "already"
+    ],
+    "a": 0,
+    "why": "«Ещё не» — haven't … yet."
+   },
+   {
+    "id": "g35-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "already",
+    "q": "No, thanks. I've ___ had lunch.",
+    "o": [
+     "already",
+     "yet"
+    ],
+    "a": 0,
+    "why": "Уже пообедал — already в утверждении."
+   },
+   {
+    "id": "g35-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "for-since",
+    "q": "Mia has played hockey ___ eight years.",
+    "o": [
+     "for",
+     "since"
+    ],
+    "a": 0,
+    "why": "Восемь лет — отрезок времени: for."
+   },
+   {
+    "id": "g35-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "for-since",
+    "q": "Rex has been our goalie ___ September.",
+    "o": [
+     "since",
+     "for"
+    ],
+    "a": 0,
+    "why": "Сентябрь — момент начала: since."
+   },
+   {
+    "id": "g35-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "pp-vs-ps",
+    "q": "I ___ this video yesterday.",
+    "o": [
+     "watched",
+     "have watched"
+    ],
+    "a": 0,
+    "why": "Yesterday — законченное время: Past Simple."
+   },
+   {
+    "id": "g35-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "pp-vs-ps",
+    "q": "When ___ you buy your new skates?",
+    "o": [
+     "did",
+     "have"
+    ],
+    "a": 0,
+    "why": "Вопрос When…? — Past Simple: When did you buy…?"
+   },
+   {
+    "id": "g35-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "yet",
+    "q": "Has the movie started ___?",
+    "o": [
+     "yet",
+     "since",
+     "for"
+    ],
+    "a": 0,
+    "why": "Вопрос «уже?» — yet в конце."
+   },
+   {
+    "id": "g35-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "for-since",
+    "q": "I have known Mia ___ I was five.",
+    "o": [
+     "since",
+     "for",
+     "from",
+     "ago"
+    ],
+    "a": 0,
+    "why": "С момента «мне было пять» — since."
+   },
+   {
+    "id": "g35-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "pp-vs-ps",
+    "q": "We ___ the game two days ago.",
+    "o": [
+     "won",
+     "have won",
+     "has won"
+    ],
+    "a": 0,
+    "why": "Ago — законченное время: Past Simple won."
+   },
+   {
+    "id": "g35-011",
+    "t": "listen",
+    "lv": 1,
+    "tag": "yet",
+    "say": "I haven't finished yet.",
+    "o": [
+     "I haven't finished yet.",
+     "I have just finished."
+    ],
+    "a": 0,
+    "why": "Ты услышал haven't … yet — ещё не закончил."
+   },
+   {
+    "id": "g35-012",
+    "t": "listen",
+    "lv": 1,
+    "tag": "already",
+    "say": "Benny has already eaten.",
+    "o": [
+     "Benny has already eaten.",
+     "Benny hasn't eaten yet."
+    ],
+    "a": 0,
+    "why": "Ты услышал has already — Бенни уже поел."
+   },
+   {
+    "id": "g35-013",
+    "t": "match",
+    "lv": 1,
+    "tag": "for-since",
+    "pairs": [
+     [
+      "for two hours",
+      "два часа"
+     ],
+     [
+      "since two o'clock",
+      "с двух часов"
+     ],
+     [
+      "for a week",
+      "неделю"
+     ],
+     [
+      "since last week",
+      "с прошлой недели"
+     ]
+    ],
+    "why": "For + сколько длится, since + с какого момента."
+   },
+   {
+    "id": "g35-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "just",
+    "q": "Wow! Benny has ___ broken the window. (just / yet)",
+    "a": [
+     "just"
+    ],
+    "why": "«Только что» — just, между has и V3."
+   },
+   {
+    "id": "g35-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "yet",
+    "q": "Have you done your homework ___? (yet / just)",
+    "a": [
+     "yet"
+    ],
+    "why": "В вопросе «уже?» — yet в конце."
+   },
+   {
+    "id": "g35-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "already",
+    "q": "Hurry up! The game has ___ started. (already / yet)",
+    "a": [
+     "already"
+    ],
+    "why": "Утверждение «уже началась» — already."
+   },
+   {
+    "id": "g35-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "for-since",
+    "q": "Rex has had his mask ___ 2024. (for / since)",
+    "a": [
+     "since"
+    ],
+    "why": "2024 — момент начала: since."
+   },
+   {
+    "id": "g35-018",
+    "t": "gap",
+    "lv": 2,
+    "tag": "for-since",
+    "q": "We have lived in this apartment ___ ten years. (for / since)",
+    "a": [
+     "for"
+    ],
+    "why": "Десять лет — отрезок: for."
+   },
+   {
+    "id": "g35-019",
+    "t": "gap",
+    "lv": 2,
+    "tag": "pp-vs-ps",
+    "q": "Benny ___ (fall) on the ice last night.",
+    "a": [
+     "fell"
+    ],
+    "why": "Last night — законченное время: Past Simple fell."
+   },
+   {
+    "id": "g35-020",
+    "t": "gap",
+    "lv": 2,
+    "tag": "pp-vs-ps",
+    "q": "Mia ___ (buy) new skates two days ago.",
+    "a": [
+     "bought"
+    ],
+    "why": "Ago — законченное время: Past Simple bought."
+   },
+   {
+    "id": "g35-021",
+    "t": "gap",
+    "lv": 2,
+    "tag": "just",
+    "q": "I have just ___ (finish) my new track!",
+    "a": [
+     "finished"
+    ],
+    "why": "После have just — третья форма: finished."
+   },
+   {
+    "id": "g35-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "for-since",
+    "s": "Benny has lived with the Parkers since two months.",
+    "bad": 6,
+    "fix": "for",
+    "why": "Два месяца — отрезок времени: for."
+   },
+   {
+    "id": "g35-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "for-since",
+    "s": "Mia has been my best friend for first grade.",
+    "bad": 6,
+    "fix": "since",
+    "why": "First grade — момент начала: since."
+   },
+   {
+    "id": "g35-024",
+    "t": "err",
+    "lv": 2,
+    "tag": "yet",
+    "s": "I haven't seen the new episode already so don't tell me!",
+    "bad": 6,
+    "fix": "yet",
+    "why": "В отрицании «ещё не» — yet, а не already."
+   },
+   {
+    "id": "g35-025",
+    "t": "err",
+    "lv": 2,
+    "tag": "just",
+    "s": "Mia has just score a goal!",
+    "bad": 3,
+    "fix": "scored",
+    "why": "После has just — третья форма: scored."
+   },
+   {
+    "id": "g35-026",
+    "t": "err",
+    "lv": 2,
+    "tag": "already",
+    "s": "Benny has already ate my sandwich.",
+    "bad": 3,
+    "fix": "eaten",
+    "why": "После has already — третья форма: eaten."
+   },
+   {
+    "id": "g35-027",
+    "t": "err",
+    "lv": 2,
+    "tag": "pp-vs-ps",
+    "s": "When have you come home?",
+    "bad": 1,
+    "fix": "did",
+    "why": "Вопрос When…? — Past Simple: When did you come home?"
+   },
+   {
+    "id": "g35-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "just",
+    "a": "I have just finished my homework.",
+    "ru": "Я только что закончил домашнюю работу.",
+    "extra": [
+     "yet"
+    ],
+    "why": "Just стоит между have и V3."
+   },
+   {
+    "id": "g35-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "yet",
+    "a": "Has Benny cleaned his room yet?",
+    "ru": "Бенни уже убрал свою комнату?",
+    "extra": [
+     "since"
+    ],
+    "why": "В вопросе «уже?» — yet в конце."
+   },
+   {
+    "id": "g35-030",
+    "t": "build",
+    "lv": 2,
+    "tag": "for-since",
+    "a": "We have known Coach Walt for three years.",
+    "ru": "Мы знаем тренера Уолта три года.",
+    "extra": [
+     "since"
+    ],
+    "why": "Три года — отрезок: for; глагол have known."
+   },
+   {
+    "id": "g35-031",
+    "t": "build",
+    "lv": 2,
+    "tag": "already",
+    "a": "The bus has already left.",
+    "ru": "Автобус уже ушёл.",
+    "extra": [
+     "yet"
+    ],
+    "why": "Already стоит между has и V3."
+   },
+   {
+    "id": "g35-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "yet",
+    "src": "I have finished my song.",
+    "task_ru": "Сделай отрицание с yet.",
+    "a": [
+     "I haven't finished my song yet."
+    ],
+    "why": "Отрицание haven't, а yet — в конце."
+   },
+   {
+    "id": "g35-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "already",
+    "src": "Mia has cleaned her skates.",
+    "task_ru": "Добавь already (уже).",
+    "a": [
+     "Mia has already cleaned her skates.",
+     "Mia has cleaned her skates already."
+    ],
+    "why": "Already ставим между has и V3."
+   },
+   {
+    "id": "g35-034",
+    "t": "tr",
+    "lv": 2,
+    "tag": "pp-vs-ps",
+    "src": "I have seen this movie.",
+    "task_ru": "Добавь в конце last week.",
+    "a": [
+     "I saw this movie last week."
+    ],
+    "why": "С last week нужен Past Simple: saw."
+   },
+   {
+    "id": "g35-035",
+    "t": "tr",
+    "lv": 3,
+    "tag": "for-since",
+    "src": "Benny came to Canada in March. He still lives here.",
+    "task_ru": "Скажи одним предложением с since.",
+    "a": [
+     "Benny has lived in Canada since March.",
+     "Benny has lived here since March.",
+     "Benny has been in Canada since March.",
+     "Benny has been here since March."
+    ],
+    "why": "С марта и до сих пор — has lived + since March."
+   },
+   {
+    "id": "g35-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "yet",
+    "title": "Morning chaos",
+    "text": "It's 8 a.m. Benny has ___ (just / yet) woken up. Mia has ___ (already / yet) eaten her breakfast. Benny hasn't brushed his teeth ___ (already / yet). He has ___ (just / yet) dropped his toast on the floor! Mrs Parker asks, \"Have you found your backpack ___ (just / yet)?\"",
+    "a": [
+     [
+      "just"
+     ],
+     [
+      "already"
+     ],
+     [
+      "yet"
+     ],
+     [
+      "just"
+     ],
+     [
+      "yet"
+     ]
+    ],
+    "why": "Just и already — между has и V3, yet — в конце отрицания и вопроса."
+   },
+   {
+    "id": "g35-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "for-since",
+    "title": "Mia and hockey",
+    "text": "Mia ___ (start) hockey when she was six. She has played ___ (for / since) eight years. She has been on our team ___ (for / since) 2023. Last year she ___ (score) 30 goals! She has ___ (win) a lot of medals.",
+    "a": [
+     [
+      "started"
+     ],
+     [
+      "for"
+     ],
+     [
+      "since"
+     ],
+     [
+      "scored"
+     ],
+     [
+      "won"
+     ]
+    ],
+    "why": "Законченное время (when she was six, last year) — Past Simple; for + срок, since + начало; has + won."
+   },
+   {
+    "id": "g35-038",
+    "t": "chat",
+    "lv": 3,
+    "tag": "pp-vs-ps",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Have you seen the new Brawl Stars update?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___ (see) it yesterday! It's cool."
+     },
+     {
+      "who": "Mia",
+      "t": "___ (Have / Did) you tried the new brawler?"
+     },
+     {
+      "who": "you",
+      "t": "Not ___. I'll try it tonight."
+     },
+     {
+      "who": "Mia",
+      "t": "I ___ (play) with it for two hours last night!"
+     }
+    ],
+    "a": [
+     [
+      "saw"
+     ],
+     [
+      "Have"
+     ],
+     [
+      "yet"
+     ],
+     [
+      "played"
+     ]
+    ],
+    "why": "Yesterday и last night — Past Simple; tried — третья форма, значит Have; «ещё нет» — Not yet."
+   },
+   {
+    "id": "g35-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "just",
+    "ru": "Я только что проснулся.",
+    "a": [
+     "I have just woken up.",
+     "I've just woken up.",
+     "I just woke up.",
+     "I have just got up.",
+     "I've just got up.",
+     "I just got up.",
+     "I have just gotten up.",
+     "I've just gotten up."
+    ],
+    "why": "«Только что» — have just + V3 (woken up)."
+   },
+   {
+    "id": "g35-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "yet",
+    "ru": "Я ещё не видел этот фильм.",
+    "a": [
+     "I haven't seen this movie yet.",
+     "I haven't seen that movie yet.",
+     "I haven't seen this film yet.",
+     "I haven't seen that film yet."
+    ],
+    "why": "«Ещё не» — haven't + V3 + yet в конце."
+   },
+   {
+    "id": "g35-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "for-since",
+    "ru": "Я знаю Мию с 2022 года.",
+    "a": [
+     "I have known Mia since 2022.",
+     "I've known Mia since 2022."
+    ],
+    "why": "С какого-то момента до сих пор — have known + since."
+   },
+   {
+    "id": "g35-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "pp-vs-ps",
+    "ru": "Мы выиграли игру в прошлое воскресенье.",
+    "a": [
+     "We won the game last Sunday.",
+     "We won a game last Sunday."
+    ],
+    "why": "Last Sunday — законченное время: Past Simple won."
+   },
+   {
+    "id": "g35-043",
+    "t": "speak",
+    "lv": 3,
+    "tag": "already",
+    "say": "Coach Walt has already eaten twenty fish today.",
+    "ru": "Тренер Уолт сегодня уже съел двадцать рыб.",
+    "why": "Already стоит между has и V3 eaten."
+   },
+   {
+    "id": "g35-044",
+    "t": "write",
+    "lv": 3,
+    "tag": "pp-vs-ps",
+    "task_ru": "Напиши 3 предложения: что ты уже сделал сегодня (already / just), чего ещё не сделал (yet) и сколько ты чем-то занимаешься (for / since).",
+    "check_ru": [
+     "Just и already стоят между have / has и V3?",
+     "Yet стоит в конце?",
+     "For + срок, since + момент начала?",
+     "Со словами yesterday, last, ago — Past Simple?"
+    ],
+    "model": "I have already done my homework today. I haven't played Brawl Stars yet. I have played hockey for five years.",
+    "why": "Уже / только что — have + V3, ещё не — yet в конце, срок — for, а законченное время — Past Simple."
+   }
+  ]
+ }
+]

@@ -1,0 +1,3773 @@
+[
+ {
+  "id": "g06",
+  "stage": "A1",
+  "title_ru": "There is / there are",
+  "goal_ru": "Сказать, что где есть: There is a rink near my house.",
+  "prereq": [
+   "g02",
+   "g05"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "Когда говорим, что где-то **что-то есть**, используем **there is** (один предмет или то, что не считают: milk, snow, music) и **there are** (много предметов).",
+    "ex": [
+     [
+      "There is a rink near my house.",
+      "Рядом с моим домом есть каток."
+     ],
+     [
+      "There are two goalies on our team.",
+      "В нашей команде два вратаря."
+     ],
+     [
+      "There is some milk in the fridge.",
+      "В холодильнике есть молоко."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Начинаем с There",
+    "body_ru": "По-русски мы начинаем с места: «В моей комнате есть кровать». По-английски сначала **There is**, а место — **в конце**. Коротко: **there's** = there is.",
+    "ex": [
+     [
+      "There is a bed in my room.",
+      "В моей комнате есть кровать."
+     ],
+     [
+      "There's a dinosaur in the museum.",
+      "В музее есть динозавр."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Отрицание и some / any",
+    "body_ru": "Отрицание: **there isn't** / **there aren't**. В утверждении обычно **some** (немного, несколько), в отрицании и вопросе — **any**.",
+    "ex": [
+     [
+      "There are some pucks under the bench.",
+      "Под скамейкой есть несколько шайб."
+     ],
+     [
+      "There aren't any snacks in my bag.",
+      "В моём рюкзаке нет никаких перекусов."
+     ],
+     [
+      "There isn't any juice.",
+      "Сока нет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопросы и короткие ответы",
+    "body_ru": "В вопросе меняем местами: **Is there…? / Are there…?** Отвечаем коротко с there: **Yes, there is. / No, there aren't.**",
+    "ex": [
+     [
+      "Is there a pool in your school? — Yes, there is.",
+      "В твоей школе есть бассейн? — Да."
+     ],
+     [
+      "Are there any good comics here? — No, there aren't.",
+      "Здесь есть хорошие комиксы? — Нет."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "In my room is a big bed.",
+    "right": "There is a big bed in my room.",
+    "why_ru": "Начинаем с There is, а место ставим в конец."
+   },
+   {
+    "wrong": "There is two pucks on the ice.",
+    "right": "There are two pucks on the ice.",
+    "why_ru": "Шайб две — значит there are."
+   },
+   {
+    "wrong": "There isn't some milk.",
+    "right": "There isn't any milk.",
+    "why_ru": "В отрицании говорим any, а не some."
+   },
+   {
+    "wrong": "Is there a rink here? — Yes, it is.",
+    "right": "Is there a rink here? — Yes, there is.",
+    "why_ru": "Короткий ответ повторяет there: Yes, there is."
+   }
+  ],
+  "tags": {
+   "is-are": {
+    "ru": "there is или there are",
+    "tip_ru": "Смотри на то, что идёт после: один предмет или milk/water/snow — there is; два и больше — there are.",
+    "back": "g04"
+   },
+   "there-start": {
+    "ru": "начинаем с There",
+    "tip_ru": "Не начинай с места, как в русском. Сначала There is / There are, а «в комнате», «рядом с домом» — в конце."
+   },
+   "neg": {
+    "ru": "there isn't / there aren't",
+    "tip_ru": "Отрицание делаем через isn't или aren't: There isn't a pool. There aren't any pucks.",
+    "back": "g02"
+   },
+   "question": {
+    "ru": "Is there…? Are there…?",
+    "tip_ru": "В вопросе is/are встаёт перед there: Is there…? Отвечаем коротко: Yes, there is. / No, there aren't.",
+    "back": "g02"
+   },
+   "some-any": {
+    "ru": "some или any",
+    "tip_ru": "Some — в обычном утверждении. Any — в отрицании и в вопросе."
+   }
+  },
+  "items": [
+   {
+    "id": "g06-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "is-are",
+    "q": "There ___ a rink near my house.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Каток один (a rink) → there is."
+   },
+   {
+    "id": "g06-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "is-are",
+    "q": "There ___ three pucks under the bench.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 1,
+    "why": "Шайб три → there are."
+   },
+   {
+    "id": "g06-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "is-are",
+    "q": "There ___ some milk in the fridge.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "Milk не считают по штукам → there is."
+   },
+   {
+    "id": "g06-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "There ___ any snow in the yard today.",
+    "o": [
+     "isn't",
+     "aren't"
+    ],
+    "a": 0,
+    "why": "Snow не считают по штукам → there isn't."
+   },
+   {
+    "id": "g06-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "___ there any dinosaurs in the museum?",
+    "o": [
+     "Is",
+     "Are"
+    ],
+    "a": 1,
+    "why": "Dinosaurs — много → Are there…?"
+   },
+   {
+    "id": "g06-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "some-any",
+    "q": "There aren't ___ comics on my shelf.",
+    "o": [
+     "some",
+     "any"
+    ],
+    "a": 1,
+    "why": "Это отрицание (aren't) → any."
+   },
+   {
+    "id": "g06-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "some-any",
+    "q": "There are ___ new players on our team.",
+    "o": [
+     "some",
+     "any"
+    ],
+    "a": 0,
+    "why": "Это обычное утверждение → some."
+   },
+   {
+    "id": "g06-008",
+    "t": "mc",
+    "lv": 1,
+    "tag": "there-start",
+    "q": "___ a skate park near our school. (Рядом с нашей школой есть скейт-парк.)",
+    "o": [
+     "There is",
+     "It is"
+    ],
+    "a": 0,
+    "why": "«Где-то что-то есть» → There is, а не It is."
+   },
+   {
+    "id": "g06-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "question",
+    "q": "Is there a pool in your school? — Yes, ___.",
+    "o": [
+     "there is",
+     "it is",
+     "is there"
+    ],
+    "a": 0,
+    "why": "Короткий ответ повторяет there: Yes, there is."
+   },
+   {
+    "id": "g06-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "is-are",
+    "q": "There ___ an hour before the game.",
+    "o": [
+     "is",
+     "are"
+    ],
+    "a": 0,
+    "why": "An hour — один час → there is."
+   },
+   {
+    "id": "g06-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "is-are",
+    "q": "There ___ two goals on a hockey rink. (is / are)",
+    "a": [
+     "are"
+    ],
+    "why": "Ворот двое (two goals) → are."
+   },
+   {
+    "id": "g06-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "There ___ any pizza in the box. Benny is sad. (isn't / aren't)",
+    "a": [
+     "isn't"
+    ],
+    "why": "Pizza здесь не считаем по штукам → there isn't."
+   },
+   {
+    "id": "g06-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ there a bus stop near your house? (Is / Are)",
+    "a": [
+     "Is"
+    ],
+    "why": "Остановка одна (a bus stop) → Is there…?"
+   },
+   {
+    "id": "g06-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "some-any",
+    "q": "Are there ___ good songs on this playlist? (some / any)",
+    "a": [
+     "any"
+    ],
+    "why": "Это вопрос → any."
+   },
+   {
+    "id": "g06-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "there-start",
+    "q": "___ a new game on my phone. («есть»)",
+    "a": [
+     "There is",
+     "There's"
+    ],
+    "why": "«На телефоне есть игра» → начинаем с There is."
+   },
+   {
+    "id": "g06-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "Are there any snacks in the bag? — No, there ___ .",
+    "a": [
+     "aren't"
+    ],
+    "why": "Вопрос с are, ответ «нет» → No, there aren't."
+   },
+   {
+    "id": "g06-017",
+    "t": "gap",
+    "lv": 3,
+    "tag": "is-are",
+    "q": "There ___ twenty people on the bus. (is / are)",
+    "a": [
+     "are"
+    ],
+    "why": "People — это «люди», множественное число → are."
+   },
+   {
+    "id": "g06-018",
+    "t": "err",
+    "lv": 2,
+    "tag": "is-are",
+    "s": "There is five players on the ice.",
+    "bad": 1,
+    "fix": "are",
+    "why": "Игроков пять → there are."
+   },
+   {
+    "id": "g06-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "is-are",
+    "s": "There are a dragon in my comic book.",
+    "bad": 1,
+    "fix": "is",
+    "why": "Дракон один (a dragon) → there is."
+   },
+   {
+    "id": "g06-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "some-any",
+    "s": "There aren't some apples in the bag.",
+    "bad": 2,
+    "fix": "any",
+    "why": "В отрицании ставим any."
+   },
+   {
+    "id": "g06-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg",
+    "s": "There isn't any chairs in the locker room.",
+    "bad": 1,
+    "fix": "aren't",
+    "why": "Chairs — много → there aren't."
+   },
+   {
+    "id": "g06-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "question",
+    "s": "Are there a café near the rink?",
+    "bad": 0,
+    "fix": "Is",
+    "why": "Кафе одно (a café) → Is there…?"
+   },
+   {
+    "id": "g06-023",
+    "t": "err",
+    "lv": 3,
+    "tag": "some-any",
+    "s": "There are any cookies on the plate for you.",
+    "bad": 2,
+    "fix": "some",
+    "why": "Это утверждение → some, а не any."
+   },
+   {
+    "id": "g06-024",
+    "t": "build",
+    "lv": 2,
+    "tag": "question",
+    "a": "Is there a rink near your house?",
+    "ru": "Рядом с твоим домом есть каток?",
+    "extra": [
+     "are"
+    ],
+    "why": "Вопрос: Is there + один предмет + место в конце."
+   },
+   {
+    "id": "g06-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "There aren't any eggs in the fridge.",
+    "ru": "В холодильнике нет яиц.",
+    "extra": [
+     "some"
+    ],
+    "why": "Яиц много и это отрицание → There aren't any."
+   },
+   {
+    "id": "g06-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "there-start",
+    "a": "There is a big dinosaur in the museum.",
+    "ru": "В музее есть большой динозавр.",
+    "extra": [
+     "it"
+    ],
+    "why": "Начинаем с There is, место (in the museum) в конце."
+   },
+   {
+    "id": "g06-027",
+    "t": "build",
+    "lv": 3,
+    "tag": "question",
+    "a": "Are there any good comics in this shop?",
+    "ru": "В этом магазине есть хорошие комиксы?",
+    "extra": [
+     "some",
+     "is"
+    ],
+    "why": "Комиксов много и это вопрос → Are there any…?"
+   },
+   {
+    "id": "g06-028",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "There is a TV in my room.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "There isn't a TV in my room.",
+     "There is no TV in my room.",
+     "There's no TV in my room.",
+     "There's not a TV in my room."
+    ],
+    "why": "Добавляем not к is: There isn't a TV."
+   },
+   {
+    "id": "g06-029",
+    "t": "tr",
+    "lv": 2,
+    "tag": "question",
+    "src": "There are some cookies in the box.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Are there any cookies in the box?"
+    ],
+    "why": "Are встаёт перед there, а some в вопросе меняется на any."
+   },
+   {
+    "id": "g06-030",
+    "t": "tr",
+    "lv": 3,
+    "tag": "is-are",
+    "src": "There is a new player on our team.",
+    "task_ru": "Поставь вместо a new player «два новых игрока» (two new players).",
+    "a": [
+     "There are two new players on our team."
+    ],
+    "why": "Игроков стало два → there are."
+   },
+   {
+    "id": "g06-031",
+    "t": "tr",
+    "lv": 3,
+    "tag": "some-any",
+    "src": "There is some water in the bottle.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "There isn't any water in the bottle.",
+     "There is no water in the bottle.",
+     "There's no water in the bottle."
+    ],
+    "why": "В отрицании isn't, а some меняется на any."
+   },
+   {
+    "id": "g06-032",
+    "t": "match",
+    "lv": 1,
+    "tag": "some-any",
+    "pairs": [
+     [
+      "There is",
+      "some juice in the fridge."
+     ],
+     [
+      "There are",
+      "some cats in the yard."
+     ],
+     [
+      "There isn't",
+      "any milk in the bottle."
+     ],
+     [
+      "There aren't",
+      "any comics on the shelf."
+     ]
+    ],
+    "why": "Is — с juice/milk, are — с cats/comics; some — в утверждении, any — в отрицании."
+   },
+   {
+    "id": "g06-033",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg",
+    "say": "There isn't a pool in my school.",
+    "o": [
+     "There isn't a pool in my school.",
+     "There is a pool in my school."
+    ],
+    "a": 0,
+    "why": "Ты слышал isn't — значит бассейна нет."
+   },
+   {
+    "id": "g06-034",
+    "t": "listen",
+    "lv": 1,
+    "tag": "question",
+    "say": "Are there any snacks?",
+    "o": [
+     "Are there any snacks?",
+     "There are some snacks."
+    ],
+    "a": 0,
+    "why": "Предложение начиналось с Are there — это вопрос."
+   },
+   {
+    "id": "g06-035",
+    "t": "text",
+    "lv": 2,
+    "tag": "is-are",
+    "title": "Benny's room",
+    "text": "Benny's room is small but cool. There ___ (be) a bed near the big window. There ___ (be) two posters on the wall. There ___ (be + not) a TV, but there ___ (be) a guitar. There ___ (be + not) any socks on the floor. Wow, Benny!",
+    "a": [
+     [
+      "is"
+     ],
+     [
+      "are"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "is"
+     ],
+     [
+      "aren't"
+     ]
+    ],
+    "why": "Один предмет (a bed, a TV, a guitar) → is/isn't, много (posters, socks) → are/aren't."
+   },
+   {
+    "id": "g06-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "some-any",
+    "title": "Coach Walt's locker room",
+    "text": "Coach Walt's locker room is a mess. There are ___ (some / any) old pucks under the bench. There isn't ___ (some / any) water in the bottles. ___ (Is / Are) there any clean towels? No, there ___ (be + not). But there ___ (be) a giant fish in the fridge. It's Coach Walt's lunch!",
+    "a": [
+     [
+      "some"
+     ],
+     [
+      "any"
+     ],
+     [
+      "Are"
+     ],
+     [
+      "aren't"
+     ],
+     [
+      "is"
+     ]
+    ],
+    "why": "Some — в утверждении, any — в отрицании и вопросе; towels — много → Are/aren't, fish одна → is."
+   },
+   {
+    "id": "g06-037",
+    "t": "chat",
+    "lv": 2,
+    "tag": "question",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi! Is there a rink near your new house?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, there ___ . It's big!"
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! And are there any hockey teams?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, there ___ two teams. ___ there a good team in your town?"
+     },
+     {
+      "who": "Mia",
+      "t": "Yes, my team!"
+     }
+    ],
+    "a": [
+     [
+      "is"
+     ],
+     [
+      "are"
+     ],
+     [
+      "Is"
+     ]
+    ],
+    "why": "Rink и team одна → is / Is there…?, teams две → there are."
+   },
+   {
+    "id": "g06-038",
+    "t": "chat",
+    "lv": 3,
+    "tag": "neg",
+    "lines": [
+     {
+      "who": "Rex",
+      "t": "Benny, is there any pizza? I'm hungry!"
+     },
+     {
+      "who": "you",
+      "t": "No, there ___ . But there ___ some pancakes."
+     },
+     {
+      "who": "Rex",
+      "t": "Pancakes! ___ there any syrup?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, there ___ . Here you are!"
+     }
+    ],
+    "a": [
+     [
+      "isn't"
+     ],
+     [
+      "are"
+     ],
+     [
+      "Is"
+     ],
+     [
+      "is"
+     ]
+    ],
+    "why": "Pizza и syrup не считаем → isn't / Is there / is, pancakes — много → are."
+   },
+   {
+    "id": "g06-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "there-start",
+    "ru": "В моей комнате есть гитара.",
+    "a": [
+     "There is a guitar in my room.",
+     "There's a guitar in my room.",
+     "In my room there is a guitar.",
+     "In my room there's a guitar."
+    ],
+    "why": "Начинаем с There is, «в моей комнате» — в конце: in my room."
+   },
+   {
+    "id": "g06-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "В холодильнике нет молока.",
+    "a": [
+     "There isn't any milk in the fridge.",
+     "There is no milk in the fridge.",
+     "There's no milk in the fridge."
+    ],
+    "why": "Milk не считаем → There isn't any milk."
+   },
+   {
+    "id": "g06-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "question",
+    "ru": "Рядом с катком есть кафе?",
+    "a": [
+     "Is there a café near the rink?",
+     "Is there a cafe near the rink?"
+    ],
+    "why": "Кафе одно → Is there a café…?"
+   },
+   {
+    "id": "g06-042",
+    "t": "speak",
+    "lv": 3,
+    "tag": "there-start",
+    "say": "There are two hockey rinks in our town.",
+    "ru": "В нашем городе два хоккейных катка.",
+    "why": "Катков два → There are, место (in our town) в конце."
+   },
+   {
+    "id": "g06-043",
+    "t": "write",
+    "lv": 3,
+    "tag": "there-start",
+    "task_ru": "Напиши 3 предложения о своей комнате: что там есть и чего нет.",
+    "check_ru": [
+     "Один предмет — there is, много — there are?",
+     "В отрицании isn't/aren't и any?",
+     "Место (in my room) стоит в конце?"
+    ],
+    "model": "There is a bed and a desk in my room. There are three posters on the wall. There isn't a TV in my room.",
+    "why": "Про комнату: There is / There are + предмет + in my room."
+   }
+  ]
+ },
+ {
+  "id": "g07",
+  "stage": "A1",
+  "title_ru": "Have got / has got",
+  "goal_ru": "Рассказать, что у тебя есть: I have got a new stick.",
+  "prereq": [
+   "g03"
+  ],
+  "spotlight": [],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "«У меня есть» = **I have got**. С I, you, we, they — **have got**, с he, she, it — **has got**. Это британский вариант, он есть в учебнике Spotlight.",
+    "ex": [
+     [
+      "I have got a new stick.",
+      "У меня есть новая клюшка."
+     ],
+     [
+      "Rex has got tiny arms.",
+      "У Рекса крошечные лапки."
+     ],
+     [
+      "We have got a new coach.",
+      "У нас новый тренер."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Короткие формы",
+    "body_ru": "В речи говорят коротко: **I've got, you've got, we've got, he's got, she's got**. Внимание: в **he's got** 's — это **has**, а не is!",
+    "ex": [
+     [
+      "I've got two cousins.",
+      "У меня два двоюродных брата."
+     ],
+     [
+      "She's got a cool helmet.",
+      "У неё крутой шлем."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Отрицание и вопрос",
+    "body_ru": "Отрицание: **haven't got / hasn't got**. Вопрос: **Have you got…? Has he got…?** В коротком ответе got не нужен: **Yes, I have. / No, he hasn't.**",
+    "ex": [
+     [
+      "Benny hasn't got a phone.",
+      "У Бенни нет телефона."
+     ],
+     [
+      "Have you got a charger? — Yes, I have.",
+      "У тебя есть зарядка? — Да."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как говорят в Америке",
+    "body_ru": "В Америке чаще говорят без got: **I have, he has**. Вопрос — **Do you have…? — Yes, I do.** Отрицание — **I don't have**. Оба варианта правильные, но в Америке звучит естественнее **have**.",
+    "ex": [
+     [
+      "Mia has a red helmet.",
+      "У Мии красный шлем."
+     ],
+     [
+      "Do you have a pet? — Yes, I do.",
+      "У тебя есть питомец? — Да."
+     ],
+     [
+      "I don't have a dog.",
+      "У меня нет собаки."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He have got a dog.",
+    "right": "He has got a dog.",
+    "why_ru": "С he/she/it — has got."
+   },
+   {
+    "wrong": "I got a new stick.",
+    "right": "I've got a new stick.",
+    "why_ru": "Без have получается «я получил»; «у меня есть» — I've got."
+   },
+   {
+    "wrong": "I am have a dog.",
+    "right": "I have a dog.",
+    "why_ru": "Am здесь лишний: «у меня есть» — просто I have."
+   },
+   {
+    "wrong": "Have you got a pet? — Yes, I have got.",
+    "right": "Have you got a pet? — Yes, I have.",
+    "why_ru": "В коротком ответе got не повторяем."
+   },
+   {
+    "wrong": "Do you have got a pet?",
+    "right": "Do you have a pet?",
+    "why_ru": "После do — просто have, без got."
+   }
+  ],
+  "tags": {
+   "have-has": {
+    "ru": "have got или has got",
+    "tip_ru": "Смотри на того, у кого есть: I, you, we, they — have got; he, she, it, Rex, Mia — has got."
+   },
+   "neg": {
+    "ru": "haven't got / hasn't got",
+    "tip_ru": "Not ставим после have/has: I haven't got, he hasn't got. Got остаётся на месте."
+   },
+   "question": {
+    "ru": "Have you got…? Has he got…?",
+    "tip_ru": "В вопросе have/has встаёт вперёд: Have you got…? Короткий ответ без got: Yes, I have. / No, she hasn't.",
+    "back": "g02"
+   },
+   "contraction": {
+    "ru": "I've got, he's got",
+    "tip_ru": "I've got = I have got, he's got = he has got. Не пропускай have: I got — это уже «я получил».",
+    "back": "g01"
+   },
+   "us-have": {
+    "ru": "американское have / Do you have…?",
+    "tip_ru": "В Америке: I have, he has, Do you have…? — Yes, I do. Got с do не используем."
+   }
+  },
+  "items": [
+   {
+    "id": "g07-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-has",
+    "q": "Rex ___ got very short arms.",
+    "o": [
+     "has",
+     "have"
+    ],
+    "a": 0,
+    "why": "Rex — это he → has got."
+   },
+   {
+    "id": "g07-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-has",
+    "q": "We ___ got a new coach.",
+    "o": [
+     "have",
+     "has"
+    ],
+    "a": 0,
+    "why": "С we → have got."
+   },
+   {
+    "id": "g07-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "have-has",
+    "q": "My headphones ___ got a long cable.",
+    "o": [
+     "have",
+     "has"
+    ],
+    "a": 0,
+    "why": "Headphones — это they → have got."
+   },
+   {
+    "id": "g07-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "neg",
+    "q": "Benny ___ got a phone. He's sad.",
+    "o": [
+     "hasn't",
+     "haven't"
+    ],
+    "a": 0,
+    "why": "Benny — это he → hasn't got."
+   },
+   {
+    "id": "g07-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "___ you got a hockey stick?",
+    "o": [
+     "Have",
+     "Has"
+    ],
+    "a": 0,
+    "why": "С you → Have you got…?"
+   },
+   {
+    "id": "g07-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "Has Coach Walt got a whistle? — Yes, he ___.",
+    "o": [
+     "has",
+     "has got"
+    ],
+    "a": 0,
+    "why": "В коротком ответе got не нужен: Yes, he has."
+   },
+   {
+    "id": "g07-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "us-have",
+    "q": "Do you ___ a pet?",
+    "o": [
+     "have",
+     "have got"
+    ],
+    "a": 0,
+    "why": "После do — просто have, без got."
+   },
+   {
+    "id": "g07-008",
+    "t": "mc",
+    "lv": 2,
+    "tag": "contraction",
+    "q": "She's got a cool helmet. Здесь She's = …",
+    "o": [
+     "She has",
+     "She is"
+    ],
+    "a": 0,
+    "why": "Перед got 's — это has: she has got."
+   },
+   {
+    "id": "g07-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "us-have",
+    "q": "Benny ___ a blue backpack. (без got)",
+    "o": [
+     "has",
+     "have",
+     "is have"
+    ],
+    "a": 0,
+    "why": "Benny — это he, без got → has."
+   },
+   {
+    "id": "g07-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "contraction",
+    "q": "___ got a new song on my laptop. (У меня есть новая песня.)",
+    "o": [
+     "I've",
+     "I'm",
+     "I"
+    ],
+    "a": 0,
+    "why": "«У меня есть» → I have got = I've got."
+   },
+   {
+    "id": "g07-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "have-has",
+    "q": "My sister ___ got blue eyes. (have / has)",
+    "a": [
+     "has"
+    ],
+    "why": "My sister — это she → has got."
+   },
+   {
+    "id": "g07-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "neg",
+    "q": "I ___ got a ticket for the game. (haven't / hasn't)",
+    "a": [
+     "haven't"
+    ],
+    "why": "С I → haven't got."
+   },
+   {
+    "id": "g07-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ Mia got a red helmet? (Have / Has)",
+    "a": [
+     "Has"
+    ],
+    "why": "Mia — это she → Has Mia got…?"
+   },
+   {
+    "id": "g07-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "Have you got a dog? — No, I ___ .",
+    "a": [
+     "haven't"
+    ],
+    "why": "Вопрос с have, ответ «нет» → No, I haven't."
+   },
+   {
+    "id": "g07-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "us-have",
+    "q": "Do you have a skateboard? — Yes, I ___ .",
+    "a": [
+     "do"
+    ],
+    "why": "На вопрос с Do отвечаем do: Yes, I do."
+   },
+   {
+    "id": "g07-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "contraction",
+    "q": "___ got a big family. (Мы — короткая форма)",
+    "a": [
+     "We've",
+     "We have"
+    ],
+    "why": "We have got коротко → We've got."
+   },
+   {
+    "id": "g07-017",
+    "t": "gap",
+    "lv": 3,
+    "tag": "us-have",
+    "q": "Rex ___ two best friends on the team. (have / has — без got)",
+    "a": [
+     "has"
+    ],
+    "why": "Rex — это he, без got → has."
+   },
+   {
+    "id": "g07-018",
+    "t": "gap",
+    "lv": 3,
+    "tag": "neg",
+    "q": "Benny ___ got any money for snacks. (have + not / has + not)",
+    "a": [
+     "hasn't"
+    ],
+    "why": "Benny — это he → hasn't got."
+   },
+   {
+    "id": "g07-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "have-has",
+    "s": "Coach Walt have got a big whistle.",
+    "bad": 2,
+    "fix": "has",
+    "why": "Coach Walt — это he → has got."
+   },
+   {
+    "id": "g07-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "neg",
+    "s": "My brother haven't got a bike.",
+    "bad": 2,
+    "fix": "hasn't",
+    "why": "My brother — это he → hasn't got."
+   },
+   {
+    "id": "g07-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "question",
+    "s": "Has you got a charger for my phone?",
+    "bad": 0,
+    "fix": "Have",
+    "why": "С you → Have you got…?"
+   },
+   {
+    "id": "g07-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "us-have",
+    "s": "Mia have a cool hockey bag.",
+    "bad": 1,
+    "fix": "has",
+    "why": "Mia — это she → has."
+   },
+   {
+    "id": "g07-023",
+    "t": "err",
+    "lv": 3,
+    "tag": "contraction",
+    "s": "I'm got a new game on my phone.",
+    "bad": 0,
+    "fix": "I've",
+    "why": "I'm = I am; «у меня есть» → I've got."
+   },
+   {
+    "id": "g07-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "have-has",
+    "s": "Mia and Benny has got new skates.",
+    "bad": 3,
+    "fix": "have",
+    "why": "Mia and Benny — это they → have got."
+   },
+   {
+    "id": "g07-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "question",
+    "a": "Have you got a hockey stick?",
+    "ru": "У тебя есть хоккейная клюшка?",
+    "extra": [
+     "has"
+    ],
+    "why": "С you → Have you got…?"
+   },
+   {
+    "id": "g07-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "neg",
+    "a": "Rex hasn't got long arms.",
+    "ru": "У Рекса нет длинных рук.",
+    "extra": [
+     "haven't"
+    ],
+    "why": "Rex — это he → hasn't got."
+   },
+   {
+    "id": "g07-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "us-have",
+    "a": "Do you have a pet?",
+    "ru": "У тебя есть питомец?",
+    "extra": [
+     "got"
+    ],
+    "why": "Американский вопрос: Do you have…? — без got."
+   },
+   {
+    "id": "g07-028",
+    "t": "build",
+    "lv": 3,
+    "tag": "have-has",
+    "a": "My dad has got a big red car.",
+    "ru": "У моего папы есть большая красная машина.",
+    "extra": [
+     "have"
+    ],
+    "why": "My dad — это he → has got."
+   },
+   {
+    "id": "g07-029",
+    "t": "tr",
+    "lv": 2,
+    "tag": "neg",
+    "src": "Benny has got a skateboard.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Benny hasn't got a skateboard.",
+     "Benny doesn't have a skateboard."
+    ],
+    "why": "Has + not → Benny hasn't got."
+   },
+   {
+    "id": "g07-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "question",
+    "src": "You have got a new phone.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Have you got a new phone?",
+     "Do you have a new phone?"
+    ],
+    "why": "Have встаёт перед you: Have you got…?"
+   },
+   {
+    "id": "g07-031",
+    "t": "tr",
+    "lv": 3,
+    "tag": "us-have",
+    "src": "I have got two cousins in Canada.",
+    "task_ru": "Скажи по-американски, без got.",
+    "a": [
+     "I have two cousins in Canada."
+    ],
+    "why": "Просто убираем got: I have."
+   },
+   {
+    "id": "g07-032",
+    "t": "tr",
+    "lv": 3,
+    "tag": "have-has",
+    "src": "I have got a cool helmet.",
+    "task_ru": "Начни с She.",
+    "a": [
+     "She has got a cool helmet.",
+     "She's got a cool helmet."
+    ],
+    "why": "С she → has got."
+   },
+   {
+    "id": "g07-033",
+    "t": "match",
+    "lv": 1,
+    "tag": "contraction",
+    "pairs": [
+     [
+      "I have got",
+      "I've got"
+     ],
+     [
+      "he has got",
+      "he's got"
+     ],
+     [
+      "we have got",
+      "we've got"
+     ],
+     [
+      "she has not got",
+      "she hasn't got"
+     ]
+    ],
+    "why": "Have сокращается до 've, has — до 's, has not — до hasn't."
+   },
+   {
+    "id": "g07-034",
+    "t": "listen",
+    "lv": 1,
+    "tag": "neg",
+    "say": "He hasn't got a ticket.",
+    "o": [
+     "He hasn't got a ticket.",
+     "He has got a ticket."
+    ],
+    "a": 0,
+    "why": "Ты слышал hasn't — значит билета нет."
+   },
+   {
+    "id": "g07-035",
+    "t": "listen",
+    "lv": 1,
+    "tag": "have-has",
+    "say": "They have got a new goalie.",
+    "o": [
+     "They have got a new goalie.",
+     "She has got a new goalie."
+    ],
+    "a": 0,
+    "why": "Ты слышал they have got — речь о них."
+   },
+   {
+    "id": "g07-036",
+    "t": "text",
+    "lv": 2,
+    "tag": "have-has",
+    "title": "Meet the Parkers",
+    "text": "The Parkers ___ (have got) a big house in Canada. Mr Parker ___ (have got) a red truck. Mia ___ (have got) three hockey sticks. Benny ___ (have got + not) a stick yet, but he ___ (have got) big strong paws!",
+    "a": [
+     [
+      "have got",
+      "have"
+     ],
+     [
+      "has got",
+      "has"
+     ],
+     [
+      "has got",
+      "has"
+     ],
+     [
+      "hasn't got",
+      "doesn't have"
+     ],
+     [
+      "has got",
+      "has"
+     ]
+    ],
+    "why": "The Parkers — they → have got; Mr Parker, Mia, Benny — he/she → has got."
+   },
+   {
+    "id": "g07-037",
+    "t": "text",
+    "lv": 3,
+    "tag": "question",
+    "title": "Rex's bag",
+    "text": "Rex is a goalie. He ___ (have got) a big bag. ___ (Have / Has) he got his skates in it? Yes, he ___ . ___ (Have / Has) he got his helmet? No, he ___ ! Oh no, Rex!",
+    "a": [
+     [
+      "has got",
+      "has"
+     ],
+     [
+      "Has"
+     ],
+     [
+      "has"
+     ],
+     [
+      "Has"
+     ],
+     [
+      "hasn't"
+     ]
+    ],
+    "why": "Rex — это he: has got, Has he got…?, короткие ответы he has / he hasn't."
+   },
+   {
+    "id": "g07-038",
+    "t": "chat",
+    "lv": 2,
+    "tag": "question",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Benny, have you got skates?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___ . But I ___ got a helmet."
+     },
+     {
+      "who": "Mia",
+      "t": "No problem!"
+     },
+     {
+      "who": "you",
+      "t": "Really? ___ you got an old helmet for me?"
+     },
+     {
+      "who": "Mia",
+      "t": "Yes, I have. It's blue!"
+     }
+    ],
+    "a": [
+     [
+      "have"
+     ],
+     [
+      "haven't"
+     ],
+     [
+      "Have"
+     ]
+    ],
+    "why": "Короткий ответ Yes, I have; отрицание I haven't got; вопрос Have you got…?"
+   },
+   {
+    "id": "g07-039",
+    "t": "chat",
+    "lv": 3,
+    "tag": "us-have",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Do you have Brawl Stars on your phone?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___ ! Do you ___ Roblox?"
+     },
+     {
+      "who": "Mia",
+      "t": "Sure! It's my favorite game."
+     },
+     {
+      "who": "you",
+      "t": "Cool! My cousin ___ a Roblox channel on YouTube."
+     }
+    ],
+    "a": [
+     [
+      "do"
+     ],
+     [
+      "have"
+     ],
+     [
+      "has"
+     ]
+    ],
+    "why": "На Do you have…? отвечаем Yes, I do; после do — have; my cousin — he/she → has."
+   },
+   {
+    "id": "g07-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "have-has",
+    "ru": "У Мии есть новая клюшка.",
+    "a": [
+     "Mia has got a new stick.",
+     "Mia's got a new stick.",
+     "Mia has a new stick.",
+     "Mia has got a new hockey stick.",
+     "Mia's got a new hockey stick.",
+     "Mia has a new hockey stick."
+    ],
+    "why": "Mia — это she → has got или просто has."
+   },
+   {
+    "id": "g07-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "neg",
+    "ru": "У меня нет собаки.",
+    "a": [
+     "I haven't got a dog.",
+     "I don't have a dog.",
+     "I've not got a dog."
+    ],
+    "why": "С I → I haven't got или по-американски I don't have."
+   },
+   {
+    "id": "g07-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "question",
+    "ru": "У тебя есть зарядка?",
+    "a": [
+     "Have you got a charger?",
+     "Do you have a charger?"
+    ],
+    "why": "Вопрос: Have you got…? или по-американски Do you have…?"
+   },
+   {
+    "id": "g07-043",
+    "t": "speak",
+    "lv": 3,
+    "tag": "contraction",
+    "say": "I've got a new stick and a cool helmet.",
+    "ru": "У меня есть новая клюшка и крутой шлем.",
+    "why": "I've got = I have got, «у меня есть»."
+   },
+   {
+    "id": "g07-044",
+    "t": "write",
+    "lv": 3,
+    "tag": "have-has",
+    "task_ru": "Напиши 3 предложения: что есть у тебя, что есть у твоего друга и чего у вас нет.",
+    "check_ru": [
+     "С I — have got, с he/she — has got?",
+     "В отрицании haven't / hasn't got?",
+     "Не пропустил have перед got?"
+    ],
+    "model": "I've got a new hockey stick. My friend Max has got a cool laptop. We haven't got a dog.",
+    "why": "С I/we — have got, с he/she — has got."
+   }
+  ]
+ },
+ {
+  "id": "g08",
+  "stage": "A1",
+  "title_ru": "Can / can't",
+  "goal_ru": "Сказать, что умеешь и чего не умеешь.",
+  "prereq": [
+   "g01"
+  ],
+  "spotlight": [
+   "7a"
+  ],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "**Can** = «умею, могу». После can — глагол **без to и без -s**. Can одинаковый для всех: I can, he can, they can.",
+    "ex": [
+     [
+      "I can skate.",
+      "Я умею кататься на коньках."
+     ],
+     [
+      "Rex can stop the puck with his tail.",
+      "Рекс может остановить шайбу хвостом."
+     ],
+     [
+      "Mia can shoot very fast.",
+      "Мия умеет очень быстро бросать."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Не умею: can't",
+    "body_ru": "Отрицание — **can't** (полная форма **cannot**, пишется слитно). Глагол после него тоже без изменений.",
+    "ex": [
+     [
+      "Rex can't clap his hands.",
+      "Рекс не может хлопнуть в ладоши."
+     ],
+     [
+      "Benny can't skate backwards yet.",
+      "Бенни пока не умеет кататься спиной вперёд."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Вопрос и короткий ответ",
+    "body_ru": "В вопросе can встаёт **вперёд**: **Can you skate?** Отвечаем коротко: **Yes, I can. / No, I can't.**",
+    "ex": [
+     [
+      "Can you play the guitar? — Yes, I can.",
+      "Ты умеешь играть на гитаре? — Да."
+     ],
+     [
+      "Can Benny swim? — No, he can't.",
+      "Бенни умеет плавать? — Нет."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Просьбы",
+    "body_ru": "**Can I…?** = «Можно мне…?», **Can you…?** = «Можешь…?». Добавь **please** — и будет вежливо.",
+    "ex": [
+     [
+      "Can I have some water, please?",
+      "Можно мне воды, пожалуйста?"
+     ],
+     [
+      "Can you help me?",
+      "Можешь мне помочь?"
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He cans skate.",
+    "right": "He can skate.",
+    "why_ru": "Can никогда не получает -s."
+   },
+   {
+    "wrong": "I can to swim.",
+    "right": "I can swim.",
+    "why_ru": "После can не ставим to."
+   },
+   {
+    "wrong": "She can skates fast.",
+    "right": "She can skate fast.",
+    "why_ru": "После can глагол без -s."
+   },
+   {
+    "wrong": "You can play the guitar?",
+    "right": "Can you play the guitar?",
+    "why_ru": "В вопросе can ставим перед you."
+   }
+  ],
+  "tags": {
+   "base-verb": {
+    "ru": "can + глагол без to и -s",
+    "tip_ru": "После can — голый глагол: can skate, can play. Никаких to, никаких -s, и сам can тоже без -s."
+   },
+   "can-cant": {
+    "ru": "can или can't",
+    "tip_ru": "Can — умею, могу. Can't (cannot) — не умею, не могу. Смотри по смыслу всего предложения."
+   },
+   "question": {
+    "ru": "Can you…? Yes, I can.",
+    "tip_ru": "В вопросе can идёт первым: Can you swim? Короткий ответ: Yes, I can. / No, I can't.",
+    "back": "g02"
+   },
+   "request": {
+    "ru": "просьбы Can I…? Can you…?",
+    "tip_ru": "Can I…? — просим разрешения («Можно мне…?»). Can you…? — просим что-то сделать («Можешь…?»)."
+   }
+  },
+  "items": [
+   {
+    "id": "g08-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "Rex can ___ the puck with his tail.",
+    "o": [
+     "stop",
+     "stops"
+    ],
+    "a": 0,
+    "why": "После can глагол без -s: can stop."
+   },
+   {
+    "id": "g08-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "I can ___ fast on the ice.",
+    "o": [
+     "skate",
+     "to skate"
+    ],
+    "a": 0,
+    "why": "После can не ставим to: can skate."
+   },
+   {
+    "id": "g08-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "can-cant",
+    "q": "Benny ___ skate backwards yet. Poor Benny!",
+    "o": [
+     "can't",
+     "can"
+    ],
+    "a": 0,
+    "why": "Yet и Poor Benny подсказывают: пока не умеет → can't."
+   },
+   {
+    "id": "g08-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "___ you play the guitar?",
+    "o": [
+     "Can",
+     "Are"
+    ],
+    "a": 0,
+    "why": "Вопрос про умение → Can you play…?"
+   },
+   {
+    "id": "g08-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "question",
+    "q": "Can Mia shoot fast? — Yes, she ___.",
+    "o": [
+     "can",
+     "is"
+    ],
+    "a": 0,
+    "why": "На вопрос с can отвечаем can: Yes, she can."
+   },
+   {
+    "id": "g08-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "request",
+    "q": "___ I have some water, please?",
+    "o": [
+     "Can",
+     "Am"
+    ],
+    "a": 0,
+    "why": "Просим разрешения → Can I…?"
+   },
+   {
+    "id": "g08-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "can-cant",
+    "q": "Rex's arms are tiny. He ___ clap his hands.",
+    "o": [
+     "can't",
+     "can"
+    ],
+    "a": 0,
+    "why": "Лапки крошечные — хлопнуть не получится → can't."
+   },
+   {
+    "id": "g08-008",
+    "t": "mc",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "My sister can ___ three languages.",
+    "o": [
+     "speak",
+     "speaks",
+     "to speak"
+    ],
+    "a": 0,
+    "why": "После can — глагол без to и без -s: can speak."
+   },
+   {
+    "id": "g08-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "request",
+    "q": "Can you ___ me with my homework?",
+    "o": [
+     "help",
+     "to help",
+     "helps"
+    ],
+    "a": 0,
+    "why": "После can — просто help."
+   },
+   {
+    "id": "g08-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "My friend ___ make cool beats on his laptop.",
+    "o": [
+     "can",
+     "cans",
+     "can to"
+    ],
+    "a": 0,
+    "why": "Can не получает -s и не любит to: my friend can make."
+   },
+   {
+    "id": "g08-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "She can ___ (dance) really well.",
+    "a": [
+     "dance"
+    ],
+    "why": "После can глагол не меняется: can dance."
+   },
+   {
+    "id": "g08-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "can-cant",
+    "q": "Penguins ___ fly, but they can swim. (can / can't)",
+    "a": [
+     "can't"
+    ],
+    "why": "Пингвины не летают → can't."
+   },
+   {
+    "id": "g08-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "___ your dad cook pancakes? (Can / Is)",
+    "a": [
+     "Can"
+    ],
+    "why": "Вопрос про умение → Can your dad cook…?"
+   },
+   {
+    "id": "g08-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "question",
+    "q": "Can you skate backwards? — No, I ___ .",
+    "a": [
+     "can't"
+    ],
+    "why": "Короткий ответ «нет» → No, I can't."
+   },
+   {
+    "id": "g08-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "request",
+    "q": "___ I use your phone, please? (Can / Am)",
+    "a": [
+     "Can"
+    ],
+    "why": "Просим разрешения → Can I…?"
+   },
+   {
+    "id": "g08-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Coach Walt can ___ (eat) ten fish for lunch!",
+    "a": [
+     "eat"
+    ],
+    "why": "После can глагол без -s: can eat."
+   },
+   {
+    "id": "g08-017",
+    "t": "gap",
+    "lv": 3,
+    "tag": "can-cant",
+    "q": "I'm sorry, I ___ come to the party. I'm sick. (can / can't)",
+    "a": [
+     "can't"
+    ],
+    "why": "Я болею — прийти не могу → can't."
+   },
+   {
+    "id": "g08-018",
+    "t": "err",
+    "lv": 2,
+    "tag": "base-verb",
+    "s": "Mia can shoots very fast.",
+    "bad": 2,
+    "fix": "shoot",
+    "why": "После can глагол без -s: can shoot."
+   },
+   {
+    "id": "g08-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "base-verb",
+    "s": "My cousin cans make cool beats.",
+    "bad": 2,
+    "fix": "can",
+    "why": "Can никогда не получает -s."
+   },
+   {
+    "id": "g08-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "question",
+    "s": "Can he skates backwards?",
+    "bad": 2,
+    "fix": "skate",
+    "why": "В вопросе после can тоже голый глагол: Can he skate…?"
+   },
+   {
+    "id": "g08-021",
+    "t": "err",
+    "lv": 3,
+    "tag": "request",
+    "s": "Can I borrows your stick, please?",
+    "bad": 2,
+    "fix": "borrow",
+    "why": "После Can I глагол без -s: Can I borrow…?"
+   },
+   {
+    "id": "g08-022",
+    "t": "err",
+    "lv": 3,
+    "tag": "base-verb",
+    "s": "Rex can't plays the piano with those tiny arms.",
+    "bad": 2,
+    "fix": "play",
+    "why": "После can't глагол тоже без -s: can't play."
+   },
+   {
+    "id": "g08-023",
+    "t": "build",
+    "lv": 2,
+    "tag": "question",
+    "a": "Can you play Brawl Stars?",
+    "ru": "Ты умеешь играть в Brawl Stars?",
+    "extra": [
+     "plays"
+    ],
+    "why": "Can впереди, потом you и глагол без -s."
+   },
+   {
+    "id": "g08-024",
+    "t": "build",
+    "lv": 2,
+    "tag": "can-cant",
+    "a": "My grandma can't use a smartphone.",
+    "ru": "Моя бабушка не умеет пользоваться смартфоном.",
+    "extra": [
+     "to"
+    ],
+    "why": "Can't + глагол без to: can't use."
+   },
+   {
+    "id": "g08-025",
+    "t": "build",
+    "lv": 2,
+    "tag": "request",
+    "a": "Can I open the window?",
+    "ru": "Можно я открою окно?",
+    "extra": [
+     "to"
+    ],
+    "why": "Просьба: Can I + глагол без to."
+   },
+   {
+    "id": "g08-026",
+    "t": "build",
+    "lv": 3,
+    "tag": "base-verb",
+    "a": "Rex can stop every puck.",
+    "ru": "Рекс может остановить любую шайбу.",
+    "extra": [
+     "stops"
+    ],
+    "why": "После can — stop без -s."
+   },
+   {
+    "id": "g08-027",
+    "t": "build",
+    "lv": 3,
+    "tag": "question",
+    "a": "Can your friend make music on a computer?",
+    "ru": "Твой друг умеет делать музыку на компьютере?",
+    "extra": [
+     "makes"
+    ],
+    "why": "Can впереди, после подлежащего глагол без -s: make."
+   },
+   {
+    "id": "g08-028",
+    "t": "tr",
+    "lv": 2,
+    "tag": "can-cant",
+    "src": "Benny can skate.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Benny can't skate."
+    ],
+    "why": "Can + not → can't."
+   },
+   {
+    "id": "g08-029",
+    "t": "tr",
+    "lv": 2,
+    "tag": "question",
+    "src": "Mia can play the guitar.",
+    "task_ru": "Сделай вопрос.",
+    "a": [
+     "Can Mia play the guitar?"
+    ],
+    "why": "Can переходит вперёд: Can Mia play…?"
+   },
+   {
+    "id": "g08-030",
+    "t": "tr",
+    "lv": 3,
+    "tag": "base-verb",
+    "src": "I can ride a bike.",
+    "task_ru": "Начни с He.",
+    "a": [
+     "He can ride a bike."
+    ],
+    "why": "Can и глагол не меняются: he can ride."
+   },
+   {
+    "id": "g08-031",
+    "t": "tr",
+    "lv": 3,
+    "tag": "request",
+    "src": "Give me your pen.",
+    "task_ru": "Сделай вежливую просьбу с Can you…?",
+    "a": [
+     "Can you give me your pen?",
+     "Can you give me your pen please?",
+     "Can you please give me your pen?"
+    ],
+    "why": "Просьба: Can you + глагол: Can you give me…?"
+   },
+   {
+    "id": "g08-032",
+    "t": "match",
+    "lv": 1,
+    "tag": "question",
+    "pairs": [
+     [
+      "Can you swim?",
+      "Yes, I can."
+     ],
+     [
+      "Can he skate?",
+      "No, he can't."
+     ],
+     [
+      "Can they sing?",
+      "Yes, they can."
+     ],
+     [
+      "Can she cook?",
+      "No, she can't."
+     ]
+    ],
+    "why": "В коротком ответе то же лицо, что в вопросе: you → I, he → he, they → they."
+   },
+   {
+    "id": "g08-033",
+    "t": "listen",
+    "lv": 1,
+    "tag": "can-cant",
+    "say": "I can't swim.",
+    "o": [
+     "I can't swim.",
+     "I can swim."
+    ],
+    "a": 0,
+    "why": "Ты слышал can't — значит «не умею»."
+   },
+   {
+    "id": "g08-034",
+    "t": "listen",
+    "lv": 1,
+    "tag": "can-cant",
+    "say": "She can skate very fast.",
+    "o": [
+     "She can skate very fast.",
+     "She can't skate very fast."
+    ],
+    "a": 0,
+    "why": "Ты слышал короткое can без «т» — значит «умеет»."
+   },
+   {
+    "id": "g08-035",
+    "t": "text",
+    "lv": 2,
+    "tag": "can-cant",
+    "title": "Rex the goalie",
+    "text": "Rex is a goalie. He ___ (can) stop the puck with his big head. But he ___ (can + not) hold his stick well — his arms are tiny! He ___ (can + not) tie his skates. Benny ___ (can) help him. They are a good team!",
+    "a": [
+     [
+      "can"
+     ],
+     [
+      "can't"
+     ],
+     [
+      "can't"
+     ],
+     [
+      "can"
+     ]
+    ],
+    "why": "Что получается — can, что не получается из-за коротких лапок — can't."
+   },
+   {
+    "id": "g08-036",
+    "t": "text",
+    "lv": 3,
+    "tag": "base-verb",
+    "title": "My skills",
+    "text": "I ___ (can) play hockey, and I can ___ (make) music on my laptop. I ___ (can + not) sing — my voice is terrible! My friend can ___ (sing) well, so we ___ (can) make songs together.",
+    "a": [
+     [
+      "can"
+     ],
+     [
+      "make"
+     ],
+     [
+      "can't"
+     ],
+     [
+      "sing"
+     ],
+     [
+      "can"
+     ]
+    ],
+    "why": "Can одинаковый для всех, а глагол после него без to и без -s."
+   },
+   {
+    "id": "g08-037",
+    "t": "chat",
+    "lv": 2,
+    "tag": "question",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Hi, Benny! Can you skate?"
+     },
+     {
+      "who": "you",
+      "t": "Yes, I ___ ! But I ___ skate backwards."
+     },
+     {
+      "who": "Mia",
+      "t": "I can show you. See you at the rink at 5!"
+     },
+     {
+      "who": "you",
+      "t": "Great! ___ I bring my friend Rex?"
+     },
+     {
+      "who": "Mia",
+      "t": "Sure!"
+     }
+    ],
+    "a": [
+     [
+      "can"
+     ],
+     [
+      "can't"
+     ],
+     [
+      "Can"
+     ]
+    ],
+    "why": "Yes, I can — короткий ответ; can't — не умею; Can I…? — просьба."
+   },
+   {
+    "id": "g08-038",
+    "t": "chat",
+    "lv": 3,
+    "tag": "request",
+    "lines": [
+     {
+      "who": "Mrs Parker",
+      "t": "Benny, can you help me in the kitchen?"
+     },
+     {
+      "who": "you",
+      "t": "Sure! ___ I make the pancakes?"
+     },
+     {
+      "who": "Mrs Parker",
+      "t": "Yes, you can. Good luck!"
+     },
+     {
+      "who": "you",
+      "t": "Oops… Mrs Parker, ___ you help me? The pancake is on the ceiling!"
+     }
+    ],
+    "a": [
+     [
+      "Can"
+     ],
+     [
+      "can"
+     ]
+    ],
+    "why": "Can I…? — прошу разрешения, Can you…? — прошу помочь."
+   },
+   {
+    "id": "g08-039",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "can-cant",
+    "ru": "Моя мама не умеет играть в Brawl Stars.",
+    "a": [
+     "My mom can't play Brawl Stars.",
+     "My mother can't play Brawl Stars."
+    ],
+    "why": "Не умеет → can't + глагол без -s: can't play."
+   },
+   {
+    "id": "g08-040",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "question",
+    "ru": "Ты умеешь кататься на коньках?",
+    "a": [
+     "Can you skate?",
+     "Can you ice skate?"
+    ],
+    "why": "Вопрос про умение: Can you skate?"
+   },
+   {
+    "id": "g08-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "request",
+    "ru": "Можно мне воды?",
+    "a": [
+     "Can I have some water?",
+     "Can I have water?",
+     "Can I get some water?",
+     "Can I have some water please?",
+     "Can I get some water please?"
+    ],
+    "why": "Просим разрешения → Can I have some water?"
+   },
+   {
+    "id": "g08-042",
+    "t": "speak",
+    "lv": 3,
+    "tag": "can-cant",
+    "say": "I can play hockey, but I can't sing.",
+    "ru": "Я умею играть в хоккей, но не умею петь.",
+    "why": "Can — умею, can't — не умею; глагол после них не меняется."
+   },
+   {
+    "id": "g08-043",
+    "t": "write",
+    "lv": 3,
+    "tag": "base-verb",
+    "task_ru": "Напиши 3 предложения: что ты умеешь, чего не умеешь, и задай другу один вопрос с can.",
+    "check_ru": [
+     "После can глагол без to и без -s?",
+     "Can't пишется вместе?",
+     "В вопросе can стоит первым?"
+    ],
+    "model": "I can skate fast. I can't play the piano. Can you make beats?",
+    "why": "Can / can't + голый глагол, в вопросе can впереди."
+   }
+  ]
+ },
+ {
+  "id": "g09",
+  "stage": "A1",
+  "title_ru": "Present Simple: утверждение",
+  "goal_ru": "Рассказать о привычках: He plays hockey every day.",
+  "prereq": [
+   "g01"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "Present Simple — про привычки и то, что бывает регулярно. С **I, you, we, they** — просто глагол. С **he, she, it** (и Mia, Rex, my dad) — глагол **+ -s**.",
+    "ex": [
+     [
+      "I play hockey.",
+      "Я играю в хоккей."
+     ],
+     [
+      "Mia plays hockey every day.",
+      "Мия играет в хоккей каждый день."
+     ],
+     [
+      "My friends play Roblox.",
+      "Мои друзья играют в Roblox."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Как пишется: -es и -ies",
+    "body_ru": "После **s, sh, ch, x, o** добавляем **-es**: watches, washes, fixes, goes, does. Если в конце **согласная + y** — меняем на **-ies**: study → studies. Если **гласная + y** — просто -s: play → plays, buy → buys.",
+    "ex": [
+     [
+      "Benny watches cartoons.",
+      "Бенни смотрит мультики."
+     ],
+     [
+      "Mia studies French.",
+      "Мия учит французский."
+     ],
+     [
+      "Rex plays in goal.",
+      "Рекс играет на воротах."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Особый глагол: has",
+    "body_ru": "**have** с he, she, it превращается в **has** (не haves!).",
+    "ex": [
+     [
+      "Rex has a big head.",
+      "У Рекса большая голова."
+     ],
+     [
+      "Mia has training on Tuesdays.",
+      "У Мии тренировка по вторникам."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Слова-подсказки",
+    "body_ru": "**every day, every morning, every week, on Mondays, on weekends, in the evening** — сигнал Present Simple. Обычно они стоят **в конце** предложения.",
+    "ex": [
+     [
+      "I train every day.",
+      "Я тренируюсь каждый день."
+     ],
+     [
+      "We play Brawl Stars on Fridays.",
+      "По пятницам мы играем в Brawl Stars."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "He play hockey.",
+    "right": "He plays hockey.",
+    "why_ru": "После he/she/it глагол получает -s."
+   },
+   {
+    "wrong": "I plays phonk on my laptop.",
+    "right": "I play phonk on my laptop.",
+    "why_ru": "С I окончание -s не нужно."
+   },
+   {
+    "wrong": "She gos to school.",
+    "right": "She goes to school.",
+    "why_ru": "После o пишем -es: goes."
+   },
+   {
+    "wrong": "He studys English.",
+    "right": "He studies English.",
+    "why_ru": "Согласная + y → -ies: studies."
+   },
+   {
+    "wrong": "Rex haves a big head.",
+    "right": "Rex has a big head.",
+    "why_ru": "Have с he/she/it — это has."
+   }
+  ],
+  "tags": {
+   "s-ending": {
+    "ru": "-s после he/she/it",
+    "tip_ru": "Сначала найди, кто делает. Он, она, оно, Mia, my dad — добавь -s. I, you, we, they, my friends — без -s."
+   },
+   "es-spelling": {
+    "ru": "-es: watches, goes, does",
+    "tip_ru": "Если глагол кончается на s, sh, ch, x или o — пиши -es: watches, washes, fixes, goes, does. Как во множественном числе: boxes.",
+    "back": "g04"
+   },
+   "ies-spelling": {
+    "ru": "-ies: studies, но plays",
+    "tip_ru": "Согласная + y → -ies (study → studies, fly → flies). Гласная + y → просто -s (play → plays, buy → buys)."
+   },
+   "has": {
+    "ru": "have → has",
+    "tip_ru": "С he, she, it вместо have говорим has: Rex has, Mia has. Слова haves нет.",
+    "back": "g07"
+   },
+   "time-words": {
+    "ru": "every day, on Mondays",
+    "tip_ru": "Every day, every evening, on Mondays, on weekends — подсказки Present Simple. Ставим их в конце: I train every day."
+   }
+  },
+  "items": [
+   {
+    "id": "g09-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-ending",
+    "q": "Mia ___ hockey every day.",
+    "o": [
+     "plays",
+     "play"
+    ],
+    "a": 0,
+    "why": "Mia — это she → plays."
+   },
+   {
+    "id": "g09-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "s-ending",
+    "q": "My friends ___ Roblox on weekends.",
+    "o": [
+     "play",
+     "plays"
+    ],
+    "a": 0,
+    "why": "My friends — это they → play без -s."
+   },
+   {
+    "id": "g09-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "es-spelling",
+    "q": "Benny ___ cartoons in the evening.",
+    "o": [
+     "watches",
+     "watchs"
+    ],
+    "a": 0,
+    "why": "Глагол кончается на ch → -es: watches."
+   },
+   {
+    "id": "g09-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ies-spelling",
+    "q": "My sister ___ math every evening.",
+    "o": [
+     "studies",
+     "studys"
+    ],
+    "a": 0,
+    "why": "Согласная d + y → -ies: studies."
+   },
+   {
+    "id": "g09-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "has",
+    "q": "Rex ___ a big head and tiny arms.",
+    "o": [
+     "has",
+     "have"
+    ],
+    "a": 0,
+    "why": "Rex — это he → has."
+   },
+   {
+    "id": "g09-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "time-words",
+    "q": "I train ___ Mondays.",
+    "o": [
+     "on",
+     "at"
+    ],
+    "a": 0,
+    "why": "С днями недели — on: on Mondays."
+   },
+   {
+    "id": "g09-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "ies-spelling",
+    "q": "My dad ___ me new skates every winter.",
+    "o": [
+     "buys",
+     "buies"
+    ],
+    "a": 0,
+    "why": "Гласная u + y → просто -s: buys."
+   },
+   {
+    "id": "g09-008",
+    "t": "mc",
+    "lv": 2,
+    "tag": "es-spelling",
+    "q": "Coach Walt ___ to the rink at 6 a.m.",
+    "o": [
+     "goes",
+     "gos",
+     "go"
+    ],
+    "a": 0,
+    "why": "Coach Walt — это he, а после o пишем -es: goes."
+   },
+   {
+    "id": "g09-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "s-ending",
+    "q": "We ___ to phonk on the bus.",
+    "o": [
+     "listen",
+     "listens",
+     "listening"
+    ],
+    "a": 0,
+    "why": "С we глагол без -s: listen."
+   },
+   {
+    "id": "g09-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "time-words",
+    "q": "Benny makes funny videos ___ .",
+    "o": [
+     "every weekend",
+     "right now",
+     "yesterday"
+    ],
+    "a": 0,
+    "why": "Present Simple — про то, что бывает регулярно → every weekend."
+   },
+   {
+    "id": "g09-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-ending",
+    "q": "Rex ___ (eat) ten pancakes for breakfast.",
+    "a": [
+     "eats"
+    ],
+    "why": "Rex — это he → eats."
+   },
+   {
+    "id": "g09-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "es-spelling",
+    "q": "Mr Parker ___ (fix) our bikes in the garage.",
+    "a": [
+     "fixes"
+    ],
+    "why": "Глагол кончается на x → -es: fixes."
+   },
+   {
+    "id": "g09-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "es-spelling",
+    "q": "Benny ___ (do) his homework after dinner.",
+    "a": [
+     "does"
+    ],
+    "why": "Do с he → does."
+   },
+   {
+    "id": "g09-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "ies-spelling",
+    "q": "Benny ___ (carry) the water bottles for the team.",
+    "a": [
+     "carries"
+    ],
+    "why": "Согласная r + y → -ies: carries."
+   },
+   {
+    "id": "g09-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "has",
+    "q": "Mia ___ (have) training on Tuesdays and Fridays.",
+    "a": [
+     "has"
+    ],
+    "why": "Mia — это she → has."
+   },
+   {
+    "id": "g09-016",
+    "t": "gap",
+    "lv": 2,
+    "tag": "s-ending",
+    "q": "I ___ (watch) hockey videos on YouTube.",
+    "a": [
+     "watch"
+    ],
+    "why": "С I глагол без окончания: watch."
+   },
+   {
+    "id": "g09-017",
+    "t": "gap",
+    "lv": 2,
+    "tag": "time-words",
+    "q": "We play Brawl Stars ___ . (каждый вечер)",
+    "a": [
+     "every evening",
+     "every night"
+    ],
+    "why": "«Каждый вечер» → every evening."
+   },
+   {
+    "id": "g09-018",
+    "t": "gap",
+    "lv": 3,
+    "tag": "ies-spelling",
+    "q": "My cat ___ (play) with my headphones.",
+    "a": [
+     "plays"
+    ],
+    "why": "Гласная a + y → просто -s: plays."
+   },
+   {
+    "id": "g09-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "s-ending",
+    "s": "Benny play the drums in his room.",
+    "bad": 1,
+    "fix": "plays",
+    "why": "Benny — это he → plays."
+   },
+   {
+    "id": "g09-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "es-spelling",
+    "s": "Mia gos to the rink by bus.",
+    "bad": 1,
+    "fix": "goes",
+    "why": "После o пишем -es: goes."
+   },
+   {
+    "id": "g09-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "ies-spelling",
+    "s": "Mia studys French at school.",
+    "bad": 1,
+    "fix": "studies",
+    "why": "Согласная d + y → -ies: studies."
+   },
+   {
+    "id": "g09-022",
+    "t": "err",
+    "lv": 2,
+    "tag": "has",
+    "s": "Coach Walt haves a big gray mustache.",
+    "bad": 2,
+    "fix": "has",
+    "why": "Have с he → has."
+   },
+   {
+    "id": "g09-023",
+    "t": "err",
+    "lv": 2,
+    "tag": "time-words",
+    "s": "We play hockey in Mondays.",
+    "bad": 3,
+    "fix": "on",
+    "why": "С днями недели — on: on Mondays."
+   },
+   {
+    "id": "g09-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "s-ending",
+    "s": "Mia and Benny walks to school together.",
+    "bad": 3,
+    "fix": "walk",
+    "why": "Mia and Benny — это they → walk без -s."
+   },
+   {
+    "id": "g09-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "s-ending",
+    "s": "I makes phonk beats on my laptop.",
+    "bad": 1,
+    "fix": "make",
+    "why": "С I глагол без -s: make."
+   },
+   {
+    "id": "g09-026",
+    "t": "err",
+    "lv": 3,
+    "tag": "es-spelling",
+    "s": "My mom washs my hockey jersey every week.",
+    "bad": 2,
+    "fix": "washes",
+    "why": "Глагол кончается на sh → -es: washes."
+   },
+   {
+    "id": "g09-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "s-ending",
+    "a": "My dad drives me to training.",
+    "ru": "Папа возит меня на тренировку.",
+    "extra": [
+     "drive"
+    ],
+    "why": "My dad — это he → drives."
+   },
+   {
+    "id": "g09-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "es-spelling",
+    "a": "Benny watches funny videos.",
+    "ru": "Бенни смотрит смешные видео.",
+    "extra": [
+     "watchs"
+    ],
+    "why": "После ch пишем -es: watches."
+   },
+   {
+    "id": "g09-029",
+    "t": "build",
+    "lv": 2,
+    "tag": "has",
+    "a": "Rex has a red helmet.",
+    "ru": "У Рекса красный шлем.",
+    "extra": [
+     "have"
+    ],
+    "why": "Rex — это he → has."
+   },
+   {
+    "id": "g09-030",
+    "t": "build",
+    "lv": 3,
+    "tag": "ies-spelling",
+    "a": "My dad flies to Toronto every month.",
+    "ru": "Мой папа летает в Торонто каждый месяц.",
+    "extra": [
+     "flys"
+    ],
+    "why": "Согласная l + y → -ies: flies."
+   },
+   {
+    "id": "g09-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "s-ending",
+    "src": "I play hockey on Saturdays.",
+    "task_ru": "Начни с My friend.",
+    "a": [
+     "My friend plays hockey on Saturdays."
+    ],
+    "why": "My friend — это he/she → plays."
+   },
+   {
+    "id": "g09-032",
+    "t": "tr",
+    "lv": 2,
+    "tag": "es-spelling",
+    "src": "I go to the gym every day.",
+    "task_ru": "Начни с She.",
+    "a": [
+     "She goes to the gym every day."
+    ],
+    "why": "С she: go → goes."
+   },
+   {
+    "id": "g09-033",
+    "t": "tr",
+    "lv": 2,
+    "tag": "time-words",
+    "src": "I play the guitar.",
+    "task_ru": "Добавь «каждый вечер».",
+    "a": [
+     "I play the guitar every evening.",
+     "Every evening I play the guitar.",
+     "I play the guitar every night."
+    ],
+    "why": "«Каждый вечер» = every evening, обычно в конце."
+   },
+   {
+    "id": "g09-034",
+    "t": "tr",
+    "lv": 3,
+    "tag": "ies-spelling",
+    "src": "We study English in the evening.",
+    "task_ru": "Начни с Benny.",
+    "a": [
+     "Benny studies English in the evening."
+    ],
+    "why": "С Benny: study → studies."
+   },
+   {
+    "id": "g09-035",
+    "t": "tr",
+    "lv": 3,
+    "tag": "has",
+    "src": "I have a guitar and a laptop.",
+    "task_ru": "Начни с My brother.",
+    "a": [
+     "My brother has a guitar and a laptop."
+    ],
+    "why": "My brother — это he → has."
+   },
+   {
+    "id": "g09-036",
+    "t": "match",
+    "lv": 1,
+    "tag": "es-spelling",
+    "pairs": [
+     [
+      "watch",
+      "watches"
+     ],
+     [
+      "go",
+      "goes"
+     ],
+     [
+      "fix",
+      "fixes"
+     ],
+     [
+      "miss",
+      "misses"
+     ]
+    ],
+    "why": "После ch, o, x, s добавляем -es."
+   },
+   {
+    "id": "g09-037",
+    "t": "match",
+    "lv": 1,
+    "tag": "ies-spelling",
+    "pairs": [
+     [
+      "study",
+      "studies"
+     ],
+     [
+      "play",
+      "plays"
+     ],
+     [
+      "fly",
+      "flies"
+     ],
+     [
+      "buy",
+      "buys"
+     ]
+    ],
+    "why": "Согласная + y → -ies (studies, flies), гласная + y → -s (plays, buys)."
+   },
+   {
+    "id": "g09-038",
+    "t": "listen",
+    "lv": 1,
+    "tag": "s-ending",
+    "say": "He makes cool beats.",
+    "o": [
+     "He makes cool beats.",
+     "We make cool beats."
+    ],
+    "a": 0,
+    "why": "Ты слышал he и makes с -s."
+   },
+   {
+    "id": "g09-039",
+    "t": "listen",
+    "lv": 1,
+    "tag": "s-ending",
+    "say": "My sisters watch YouTube.",
+    "o": [
+     "My sister watches YouTube.",
+     "My sisters watch YouTube."
+    ],
+    "a": 1,
+    "why": "Ты слышал sisters (их много) и watch без -es."
+   },
+   {
+    "id": "g09-040",
+    "t": "text",
+    "lv": 2,
+    "tag": "s-ending",
+    "title": "Rex's morning",
+    "text": "Rex ___ (get) up at 6. He ___ (brush) his big teeth — it ___ (take) twenty minutes! Then he ___ (have) breakfast: ten pancakes. Coach Walt ___ (drive) him to the rink.",
+    "a": [
+     [
+      "gets"
+     ],
+     [
+      "brushes"
+     ],
+     [
+      "takes"
+     ],
+     [
+      "has"
+     ],
+     [
+      "drives"
+     ]
+    ],
+    "why": "Rex, he, it, Coach Walt — везде -s: gets, brushes (после sh — -es), takes, has, drives."
+   },
+   {
+    "id": "g09-041",
+    "t": "text",
+    "lv": 3,
+    "tag": "es-spelling",
+    "title": "Mia's week",
+    "text": "Mia ___ (study) a lot. On Mondays she ___ (go) to the rink. On Tuesdays she ___ (play) the guitar. Her dad ___ (watch) all her games. Mia's friends ___ (cheer) for her too.",
+    "a": [
+     [
+      "studies"
+     ],
+     [
+      "goes"
+     ],
+     [
+      "plays"
+     ],
+     [
+      "watches"
+     ],
+     [
+      "cheer"
+     ]
+    ],
+    "why": "Studies (y → -ies), goes и watches (-es), plays (гласная + y), а friends — they → cheer без -s."
+   },
+   {
+    "id": "g09-042",
+    "t": "chat",
+    "lv": 2,
+    "tag": "s-ending",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Tell me about your best friend!"
+     },
+     {
+      "who": "you",
+      "t": "His name is Max. He ___ (live) in my building."
+     },
+     {
+      "who": "Mia",
+      "t": "Cool! Is he a hockey player?"
+     },
+     {
+      "who": "you",
+      "t": "No, he ___ (make) phonk music. And he ___ (have) a big dog."
+     }
+    ],
+    "a": [
+     [
+      "lives"
+     ],
+     [
+      "makes"
+     ],
+     [
+      "has"
+     ]
+    ],
+    "why": "Max — это he → lives, makes, has."
+   },
+   {
+    "id": "g09-043",
+    "t": "chat",
+    "lv": 3,
+    "tag": "time-words",
+    "lines": [
+     {
+      "who": "Coach Walt",
+      "t": "Tell me about your week, Benny."
+     },
+     {
+      "who": "you",
+      "t": "I train ___ Mondays and Thursdays."
+     },
+     {
+      "who": "Coach Walt",
+      "t": "Good. And on other days?"
+     },
+     {
+      "who": "you",
+      "t": "I skate in the yard ___ day. And I ___ (do) push-ups every morning!"
+     }
+    ],
+    "a": [
+     [
+      "on"
+     ],
+     [
+      "every"
+     ],
+     [
+      "do"
+     ]
+    ],
+    "why": "С днями недели — on, «каждый день» — every day, с I глагол без -es: do."
+   },
+   {
+    "id": "g09-044",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "s-ending",
+    "ru": "Мой друг играет в Roblox каждый день.",
+    "a": [
+     "My friend plays Roblox every day.",
+     "Every day my friend plays Roblox."
+    ],
+    "why": "My friend — это he → plays."
+   },
+   {
+    "id": "g09-045",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "es-spelling",
+    "ru": "Бенни смотрит хоккей по субботам.",
+    "a": [
+     "Benny watches hockey on Saturdays.",
+     "On Saturdays Benny watches hockey."
+    ],
+    "why": "Benny — he, после ch → watches."
+   },
+   {
+    "id": "g09-046",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "has",
+    "ru": "У Рекса большая голова.",
+    "a": [
+     "Rex has a big head.",
+     "Rex has got a big head.",
+     "Rex's got a big head."
+    ],
+    "why": "Rex — это he → has."
+   },
+   {
+    "id": "g09-047",
+    "t": "speak",
+    "lv": 3,
+    "tag": "es-spelling",
+    "say": "Mia goes to the rink every morning.",
+    "ru": "Мия ходит на каток каждое утро.",
+    "why": "Mia — she, после o → goes."
+   },
+   {
+    "id": "g09-048",
+    "t": "write",
+    "lv": 3,
+    "tag": "s-ending",
+    "task_ru": "Напиши 3 предложения о том, что делает твой друг или брат каждый день или по выходным.",
+    "check_ru": [
+     "После he/she есть -s?",
+     "go → goes, watch → watches, study → studies?",
+     "have → has?"
+    ],
+    "model": "My friend Max gets up at 7. He goes to school by bus. He has hockey training on Mondays.",
+    "why": "Про него/неё → глагол с -s, а have → has."
+   }
+  ]
+ },
+ {
+  "id": "g10",
+  "stage": "A1",
+  "title_ru": "Present Simple: отрицание",
+  "goal_ru": "Сказать, чего не делаешь: She doesn't like phonk.",
+  "prereq": [
+   "g09"
+  ],
+  "spotlight": [
+   "1c"
+  ],
+  "cards": [
+   {
+    "title_ru": "Главное правило",
+    "body_ru": "Чтобы сказать «не делаю», ставим перед глаголом **don't** (с I, you, we, they) или **doesn't** (с he, she, it).",
+    "ex": [
+     [
+      "I don't like rap.",
+      "Я не люблю рэп."
+     ],
+     [
+      "She doesn't like phonk.",
+      "Она не любит фонк."
+     ],
+     [
+      "We don't train on Sundays.",
+      "По воскресеньям мы не тренируемся."
+     ]
+    ]
+   },
+   {
+    "title_ru": "-s уходит в does",
+    "body_ru": "После **doesn't** глагол **без -s**: окончание уже «сидит» в does. He plays → He **doesn't play**. He has → He **doesn't have**.",
+    "ex": [
+     [
+      "Rex doesn't eat salad.",
+      "Рекс не ест салат."
+     ],
+     [
+      "Benny doesn't have a phone.",
+      "У Бенни нет телефона."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Одного not мало",
+    "body_ru": "По-русски «я не играю», а по-английски **нельзя** просто I not play. Нужен помощник: **I don't play**. Порядок: кто + don't/doesn't + глагол.",
+    "ex": [
+     [
+      "I don't understand this level.",
+      "Я не понимаю этот уровень."
+     ],
+     [
+      "My dad doesn't play video games.",
+      "Мой папа не играет в видеоигры."
+     ]
+    ]
+   },
+   {
+    "title_ru": "Не путай с am / is / are",
+    "body_ru": "Если в предложении **нет действия** (устал, готов, голоден, из Канады) — нужен be: **I'm not tired, it isn't cold**. Если есть глагол-действие — **don't / doesn't**.",
+    "ex": [
+     [
+      "I'm not hungry.",
+      "Я не голоден."
+     ],
+     [
+      "I don't skate on Mondays.",
+      "Я не катаюсь по понедельникам."
+     ]
+    ]
+   }
+  ],
+  "traps": [
+   {
+    "wrong": "She doesn't likes phonk.",
+    "right": "She doesn't like phonk.",
+    "why_ru": "После doesn't глагол без -s."
+   },
+   {
+    "wrong": "He don't play the drums.",
+    "right": "He doesn't play the drums.",
+    "why_ru": "С he/she/it — doesn't."
+   },
+   {
+    "wrong": "I not play Roblox.",
+    "right": "I don't play Roblox.",
+    "why_ru": "Одного not мало, нужен помощник don't."
+   },
+   {
+    "wrong": "I don't hungry.",
+    "right": "I'm not hungry.",
+    "why_ru": "Hungry — не действие, поэтому am not."
+   },
+   {
+    "wrong": "He isn't play hockey.",
+    "right": "He doesn't play hockey.",
+    "why_ru": "Play — действие, поэтому doesn't, а не isn't."
+   }
+  ],
+  "tags": {
+   "dont-doesnt": {
+    "ru": "don't или doesn't",
+    "tip_ru": "I, you, we, they (и my friends, my parents) — don't. He, she, it (и Mia, Rex, my dad) — doesn't.",
+    "back": "g09"
+   },
+   "base-verb": {
+    "ru": "после doesn't без -s",
+    "tip_ru": "-s уже сидит в does, поэтому глагол после doesn't голый: doesn't play, doesn't watch, doesn't have.",
+    "back": "g09"
+   },
+   "word-order": {
+    "ru": "не просто not",
+    "tip_ru": "Нельзя сказать I not play. Перед глаголом всегда don't или doesn't: I don't play."
+   },
+   "be-or-do": {
+    "ru": "am not / isn't или don't / doesn't",
+    "tip_ru": "Есть глагол-действие (play, like, eat) — don't/doesn't. Нет действия, а есть «какой, где, откуда» (tired, ready, cold) — am not, isn't, aren't.",
+    "back": "g02"
+   }
+  },
+  "items": [
+   {
+    "id": "g10-001",
+    "t": "mc",
+    "lv": 1,
+    "tag": "dont-doesnt",
+    "q": "Mia ___ like horror movies.",
+    "o": [
+     "doesn't",
+     "don't"
+    ],
+    "a": 0,
+    "why": "Mia — это she → doesn't."
+   },
+   {
+    "id": "g10-002",
+    "t": "mc",
+    "lv": 1,
+    "tag": "dont-doesnt",
+    "q": "We ___ have training on Sundays.",
+    "o": [
+     "don't",
+     "doesn't"
+    ],
+    "a": 0,
+    "why": "С we → don't."
+   },
+   {
+    "id": "g10-003",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "Rex doesn't ___ salad.",
+    "o": [
+     "eat",
+     "eats"
+    ],
+    "a": 0,
+    "why": "После doesn't глагол без -s: eat."
+   },
+   {
+    "id": "g10-004",
+    "t": "mc",
+    "lv": 1,
+    "tag": "base-verb",
+    "q": "My dad doesn't ___ video games.",
+    "o": [
+     "play",
+     "plays"
+    ],
+    "a": 0,
+    "why": "После doesn't глагол без -s: play."
+   },
+   {
+    "id": "g10-005",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-or-do",
+    "q": "I ___ tired today.",
+    "o": [
+     "am not",
+     "don't"
+    ],
+    "a": 0,
+    "why": "Tired — не действие → I am not tired."
+   },
+   {
+    "id": "g10-006",
+    "t": "mc",
+    "lv": 1,
+    "tag": "be-or-do",
+    "q": "Benny ___ speak French.",
+    "o": [
+     "doesn't",
+     "isn't"
+    ],
+    "a": 0,
+    "why": "Speak — действие → doesn't."
+   },
+   {
+    "id": "g10-007",
+    "t": "mc",
+    "lv": 1,
+    "tag": "word-order",
+    "q": "Выбери правильное предложение.",
+    "o": [
+     "I don't like rap.",
+     "I not like rap."
+    ],
+    "a": 0,
+    "why": "Одного not мало: нужно I don't like."
+   },
+   {
+    "id": "g10-008",
+    "t": "mc",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "q": "My headphones ___ work. They're broken.",
+    "o": [
+     "don't",
+     "doesn't"
+    ],
+    "a": 0,
+    "why": "Headphones — это they → don't."
+   },
+   {
+    "id": "g10-009",
+    "t": "mc",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Coach Walt doesn't ___ a car. He swims to the rink!",
+    "o": [
+     "have",
+     "has",
+     "haves"
+    ],
+    "a": 0,
+    "why": "После doesn't — have, а не has."
+   },
+   {
+    "id": "g10-010",
+    "t": "mc",
+    "lv": 2,
+    "tag": "be-or-do",
+    "q": "The rink ___ open on Mondays.",
+    "o": [
+     "isn't",
+     "doesn't"
+    ],
+    "a": 0,
+    "why": "Open здесь — «открыт», не действие → isn't."
+   },
+   {
+    "id": "g10-011",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "q": "Benny ___ (not / like) cold water.",
+    "a": [
+     "doesn't like"
+    ],
+    "why": "Benny — это he → doesn't like."
+   },
+   {
+    "id": "g10-012",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "q": "I ___ (not / play) Roblox. I play Brawl Stars.",
+    "a": [
+     "don't play"
+    ],
+    "why": "С I → don't play."
+   },
+   {
+    "id": "g10-013",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Rex ___ (not / have) long arms.",
+    "a": [
+     "doesn't have"
+    ],
+    "why": "Rex — he → doesn't have (has превращается в have)."
+   },
+   {
+    "id": "g10-014",
+    "t": "gap",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "q": "My parents ___ (not / understand) phonk.",
+    "a": [
+     "don't understand"
+    ],
+    "why": "My parents — это they → don't understand."
+   },
+   {
+    "id": "g10-015",
+    "t": "gap",
+    "lv": 2,
+    "tag": "base-verb",
+    "q": "Mia ___ (not / watch) cartoons.",
+    "a": [
+     "doesn't watch"
+    ],
+    "why": "Mia — she → doesn't watch, без -es."
+   },
+   {
+    "id": "g10-016",
+    "t": "gap",
+    "lv": 3,
+    "tag": "be-or-do",
+    "q": "We ___ (be + not) ready for the game!",
+    "a": [
+     "aren't"
+    ],
+    "why": "Ready — не действие, с we → aren't."
+   },
+   {
+    "id": "g10-017",
+    "t": "gap",
+    "lv": 3,
+    "tag": "dont-doesnt",
+    "q": "This app ___ (not / work) on my phone.",
+    "a": [
+     "doesn't work"
+    ],
+    "why": "This app — это it → doesn't work."
+   },
+   {
+    "id": "g10-018",
+    "t": "err",
+    "lv": 2,
+    "tag": "base-verb",
+    "s": "Mia doesn't likes rap music.",
+    "bad": 2,
+    "fix": "like",
+    "why": "После doesn't глагол без -s: like."
+   },
+   {
+    "id": "g10-019",
+    "t": "err",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "s": "Benny don't skate very well.",
+    "bad": 1,
+    "fix": "doesn't",
+    "why": "Benny — это he → doesn't."
+   },
+   {
+    "id": "g10-020",
+    "t": "err",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "s": "They doesn't live in Canada.",
+    "bad": 1,
+    "fix": "don't",
+    "why": "С they → don't."
+   },
+   {
+    "id": "g10-021",
+    "t": "err",
+    "lv": 2,
+    "tag": "base-verb",
+    "s": "My cat doesn't has a name yet.",
+    "bad": 3,
+    "fix": "have",
+    "why": "После doesn't — have, а не has."
+   },
+   {
+    "id": "g10-022",
+    "t": "err",
+    "lv": 3,
+    "tag": "word-order",
+    "s": "I not understand this level.",
+    "bad": 1,
+    "fix": "don't",
+    "why": "Одного not мало: I don't understand."
+   },
+   {
+    "id": "g10-023",
+    "t": "err",
+    "lv": 3,
+    "tag": "word-order",
+    "s": "Rex not eat vegetables.",
+    "bad": 1,
+    "fix": "doesn't",
+    "why": "Нужен помощник: Rex doesn't eat."
+   },
+   {
+    "id": "g10-024",
+    "t": "err",
+    "lv": 3,
+    "tag": "be-or-do",
+    "s": "She isn't know the answer.",
+    "bad": 1,
+    "fix": "doesn't",
+    "why": "Know — действие → doesn't know."
+   },
+   {
+    "id": "g10-025",
+    "t": "err",
+    "lv": 3,
+    "tag": "be-or-do",
+    "s": "The water doesn't cold today.",
+    "bad": 2,
+    "fix": "isn't",
+    "why": "Cold — не действие → the water isn't cold."
+   },
+   {
+    "id": "g10-026",
+    "t": "build",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "a": "My sister doesn't like hockey.",
+    "ru": "Моя сестра не любит хоккей.",
+    "extra": [
+     "don't"
+    ],
+    "why": "My sister — she → doesn't like."
+   },
+   {
+    "id": "g10-027",
+    "t": "build",
+    "lv": 2,
+    "tag": "base-verb",
+    "a": "Rex doesn't play the piano.",
+    "ru": "Рекс не играет на пианино.",
+    "extra": [
+     "plays"
+    ],
+    "why": "После doesn't глагол без -s: play."
+   },
+   {
+    "id": "g10-028",
+    "t": "build",
+    "lv": 2,
+    "tag": "word-order",
+    "a": "I don't watch horror movies.",
+    "ru": "Я не смотрю фильмы ужасов.",
+    "extra": [
+     "not"
+    ],
+    "why": "Кто + don't + глагол: I don't watch."
+   },
+   {
+    "id": "g10-029",
+    "t": "build",
+    "lv": 3,
+    "tag": "base-verb",
+    "a": "Coach Walt doesn't like loud music.",
+    "ru": "Тренер Уолт не любит громкую музыку.",
+    "extra": [
+     "likes"
+    ],
+    "why": "После doesn't — like без -s."
+   },
+   {
+    "id": "g10-030",
+    "t": "tr",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "src": "Benny plays the guitar.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Benny doesn't play the guitar."
+    ],
+    "why": "Benny — he → doesn't, а -s у play уходит."
+   },
+   {
+    "id": "g10-031",
+    "t": "tr",
+    "lv": 2,
+    "tag": "base-verb",
+    "src": "My uncle has a motorcycle.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "My uncle doesn't have a motorcycle.",
+     "My uncle hasn't got a motorcycle."
+    ],
+    "why": "Has после doesn't превращается в have."
+   },
+   {
+    "id": "g10-032",
+    "t": "tr",
+    "lv": 3,
+    "tag": "dont-doesnt",
+    "src": "They live near the rink.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "They don't live near the rink."
+    ],
+    "why": "С they → don't live."
+   },
+   {
+    "id": "g10-033",
+    "t": "tr",
+    "lv": 3,
+    "tag": "be-or-do",
+    "src": "Benny is from Canada.",
+    "task_ru": "Сделай отрицание.",
+    "a": [
+     "Benny isn't from Canada."
+    ],
+    "why": "Здесь нет действия, есть is → isn't."
+   },
+   {
+    "id": "g10-034",
+    "t": "match",
+    "lv": 1,
+    "tag": "dont-doesnt",
+    "pairs": [
+     [
+      "He plays chess.",
+      "He doesn't play chess."
+     ],
+     [
+      "We skate.",
+      "We don't skate."
+     ],
+     [
+      "She has a cat.",
+      "She doesn't have a cat."
+     ],
+     [
+      "I go to school.",
+      "I don't go to school."
+     ]
+    ],
+    "why": "He/she → doesn't + глагол без -s, we/I → don't."
+   },
+   {
+    "id": "g10-035",
+    "t": "listen",
+    "lv": 1,
+    "tag": "dont-doesnt",
+    "say": "She doesn't like phonk.",
+    "o": [
+     "She doesn't like phonk.",
+     "She likes phonk."
+    ],
+    "a": 0,
+    "why": "Ты слышал doesn't — значит не любит."
+   },
+   {
+    "id": "g10-036",
+    "t": "listen",
+    "lv": 1,
+    "tag": "dont-doesnt",
+    "say": "We don't play on Sundays.",
+    "o": [
+     "We don't play on Sundays.",
+     "We play on Sundays."
+    ],
+    "a": 0,
+    "why": "Ты слышал don't — значит не играем."
+   },
+   {
+    "id": "g10-037",
+    "t": "text",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "title": "Benny on the ice",
+    "text": "Benny ___ (not / skate) fast. He ___ (not / stop) well — he crashes into the boards! His skates ___ (not / fit) — they're too small. But Benny ___ (not / give) up. He ___ (love) hockey!",
+    "a": [
+     [
+      "doesn't skate"
+     ],
+     [
+      "doesn't stop"
+     ],
+     [
+      "don't fit"
+     ],
+     [
+      "doesn't give"
+     ],
+     [
+      "loves"
+     ]
+    ],
+    "why": "Benny — he → doesn't, skates — they → don't, а в утверждении loves с -s."
+   },
+   {
+    "id": "g10-038",
+    "t": "text",
+    "lv": 3,
+    "tag": "be-or-do",
+    "title": "Rex and vegetables",
+    "text": "Rex is a T-rex, so he ___ (not / eat) salad. He ___ (eat) pancakes and fish. Coach Walt ___ (be + not) happy about it. \"Rex, you ___ (not / need) ten pancakes!\" Rex ___ (not / agree).",
+    "a": [
+     [
+      "doesn't eat"
+     ],
+     [
+      "eats"
+     ],
+     [
+      "isn't"
+     ],
+     [
+      "don't need"
+     ],
+     [
+      "doesn't agree"
+     ]
+    ],
+    "why": "Eat, need, agree — действия (doesn't/don't), а happy — не действие → isn't."
+   },
+   {
+    "id": "g10-039",
+    "t": "chat",
+    "lv": 2,
+    "tag": "dont-doesnt",
+    "lines": [
+     {
+      "who": "Mia",
+      "t": "Let's play Roblox tonight!"
+     },
+     {
+      "who": "you",
+      "t": "Sorry, I ___ have Roblox. And my laptop ___ work."
+     },
+     {
+      "who": "Mia",
+      "t": "OK, Brawl Stars then! Benny can play too."
+     },
+     {
+      "who": "you",
+      "t": "No, Benny ___ play it. He ___ have a phone."
+     }
+    ],
+    "a": [
+     [
+      "don't"
+     ],
+     [
+      "doesn't"
+     ],
+     [
+      "doesn't"
+     ],
+     [
+      "doesn't"
+     ]
+    ],
+    "why": "С I → don't; my laptop (it) и Benny (he) → doesn't."
+   },
+   {
+    "id": "g10-040",
+    "t": "chat",
+    "lv": 3,
+    "tag": "be-or-do",
+    "lines": [
+     {
+      "who": "Coach Walt",
+      "t": "Benny, are you tired?"
+     },
+     {
+      "who": "you",
+      "t": "No, I ___ tired. I'm OK!"
+     },
+     {
+      "who": "Coach Walt",
+      "t": "Good. Let's skate!"
+     },
+     {
+      "who": "you",
+      "t": "But my skates ___ fit. They're too small."
+     },
+     {
+      "who": "Coach Walt",
+      "t": "No problem. Take Mia's old skates."
+     }
+    ],
+    "a": [
+     [
+      "am not",
+      "'m not"
+     ],
+     [
+      "don't"
+     ]
+    ],
+    "why": "Tired — не действие → I am not; fit — действие, skates — they → don't."
+   },
+   {
+    "id": "g10-041",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "dont-doesnt",
+    "ru": "Мой папа не любит фонк.",
+    "a": [
+     "My dad doesn't like phonk.",
+     "My father doesn't like phonk."
+    ],
+    "why": "My dad — he → doesn't like."
+   },
+   {
+    "id": "g10-042",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "word-order",
+    "ru": "Я не играю в Roblox.",
+    "a": [
+     "I don't play Roblox."
+    ],
+    "why": "Нужен помощник don't: I don't play."
+   },
+   {
+    "id": "g10-043",
+    "t": "ru2en",
+    "lv": 3,
+    "tag": "base-verb",
+    "ru": "У Бенни нет телефона.",
+    "a": [
+     "Benny doesn't have a phone.",
+     "Benny hasn't got a phone."
+    ],
+    "why": "Benny — he → doesn't have, без has."
+   },
+   {
+    "id": "g10-044",
+    "t": "speak",
+    "lv": 3,
+    "tag": "dont-doesnt",
+    "say": "My friend doesn't like hockey, but he loves music.",
+    "ru": "Мой друг не любит хоккей, но обожает музыку.",
+    "why": "В отрицании doesn't like, а в утверждении loves с -s."
+   },
+   {
+    "id": "g10-045",
+    "t": "write",
+    "lv": 3,
+    "tag": "dont-doesnt",
+    "task_ru": "Напиши 3 предложения: чего не делаешь ты и чего не делает твой друг.",
+    "check_ru": [
+     "С I/they — don't, с he/she — doesn't?",
+     "После don't/doesn't глагол без -s?",
+     "Для «не устал», «не готов» — am not / isn't, а не don't?"
+    ],
+    "model": "I don't like horror movies. My friend doesn't play hockey. He doesn't have a dog.",
+    "why": "Don't с I, doesn't с he/she, глагол после них без -s."
+   }
+  ]
+ }
+]
