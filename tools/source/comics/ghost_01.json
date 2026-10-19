@@ -1,0 +1,53 @@
+{
+  "id": "ghost_01", "series": "ghost", "n": 1,
+  "title_en": "A Ghost in the House", "title_ru": "Новый дом с сюрпризом",
+  "about_ru": "По мотивам Оскара Уайльда. Американская семья Отис покупает старый английский замок. Говорят, в нём живёт привидение.",
+  "grammar_ru": "there is · Present Simple: he comes, I don't · to be",
+  "topics": ["g06", "g09", "g10"],
+  "unlock": { "topics": 9 },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "cap", "en": "The Otis family comes to Canterville Chase, an old house in England.", "ru": "Семья Отис приезжает в Кентервиль-Чейз, старый дом в Англии.", "x": 2, "y": 2, "w": 50 },
+      { "who": "twins", "en": "Wow! A castle!", "ru": "Ух ты! Замок!", "x": 58, "y": 84, "w": 38, "mx": 30, "my": 65 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "lord", "en": "There is a ghost in this house!", "ru": "В этом доме живёт привидение!", "x": 2, "y": 2, "w": 30, "mx": 34, "my": 45 },
+      { "who": "otis", "en": "Ghosts? I don't believe in ghosts!", "ru": "Привидения? Я не верю в привидения!", "x": 60, "y": 2, "w": 38, "mx": 78, "my": 38 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "umney", "en": "Welcome to Canterville Chase.", "ru": "Добро пожаловать в Кентервиль-Чейз.", "x": 56, "y": 2, "w": 42, "mx": 78, "my": 35 },
+      { "who": "cap", "en": "Mrs Umney, the housekeeper.", "ru": "Миссис Амни, экономка.", "x": 2, "y": 88, "w": 48 }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "umney", "en": "Blood! It is always here.", "ru": "Кровь! Она всегда здесь.", "x": 60, "y": 2, "w": 38, "mx": 76, "my": 30 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "washington", "en": "No problem! I have a super cleaner.", "ru": "Не проблема! У меня есть суперочиститель.", "x": 38, "y": 2, "w": 42, "mx": 75, "my": 45 },
+      { "who": "sfx", "en": "Rub! Rub!", "ru": "Шорх-шорх!", "x": 4, "y": 80, "w": 54 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "washington", "en": "See? It is gone!", "ru": "Видите? Пятна нет!", "x": 28, "y": 2, "w": 34, "mx": 60, "my": 55 },
+      { "who": "umney", "en": "Oh! Oh, no!", "ru": "Ох! О нет!", "x": 66, "y": 2, "w": 28, "mx": 80, "my": 32 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "sfx", "en": "BOOM!", "ru": "Бабах!", "x": 22, "y": 8, "w": 30 },
+      { "who": "mrs_otis", "en": "What a storm!", "ru": "Какая гроза!", "x": 60, "y": 2, "w": 36, "mx": 42, "my": 28 },
+      { "who": "twins", "en": "Is it the ghost?", "ru": "Это привидение?", "x": 2, "y": 86, "w": 40, "mx": 20, "my": 50 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "cap", "en": "The next morning...", "ru": "На следующее утро…", "x": 2, "y": 2, "w": 30 },
+      { "who": "washington", "en": "The stain is back! But why?", "ru": "Пятно вернулось! Но почему?", "x": 54, "y": 86, "w": 44, "mx": 72, "my": 22 },
+      { "who": "twins", "en": "Hee-hee!", "ru": "Хи-хи!", "x": 2, "y": 88, "w": 24, "mx": 24, "my": 60 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c501", "t": "mc", "q": "The Otis family is from ___.", "o": ["America", "England", "Canada", "Italy"], "a": 0, "why": "Отисы — американцы, они приехали в Англию." },
+    { "id": "c502", "t": "mc", "q": "There ___ a ghost in this house.", "o": ["is", "are"], "a": 0, "why": "Ghost — одно привидение, поэтому there is." },
+    { "id": "c503", "t": "gap", "q": "I ___ believe in ghosts. (don't / doesn't)", "a": ["don't", "do not"], "why": "С I отрицание в Present Simple — don't." },
+    { "id": "c504", "t": "err", "s": "There are blood on the floor.", "bad": 1, "fix": "is", "why": "Blood (кровь) не считается, поэтому there is." },
+    { "id": "c505", "t": "mc", "q": "The stain ___ back!", "o": ["is", "are", "am"], "a": 0, "why": "The stain — одно пятно (it), поэтому is." },
+    { "id": "c506", "t": "build", "a": "It is always here.", "ru": "Оно всегда здесь.", "extra": ["are"], "why": "Always стоит после is: it is always here." },
+    { "id": "c507", "t": "mc", "q": "Who cleans the stain?", "o": ["Washington", "Virginia", "Mrs Umney", "the twins"], "a": 0, "why": "Вашингтон, старший сын, оттирает пятно суперочистителем." },
+    { "id": "c508", "t": "mc", "q": "The Otis family comes ___ Canterville Chase.", "o": ["to", "at", "on"], "a": 0, "why": "Приезжать куда-то — come to." }
+  ]
+}

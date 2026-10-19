@@ -1,10 +1,106 @@
 {
-  "cap":   { "name": "", "voice": "Samantha" },
-  "sfx":   { "name": "", "voice": "" },
-  "benny": { "name": "Benny", "ru": "Бенни", "voice": "Eddy (Английский (США))", "face": "benny_wave" },
-  "rex":   { "name": "Rex", "ru": "Рекс", "voice": "Rocko (Английский (США))", "face": "rex_proud" },
-  "mia":   { "name": "Mia", "ru": "Мия", "voice": "Flo (Английский (США))", "face": "mia" },
-  "dad":   { "name": "Mr Parker", "ru": "мистер Паркер", "voice": "Reed (Английский (США))", "face": "dad" },
-  "mum":   { "name": "Mrs Parker", "ru": "миссис Паркер", "voice": "Shelley (Английский (США))", "face": "mum" },
-  "walt":  { "name": "Coach Walt", "ru": "тренер Уолт", "voice": "Grandpa (Английский (США))", "face": "" }
+ "cap": {
+  "name": "",
+  "voice": "Samantha"
+ },
+ "sfx": {
+  "name": "",
+  "voice": ""
+ },
+ "benny": {
+  "name": "Benny",
+  "ru": "Бенни",
+  "voice": "Eddy (Английский (США))",
+  "face": "benny_wave"
+ },
+ "rex": {
+  "name": "Rex",
+  "ru": "Рекс",
+  "voice": "Rocko (Английский (США))",
+  "face": "rex_proud"
+ },
+ "mia": {
+  "name": "Mia",
+  "ru": "Мия",
+  "voice": "Flo (Английский (США))",
+  "face": "mia"
+ },
+ "dad": {
+  "name": "Mr Parker",
+  "ru": "мистер Паркер",
+  "voice": "Reed (Английский (США))",
+  "face": "dad"
+ },
+ "mum": {
+  "name": "Mrs Parker",
+  "ru": "миссис Паркер",
+  "voice": "Shelley (Английский (США))",
+  "face": "mum"
+ },
+ "walt": {
+  "name": "Coach Walt",
+  "ru": "тренер Уолт",
+  "voice": "Grandpa (Английский (США))",
+  "face": ""
+ },
+ "kid": {
+  "name": "Kid",
+  "ru": "мальчик",
+  "voice": "Junior",
+  "face": ""
+ },
+ "lady": {
+  "name": "Old lady",
+  "ru": "пожилая дама",
+  "voice": "Grandma (Английский (США))",
+  "face": ""
+ },
+ "lord": {
+  "name": "Lord Canterville",
+  "ru": "лорд Кентервиль",
+  "voice": "Grandpa (Английский (Британия))",
+  "face": ""
+ },
+ "otis": {
+  "name": "Mr Otis",
+  "ru": "мистер Отис",
+  "voice": "Reed (Английский (США))",
+  "face": ""
+ },
+ "mrs_otis": {
+  "name": "Mrs Otis",
+  "ru": "миссис Отис",
+  "voice": "Sandy (Английский (США))",
+  "face": ""
+ },
+ "washington": {
+  "name": "Washington",
+  "ru": "Вашингтон",
+  "voice": "Eddy (Английский (США))",
+  "face": ""
+ },
+ "virginia": {
+  "name": "Virginia",
+  "ru": "Вирджиния",
+  "voice": "Flo (Английский (США))",
+  "face": ""
+ },
+ "twins": {
+  "name": "The twins",
+  "ru": "близнецы",
+  "voice": "Junior",
+  "face": ""
+ },
+ "umney": {
+  "name": "Mrs Umney",
+  "ru": "миссис Амни",
+  "voice": "Grandma (Английский (Британия))",
+  "face": ""
+ },
+ "simon": {
+  "name": "Sir Simon",
+  "ru": "сэр Саймон, призрак",
+  "voice": "Daniel",
+  "face": ""
+ }
 }

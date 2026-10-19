@@ -1,0 +1,55 @@
+{
+  "id": "benny_03", "series": "benny", "n": 3,
+  "title_en": "Short Arms", "title_ru": "Короткие лапки",
+  "about_ru": "Рекс пробуется в хоккейную команду, но шайбы пролетают мимо его коротких лапок. Бенни придумывает план.",
+  "grammar_ru": "to be: вопросы и not · can / can't · there are",
+  "topics": ["g02", "g06", "g08"],
+  "unlock": { "topics": 6, "after": "benny_02" },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "cap", "en": "Hockey tryouts.", "ru": "Отбор в хоккейную команду.", "x": 2, "y": 2, "w": 32 },
+      { "who": "walt", "en": "OK, team! Rex, are you ready?", "ru": "Итак, команда! Рекс, ты готов?", "x": 34, "y": 3, "w": 30, "mx": 27, "my": 30 },
+      { "who": "rex", "en": "Er... yes, Coach!", "ru": "Э-э… да, тренер!", "x": 66, "y": 3, "w": 32, "mx": 84, "my": 40 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "rex", "en": "My arms are too short!", "ru": "У меня слишком короткие руки!", "x": 40, "y": 2, "w": 50, "mx": 52, "my": 38 },
+      { "who": "sfx", "en": "WHOOSH!", "ru": "Вжух!", "x": 58, "y": 82, "w": 38 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "rex", "en": "I'm not a good goalie.", "ru": "Я плохой вратарь.", "x": 2, "y": 2, "w": 46, "mx": 35, "my": 35 },
+      { "who": "benny", "en": "Here, Rex. Hot chocolate!", "ru": "Держи, Рекс. Горячий шоколад!", "x": 52, "y": 2, "w": 46, "mx": 75, "my": 38 }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "rex", "en": "What?", "ru": "Что?", "x": 2, "y": 2, "w": 20, "mx": 38, "my": 38 },
+      { "who": "benny", "en": "Idea! Use your big tail!", "ru": "Идея! Используй свой большой хвост!", "x": 50, "y": 83, "w": 46, "mx": 82, "my": 46 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "cap", "en": "Every evening, Benny and Rex practice.", "ru": "Каждый вечер Бенни и Рекс тренируются.", "x": 30, "y": 2, "w": 46 },
+      { "who": "rex", "en": "Again! I can do it!", "ru": "Ещё раз! У меня получается!", "x": 52, "y": 84, "w": 40, "mx": 82, "my": 30 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "cap", "en": "The next day.", "ru": "На следующий день.", "x": 2, "y": 2, "w": 30 },
+      { "who": "rex", "en": "Not today!", "ru": "Только не сегодня!", "x": 36, "y": 6, "w": 28, "mx": 60, "my": 30 },
+      { "who": "sfx", "en": "SAVE!", "ru": "Сейв! (отбил!)", "x": 70, "y": 4, "w": 28 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "walt", "en": "Wow! What a save! Rex, you're on the team!", "ru": "Ого! Вот это сейв! Рекс, ты в команде!", "x": 2, "y": 2, "w": 42, "mx": 52, "my": 30 },
+      { "who": "sfx", "en": "CLACK!", "ru": "Бряк!", "x": 66, "y": 84, "w": 32 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "benny", "en": "Go, Rex!", "ru": "Вперёд, Рекс!", "x": 2, "y": 2, "w": 26, "mx": 22, "my": 34 },
+      { "who": "rex", "en": "Thank you, Benny!", "ru": "Спасибо, Бенни!", "x": 32, "y": 88, "w": 36, "mx": 55, "my": 40 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c301", "t": "mc", "q": "Rex's arms are very ___.", "o": ["short", "long", "big", "strong"], "a": 0, "why": "Короткие руки — главная беда Рекса: short arms." },
+    { "id": "c302", "t": "mc", "q": "___ you ready, Rex?", "o": ["Are", "Is", "Am"], "a": 0, "why": "Вопрос с you: are ставим в начало — Are you ready?" },
+    { "id": "c303", "t": "gap", "q": "I ___ a good goalie. (am not / is not)", "a": ["am not"], "why": "С I отрицание — am not (I'm not)." },
+    { "id": "c304", "t": "mc", "q": "Rex can't catch pucks with his arms, but he ___ catch them with his tail.", "o": ["can", "can't", "is"], "a": 0, "why": "Хвостом у него получается: he can + глагол." },
+    { "id": "c305", "t": "err", "s": "Rex are on the team!", "bad": 1, "fix": "is", "why": "Rex — это he, поэтому is: Rex is on the team!" },
+    { "id": "c306", "t": "build", "a": "Are you ready?", "ru": "Ты готов?", "extra": ["is"], "why": "В вопросе are идёт перед you." },
+    { "id": "c307", "t": "mc", "q": "There ___ a lot of pucks in the net.", "o": ["are", "is"], "a": 0, "why": "Pucks — их много, поэтому there are." },
+    { "id": "c308", "t": "mc", "q": "Who is the coach?", "o": ["Walt", "Benny", "Rex", "Mia"], "a": 0, "why": "Тренер команды — бобр Уолт (Coach Walt)." },
+    { "id": "c309", "t": "ru2en", "ru": "У меня получается! (Я могу это сделать!)", "a": ["I can do it"], "why": "I can do it — я могу это сделать, у меня получится." }
+  ]
+}

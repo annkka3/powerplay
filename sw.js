@@ -3,7 +3,7 @@
    Libraries, icons, fonts: cache first. Firebase traffic is never touched. */
 // The cache name has its own prefix: both apps live on annkka3.github.io and share Cache Storage, so a generic
 // 'shell-' prefix would let one app's cleanup delete the other's cache.
-const VERSION = 'v3';
+const VERSION = 'v4';
 const PREFIX = 'pp-shell-';
 const CACHE = PREFIX + VERSION;
 const CORE = [

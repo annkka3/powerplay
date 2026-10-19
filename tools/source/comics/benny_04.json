@@ -1,0 +1,55 @@
+{
+  "id": "benny_04", "series": "benny", "n": 4,
+  "title_en": "The Wrong Bus", "title_ru": "Не тот автобус",
+  "about_ru": "Бенни едет на каток один, садится не в тот автобус и оказывается за городом у замёрзшего озера.",
+  "grammar_ru": "where is / where am I · there is / there are · can",
+  "topics": ["g06", "g08", "g13"],
+  "unlock": { "topics": 8, "after": "benny_03" },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "benny", "en": "Where is the ice rink? Is this my bus?", "ru": "Где каток? Это мой автобус?", "x": 30, "y": 2, "w": 52, "mx": 48, "my": 36 },
+      { "who": "cap", "en": "Benny goes to the ice rink. Alone.", "ru": "Бенни едет на каток. Один.", "x": 50, "y": 84, "w": 48 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "benny", "en": "The city is so big and beautiful!", "ru": "Город такой большой и красивый!", "x": 46, "y": 3, "w": 50, "mx": 45, "my": 40 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "benny", "en": "Oh no! Where am I? There are no buildings here!", "ru": "О нет! Где я? Тут нет никаких домов!", "x": 36, "y": 2, "w": 60, "mx": 50, "my": 34 },
+      { "who": "cap", "en": "The last stop.", "ru": "Конечная остановка.", "x": 2, "y": 86, "w": 36 }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "benny", "en": "Excuse me! Where is the ice rink?", "ru": "Извините! Где каток?", "x": 2, "y": 2, "w": 46, "mx": 26, "my": 42 },
+      { "who": "lady", "en": "Go across the lake, dear!", "ru": "Иди через озеро, милый!", "x": 64, "y": 2, "w": 34, "mx": 63, "my": 30 },
+      { "who": "sfx", "en": "Woof!", "ru": "Гав!", "x": 66, "y": 60, "w": 26 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "benny", "en": "Wow! Pond hockey! Can I play?", "ru": "Ух ты! Хоккей на озере! Можно мне поиграть?", "x": 2, "y": 1, "w": 50, "mx": 30, "my": 36 },
+      { "who": "kid", "en": "Sure! Come on!", "ru": "Конечно! Давай к нам!", "x": 62, "y": 4, "w": 34, "mx": 90, "my": 40 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "sfx", "en": "GOAL!", "ru": "Гол!", "x": 48, "y": 82, "w": 30 },
+      { "who": "kid", "en": "Great shot!", "ru": "Отличный бросок!", "x": 2, "y": 86, "w": 40, "mx": 30, "my": 30 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "mia", "en": "Benny! There you are!", "ru": "Бенни! Вот ты где!", "x": 2, "y": 2, "w": 36, "mx": 22, "my": 30 },
+      { "who": "rex", "en": "Are you OK, buddy?", "ru": "Ты в порядке, дружище?", "x": 64, "y": 2, "w": 34, "mx": 58, "my": 30 },
+      { "who": "benny", "en": "I'm OK! And I can play pond hockey now!", "ru": "Я в порядке! И теперь я умею играть в хоккей на озере!", "x": 44, "y": 82, "w": 54, "mx": 85, "my": 55 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "mia", "en": "What a day!", "ru": "Ну и денёк!", "x": 2, "y": 2, "w": 30, "mx": 20, "my": 28 },
+      { "who": "rex", "en": "Shh! He is asleep.", "ru": "Тсс! Он спит.", "x": 50, "y": 3, "w": 32, "mx": 75, "my": 35 },
+      { "who": "sfx", "en": "Zzz...", "ru": "Хр-р…", "x": 34, "y": 22, "w": 20 },
+      { "who": "cap", "en": "Home at last.", "ru": "Наконец домой.", "x": 30, "y": 88, "w": 40 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c401", "t": "mc", "q": "Benny takes the wrong ___.", "o": ["bus", "train", "plane", "car"], "a": 0, "why": "Бенни сел не в тот автобус: the wrong bus." },
+    { "id": "c402", "t": "mc", "q": "Oh no! Where ___ I?", "o": ["am", "is", "are"], "a": 0, "why": "С I всегда am: Where am I?" },
+    { "id": "c403", "t": "gap", "q": "There ___ no buildings here. (is / are)", "a": ["are"], "why": "Buildings — много, поэтому there are." },
+    { "id": "c404", "t": "err", "s": "Excuse me! Where are the ice rink?", "bad": 3, "fix": "is", "why": "Ice rink — один каток, поэтому Where is the ice rink?" },
+    { "id": "c405", "t": "mc", "q": "Now Benny ___ play pond hockey!", "o": ["can", "cans", "is"], "a": 0, "why": "Can не меняется: I can, he can — без -s." },
+    { "id": "c406", "t": "build", "a": "Where is the ice rink?", "ru": "Где каток?", "extra": ["are"], "why": "Where + is + один предмет." },
+    { "id": "c407", "t": "mc", "q": "Who helps Benny?", "o": ["an old lady", "Coach Walt", "Mr Parker", "a bus driver"], "a": 0, "why": "Пожилая дама с собакой показала дорогу через озеро." },
+    { "id": "c408", "t": "ru2en", "ru": "Извините! (чтобы спросить дорогу)", "a": ["Excuse me"], "why": "Excuse me — так обращаются к незнакомому человеку." }
+  ]
+}

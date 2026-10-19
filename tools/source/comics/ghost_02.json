@@ -1,0 +1,52 @@
+{
+  "id": "ghost_02", "series": "ghost", "n": 2,
+  "title_en": "The Ghost and the Oil", "title_ru": "Призрак и масло",
+  "about_ru": "Ночью по коридору гремят цепи. Но мистер Отис совсем не боится, а близнецы готовят подушки.",
+  "grammar_ru": "Present Simple: hears, don't · can't · nobody is",
+  "topics": ["g09", "g10", "g08"],
+  "unlock": { "topics": 11, "after": "ghost_01" },
+  "panels": [
+    { "img": "p1_1", "lines": [
+      { "who": "cap", "en": "Night. Mr Otis hears a strange noise.", "ru": "Ночь. Мистер Отис слышит странный шум.", "x": 50, "y": 2, "w": 48 },
+      { "who": "otis", "en": "Who is there?", "ru": "Кто там?", "x": 2, "y": 2, "w": 26, "mx": 36, "my": 22 },
+      { "who": "sfx", "en": "Clank! Clank!", "ru": "Дзынь! Дзынь!", "x": 56, "y": 40, "w": 40 }
+    ]},
+    { "img": "p1_2", "lines": [
+      { "who": "simon", "en": "Boo! I am the Canterville Ghost!", "ru": "У-у-у! Я Кентервильское привидение!", "x": 52, "y": 84, "w": 46, "mx": 55, "my": 30 }
+    ]},
+    { "img": "p1_3", "lines": [
+      { "who": "otis", "en": "Your chains are very loud. Try this oil!", "ru": "Ваши цепи очень громкие. Попробуйте это масло!", "x": 32, "y": 2, "w": 36, "mx": 26, "my": 26 },
+      { "who": "simon", "en": "What?!", "ru": "Что?!", "x": 72, "y": 86, "w": 24, "mx": 76, "my": 25 }
+    ]},
+    { "img": "p1_4", "lines": [
+      { "who": "simon", "en": "I am a ghost! I don't need oil!", "ru": "Я привидение! Мне не нужно масло!", "x": 22, "y": 2, "w": 36, "mx": 72, "my": 28 },
+      { "who": "sfx", "en": "CRASH!", "ru": "Дзынь-бряк!", "x": 26, "y": 64, "w": 34 }
+    ]},
+    { "img": "p2_1", "lines": [
+      { "who": "twins", "en": "Pillow fight! Ha-ha!", "ru": "Бой подушками! Ха-ха!", "x": 66, "y": 2, "w": 32, "mx": 45, "my": 15 },
+      { "who": "simon", "en": "Stop! Stop it!", "ru": "Стойте! Прекратите!", "x": 2, "y": 72, "w": 34, "mx": 70, "my": 55 }
+    ]},
+    { "img": "p2_2", "lines": [
+      { "who": "simon", "en": "Help! These children are terrible!", "ru": "Помогите! Эти дети ужасны!", "x": 58, "y": 4, "w": 40, "mx": 42, "my": 30 },
+      { "who": "sfx", "en": "Whoosh!", "ru": "Фьють!", "x": 54, "y": 82, "w": 34 }
+    ]},
+    { "img": "p2_3", "lines": [
+      { "who": "simon", "en": "Nobody is afraid of me now...", "ru": "Теперь меня никто не боится…", "x": 2, "y": 2, "w": 32, "mx": 48, "my": 32 },
+      { "who": "cap", "en": "In his secret room.", "ru": "В своей тайной комнате.", "x": 56, "y": 88, "w": 42 }
+    ]},
+    { "img": "p2_4", "lines": [
+      { "who": "virginia", "en": "Poor ghost. He is very sad.", "ru": "Бедное привидение. Ему очень грустно.", "x": 2, "y": 2, "w": 30, "mx": 38, "my": 30 },
+      { "who": "cap", "en": "To be continued...", "ru": "Продолжение следует…", "x": 54, "y": 88, "w": 44 }
+    ]}
+  ],
+  "quiz": [
+    { "id": "c601", "t": "mc", "q": "The ghost's chains are very ___.", "o": ["loud", "quiet", "new", "small"], "a": 0, "why": "Мистер Отис говорит: «Your chains are very loud»." },
+    { "id": "c602", "t": "mc", "q": "Mr Otis ___ a strange noise.", "o": ["hears", "hear", "hearing"], "a": 0, "why": "Mr Otis — это he, поэтому hear + s: hears." },
+    { "id": "c603", "t": "gap", "q": "I ___ need oil! (don't / doesn't)", "a": ["don't", "do not"], "why": "С I отрицание — don't." },
+    { "id": "c604", "t": "err", "s": "Nobody are afraid of me.", "bad": 1, "fix": "is", "why": "Nobody (никто) — как одно лицо, поэтому is." },
+    { "id": "c605", "t": "mc", "q": "Who throws pillows at the ghost?", "o": ["the twins", "Virginia", "Mr Otis", "Mrs Umney"], "a": 0, "why": "Подушками кидаются близнецы." },
+    { "id": "c606", "t": "build", "a": "Who is there?", "ru": "Кто там?", "extra": ["are"], "why": "Who is there? — так спрашивают, когда слышат шум." },
+    { "id": "c607", "t": "mc", "q": "Virginia says: «Poor ghost. He is very ___.»", "o": ["sad", "funny", "happy", "loud"], "a": 0, "why": "Вирджинии жаль привидение: he is very sad." },
+    { "id": "c608", "t": "ru2en", "ru": "Бедное привидение!", "a": ["Poor ghost"], "why": "Poor — бедный (жалко его)." }
+  ]
+}
